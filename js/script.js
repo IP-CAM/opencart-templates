@@ -1,4 +1,3 @@
-
     $(document).ready(function() {	
   		$('.flexslider').flexslider({
   		  animation: "fade",      
@@ -9,6 +8,11 @@
   		  nextText: "",
   		  controlNav: true,
   		}) 			
+		
+		if ($(location).attr('href').indexOf("http://info.template-help.com")+1)
+		{
+			$('#copyright').text('Template-Help.com');
+		}
 
   // hide #back-top first
   $("#back-top").hide();
