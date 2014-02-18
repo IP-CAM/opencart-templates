@@ -8,8 +8,7 @@
   <link rel="stylesheet" href="css/style.css" media="screen">
   <link rel="stylesheet" href="css/flexslider.css"  media="screen">
   <link rel="stylesheet" href="css/prettify.css"  media="screen">
-  <link rel="stylesheet" href="css/prettyPhoto.css"  media="screen">
-  <link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/opencart-templates/master/index_en.html"/> 
+   <link rel="stylesheet" href="css/prettyPhoto.css"  media="screen">
   <script src="js/jquery.js"></script>
   <script src="js/jquery.scrollTo.js"></script>
   <script src="js/jquery-migrate-1.1.0.js"></script>
@@ -94,6 +93,7 @@
                            <ul class="list">          
                             <li><a href="#complete_install">Full Installation</a></li>
                             <li><a href="#template-installation">Update Installation</a></li>
+                            <li><a href="#vqmod-installation">vQmod Installation</a></li>
                            </ul> 
                        </dd>
                      </dl> 
@@ -140,7 +140,7 @@
         <ul>
           <li class="folder"><i class="icon-file"></i> <b>themeXXX(full).zip</b><small class="muted"> - the archive that contains the OpenCart engine, the template and the template sample data (intended for clean installation);</small></li>
           <li class="folder"><i class="icon-file"></i> <b>themeXXX(update).zip</b><small class="muted"> - the archive that contains the template with no sample data inlcuded (intended for installation over the existing store);</small></li>
-          <li class="folder"><i class="icon-file"></i> <b>unzip.php</b><small class="muted"> - the quick installer/updater script;</small></li>
+          <li class="folder"><i class="icon-file"></i> <b>unzip.php</b><small class="muted"> - ile used to extract files from the full/update package .zip archive when uploaded to the hosting server.</small></li>
         </ul>
       </li>
       
@@ -350,7 +350,7 @@
               
     <p>This is the last step of the OpenCart engine installation. You have two options: to visit the OpenCart front end - your e-commerce website or the OpenCart back end - the administration panel.</p>
 
-    <p>You can check out an installation tutorial: <i class="icon-film"> </i> <a target="_blank" href="/help/opencart-how-to-install-a-template-over-the-existing-store-using-update-package.html">OpenCart. How to install a template over the existing store (using “update” package)</a>.</p> 
+    <p>You can check out an installation tutorial: <i class="icon-film"> </i> <a href="/help/opencart-how-to-install-opencart-engine-and-a-template-using-fullpackage.html" target="_blank">OpenCart. How to install OpenCart engine and a template (using “fullpackage”) </a>.</p> 
 
     <div class="box-info"><span> Please make sure to delete the "install" directory from your hosting server. You won't be able to access your store as long as the folder exists on your server.</span></div>
     <p>The following files need to be set to 644 or 444 to prevent anyone else from editing them:</p>
@@ -361,6 +361,7 @@
 			  <li>admin/index.php</li>
 			  <li>system/startup.php.</li>
 			</ul>
+        <p>Be sure the vqmod folder and the vqmod/vqcache folders are writable (either 755 or 777). </p>
   </article>
     
       <p>The installation is complete. To access the store front end, type <strong>your_domain_name</strong> in your web browser address bar. To access the OpenCart administration panel, type <strong>your_domain_name/admin</strong>.</p>
@@ -386,9 +387,32 @@
 		<li>After this, please follow the installation instructions that appear on the screen.</li>
 			
 	  </ol>
-      <p><strong>You can check an installation example at:</strong> <a href="/help/opencart-how-to-install-opencart-engine-and-a-template-using-fullpackage.html" target="_blank">OpenCart. How to install OpenCart engine and a template (using “fullpackage”) </a>.</p>
+      
+      <p><strong>You can check out an installation tutorial:</strong> <a target="_blank" href="/help/opencart-how-to-install-a-template-over-the-existing-store-using-update-package.html">OpenCart. How to install a template over the existing store (using “update” package)</a>.</p>
+       
     
     
+  </div>
+  <div class="block-templates" id="vqmod-installation">
+      <h3>Welcome to vQmod</h3>
+    <p>"vQmod™" (aka Virtual Quick Mod) is an override system designed to avoid having to change core files. The concept is quite simple... Instead of making changes to the core files directly, the changes are created as xml search/replace script files. These script files are parsed during page load as each "source" core file is loaded with the "include" or "require" php functions. The source is then patched with the script file changes, and saved to a temp file. That temp file is then substituted for the original during execution. The original source file is never altered. This results in a "virtual" change to the core during execution without any actual modification to the core files. </p>
+    <div class="box-notification"><span>If you don’t have vQmod installed on your website (<a href="http://code.google.com/p/vqmod/">http://code.google.com/p/vqmod/</a>) You have to install it. </span></div>
+    <h4 id="vqmod-installation">How to install vqmod using Autoinstaller</h4>
+          <ol>
+            <li>Download the latest version that has "opencart" in the title from <a rel="nofollow" href="http://code.google.com/p/vqmod/downloads/list">http://code.google.com/p/vqmod/downloads/list</a>  </li>
+            <li>Using FTP, upload the "vqmod" folder from the zip to the root of your opencart store. </li>
+            <li>Be sure the vqmod folder and the vqmod/vqcache folders are writable (either 755 or 777).  </li>
+            <li>Also, be sure index.php and admin/index.php are writable. </li>
+            <li>If you are not sure which one will work for you, try 755 first. </li>
+            <li>If you get errors about permissions, then try 777. </li>
+            <li>Goto <b>http://www.yoursite.com/vqmod/install</b>  </li>
+            <li>You should get a success message. If not, check permissions above and try again. </li>
+            <li>Load your store homepage and verify if it works. </li>
+            <li>Using FTP, verify that there are new "vq" files in the "vqmod/vqcache" folder. </li>
+            <li>If yes, then you are ready to start downloading or creating vQmod scripts. </li>
+          </ol>
+          <div class="box-notification"><span>DO NOT DELETE THE INSTALL FOLDER! YOU MUST RUN THE INSTALLER EVERY TIME YOU UPGRADE OPENCART!!THERE IS NO DANGER OF RE-RUNNING THE INSTALLER!</span></div>
+          <br /><br />
   </div>
 
 
@@ -426,12 +450,14 @@
   </div>
    <!-- Footer
     ================================================== -->
-    <footer>
-      <div class="container">        
-       OpenCart Documentation<br>
-      © 2013 <span id="copyright">Template Monster</span>
-      </div>
-    </footer>
+	<footer>
+		  <div class="container">        
+		   <div class="span12">
+			<span>OpenCart Documentation</span><br />
+			&copy; <span id="date"></span> <span id="copyright">Template Monster</span>
+		   </div>
+		  </div>
+	</footer>
     <div id="back-top">
     <a href="#"><i class="icon-double-angle-up"></i></a>
   </div>
