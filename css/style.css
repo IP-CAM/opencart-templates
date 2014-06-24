@@ -172,7 +172,7 @@ header {
   padding: 14px 0 17px;
 }
 header h1 {
-  margin: 2px 0 0 60px;
+	margin:0;
 }
 header h1 a {
   color: #3a3a3a;
@@ -183,6 +183,7 @@ header .brand {
   width: 274px;
   height: 48px;
   display: block;
+  background-size: 100% auto;
 }
 header h1 {
   text-align: center;
