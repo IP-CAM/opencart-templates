@@ -53,7 +53,7 @@ console.log(doc_language);
 	        ['es', 'Español', true], 
 	        ['de', 'Deutsch', true], 
 	        ['fr', 'Français', true],
-	        ['pl', 'Polski', false], 
+	        ['pl', 'Polski', true], 
 	        ['pt', 'Português', true], 
 	        ['tr', 'Türk', true], 
 	        ['it', 'Italiano', true]
