@@ -37,21 +37,13 @@
   <div class="row">
   <article class="span4"><a class="brand" href="/help/" target="_blank"></a></article>
   <article class="span6">
- <h1><img alt="" src="img/opencart_logo.png"> Dokumentacja OpenCart</h1>
+ <h1><img alt="" src="img/opencart_logo.png"> Dokumentacja OpenCart 2</h1>
   </article>   
   <article class="span2">
     <div id="languages" class="select-menu pull-right">
       <!-- <span class="lang_label">Language: </span> -->
 	  <div id="lang_icon" class="select-menu_icon"><b>Pl</b><i class="icon-angle-down"></i></div>
       <ul id="lang_list" class="select-menu_list">
-        <li class="active"><a href="index_en.html"><span>Angielski </span><img src="img/flags/gb.png" height="14" width="22" alt="en"></a></li>
-        <li><a href="index_ru.html"><span>Rosyjski </span><img src="img/flags/ru.png" height="14" width="22" alt="ru"></a></li>
-		<li><a href="index_fr.html"><span>Francuski </span><img src="img/flags/fr.png" height="14" width="22" alt="fr"></a></li>
-		<li><a href="index_pt.html"><span>Portugalski </span><img src="img/flags/pt.png" height="14" width="22" alt="pt"></a></li>
-		<li><a href="index_it.html"><span>Włoski </span><img src="img/flags/it.png" height="14" width="22" alt="it"></a></li>
-		<li><a href="index_es.html"><span>Hiszpański </span><img src="img/flags/es.png" height="14" width="22" alt="es"></a></li>
-		<li><a href="index_tr.html"><span>Turecki </span><img src="img/flags/tr.png" height="14" width="22" alt="tr"></a></li>
-        <!--<li><a href="index_de.html"><span>Deutsch </span><img src="img/flags/de.png" height="14" width="22" alt="de"></a></li>-->
       </ul>
     </div>
 	<div id="versions" class="select-menu pull-right">
@@ -168,6 +160,7 @@
         <ul>
           <li class="folder"><i class="icon-file"></i> <b>themeXXX(full).zip</b><small class="muted"> - archiwum, zawierające silnik OpenCart, szablon oraz przykładowe dane szablonu (mające na celu czystą instalację);</small></li>
           <li class="folder"><i class="icon-file"></i> <b>themeXXX(update).zip</b><small class="muted"> - archiwum zawierające szablon bez przykładowych danych (mające na celu instalację na istniejącym sklepie);</small></li>
+           <li class="folder"><i class="icon-file"></i> <b>themeXXX(extensions).zip</b><small class="muted"> - archiwum plik z plików XML;</small></li>
           <li class="folder"><i class="icon-file"></i> <b>unzip.php</b><small class="muted"> - plik używany do wypakowania plików z pakietu archiwum full/update .zip gdy zostaną przesłane do serwera hostingowego.</small></li>
         </ul>
       </li>
@@ -387,7 +380,7 @@
 			  <li>admin/index.php</li>
 			  <li>system/startup.php.</li>
 			</ul>
-        <p>Upewnij się, że folder vqmod oraz foldery vqmod/vqcache są edytowalne (755 lub 777). </p>
+       
   </article>
     
       <p>Instalacja zakończona. Aby uzyskać dostęp do front endu sklepu, wpisz <strong>twoja_nazwa_domeny</strong> pasku adresowym przeglądarki. Aby przejść do panelu administracyjnego OpenCart, wpisz <strong>twoja_nazwa_domeny/admin</strong>.</p>
@@ -411,6 +404,7 @@
 		<li>Z listy <strong>"Wybierz plik zip"</strong> zaznacz <em><strong>themeXXX(update).zip</strong></em> i kliknij <strong>"Unzip."</strong> Rozpocznie to rozpakowywanie pliki na Twoim serwerze do tego samego folderu. Może to chwilę potrwać.</li>
 		<li>Wpisz <strong>twojastrona.com/install/</strong> w pasku adresowym przeglądarki.</li>
 		<li>Następnie, postępuj zgodnie z instrukcjami instalacji pojawiającymi się na ekranie.</li>
+    <li>Zaloguj się do swojego panelu administracyjnego, przejdź do <strong>Extensions-> Extension Installer</strong> i prześlij pliki z archiwum <strong>Theme482(extensions)</strong>. Następnie, przejdź do <strong>Extensions -> Modifications </strong>i kliknij przycisk <strong>Refresh</strong> w prawym górnym rogu.</li>
 			
 	  </ol>
       
@@ -419,27 +413,7 @@
     
     
   </div>
-  <div class="block-templates" id="vqmod-installation">
-      <h3>Witaj w vQmod</h3>
-    <p>"vQmod" (aka Virtual Quick Mod) jest systemem stworzonym, aby uniknąć potrzeby zmieniania plików źródłowych. Zamiast zmian bezpośrednio w plikach źródłowych, są one tworzone jako pliki skryptowe xml search/replace . Pliki te są analizowane w czasie ładowania strony, jako że każdy plik źródłowy jest wczytywany  z funkcjami php "include" lub "require". Plik źródłowy jest następnie aktualizowany zmianami z pliku skryptowego i zapisywany w pliku tymczasowym. Ten plik tymczasowy jest zamieniany z oryginalnym w trakcie wczytywania. Oryginalny plik źródłowy nigdy nie jest zmieniany. Skutkuje to "wirtualną" zmianą bez modyfikacji plików źródłowych. </p>
-    <div class="box-notification"><span>Jeśli nie masz zainstalowanego vQmod na swojej stronie internetowej (<a href="http://code.google.com/p/vqmod/">http://code.google.com/p/vqmod/</a>), musisz go zainstalować. </span></div>
-    <h4 id="vqmod-installation">Jak zainstalować vqmod przy użyciu Autoinstalatora</h4>
-          <ol>
-            <li>Pobierz najnowszą wersję, mającą w nazwie "opencart", z <a rel="nofollow" href="http://code.google.com/p/vqmod/downloads/list">http://code.google.com/p/vqmod/downloads/list</a>  </li>
-            <li>Przy użyciu FTP, prześlij folder "vqmod" z zipa do folderu źródłowego sklepu opencart. </li>
-            <li>Upewnij się, że folder vqmod oraz foldery vqmod/vqcache są edytowalne (755 lub 777).  </li>
-            <li>Również, upewnij się że index.php oraz admin/index.php są edytowalne. </li>
-            <li>Jeśli nie jesteś pewien który zadziała w Twoim przypadku, spróbuj najpierw 755. </li>
-            <li>Jeśli wyskoczą błędy związane z zezwoleniami, spróbuj 777. </li>
-            <li>Przejdź do <b>http://www.twojastrona.com/vqmod/install</b>.  </li>
-            <li>Powinna wyskoczyć informacja o powodzeniu działania. Jeśli nie, sprawdź zezwolenia powyżej i spróbuj ponownie. </li>
-            <li>Wczytaj stronę startową swojego sklepu i sprawdź czy działa. </li>
-            <li>Przy użyciu FTP, sprawdź czy są nowe pliki "vq" w folderze "vqmod/vqcache". </li>
-            <li>Jeśli tak, to jesteś gotowy, by zacząć pobierać lub tworzyć skrypty vQmod. </li>
-          </ol>
-          <div class="box-notification"><span>NIE KASUJ FOLDERU INSTALACYJNEGO! MUSISZ URUCHOMIĆ INSTALATORA ZA KAŻDYM RAZEM, GDY AKTUALIZUJESZ OPENCART! NIE MA RYZYKA POWTÓRNEGO URUCHOMIENIA INSTALATORA!</span></div>
-          <br /><br />
-  </div>
+  
 </section>
 <section class="block-templates" id="extension_configuration">  
   <h2><i class="icon-cog"></i> Konfiguracja rozszerzeń</h2>

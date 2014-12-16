@@ -54,7 +54,7 @@ console.log(doc_language);
 	        ['de', 'Deutsch', true], 
 	        ['fr', 'Français', true],
 	        ['pl', 'Polski', true], 
-	        ['pt', 'Português', true], 
+	        ['pt', 'Português', true],
 	        ['tr', 'Türk', true], 
 	        ['it', 'Italiano', true]
 	    ];

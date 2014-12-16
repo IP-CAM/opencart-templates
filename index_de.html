@@ -37,7 +37,7 @@
   <div class="row">
   <article class="span4"><a class="brand" href="/help/de/" target="_blank"></a></article>
   <article class="span6">
- <h1><img alt="" src="img/opencart_logo.png"> Dokumentation OpenCart</h1>
+ <h1><img alt="" src="img/opencart_logo.png"> Dokumentation OpenCart 2</h1>
   </article>   
   <article class="span2">
     <div id="languages" class="select-menu pull-right">
@@ -160,6 +160,7 @@
         <ul>
           <li class="folder"><i class="icon-file"></i> <b>themeXXX(full).zip</b><small class="muted"> - Archiv mit der OpenCart Engine, Vorlage und Demodaten des Themas (es ist der Installation bei Null gewidmet);</small></li>
           <li class="folder"><i class="icon-file"></i> <b>themeXXX(update).zip</b><small class="muted"> - Vorlagenarchiv ohne Demodaten (es ist der Installation auf den existierenden Online-Shop gewidmet);</small></li>
+          <li class="folder"><i class="icon-file"></i> <b>themeXXX(extensions).zip</b><small class="muted"> - Datei mit XML-Dateien;</small></li>
           <li class="folder"><i class="icon-file"></i> <b>unzip.php</b><small class="muted"> - Datei, die zum Entpacken .zip nach dem Hochladen auf dem Hosting-Server benutzt wird;</small></li>
         </ul>
       </li>
@@ -380,7 +381,7 @@
 			  <li>admin/index.php</li>
 			  <li>system/startup.php.</li>
 			</ul>
-        <p>Überzeugen Sie sich, dass die Ordner <strong>vqmod</strong> und <strong>vqmod/vqcache</strong> die Erlaubnisse (755 oder 777) haben. </p>
+       
   </article>
     
       <p>Installation wird abgeschlossen. Um den Online-Shop zu öffnen, geben Sie  <strong> Ihre Domainnamen </strong> in der Adressleiste des Browsers ein. Um den Zugriff zum Control Panel OpenCart zu erhalten, geben Sie <strong>Domain_Name/admin</strong> ein.</p>
@@ -404,32 +405,14 @@
 		<li>In der Liste <strong>"Choose your zip file" (Wählen Sie Ihre zip Datei)</strong>, markieren Sie die Datei <em><strong>themeXXX(update).zip</strong></em> und drücken Sie <strong>"Unzip" (Entpacken)</strong>. Dann wird das Entpacken der Dateien auf den Server in demselben Inhaltsverzeichnis begonnen. Dieser Prozess braucht Zeit.</li>
 		<li>Geben Sie <strong>yourwebsite.com/install/</strong> in der Adressleiste des Browsers ein .</li>
 		<li>Zum Schluss folgen Sie den Anleitungen zur Installation, die Sie auf dem Bildschirm sehen.</li>
+    <li> Loggen Sie ins Control Panel ein, gehen Sie ins Menü <strong>Extensions -> Extension Installer </strong>und laden Sie die Dateien aus dem Archiv <strong>theme482(extensions) </strong>hoch. Nachdem Sie alle Dateien hochgeladen haben, gehen Sie ins Menü <strong>Extensions -> Modifications </strong>und drücken Sie auf den Button <strong> refresh</strong> in der oberen rechten Ecke des Bildschirmes.</li>
 			
 	  </ol>
       
       <p><strong>Sie können auch das ausführliche Video-Tutorial zur Installation nutzen:</strong> <a target="_blank" href="/help/de/opencart-how-to-install-a-template-over-the-existing-store-using-update-package.html">OpenCart. Wie installiert man die Vorlage auf den existierenden Online-Shop (anhand des Archivs “update”)</a>.</p>
 
   </div>
-  <div class="block-templates" id="vqmod-installation">
-      <h3>Willkommen bei vQmod</h3>
-    <p>"vQmod™" (aka Virtual Quick Mod) ist ein Übersteuerungssystem, das entwickelt wurde, damit man Systemdateien nicht ändern kann. Die Konzeption ist einfach. Anstatt die Änderungen in den Hauptdateien vorzunehmen, werden die Änderungen als XML Skripten für Suche/Ersetzen erstellt. Diese Skriptdateien werden beim Seitenladen verarbeitet und jede «Quell» Datei der Engine wird mit den Funktionen php «include» oder «require» geladen. Die Quelldatei wird angesichts der Skriptdatei geändert und dann werden die Änderungen in der temporären Datei vorgenommen. Dann wird die temporäre Datei durch die Hauptdatei ersetzt. Die Originaldatei wird nie geändert. Im Ergebnis werden in der Engine «virtuelle» Änderungen ohne wesentliche Änderungen in den Core-Dateien vorgenommen. </p>
-    <div class="box-notification"><span>Wenn vQmod auf der Webseite nicht installiert wurde, (<a href="http://code.google.com/p/vqmod/">http://code.google.com/p/vqmod/</a>), dann sollen Sie dies installieren.</span></div>
-    <h4>Automatische Installation vQmod</h4>
-          <ol>
-            <li>Laden Sie die letzte Version vQmod mit dem Namen "opencart" herunter, indem Sie diesem Link folgen <a rel="nofollow" href="http://code.google.com/p/vqmod/downloads/list">http://code.google.com/p/vqmod/downloads/list</a>  </li>
-            <li>Per FTP laden Sie den Ordner "vqmod" aus dem Archiv in den Stammordner OpenCart hoch.  </li>
-            <li>Die Ordner vqmod und vqmod/vqcache und auch Dateien index.php und admin/index.php müssen (Erlaubnisse 755 oder 777) übergeschrieben werden.  </li>
-            <li>Wenn Sie sich nicht sicher sind, welche Erlaubnis passt, dann versuchen Sie zuerst 755. </li>
-            <li>Falls es Fehler gibt, nutzen Sie dann 777. </li>
-            <li>Folgen Sie dem Link <b>http://www.yoursite.com/vqmod/install</b>.  </li>
-            <li>Die Nachricht über erfolgreiche Installation muss angezeigt werden. Falls es keine Nachricht gibt, wechseln Sie dann die Erlaubnis und wiederholen Sie den Prozess noch einmal. </li>
-            <li>Öffnen Sie die Homepage der Webseite und prüfen Sie wie dies funktioniert. </li>
-            <li>Sie müssen sich überzeugen, dass es im Ordner "vqmod/vqcache" auf dem FTP Server neue Dateien "vq" gibt. </li>
-            <li>Wenn es diese Dateien gibt, dann können Sie  Skripten vQmod herunterladen und/oder erstellen.</li>
-          </ol>
-          <div class="box-notification"><span>LÖSCHEN SIE DEN ORDNER <strong>vqmod/install/</strong>nicht! DIE INSTALLATION MUSS JEDESMAL BEI DER AKTUALISIERUNG OPENCART GESTARTET WERDEN! DER NEUSTART DER INSTALLATION BRINGT KEINE GEFAHR!</span></div>
-          <br /><br />
-  </div>
+  
 </section>
 <section class="block-templates" id="extension_configuration">  
   <h2><i class="icon-cog"></i> Einstellung der Erweiterungen</h2>

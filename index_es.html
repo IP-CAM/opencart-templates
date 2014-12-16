@@ -37,7 +37,7 @@
   <div class="row">
   <article class="span4"><a class="brand" href="/help/" target="_blank"></a></article>
   <article class="span6">
-  <h1><img alt="" src="img/opencart_logo.png"> Documentaci&oacute;n de OpenCart</h1>
+  <h1><img alt="" src="img/opencart_logo.png"> Documentaci&oacute;n de OpenCart 2</h1>
   </article>   
   <article class="span2">
     <div id="languages" class="select-menu pull-right">
@@ -160,6 +160,7 @@
         <ul>
           <li class="folder"><i class="icon-file"></i> <b>themeXXX(full).zip</b><small class="muted"> - el archivo que contiene el motor de OpenCart, la plantilla y los datos de ejemplo (destinado para realizar una instalaci&oacute;n limpia);</small></li>
           <li class="folder"><i class="icon-file"></i> <b>themeXXX(update).zip</b><small class="muted"> - el archivo que contiene la plantilla sin datos de ejemplo (para realizar la instalaci&oacute;n sobre una tienda existente);</small></li>
+          <li class="folder"><i class="icon-file"></i> <b>themeXXX(extensions).zip</b><small class="muted"> - el archivo que contiene XML presentar;</small></li>
 	  <li class="folder"><i class="icon-file"></i> <b>unzip.php</b><small class="muted"> - el archivo que se utiliza para extraer los archivos del paquete full/update.zip cuando fue cargado en el servidor de alojamiento.</small></li>
         </ul>
       </li>
@@ -379,7 +380,7 @@
 			  <li>admin/index.php</li>
 			  <li>system/startup.php.</li>
 			</ul>
-<p>Aseg&uacute;rese de que la carpeta vqmod y las carpetas vqmod/vqcache tienen permisos de escritura (ya sean el 755 o el 777). </p>
+
   </article>
     
   <p>La instalaci&oacute;n est&aacute; terminada. Para acceder al front-end (interfaz) de la tienda, escriba <strong>your_domain_name</strong> en la barra de direcciones del navegador web. Para acceder al panel de administraci&oacute;n de OpenCart, escriba <strong>your_domain_name/admin</strong>.</p>
@@ -403,6 +404,8 @@
 		<li>En el cuadro de selecci&oacute;n <strong>"Choose your zip file"</strong>, por favor, elija <em><strong>themeXXX(update).zip</strong></em> y haga clic en <strong>"Unzip."</strong> Comenzar&aacute; la descompresi&oacute;n de los archivos en el servidor en el mismo directorio. Esto tardar&aacute; un poco.</li>
 		<li>Escriba <strong>yourwebsite.com/install/</strong> en la barra de direcciones de su navegador.</li>
 		<li>Despu&eacute;s de esto, por favor, siga las instrucciones de instalaci&oacute;n que aparecen en la pantalla.</li>
+    <il>Acceda a su panel de administración, vaya a <strong>Extensions -> Extension Installer</strong> y cargue los archivos desde el fichero <strong>Theme482(extensions)</strong>. Luego, vaya a <strong>Extensiones -> Modificaciones </strong>y haga clic en el botón <strong>refresh</strong> de la esquina superior derecha.</li>
+
 			
 	  </ol>
       
@@ -411,27 +414,7 @@
     
     
   </div>
-  <div class="block-templates" id="vqmod-installation">
-      <h3>Bienvenido a vQmod</h3>
-      <p>"vQmod™" (tambi&eacute;n conocido como Virtual Quick Mod) es un sistema de anulaci&oacute;n dise&ntilde;ado para no tener que cambiar los archivos principales. En lugar de hacer cambios directamente en los archivos principales, los cambios se crean como XML de buscar/reemplazar en los archivos de script. Estos archivos de script se analizan durante la carga de la p&aacute;gina, ya que cada componente del sistema se carga con las funciones de php "include" o "require". El fuente es parcheado con los cambios en los archivos de script y se guarda en un archivo temporal. Ese archivo temporal se sustituye entonces por el original durante la ejecuci&oacute;n. El archivo fuente original nunca se modifica. Esto se traduce en un cambio "virtual" para el n&uacute;cleo durante la ejecuci&oacute;n sin ninguna modificaci&oacute;n real de los archivos principales. </p>
-    <div class="box-notification"><span>Si usted no tiene vQmod instalado en su p&aacute;gina web (<a href="http://code.google.com/p/vqmod/">http://code.google.com/p/vqmod/</a>), tiene que instalarlo. </span></div>
-    <h4 id="vqmod-installation">C&oacute;mo instalar vqmod usando el instalador autom&aacute;tico</h4>
-          <ol>
-	  <li>Descargue la &uacute;ltima versi&oacute;n que tiene "opencart" en el t&iacute;tulo de <a rel="nofollow" href="http://code.google.com/p/vqmod/downloads/list">http://code.google.com/p/vqmod/downloads/list</a>  </li>
-            <li>Mediante FTP, subir la carpeta "vqmod" desde el archivo comprimido a la ra&iacute;z de su tienda opencart. </li>
-	    <li>Aseg&uacute;rese de que la carpeta vqmod y las carpetas vqmod/vqcache tienen permisos de escritura ((ya sean el 755 o el 777).  </li>
-            <li>Tambi&eacute;n, aseg&uacute;rese de que index.php y admin/index.php tiene permisos de escritura. </li>
-            <li>Si no est&aacute; seguro de cu&aacute;l funcionar&aacute; para usted, pruebe primero con el 755. </li>
-	    <li>Si obtiene errores sobre permisos, pruebe con el 777. </li>
-            <li>Vaya a <b>http://www.yoursite.com/vqmod/install</b>.  </li>
-            <li>Deber&iacute;a obtener un mensaje de &eacute;xito. Si no es as&iacute;, compruebe los permisos de arriba y vuelva a intentarlo. </li>
-            <li>Cargue la p&aacute;gina principal de la tienda y compruebe si funciona. </li>
-            <li>Mediante FTP, compruebe que hay nuevos archivos "vq" en la carpeta "vqmod/vqcache". </li>
-            <li>Si es as&iacute;, entonces usted est&aacute; listo para comenzar a descargar o crear scripts de vQmod. </li>
-          </ol>
-	  <div class="box-notification"><span>&iexcl;NO ELIMINE LA CARPETA DE INSTALACION! &iexcl;DEBE EJECUTAR EL INSTALADOR CADA VEZ QUE ACTUALICE OPENCART! &iexcl;NO HAY NINGUN PELIGRO AL VOLVER A EJECUTAR EL INSTALADOR!</span></div>
-          <br /><br />
-  </div>
+  
 </section>
 <section class="block-templates" id="extension_configuration">  
   <h2><i class="icon-cog"></i> Configurar extensiones</h2>
