@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dokumentacja OpenCart</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+  <link rel="stylesheet" href="css/responsive.css" media="screen">
+  <link rel="stylesheet" href="css/style.css" media="screen">
+  <link rel="stylesheet" href="css/flexslider.css"  media="screen">
+  <link rel="stylesheet" href="css/prettify.css"  media="screen">
+   <link rel="stylesheet" href="css/prettyPhoto.css"  media="screen">
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/jquery-migrate-1.1.0.js"></script>
+  <script src="js/prettify.js"></script>
+  <script src="js/jquery.flexslider.js"></script>
+  <script src="js/bootstrap-affix.js"></script>
+  <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+  <script src="js/script.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css"> 
+  
+
+    <!--[if lt IE 8]>
+  		<div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg"border="0"alt=""/></a></div>  
+ 	  <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>   
+
+<!-- header
+================================================== -->
+<header class="header">
+  <div class="container">
+  <div class="row">
+  <article class="span4"><a class="brand" href="/help/" target="_blank"></a></article>
+  <article class="span6">
+ <h1><img alt="" src="img/opencart_logo.png"> Dokumentacja OpenCart 2</h1>
+  </article>   
+  <article class="span2">
+    <div id="languages" class="select-menu pull-right">
+      <!-- <span class="lang_label">Language: </span> -->
+	  <div id="lang_icon" class="select-menu_icon"><b>Pl</b><i class="icon-angle-down"></i></div>
+      <ul id="lang_list" class="select-menu_list">
+      </ul>
+    </div>
+	<div id="versions" class="select-menu pull-right">
+		<div class="select-menu_icon"><b>v1-1</b><i class="icon-angle-down"></i></div>
+		<ul class="select-menu_list">
+			<li class="active"><a href="/help/quick-start-guide/opencart-templates/v1-1/index_en.html"><span>v1-1</span></a></li>
+			<li><a href="/help/quick-start-guide/opencart-templates/v1-0/index_en.html"><span>v1-0</span></a></li>
+		</ul>
+	</div>
+  </article>
+ 
+  </div>  	
+  </div>
+</header>
+<div id="content"> 
+<div class="bg-content-top">
+<div class="container">
+
+<!-- Docs nav
+    ================================================== -->
+    <div class="row">
+      <div class="span3"> 
+
+        <div id="nav_container">
+          <a href="javascript:;" id="affect_all">
+            <span class="expand">
+              <i class="icon-angle-down"></i>
+            </span>            
+            <span class="close">
+              <i class="icon-angle-up"></i>
+            </span>
+          </a>
+            <div class="clearfix"></div>    
+                <ul class="nav nav-list bs-docs-sidenav"  id="nav">
+                  <li class="nav-item item1">
+                    <dl class="slide-down">
+                       <dt><a href="#introduction" class="icon-info-sign">Wstęp</a></dt>
+                       <dd></dd>
+                     </dl>   
+                  </li>
+                  <li class="nav-item item2">
+                    <dl class="slide-down">
+                       <dt><a href="#prepare" class="icon-check">Przygotowanie </a></dt>  
+                       <dd></dd>                       
+                     </dl> 
+                  </li>           
+                  <li class="nav-item item3">
+                    <dl class="slide-down">
+                       <dt><a href="#getting_started" class="icon-play">Początek </a> <i class="icon-sample"></i></dt>
+                         <dd>
+                           <ul class="list">          
+                            <li><a href="#complete_install">Pełna Instalacja</a></li>
+                            <li><a href="#template-installation">Instalacja Aktualizacji</a></li>
+                            <li><a href="#vqmod-installation">Instalacja vQmod</a></li>
+                           </ul> 
+                       </dd>
+                     </dl> 
+                  </li>
+				  <li class="nav-item item3">
+					<dl class="slide-down">
+						<dt><a class="icon-cog" href="#extension_configuration">Konfiguracja Rozszerzeń</a> <i class="icon-sample"></i></dt>
+						<dd>
+							<ul class="list">
+								<li><a href="#livechat">Olark czat na żywo</a></li>
+							</ul>
+						</dd>
+					</dl>
+				  </li>
+                  <li class="nav-item item8">
+                    <dl class="slide-down">
+                       <dt><a href="#cookiepolicy" class="icon-exclamation-sign">Polityka Ciasteczek (Cookie) </a></dt>
+                         <dd></dd>
+                     </dl> 
+                  </li>
+                  <li class="nav-item item8">
+                    <dl class="slide-down">
+                       <dt><a href="#addendum" class="icon-question-sign">Posłowie</a></dt>
+                       <dd></dd>
+                     </dl> 
+                  </li> 
+                </ul>
+            </div>
+    </div> 
+
+      
+<div class="span9">
+
+<!-- box-content
+================================================== -->
+<div class="box-content">
+<!-- block-started
+================================================== -->
+<section class="block-started"  id="introduction">
+  <h2><i class="icon-info-sign"></i> Wstęp <small><i>Co możesz znaleźć w tym pakiecie i jak możesz go użyć</i></small></h2>
+  <p>Dziękujemy za zakup szablonu OpenCart. Ten poradnik składa się z kilku części, które pokazują cały proces przygotowania i zarządzania stroną OpenCart od samego początku. Zrobiliśmy co w naszej mocy, aby ten poradnik był jak najbardziej przejrzysty i prosty do zrozumienia jak to tylko możliwe. </p>
+  
+  <div id="opencart_cms_desc">
+    <h4>Czym jest OpenCart?</h4>
+    <p>OpenCart jest darmową platformą open source dla handlujących online. OpenCart zapewnia profesjonalną i niezawodną bazę do stworzenia udanego sklepu online. Baza ta przemawia do szerokiego zakresu użytkowników, od doświadczonych developerów szukających przyjaznego dla użytkownika interfejsu do właścicieli sklepów, startujących ze swoim biznesem online po raz pierwszy. OpenCart ma rozległą liczbę właściwości, dających Ci pełną kontrolę nad dopasowaniem Twojego sklepu. Z narzędziami OpenCart Twój sklep online będzie błyszczał pełnią potencjału. <a href="http://docs.opencart.com" target="_blank">Dowiedz się Więcej</a></p>
+  </div>
+
+  <div id="file_structure">
+    <h4>Struktura pliku</h4>
+    <p>Następujące elementy są zawarte w pakiecie szablonu:</p>
+    <ul class="files_structure">
+      <li class="folder"><i class="icon-folder-close"></i> <b>dokumentacja</b><small class="muted"> - zawiera szczegółowy poradnik szablonu i instalacji silnika;</small>
+        <ul>
+          <li class="file"><i class="icon-file"></i> index_en.html<small class="muted"> - główny plik dokumentacji. Właśnie się w nim znajdujesz :)</small></li>
+        </ul>
+      </li>
+      <li class="folder"><i class="icon-folder-close"></i> <b>zrzuty ekranu</b><small class="muted"> - zawiera zrzuty ekranu motywu;</small></li>
+      <li class="folder"><i class="icon-folder-close"></i> <b>źródła</b><small class="muted"> - zawiera plik źródłowy Adobe Photoshop;</small></li>
+      <li class="folder"><i class="icon-folder-close"></i> <b>themeXXX</b><small class="muted"> - zawiera:</small>
+        <ul>
+          <li class="folder"><i class="icon-file"></i> <b>themeXXX(full).zip</b><small class="muted"> - archiwum, zawierające silnik OpenCart, szablon oraz przykładowe dane szablonu (mające na celu czystą instalację);</small></li>
+          <li class="folder"><i class="icon-file"></i> <b>themeXXX(update).zip</b><small class="muted"> - archiwum zawierające szablon bez przykładowych danych (mające na celu instalację na istniejącym sklepie);</small></li>
+           <li class="folder"><i class="icon-file"></i> <b>themeXXX(extensions).zip</b><small class="muted"> - archiwum plik z plików XML;</small></li>
+          <li class="folder"><i class="icon-file"></i> <b>unzip.php</b><small class="muted"> - plik używany do wypakowania plików z pakietu archiwum full/update .zip gdy zostaną przesłane do serwera hostingowego.</small></li>
+        </ul>
+      </li>
+      
+      
+      <li class="folder"><i class="icon-file"></i> <b>info.txt </b><small class="muted"> - zawiera informacje o archiwum;</small></li>
+      <li class="folder"><i class="icon-file"></i> <b>fonts_info.txt </b><small class="muted"> - zawiera informacje o czcionkach użytych w szablonie.</small></li>
+        
+    </ul>
+  </div>
+</section>
+
+<section class="block-templates" id="prepare">  
+  <h2><i class="icon-check"></i> Przygotowanie <small><i>Co musisz zrobić, aby to zadziałało</i></small></h2>
+  <p>Aby uruchomić sklep OpenCart, musisz poczynić pewne przygotowania. </p>
+
+  <div id="software">
+    <h4>Edytowanie oprogramowania</h4>
+    <p>Aby komfortowo pracować z motywem OpenCart, polecamy pobranie wszystkich wymaganych aplikacji. Możesz sprawdzić listę wymaganego oprogramowania na stronie z podglądem szablonu. <br>Wymagania mogą się różnić dla różnych szablonów, więc tutaj wymienimy co jest ogólnie wymagane:</p>
+
+    <ol>
+      <li>Możesz potrzebować aplikacji Adobe Photoshop. Możesz jej używać do edytowania plików źródłowych .PSD oraz w sytuacji, gdy będziesz chciał edytować pliki graficzne oraz obrazki szablonu.</li>
+      <li>Aby edytować pliki źródłowe z kodem, będziesz potrzebował edytora kodu, jak Adobe Dreamweaver, Notepad++, Sublime Text, itp.</li>
+      <li>Aby przesłać pliki do serwera, będziesz potrzebował Managera FTP jak FileZilla, CuteFTP, itp.</li>
+      <li>Prosimy sprawdzić następujące poradniki jak wypakować pliki z archiwum przy pomocy <a href="/help/extract-archived-files-windows-os.html" target="_blank">WinZip(PC)</a> oraz <a href="/help/extract-archived-files-mac-os.html" target="_blank">StuffitExpander(MAC)</a>.</li>
+    </ol>
+  </div>
+
+  <div id="hosting">
+    <h4>Hosting</h4>
+    <p>Jako że OpenCart bazuje na PHP/MySQL, musisz przygotować hosting, aby uruchomić OpenCart.</p>
+    <p>Jeśli masz tzw. live hosting, upewnij się, że pasuje do <a href="http://docs.opencart.com/display/opencart/System+requirements" target="_blank">Wymagania systemowe </a> i jest gotowy do używania ze stronami OpenCart.</p>
+    <p>Możesz również używać OpenCart lokalnie na swoim komputerze przy użyciu serwera lokalnego. Aby stworzyć serwer hostingu lokalnego, użyj aplikacji localhost takich jak <b>WAMP</b>, <b>AppServ</b>, <b>MAMP</b>, itp. Każda z nich może być łatwo zainstalowana i używana z OpenCart. </p>
+    <p>Sprawdź poniższe przewodniki, jak skonfigurować lokalne środowisko programistyczne:</p>
+    <ul class="unstyled">
+      <li><i class="icon-film"> </i><a href="/help/how-to-install-appserv-web-development-environment.html" target="_blank"> Jak zainstalować środowisko programistyczne AppServ</a></li>
+      <li><i class="icon-film"> </i><a href="/help/how-to-install-wamp-web-development-environment.html" target="_blank"> Jak zainstalować środowisko programistyczne WAMP</a></li>
+      <li><i class="icon-film"> </i><a href="/help/how-to-install-xamp-web-development-environment.html" target="_blank"> Jak zainstalować środowisko programistyczne XAMP</a>.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="block-templates" id="getting_started">  
+  <h2><i class="icon-play"></i> Początek <small><i>Co klikać, aby to zadziałało</i></small></h2>
+
+  <div class="row-fluid">
+    <div class="span6 text-center img-paraloid">
+      <h3><a href="#complete_install" class="scrollTo">Pełna Instalacja</a></h3>
+      <p>Ta opcja instalacji jest używana, gdy nie masz żadnych instalacji OpenCart na swoim serwerze. Archiwum 'themeXXX(full).zip' użyty w tym poradniku zawiera silnik OpenCart oraz szablon z przykładowymi danymi, więc nie musisz osobno przesyłać silnika OpenCart. Przykładowe dane sprawią, że Twoja strona OpenCart będzie wyglądała tak samo jak strona podglądu szablonu, ze wszystkimi przykładowymi produktami, modułami oraz testowaniem strony. </p>
+      
+      <p>&nbsp;</p>
+    </div>
+    <div class="span6 text-center img-paraloid">
+      <h3><a href="#template-installation" class="scrollTo">Aktualizacja Instalacji</a></h3>
+      <p>Użyj tej opcji, jeśli masz już stronę bazowaną na OpenCart i chcesz tylko zmienić jej wygląd, instalując nowy motyw.</p>
+      <p>&nbsp;</p>
+    </div>
+  </div>
+
+  <!-- Full OpenCart Installation -->
+  <div id="complete_install">
+  <h3>Pełna Instalacja</h3>
+  <p>Kompleta instalacja może być użyta, gdy chcesz stworzyć stronę OpenCart od nowa. Zakładamy, że wykonałeś wszystkie <a href="#prepare">kroki przygotowawcze</a> i masz wszystko co niezbędne.</p>
+
+    <!-- Creating database -->
+
+  <article id="creating-database">
+    <h4>Tworzenie Bazy Danych</h4>
+    <p>Gdy skończysz przesyłać pliki do serwera hostingowego, możesz przygotować nową bazę danych dla Twojej strony OpenCart. Możesz stworzyć bazę danych przy użyciu narzędzia do zarządzania bazami danych w swoim panelu kontrolnym hostingu (<i>zazwyczaj PhpMyAdmin</i>).</p>
+
+    <p>Przy użyciu narzędzia phpMyAdmin stworzysz nową bazę danych w 3 prostych krokach (sprawdź slajdy poniżej):</p>
+
+     <ol class="list">
+      <li>Kliknij przycisk Database w górnym menu nawigacyjnym, aby wejść do listy baz danych.</li>
+      <li>Wprowadź nazwę bazy danych w polu "Create new database".</li>
+      <li>Kliknij przycisk Create po prawej stronie.</li>
+    </ol>
+
+    <p>Możesz teraz zobaczyć swoją bazę danych na liście. Kliknij na jej nazwę, aby uzyskać dostęp.</p>
+
+    <p>&nbsp;</p>
+
+    <div class="flexslider clearfix img-polaroid">
+      <ul class="slides">
+        <li>
+          <img src="img/database-create-1.jpg" alt="" />
+          <div class="flex-caption">
+            <p>1. Kliknij przycisk Database, aby wejść do listy baz danych.</p>
+          </div>
+        </li>                   
+        <li>
+          <img src="img/database-create-2.jpg" alt="" />
+          <div class="flex-caption">
+            <p>2. Wprowadź nazwę bazy danych. <br>
+                        3. Kliknij przycisk Create.</p>
+          </div>
+        </li>
+        <li>
+          <img src="img/database-create-3.jpg" alt="" />
+          <div class="flex-caption">
+            <p>4. Możesz teraz zobaczyć swoją bazę danych na liście. Kliknij na jej nazwę, aby uzyskać dostęp.</p>
+          </div>
+        </li> 
+      </ul>    
+    </div>
+
+    <p>&nbsp;</p>
+                
+    <p>Możesz również sprawdzić szczegółowy poradnik video na <i class="icon-film"> </i>  <a href="/help/how-to-create-a-database.html" target="_blank">Jak stworzyć bazę danych</a>.</p>
+
+    <div class="box-info"><span>Jeśli masz problem ze stworzeniem bazy danych, skontaktuj się ze swoim dostawcą hostingu w celu uzyskania pomocy. </span></div>
+  </article>
+
+  <!-- Uploading files -->
+  <article id="uploading">
+    <h4>Przesyłanie i rozpakowanie</h4>
+    <p class="">Aby zacząć pracować z OpenCart musisz przesłać pliki do swojego serwera hostingowego. Możesz to zrobić przy użyciu menadżera plików w hostingu lub zewnętrznego FTP managera.</p>
+                
+      <ol>
+        <li>Otwórz folder z pakietem szablonu.</li>
+        <li>Wybierz 'unzip.php' oraz 'themeXXX(full).zip' i prześlij je do Twojego serwera (<i class="icon-film"> </i> <a href="/help/how-upload-files-server-2.html" target="_blank">Jak przesłać pliki do serwera</a>, <i class="icon-film"> </i> <a href="/help/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html" target="_blank">Jak przesłać pliki do serwera przy użyciu cPanel (WebHost Manager, WHM)</a>).</li>
+        <li>Wpisz ścieżkę do pliku 'unzip.php' na Twoim serwerze (<i class="muted">http://your_domain_name/unzip.php</i>) w Twojej <abbr title="Internet Explorer, Google Chrome, Mozilla Firefox, Opera, Safari etc.">przeglądarce</abbr>.</li>
+        <li>Powinieneś zobaczyć następujący ekran:</li>
+      </ol>
+                
+      <figure class="img-paraloid"><img src="img/complete-install-unzip-php.jpg" alt="Unzip.php initial screen."></figure>
+      <p class="muted text-center">Img 1. Unzip.php ekran początkowy.</p>
+                
+      <ol start="5">
+        <li>W polu 'Choose your zip file' wybierz przesłany plik 'themeXXX(full).zip'.</li>
+        <li>W polu 'Unzip to' podaj folder, do którego chcesz wypakować pliki.</li>
+        <li>Kliknij przycisk 'Unzip' aby kontynuować.</li>
+      </ol>
+                
+      <div class="box-info"><span>Upewnij się, że masz odpowiednie zezwolenia dla folderu, do którego planujesz wypakować pliki. Zezwolenia powinny być CHMOD 755 lub 777, w zależności od konfiguracji serwera. </span></div>
+  </article>
+
+    
+  <!-- OpenCart installation -->
+
+  <article id="opencart-cms-installation">
+    <h4>Instalacja OpenCart</h4>
+    
+    <p>Otwórz przeglądarkę i wpisz ścieżkę do folderu OpenCart w pasku adresu (<i>np. http://your_domain_name/opencart</i>). Powinieneś zobaczyć początkowy ekran instalacji OpenCart:</p>
+    
+    <p>&nbsp;</p>
+    <h5 id="opencart-install-configuration"><span class="badge">Instalacja krok 1</span> Licencja</h5>    
+    <p>&nbsp;</p> 
+              
+      <figure class="img-polaroid"><img src="img/opencart-engine-installation-initital.jpg" alt=""></figure>
+      <p class="muted text-center">Img 1. Instalacja OpenCart. Krok 1. Licencja</p>
+              
+      <p>Sprawdź licencję OpenCart i jeśli zgadzasz się z warunkami, zaznacz <strong>Zgadzam się z warunkami licencji</strong> i kliknij przycisk <strong class="btn">Kontynuuj</strong>. </p>
+           
+
+    <p>&nbsp;</p>       
+    <h5 id="opencart-install-database"><span class="badge">Krok 2</span> Przed-Instalacja</h5>
+    <p>&nbsp;</p>
+              
+      <figure class="img-polaroid"><img src="img/opencart-engine-installation-step2.jpg" alt=""></figure>
+      <p class="muted text-center">Img 3. Instalacja OpenCart. Krok 2. Przed-Instalacja</p>
+              
+      <p>W tym kroku, silnik OpenCart sprawdza Twój serwer hostingowy: czy jego ustawienia spełniają wymagania OpenCart oraz czy zezwolenia folderów są ustawione odpowiednio.</p>
+		<p>Upewnij się, czy zezwolenia plików silnika OpenCart są ustawione jak poniżej:</p>
+			<ul>
+			  <li>chmod 0755 lub 0777 image/</li>
+			  <li> chmod 0755 lub 0777 image/cache/</li>
+			  <li> chmod 0755 lub 0777 image/data/</li>
+			  <li> chmod 0755 lub 0777 system/cache/</li>
+			  <li> chmod 0755 lub 0777 system/logs/</li>
+			  <li> chmod 0755 lub 0777 download/</li>
+			  <li> chmod 0755 lub 0777 config.php</li>
+			  <li> chmod 0755 lub 0777 admin/config.php.</li>
+			</ul>
+		
+      
+
+    <p>&nbsp;</p>          
+    <h5 id="opencart-install-overview"><span class="badge">Krok 3</span> Konfiguracja</h5>
+    <p>&nbsp;</p>     
+      <figure class="img-polaroid"><img src="img/opencart-engine-installation-step3.jpg" alt=""></figure>
+      <p class="muted text-center">Img 4. Instalacja OpenCart. Krok 3. Konfiguracja</p>
+      
+      <p>Na tym etapie musisz podać szczegóły połączenia Twojej bazy danych. Jak pamiętasz, w kroku przygotowującym stworzyłeś bazę danych MySQL, więc teraz musisz podać </p>
+      <ul>
+        <li>nazwę serwera bazy danych</li>
+        <li>nazwę bazy danych</li>
+        <li>nazwę użytkownika bazy danych</li>
+        <li>hasło użytkownika bazy danych.</li>
+	</ul>
+      <p></p>
+      <p>Jeśli masz problemy z uzyskaniem tych danych, skontaktuj się ze swoim dostawcą hostingu. </p>
+	
+      <p>Musisz również stworzyć konto administratora sklepu. Podaj nazwę użytkownika Administratora, hasło oraz e-mail. Dane te będą używane do logowania się do panelu administracyjnego OpenCart, aby zarządzać Twoim sklepem. </p>
+      
+
+
+    <p>&nbsp;</p>          
+    <h5 id="opencart-install-complete"><span class="badge">Krok 4</span> Zakończenie!</h5>
+    <p>&nbsp;</p>
+              
+    
+              
+    <figure class="img-polaroid"><img src="img/opencart-engine-installation-step4.jpg" alt=""></figure>
+    <p class="muted text-center">Img 5. Instalacja OpenCart. Step 4. Zakończenie!</p>
+              
+    <p>To jest ostatni krok instalacji silnika OpenCart. Masz dwie opcje: przejść do front endu OpenCart, Twojej strony e-commerce, lub back endu OpenCart, panelu administracyjnego.</p>
+
+    <p>Możesz sprawdzić tutorial instalacji: <i class="icon-film"> </i> <a href="/help/opencart-how-to-install-opencart-engine-and-a-template-using-fullpackage.html" target="_blank">OpenCart. Jak zainstalować silnik OpenCart oraz szablon (przy użyciu "fullpackage") </a>.</p> 
+
+    <div class="box-info"><span> Upewnij się, że usunąłeś folder "install" z serwera hostingowego. Nie będziesz miał dostępu do sklepu dopóki ten folder znajduje się na serwerze.</span></div>
+    <p>Następujące pliki muszą być ustawione jako 644 lub 444, aby uniemożliwić ich edytowanie:</p>
+			<ul>
+			  <li>config.php</li>
+			  <li>index.php</li>
+			  <li>admin/config.php</li>
+			  <li>admin/index.php</li>
+			  <li>system/startup.php.</li>
+			</ul>
+       
+  </article>
+    
+      <p>Instalacja zakończona. Aby uzyskać dostęp do front endu sklepu, wpisz <strong>twoja_nazwa_domeny</strong> pasku adresowym przeglądarki. Aby przejść do panelu administracyjnego OpenCart, wpisz <strong>twoja_nazwa_domeny/admin</strong>.</p>
+
+  </div>
+  <div class="block-templates" id="template-installation">
+    <h3>Instalacja Aktualizacji</h3>
+    
+    <div class="box-notification"><span>Upewnij się, że Twoja wersja silnika OpenCart pasuje do wymagań szablonu. Wszystkie wersje OpenCart są dostępne na <a href=" http://www.opencart.com/index.php?route=download/download " target="_blank" class="spec_link"> oficjalnej stronie OpenCart</a>.</span></div>
+    <br />
+    <ol>
+      
+		<li>Aby zainstalować szablon OpenCart musisz przesłać pliki do serwera hostingowego. W pakiecie szablonu OpenCart znajdź archiwum <strong>&quot;themeXXX(update).zip&quot;</strong> i prześlij do folderu źródłowego instalacji OpenCart.<br />
+                
+        Sprawdź szczegółowy poradnik video <a href="/help/how-upload-files-server-2.html" target="_blank"> jak przesyłać pliki do serwera hostingowego</a>.
+      <br />
+		<span class="info-box">Pliki szablonu nie wyrządzą żadnych szkód Twojemu sklepowi.</span></li>
+		
+		<li>Następnie prześlij plik <strong> <em>unzip.php</em></strong> z pakietu szablonu do serwera, do tego samego folderu jak poprzednie archiwum.</li>
+		<li>Jak skończysz, otwórz stronę w przeglądarce i dodaj nazwę pliku - <em><strong>unzip.php</strong></em> do URL. Powinno to tak wyglądać: <strong>twojastrona.com/unzip.php</strong>.</li>
+		<li>Z listy <strong>"Wybierz plik zip"</strong> zaznacz <em><strong>themeXXX(update).zip</strong></em> i kliknij <strong>"Unzip."</strong> Rozpocznie to rozpakowywanie pliki na Twoim serwerze do tego samego folderu. Może to chwilę potrwać.</li>
+		<li>Wpisz <strong>twojastrona.com/install/</strong> w pasku adresowym przeglądarki.</li>
+		<li>Następnie, postępuj zgodnie z instrukcjami instalacji pojawiającymi się na ekranie.</li>
+    <li>Zaloguj się do swojego panelu administracyjnego, przejdź do <strong>Extensions-> Extension Installer</strong> i prześlij pliki z archiwum <strong>Theme482(extensions)</strong>. Następnie, przejdź do <strong>Extensions -> Modifications </strong>i kliknij przycisk <strong>Refresh</strong> w prawym górnym rogu.</li>
+			
+	  </ol>
+      
+      <p><strong>Możesz sprawdzić poradnik instalacyjny:</strong> <a target="_blank" href="/help/opencart-how-to-install-a-template-over-the-existing-store-using-update-package.html">OpenCart. Jak zainstalować szablon w istniejącym sklepie (przy użyciu pakietu "update")</a>.</p>
+       
+    
+    
+  </div>
+  
+</section>
+<section class="block-templates" id="extension_configuration">  
+  <h2><i class="icon-cog"></i> Konfiguracja rozszerzeń</h2>
+
+  <div id="livechat">
+  <h3>Olark Live Chat</h3>
+  <p>Aby założyć czat na żywo jak w Live Demo, musisz się zarejestrować na oficjalnej stronie <a href="http://www.olark.com/?r=ad8fbsj2" target="_blank">rejestracja Olark</a>. Po podaniu wszystkich wymaganych danych, otrzymasz kod do dodania do <strong>catalog\view\theme\themeXXX\template\common\footer.tpl</strong> przed tagiem &lt;/body&gt;. </p>
+  </div>
+</section>
+
+<section class="block-templates" id="cookiepolicy">
+	<h2><i class="icon-exclamation-sign"></i> Polityka Ciasteczek (Cookie)</h2>
+	<p>Zgodnie z wymogami prawnymi odnośnie plików cookie, musisz dodać odpowiednie moduły do swojej strony internetowej. Moduł ten wyświetli ostrzeżenie o plikach cookies używanych na Twojej stronie. Możesz użyć takiego:</p>
+	<ul>
+		<li><a target="_blank" href="http://www.opencart.com/index.php?route=extension/extension/info&extension_id=11872&filter_search=cookies">Cookie Policy - EU Cookie Law Compliance</a></li>
+	</ul>
+</section>
+<section id="addendum" class="block-templates">
+  <h2><i class="icon-question-sign"></i> Posłowie <small><i>gdzie uzyskać pomoc oraz dodatkowe informacje</i></small> </h2>
+
+  <p>OpenCart jest multifunkcyjnym, lekkim i przyjaznym użytkownikowi rozwiązaniem dla e-handlu z atrakcyjnym wyglądem. Jest perfekcyjnym rozwiązaniem dla Twojego sklepu online. Pakiet domyślny zawiera wszystkie niezbędne moduły i rozszerzenia dla pomyślnego prowadzenia biznesu. Kod open source oferuje niezrównane możliwości Twoim klientom. </p>
+      
+        <p>Dodatkowe Informacje:</p>
+        <ul class="list">
+          <li><a href="http://www.opencart.com/" target="_blank">Oficjalna strona OpenCart</a></li>
+          <li><a href="http://forum.opencart.com/" target="_blank">Fora społeczności</a></li>
+          <li><a href="/help/ecommerce/opencart/opencart-tutorials/" target="_blank">Poradniki OpenCart</a>.</li>
+        </ul>
+
+</section>
+
+</div>
+</div>
+</div>
+
+  </div>
+  </div>
+  </div>
+   <!-- Footer
+    ================================================== -->
+	<footer>
+		  <div class="container">        
+		   <div class="span12">
+			<span>Dokumentacja OpenCart</span><br />
+			&copy; <span id="date"></span> <span id="copyright">Template Monster</span>
+		   </div>
+		  </div>
+	</footer>
+    <div id="back-top">
+    <a href="#"><i class="icon-double-angle-up"></i></a>
+  </div>
+<!-- <script src="js/bootstrap-scrollspy.js"></script>  -->
+
+<script type="text/javascript"> 
+  var _gaq = _gaq || []; 
+  _gaq.push(['_setAccount', 'UA-2787305-5']); 
+  _gaq.push(['_trackPageview']); 
+
+  (function() { 
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; 
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); 
+  })(); 
+</script>
+    
+</body> 
+
+</html>
