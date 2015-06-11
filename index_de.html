@@ -1,497 +1,839 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Dokumentation OpenCart 2</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="css/bootstrap.css" media="screen">
-  <link rel="stylesheet" href="css/responsive.css" media="screen">
-  <link rel="stylesheet" href="css/style.css" media="screen">
-  <link rel="stylesheet" href="css/flexslider.css"  media="screen">
-  <link rel="stylesheet" href="css/prettify.css"  media="screen">
-   <link rel="stylesheet" href="css/prettyPhoto.css"  media="screen">
-  <script src="js/jquery.js"></script>
-  <script src="js/jquery.scrollTo.js"></script>
-  <script src="js/jquery-migrate-1.1.0.js"></script>
-  <script src="js/prettify.js"></script>
-  <script src="js/jquery.flexslider.js"></script>
-  <script src="js/bootstrap-affix.js"></script>
-  <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
-  <script src="js/script.js"></script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css"> 
-  
-
-    <!--[if lt IE 8]>
-  		<div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg "border="0"alt=""/></a></div>  
- 	  <![endif]-->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-    <![endif]-->
-</head>
-
-<body>   
-
-<!-- header
-================================================== -->
-<header class="header">
-  <div class="container">
-  <div class="row">
-  <article class="span4"><a class="brand" href="/help/de/" target="_blank"></a></article>
-  <article class="span6">
- <h1><img alt="" src="img/opencart_logo.png"> Dokumentation OpenCart 2</h1>
-  </article>   
-  <article class="span2">
-    <div id="languages" class="select-menu pull-right">
-        <div class="select-menu_icon"><b>De</b><i class="icon-angle-down"></i></div>
-        <ul class="select-menu_list">
-          
-        </ul>
-      </div>
-	<div id="versions" class="select-menu pull-right">
-		<div class="select-menu_icon"><b>v1-1</b><i class="icon-angle-down"></i></div>
-		<ul class="select-menu_list">
-			<li class="active"><a href="/help/quick-start-guide/opencart-templates/v1-1/index_ru.html"><span>v1-1</span></a></li>
-			<li><a href="/help/quick-start-guide/opencart-templates/v1-0/index_ru.html"><span>v1-0</span></a></li>
-		</ul>
-	</div>
-  </article>
- 
-  </div>  	
-  </div>
-</header>
-<div id="content"> 
-<div class="bg-content-top">
-<div class="container">
-
-<!-- Docs nav
-    ================================================== -->
-    <div class="row">
-      <div class="span3"> 
-
-        <div id="nav_container">
-          <a href="javascript:;" id="affect_all">
-            <span class="expand">
-              <i class="icon-angle-down"></i>
-            </span>            
-            <span class="close">
-              <i class="icon-angle-up"></i>
-            </span>
-          </a>
-            <div class="clearfix"></div>    
-                <ul class="nav nav-list bs-docs-sidenav"  id="nav">
-                  <li class="nav-item item1">
-                    <dl class="slide-down">
-                       <dt><a href="#introduction" class="icon-info-sign">Einführung</a></dt>
-                       <dd></dd>
-                     </dl>   
-                  </li>
-                  <li class="nav-item item2">
-                    <dl class="slide-down">
-                       <dt><a href="#prepare" class="icon-check">Vorbereitung </a></dt>  
-                       <dd></dd>                       
-                     </dl> 
-                  </li>           
-                  <li class="nav-item item3">
-                    <dl class="slide-down">
-                       <dt><a href="#getting_started" class="icon-play">Nutzungsbeginn </a> <i class="icon-sample"></i></dt>
-                         <dd>
-                           <ul class="list">          
-                            <li><a href="#complete_install">Vollständige Installation</a></li>
-                            <li><a href="#template-installation">Installation auf den existierenden Online-Shop</a></li>
-                           </ul> 
-                       </dd>
-                     </dl> 
-                  </li>
-				  <li class="nav-item item3">
-					<dl class="slide-down">
-						<dt><a class="icon-cog" href="#extension_configuration">Einstellung für Erweiterungen</a> <i class="icon-sample"></i></dt>
-						<dd>
-							<ul class="list">
-								<li><a href="#livechat">Olark live chat</a></li>
-							</ul>
-						</dd>
-					</dl>
-				  </li>
-                  <li class="nav-item item8">
-                    <dl class="slide-down">
-                       <dt><a href="#cookiepolicy" class="icon-exclamation-sign">Nutzungsrichtlinie cookies</a></dt>
-                         <dd></dd>
-                     </dl> 
-                  </li>
-                  <li class="nav-item item8">
-                    <dl class="slide-down">
-                       <dt><a href="#addendum" class="icon-question-sign">Fazit</a></dt>
-                       <dd></dd>
-                     </dl> 
-                  </li> 
-                </ul>
-            </div>
-    </div> 
-
-      
-<div class="span9">
-
-<!-- box-content
-================================================== -->
-<div class="box-content">
-<!-- block-started
-================================================== -->
-<section class="block-started"  id="introduction">
-  <h2><i class="icon-info-sign"></i> Einführung <small><i>Was enthält eine Vorlage und wofür kann man dies nutzen</i></small></h2>
-  <p>Vielen Dank, dass Sie OpenCart Vorlage gekauft haben. Diese Dokumentation besteht aus einigen Bereichen und umfasst den ganzen Installationsprozess und Einstellungen der OpenCart Website bei Null. Wir haben unser Bestes gegeben, um diese Anleitung verständlich und einfach in der Handhabung zu machen.  </p>
-  
-  <div id="opencart_cms_desc">
-    <h4>Was ist denn OpenCart?</h4>
-    <p>OpenCart ist eine kostenlose Plattform für Internethandel mit Open-Source für Internet-Unternehmer. OpenCart ermöglicht professionelle und sichere Basis für einen erfolgreichen Online-Shop zu erstellen. Gemeinschaft Opencart hat eine ganze Menge der Benutzer. Es sind sowohl erfahrene Webentwickler, die ein bequemes Interface suchen, als auch Shop-Besitzer, die zum ersten Mal Online-Business starten. OpenCart bietet verschiedene Funktionen, die ermöglichen, völlig den Online-Shop zu verwalten. Mit OpenCart Werkzeugen können Sie einfach Potentials Ihres Online-Shops entfalten. <a href="http://docs.opencart.com" target="_blank">Details</a></p>
-  </div>
-
-  <div id="file_structure">
-    <h4>Dateistruktur</h4>
-    <p>Die Vorlage besteht aus folgenden Komponenten:</p>
-    <ul class="files_structure">
-      <li class="folder"><i class="icon-folder-close"></i> <b>documentation</b><small class="muted"> - enthält ausführliche Anleitung zur Installation der Vorlage und Engine;</small>
-        <ul>
-          <li class="file"><i class="icon-file"></i>documentation.html<small class="muted"> - Hauptdatei der Dokumentation. Sie lesen sie jetzt :)</small></li>
-        </ul>
-      </li>
-      <li class="folder"><i class="icon-folder-close"></i> <b>screenshots</b><small class="muted"> - enthält Bildschirmfotos des Themas;</small></li>
-      <li class="folder"><i class="icon-folder-close"></i> <b>sources</b><small class="muted"> - Quelldatei der Vorlage für Adobe Photoshop(.psd);</small></li>
-      <li class="folder"><i class="icon-folder-close"></i> <b>themeXXX</b><small class="muted"> - enthält:</small>
-        <ul>
-          <li class="folder"><i class="icon-file"></i> <b>themeXXX(full).zip</b><small class="muted"> - Archiv mit der OpenCart Engine, Vorlage und Demodaten des Themas (es ist der Installation bei Null gewidmet);</small></li>
-          <li class="folder"><i class="icon-file"></i> <b>themeXXX(update).zip</b><small class="muted"> - Vorlagenarchiv ohne Demodaten (es ist der Installation auf den existierenden Online-Shop gewidmet);</small></li>
-          <li class="folder"><i class="icon-file"></i> <b>themeXXX(extensions).zip</b><small class="muted"> - Datei mit XML-Dateien;</small></li>
-          <li class="folder"><i class="icon-file"></i> <b>unzip.php</b><small class="muted"> - Datei, die zum Entpacken .zip nach dem Hochladen auf dem Hosting-Server benutzt wird;</small></li>
-        </ul>
-      </li>
-      
-      
-      <li class="folder"><i class="icon-file"></i> <b>info.txt </b><small class="muted"> - stellt die Information über Archive zur Verfügung;</small></li>
-      <li class="folder"><i class="icon-file"></i> <b>fonts_info.txt </b><small class="muted"> - enthält die Information über Schriften, die in der Vorlage benutzt werden;</small></li>
-        
-    </ul>
-  </div>
-</section>
-
-<section class="block-templates" id="prepare">  
-  <h2><i class="icon-check"></i> Vorbereitung <small><i>Was soll man vor dem Arbeitsbeginn machen</i></small></h2>
-  <p>Bevor Sie anfangen, OpenCart Website zu installieren, müssen Sie alles fertig machen. </p>
-
-  <div id="software">
-    <h4>Software</h4>
-    <p>Um mit der Opencart Vorlage vollwertig zu arbeiten, empfehlen wir Ihne alle notwendigen Anwendungen herunterzuladen. Die Liste der notwendigen Software gibt es auf der Vorschauseite der Vorlage. Anforderungen für verchiedene Vorlagen können sich ändern, deshalb nennen wir nur die wichtigsten:</p>
-
-    <ol>
-      <li> Sie benötigen Adobe Photoshop Programm. Es wird benutzt, um Quelldateien .PSD zu bearbeiten und Grafik-Design oder Vorlagenbilder zu ändern.</li>
-      <li>Um die Quelldatei der Vorlage zu bearbeiten, müssen Sie den Code-Editor wie  Adobe Dreamweaver, Notepad++, Sublime Text usw. verwenden.</li>
-      <li>Um die Datei auf den Hosting-Server hochzuladen, benötigen Sie FTP Manager wie Total Commander, FileZilla, CuteFTP usw.</li>
-      <li>Nutzen Sie die folgenden Tutorials, um Archive mittels <a href="/help/de/extract-archived-files-windows-os.html" target="_blank">WinZip (PC)</a> und <a href="/help/de/extract-archived-files-mac-os.html" target="_blank">StuffitExpander (MAC)</a> zu entpacken.</li>
-    </ol>
-  </div>
-
-  <div id="hosting">
-    <h4>Hosting</h4>
-    <p>OpenCart basiert sich auf PHP/MySQL Anwendungen, deswegen müssen Sie den Hosting-Server vorbereiten. </p>
-    <p>Wenn Sie aktiven Server schon haben, müssen Sie ihn prüfen, ob er  <a href="http://docs.opencart.com/system/server-requirements" target="_blank">den Systemanforderungen </a> entspricht und OpenCart Webseiten bedienen kann.</p>
-    <p>Sie können auch OpenCart auf den PC mittels des lokalen Servers installieren. Um einen lokalen Hosting-Server zu erstellen, müssen Sie die Software wie <b>WAMP</b>, <b>AppServ</b>, <b>MAMP</b> usw. nutzen. Jegliche von ihnen kann wie ein Programm, das OpenCart unterstützt, installiert werden. </p>
-    <p>Sie können folgende Tutorials nutzen, um den lokalen Server einzustellen:</p>
-    <ul class="unstyled">
-      <li><i class="icon-film"> </i><a href="/help/de/how-to-install-appserv-web-development-environment.html" target="_blank"> Wie installiert man Web-Entwicklungsumgebung AppServ </a></li>
-      <li><i class="icon-film"> </i><a href="/help/de/how-to-install-wamp-web-development-environment.html" target="_blank"> Wie installiert man Web-Entwicklungsumgebung WAMP</a></li>
-      <li><i class="icon-film"> </i><a href="/help/de/how-to-install-xamp-web-development-environment.html" target="_blank"> Wie installiert man Web-Entwicklungsumgebung XAMP</a>.</li>
-    </ul>
-  </div>
-</section>
-
-<section class="block-templates" id="getting_started">  
-  <h2><i class="icon-play"></i> Nutzungsbeginn <small><i>Auf was muss man drücken, um die Arbeit anzufangen</i></small></h2>
-
-  <div class="row-fluid">
-    <div class="span6 text-center img-paraloid">
-      <h3><a href="#complete_install" class="scrollTo">Vollständige Installation</a></h3>
-      <p>Diese Installationsart wird benutzt, wenn Sie keine fertige OpenCart Webseite haben. Das Archiv 'themeXXX(full).zip' enthält Dateien der OpenCart Engine und des Themas mit Demodaten, deswegen müssen Sie OpenCart Engine separat nicht hochladen. Die Demodaten ermöglichen Ihrer Webseite genauso wie die Vorlage auf der Vorschauseite auszusehen (Beispiele der Produkte, Module und Webseiteneinstellungen). </p>
-      
-      <p>&nbsp;</p>
-    </div>
-    <div class="span6 text-center img-paraloid">
-      <h3><a href="#template-installation" class="scrollTo">Installation auf den existierenden Online-Shop</a></h3>
-      <p>Folgen Sie dieser Installationsart, wenn Sie eine aktive OpenCart Webseite haben und nur ihr Aussehen ändern möchten, indem Sie ein neues Thema installieren.</p>
-      <p>&nbsp;</p>
-    </div>
-  </div>
-
-  <!-- Full OpenCart Installation -->
-  <div id="complete_install">
-  <h3>Vollständige Installation</h3>
-  <p>Vollständige Installation wird dann benutzt, wenn Sie  OpenCart Webseite bei Null installieren müssen. Es enthält Durchführung  aller <a href="#prepare">vorbereitenden Schritte</a>  und Verfügbarkeit der notwendigen Programme.</p>
-
-    <!-- Creating database -->
-
-  <article id="creating-database">
-    <h4>Erstellen der Datenbank</h4>
-    <p>Nachdem Sie alle Dateien auf den Hosting-Server hochgeladen haben, müssen Sie eine neue Datenbank  für OpenCart Webseite vorbereiten. Sie können sie mittels des Datenbank-Verwaltungswerkzeuges im Control Panel des Hostings erstellen. (<i>	normalerweise PhpMyAdmin</i>).</p>
-
-    <p>Anhand phpMyAdmin kann man eine neue Datenbank  in 3 einfachen Schritten erstellen: (Schauen Sie die folgenden Dias an):</p>
-
-     <ol class="list">
-      <li>Klicken Sie den Button Databases (Datenbanken) in dem oberen Navigationsmenü, um zur Liste der  Datenbanken zu gelangen.</li>
-      <li>Geben Sie den Namen der Datenbank ins Feld "Create new database (Neue Datenbank erstellen)" ein</li>
-      <li>Drücken Sie rechts auf den Button Create (Erstellen).</li>
-    </ol>
-
-    <p>Die Datenbank gibt es jetzt in der Liste. Klicken Sie auf ihren Namen, Zugriff auf sie zu erhalten:</p>
-
-    <p>&nbsp;</p>
-
-    <div class="flexslider clearfix img-polaroid">
-      <ul class="slides">
-        <li>
-          <img src="img/database-create-1.jpg" alt="" />
-          <div class="flex-caption">
-            <p>1. Öffnen Sie den Tab "Databases (Datenbanken)", um zur Liste der Datenbanken zu gelangen.</p>
-          </div>
-        </li>                   
-        <li>
-          <img src="img/database-create-2.jpg" alt="" />
-          <div class="flex-caption">
-            <p>2.  Geben Sie den Namen der datenbank ein. <br>
-                        3. Klicken Sie den Button "Erstellen".</p>
-          </div>
-        </li>
-        <li>
-          <img src="img/database-create-3.jpg" alt="" />
-          <div class="flex-caption">
-            <p>4.  Die Datenbank gibt es jetzt in der Liste. Klicken Sie auf ihren Namen, Zugriff auf sie zu erhalten.</p>
-          </div>
-        </li> 
-      </ul>    
-    </div>
-
-    <p>&nbsp;</p>
-                
-    <p>Sie können auch das ausführliche Video-Tutorial nutzenм <i class="icon-film"> </i>  <a href="/help/de/how-to-create-a-database.html" target="_blank">Wie erstellt man eine Datenbank</a>.</p>
-
-    <div class="box-info"><span> Wenn Sie auf Schwierigkeiten beim Erstellen der Datenbank stoßen, müssen Sie sich in Verbindung mit Ihrem Hosting-Anbieter setzen, damit er Ihnen helfen kann.</span></div>
-  </article>
-
-  <!-- Uploading files -->
-  <article id="uploading">
-    <h4>Hochladen und Entpacken</h4>
-    <p class="">Bevor Sie mit OpenCart anfangen zu arbeiten, müssen Sie die Dateien auf den Hosting-Server hochladen. Dies können Sie anhand des Dateimanagers des Hosting oder anhand FTP Manager machen.</p>
-                
-      <ol>
-        <li>Öffnen Sie den Vorlagenordner.</li>
-        <li>Markieren Sie Dateien 'unzip.php' und 'themeXXX(full).zip' und laden Sie sie auf den Server hoch (
-          <i class="icon-film"> </i> <a href="/help/de/how-upload-files-server-2.html" target="_blank">Wie lädt man Dateien auf den Server hoch</a>, <i class="icon-film"> </i> <a href="/help/de/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html" target="_blank"> Wie lädt man Dateien per cPanel (WebHost Manager, WHM)</a>) hoch.</li>
-        <li>Geben Sie den Pfad zur Datei 'unzip.php' auf dem Server (<i class="muted">http://your_domain_name/unzip.php</i>) im <abbr title="Internet Explorer, Google Chrome, Mozilla Firefox, Opera, Safari etc.">Browser ein</abbr>.</li>
-        <li>Jetzt müssen Sie das folgende Fenster sehen:</li>
-      </ol>
-                
-      <figure class="img-paraloid"><img src="img/complete-install-unzip-php.jpg" alt="Unzip.php initial screen."></figure>
-      <p class="muted text-center">Bild 1. Startbildschirm des Unzip.php Skripts.</p>
-                
-      <ol start="5">
-        <li>Im Feld 'Choose your zip file (Wählen Sie zip Datei)' wählen Sie hochgeladene 'themeXXX(full).zip' Datei.</li>
-        <li>Im Feld 'Unzip to (Entpacken in)' legen Sie das Inhaltsverzeichnis fest, wo die Dateien entpackt werden müssen.</li>
-        <li>Drücken Sie den Button 'Unzip (Entpacken)', um die Dateien zu entpacken.</li>
-      </ol>
-                
-      <div class="box-info"><span>Legen Sie richtige Erlaubnisse für den Ordner fest, wo die Dateien entpackt werden müssen. Die Erlaubnisse müssen CHMOD 755 oder 777 abhängig von der Serverkonfiguration sein. </span></div>
-  </article>
-
-    
-  <!-- OpenCart installation -->
-
-  <article id="opencart-cms-installation">
-    <h4>OpenCart Installation</h4>
-    
-    <p>Öffnen Sie den Browser und geben Sie den Pfad zum Inhaltsverzeichnis OpenCart in der Adressleiste des Browsers (<i>zum Beispiel http://your_domain_name/opencart</i>) ein. Der Installationsbildschirm OpenCart muss angezeigt werden:</p>
-    
-    <p>&nbsp;</p>
-    <h5 id="opencart-install-configuration"><span class="badge">1 Installationsschritt</span> Lizenz</h5>    
-    <p>&nbsp;</p> 
-              
-      <figure class="img-polaroid"><img src="img/opencart-engine-installation-initital.jpg" alt=""></figure>
-      <p class="muted text-center">Bild 1. Installation OpenCart. Schritt 1. Lizenz</p>
-              
-      <p>Machen Sie sich mit der OpenCart Lizenz bekannt, und wenn Sie den Anforderungen zustimmen, wählen Sie die Option <strong>I agree to the license (Ich stimme den Lizenzanforderungen zu)</strong> und drücken Sie den Button <strong class="btn">Continue (Weiter)</strong>. </p>
-           
-
-    <p>&nbsp;</p>       
-    <h5 id="opencart-install-database"><span class="badge"> Schritt2</span> Vorbereitend</h5>
-    <p>&nbsp;</p>
-              
-      <figure class="img-polaroid"><img src="img/opencart-engine-installation-step2.jpg" alt=""></figure>
-      <p class="muted text-center">Bild 3. OpenCart Installation. Schritt 2. Vorbereitend</p>
-              
-      <p>Jetzt prüft OpenCart den Hosting-Server: ob seine Einstellungen den OpenCart Anforderungen entsprechen und ob alle Erlaubnisse der Dateien und Inhaltsverzeichnisses richtig festgelegt sind.</p>
-		<p>Überzeugen Sie sich, dass die Erlaubnisse auf folgende Dateien und Ordner der OpenCart Engine richtig festgelegt sind:</p>
-			<ul>
-			  <li>chmod 0755 oder 0777 image/</li>
-			  <li> chmod 0755 oder 0777 image/cache/</li>
-			  <li> chmod 0755 oder 0777 image/data/</li>
-			  <li> chmod 0755 oder 0777 system/cache/</li>
-			  <li> chmod 0755 oder 0777 system/logs/</li>
-			  <li> chmod 0755 oder 0777 download/</li>
-			  <li> chmod 0755 oder 0777 config.php</li>
-			  <li> chmod 0755 oder 0777 admin/config.php.</li>
-			</ul>
+	<head>
+		<title>OpenCart 2 Dokumentation</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/bootstrap.css" media="screen">
+		<link rel="stylesheet" href="css/responsive.css" media="screen">
+		<link rel="stylesheet" href="css/style.css" media="screen">
+		<link rel="stylesheet" href="css/flexslider.css" media="screen">
+		<link rel="stylesheet" href="css/prettify.css" media="screen">
+		<link rel="stylesheet" href="css/prettyPhoto.css" media="screen">
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.scrollTo.js"></script>
+		<script src="js/jquery-migrate-1.1.0.js"></script>
+		<script src="js/prettify.js"></script>
+		<script src="js/jquery.flexslider.js"></script>
+		<script src="js/bootstrap-affix.js"></script>
+		<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+		<script src="js/script.js"></script>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" media="all"
+		rel="stylesheet" type="text/css">
 		
-      
-
-    <p>&nbsp;</p>          
-    <h5 id="opencart-install-overview"><span class="badge">Schritt 3</span> Konfiguration</h5>
-    <p>&nbsp;</p>     
-      <figure class="img-polaroid"><img src="img/opencart-engine-installation-step3.jpg" alt=""></figure>
-      <p class="muted text-center">Bild 4. OpenCart Installation. Schritt 3. Konfiguration</p>
-      
-      <p>Jetzt müssen Sie Verbindungsdetails zur Datenbank angeben.  In dieser Vorbereitungsphase wurde  MySQL Datenbank erstellt und jetzt müssen Sie empfangene/festgelegte von Ihnen Details angeben:</p>
-      <ul>
-        <li>Datenbankserver;</li>
-        <li>Datenbankname;</li>
-        <li>Benutzername der Datenbank;</li>
-        <li>Benutzerpasswort der Datenbank;</li>
-	</ul>
-      <p></p>
-      <p>Wenn Sie auf Schwierigkeiten mit diesen Details stoßen, nehmen Sie den Kontakt mit Ihrem Hosting-Anbieter auf. </p>
+		<!--[if lt IE 8]>
+			<div style='text-align:center'>
+			<a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img
+			src="http://www.theie6countdown.com/img/upgrade.jpg" border="0" alt=""/></a>
+			</div>
+		<![endif]-->
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
 	
-      <p>Jetzt müssen Sie  das Profil des Shopmanagers erstellen. Geben Sie den Namen, das Passwort und die E-Mail-Adresse des Managers ein. Diese Details werden für den Zugang zum Control Panel OpenCart benutzt. </p>
-      
-
-
-    <p>&nbsp;</p>          
-    <h5 id="opencart-install-complete"><span class="badge">Schritt 4</span> Fertig!</h5>
-    <p>&nbsp;</p>
-              
-    
-              
-    <figure class="img-polaroid"><img src="img/opencart-engine-installation-step4.jpg" alt=""></figure>
-    <p class="muted text-center">Bild 5. OpenCart Installation. Schritt 4. Fertig!</p>
-              
-    <p>Das ist der letzte Installationsschritt der OpenCart Engine. Es gibt zwei Optionen: man kann entweder zur Webseite des  OpenCart Online-Shops oder zum Control Panel OpenCart gelangen.</p>
-
-    <p>Sie können auch das Tutorial zur Installation nutzen: <i class="icon-film"> </i> <a href="/help/de/opencart-how-to-install-opencart-engine-and-a-template-using-fullpackage.html" target="_blank">OpenCart. Wie installiert man  OpenCart Engine und Vorlage (anhand “fullpackage”) </a>.</p> 
-
-    <div class="box-info"><span> Löschen Sie den Ordner "install" auf dem Server. Sie können sich in den Online-Shop nicht einloggen, bis dieser Ordner auf dem Server ist.</span></div>
-    <p>Installieren Sie Erlaubnisse 644 oder 444 auf existierende Dateien, um den Zugriff auf diese Dateien zu beschränken:</p>
-			<ul>
-			  <li>config.php</li>
-			  <li>index.php</li>
-			  <li>admin/config.php</li>
-			  <li>admin/index.php</li>
-			  <li>system/startup.php.</li>
-			</ul>
-       
-  </article>
-    
-      <p>Installation wird abgeschlossen. Um den Online-Shop zu öffnen, geben Sie  <strong> Ihre Domainnamen </strong> in der Adressleiste des Browsers ein. Um den Zugriff zum Control Panel OpenCart zu erhalten, geben Sie <strong>Domain_Name/admin</strong> ein.</p>
-
-  </div>
-  <div class="block-templates" id="template-installation">
-    <h3>Installation auf den existierenden Online-Shop</h3>
-    
-    <div class="box-notification"><span>Überzeugen Sie sich, dass die Version Ihrer OpenCart Engine den Anforderungen der Vorlage entspricht. Alle OpenCart Versionen sind auf <a href=" http://www.opencart.com/index.php?route=download/download " target="_blank" class="spec_link"> der offiziellen OpenCart Webseite</a> verfügbar.</span></div>
-    <br />
-    <ol>
-      
-		<li>Um OpenCart Vorlage zu installieren, müssen Sie ihre Dateien auf en Hosting-Server hochladen. Im Vorlagenordner OpenCart finden Sie das Archiv <strong>&quot;themeXXX(update).zip&quot;</strong> und laden Sie es ins Stamminhaltsverzeichnis der installierten OpenCart Vorlage hoch.<br />
-                
-        Sie können auch das ausführliche Video-Tutorial nutzen, <a href="/help/de/how-upload-files-server-2.html" target="_blank"> wie lädt man Dateien auf den Hosting-Server hoch</a>.
-      <br />
-		<span class="info-box">Vorlagendateien werden in keinster Weise den Online-Shop beschädigen.</span></li>
+	<body>
 		
-		<li>Dann laden Sie die Datei <strong> <em>unzip.php</em></strong>  der Vorlage auf den Server in in demselben Inhaltsverzeichnis wie  vorheriges Archiv hoch.</li>
-		<li>Dann öffnen Sie die Webseite im Browser und fügen Sie - <em><strong>unzip.php</strong></em> zur URL hinzu. Die Adresse wird so aussehen: <strong>yourwebsite.com/unzip.php</strong>.</li>
-		<li>In der Liste <strong>"Choose your zip file" (Wählen Sie Ihre zip Datei)</strong>, markieren Sie die Datei <em><strong>themeXXX(update).zip</strong></em> und drücken Sie <strong>"Unzip" (Entpacken)</strong>. Dann wird das Entpacken der Dateien auf den Server in demselben Inhaltsverzeichnis begonnen. Dieser Prozess braucht Zeit.</li>
-		<li>Geben Sie <strong>yourwebsite.com/install/</strong> in der Adressleiste des Browsers ein .</li>
-		<li>Zum Schluss folgen Sie den Anleitungen zur Installation, die Sie auf dem Bildschirm sehen.</li>
-    <li> Loggen Sie ins Control Panel ein, gehen Sie ins Menü <strong>Extensions -> Extension Installer </strong>und laden Sie die Dateien aus dem Archiv <strong>themeXXX(extensions) </strong>hoch. Nachdem Sie alle Dateien hochgeladen haben, gehen Sie ins Menü <strong>Extensions -> Modifications </strong>und drücken Sie auf den Button <strong> refresh</strong> in der oberen rechten Ecke des Bildschirmes.</li>
+		<!-- header
+		================================================== -->
+		<header class="header">
+			<div class="container">
+				<div class="row">
+					<article class="span4"> <a class="brand" href="/help/" target="_blank"></a> </article>
+					<article class="span6">
+						<h1><img alt="" src="img/opencart_logo.png">OpenCart 2 Dokumentation</h1>
+					</article>
+					<article class="span2">
+						<div id="languages" class="select-menu pull-right">
+							<div class="select-menu_icon"><b>De</b><i class="icon-angle-down"></i></div>
+							<ul class="select-menu_list">
+							</ul>
+						</div>
+						<div id="versions" class="select-menu pull-right">
+							<div class="select-menu_icon"><b>v1-2</b><i class="icon-angle-down"></i></div>
+							<ul class="select-menu_list">
+                                <li class="active"> <a href="/help/quick-start-guide/OpenCart-templates/v1-2/index_de.html"><span>v1-2</span> </a> </li>
+                                <li> <a href="/help/quick-start-guide/OpenCart-templates/v1-0/index_ru.html"><span>v1-0</span> </a> </li>
+                                <li> <a href="/help/quick-start-guide/OpenCart-templates/v1-1/index_ru.html"><span>v1-1</span> </a> </li>
+							</ul>
+						</div>
+					</article>
+				</div>
+			</div>
+		</header>
+		<div id="content">
+			<div class="bg-content-top">
+				<div class="container"> 
+					
+					<!-- Docs nav
+					================================================== -->
+					<div class="row">
+						<div class="span3">
+							<div id="nav_container"> <a href="javascript:;" id="affect_all"> <span class="expand"> <i class="icon-angle-down"></i> </span> <span class="close"> <i class="icon-angle-up"></i> </span> </a>
+								<div class="clearfix"></div>
+								<ul class="nav nav-list bs-docs-sidenav" id="nav">
+									<li class="nav-item item1">
+										<dl class="slide-down">
+											<dt> <a href="#introduction" class="icon-info-sign">Einführung</a> </dt>
+											<dd></dd>
+										</dl>
+									</li>
+									<li class="nav-item item2">
+										<dl class="slide-down">
+											<dt> <a href="#prepare" class="icon-check">Vorbereitung</a> </dt>
+											<dd></dd>
+										</dl>
+									</li>
+									<li class="nav-item item3">
+										<dl class="slide-down">
+											<dt> <a href="#getting_started" class="icon-play">Anfang</a> <i class="icon-sample"></i></dt>
+											<dd>
+												<ul class="list">
+													<li> <a href="#complete_install">Vollständige Installation</a> </li>
+													<li> <a href="#template-installation">Die Installation auf bestehenden Online-Shop </a> </li>
+												</ul>
+											</dd>
+										</dl>
+									</li>
+									<li class="nav-item item4">
+										<dl class="slide-down">
+											<dt> <a class="icon-cog" href="#extension_configuration">Die Einstellung der Erweiterungen</a> <i class="icon-sample"></i></dt>
+											<dd>
+												<ul class="list">
+													<li> <a href="#module_install">Die Installation von Modulen</a> </li>
+													<li> <a href="#banner_create">Die Erstellung von Bannern</a> </li>
+													<li> <a href="#module_parallax">Parallax</a> </li>
+													<li> <a href="#module_category">TM Category</a> </li>
+													<li> <a href="#module_facebook">TM Facebook Box</a> </li>
+													<li> <a href="#module_twitter">TM Twitter Box</a> </li>
+													<li> <a href="#module_pinterest">TM Pinterest</a> </li>
+													<li> <a href="#module_olark">Olark live chat</a> </li>
+													<li> <a href="#module_slideshow">TM Slideshow</a> </li>
+													<li> <a href="#module_googlemap">TM Google Map</a> </li>
+													<li> <a href="#module_category_menu">TM Category Menu</a> </li>
+													<li> <a href="#module_cookie">TM Cookie Policy</a> </li>
+													<li> <a href="#module_instagram">TM Instagram</a> </li>
+													<li> <a href="#module_manufacturers">TM Manufacturers</a> </li>
+													<li> <a href="#module_tabs">TM Module Tabs</a> </li>
+													<li> <a href="#module_newsletter">TM Newsletter</a> </li>
+													<li> <a href="#module_newsletter_popup">TM Newsletter Popup</a> </li>
+													<li> <a href="#module_product_slideshow">TM Product Slideshow</a> </li>
+													<li> <a href="#module_social_list">TM Social List</a> </li>
+													<li> <a href="#module_video_background">TM Video Background</a> </li>
+													<li> <a href="#modification_search">TM Live search</a> </li>
+													<li> <a href="#modification_lazy">TM Lazy load</a> </li>
+												</ul>
+											</dd>
+										</dl>
+									</li>
+									<li class="nav-item item8">
+										<dl class="slide-down">
+											<dt> <a href="#addendum" class="icon-question-sign">Fazit</a> </dt>
+											<dd></dd>
+										</dl>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="span9"> 
+							
+							<!-- box-content
+							================================================== -->
+							<div class="box-content"> 
+								<!-- block-started
+								================================================== -->
+								<section class="block-started" id="introduction">
+									<h2><i class="icon-info-sign"></i> Einführung <small><i>Was eine Vorlage enthält und wofür man es nutzen kann</i></small> </h2>
+									<p>Vielen Dank, dass Sie OpenCart Vorlage gekauft haben. Die jeweilige Dokumentation besteht aus mehreren Teilen und beschreibt den ganzen Installationsprozess und alle Einstellungen der OpenCart Website bei Null. Wir haben alles Mögliche gemacht, um diese Anleitung bequem und einfach für Sie zu machen. </p>
+									<div id="opencart_cms_desc">
+										<h4>Was ist eigentlich OpenCart?</h4>
+										<p>OpenCart ist eine kostenlose E-Commerce-Plattform mit offenliegendem Quellcode. OpenCart ermöglicht es professionelle und sichere Basis zu erstellen, um einen erlogreichen Online-Shop aufzubauen. Zur Opencart Gemeinschaft gehören mehrere Benutzer wie: erfahrene Web-Entwickler, die bequemes Interface suchen, Inhaber eines Online-Shops, die zum ersten Mal eigenes Online Business starten. 
+									    OpenCart stellt Ihnen eine Menge Funktionen zur Verfügung, damit Sie Ihren Online-Shop völlig verwalten können. Dank der Werkzeuge, die Ihnen OpenCart anbietet, ist es möglich solchen Online-Shop zu erstellen, der allen Ihren Zwecken entsprechen wird. <a href="http://docs.opencart.com" target="_blank">Mehr</a> </p>
+									</div>
+									<div id="file_structure">
+										<h4>Dateistruktur</h4>
+										<p>Die Vorlage besteht aus den folgenden Ordnern und Dateien:</p>
+										<ul class="files_structure">
+											<li class="folder"><i class="icon-folder-close"></i> <b>documentation</b> <small class="muted"> - enthält ausführliche Anleitung zur Installation sowohl der Engine als auch der Vorlage; </small>
+												<ul>
+													<li class="file"><i class="icon-file"></i> documentation.html <small class="muted"> ist Hauptdokumentationsdatei. Sie lesen sie gerade :) </small> </li>
+												</ul>
+											</li>
+											<li class="folder"><i class="icon-folder-close"></i> <b>screenshots</b> <small class="muted"> - enthält Bildschirmfotos vom Theme;</small> </li>
+											<li class="folder"><i class="icon-folder-close"></i> <b>themeXXX</b> <small class="muted"> - enthält:</small>
+												<ul>
+													<li class="folder"><i class="icon-file"></i> <b>themeXXX(full).zip</b> <small class="muted"> - das Archiv mit der OpenCart Engine, Vorlage und Demodaten vom Theme (es wird für die Installation bei Null benutzt); </small> </li>
+													<li class="folder"><i class="icon-file"></i> <b>themeXXX(update).zip</b> <small class="muted"> - das Archiv mit der Vorlage ohne Demodaten (es wird für die Installation auf bestehenden Online-Shop benutzt); </small> </li>
+													<li class="folder"><i class="icon-file"></i> <b>themeXXX(extensions).zip</b> <small class="muted"> - das Archiv mit xml-Dateien;</small> </li>
+												</ul>
+											</li>
+											<li class="folder"><i class="icon-file"></i> <b>info.txt </b> <small class="muted"> - die Anleitungen zum Entpacken von Quelldateien;</small> </li>
+											<li class="folder"><i class="icon-file"></i> <b>sources_XXXXXXXX.zip</b> <small class="muted"> - das Archiv mit Quelldateien. Es enthält:</small>
+												<ul>
+													<li class="folder"><i class="icon-folder-close"></i> <b>psd</b> <small class="muted"> - enthält die Quelldatei der Vorlage im Format Adobe Photoshop (.psd); </small></li>
+													<li class="folder"><i class="icon-folder-close"></i> <b>SCSS</b> <small class="muted"> - enthält die CSS-Quelldateien, die mit Hilfe von SCSS geschrieben wurden. </small> </li>
+												</ul>
+											</li>
+										</ul>
+									</div>
+								</section>
+								<section class="block-templates" id="prepare">
+									<h2><i class="icon-check"></i> Vorbereitung <small><i>Was man vor allem machen soll</i></small> </h2>
+									<p>Bevor Sie anfangen, Ihre OpenCart Website zu installieren, müssen Sie alles gründlich vorbereiten. </p>
+									<div id="software">
+										<h4>Software</h4>
+										<p>Damit die OpenCart Vorlage korrekt funktioniert, empfehlen wir Ihnen alle erforderlichen Anwendungen herunterzuladen. Die Liste der erforderlichen Software befindet sich auf der Vorschauseite Ihrer Vorlage. Anforderungen an verschiedene Vorlage können sich unterscheiden, deswegen nennen wir nur allgemeine Anforderungen:</p>
+										<ol>
+											<li> Sie benötigen das Programm Adobe Photoshop. Es wird bei der Bearbeitung von Quelldateien .PSD benutzt. Außerdem brauchen Sie dieses Programm, wenn Sie entweder das Grafikdesign oder Bilder Ihrer Vorlage ändern möchten. </li>
+											<li>Um den Quellcode Ihrer Vorlagendateien zu bearbeiten, sollen Sie den Code-Editor wie, zum Beispiel, Adobe Dreamweaver, Notepad++, Sublime Text usw. nutzen. </li>
+											<li>Um Dateien aufs Hosting hochzuladen, brauchen Sie den FTP-Manager wie Total Commander, FileZilla, CuteFTP usw. </li>
+											<li>Nutzen Sie die folgenden Anleitungen, um Archive mit Hilfe von <a href="/help/extract-archived-files-windows-os.html" target="_blank"> WinZip(PC) </a> und <a href="/help/extract-archived-files-mac-os.html" target="_blank"> StuffitExpander(MAC)</a> zu entpacken. </li>
+										</ol>
+									</div>
+									<div id="hosting">
+										<h4>Hosting</h4>
+										<p>OpenCart basiert auf solche Anwendungen wie PHP/MySQL, aus diesem Grund müssen Sie den Hosting-Server vorbereiten. </p>
+										<p>Wenn Sie einen aktiveren Server haben, müssen Sie dann überprüfen, ob er den Systemanforderungen <a href="http://docs.opencart.com/system/server-requirements" target="_blank"> entspricht </a> und ob Ihre OpenCart Website auf ihm korrekt funktionieren wird. </p>
+										<p>Sie können OpenCart auch auf Ihrem Computer mit Hilfe von einem lokalen Server installieren. Um einen lokalen Hosting-Server zu erstellen, müssen Sie die Software wie <b>WAMP</b>, <b>AppServ</b>, <b>MAMP</b> usw. nutzen. Jede von ihnen wird wie ein Programm, das OpenCart unterstützt, installiert. </p>
+										<p>Sie können die folgenden Anleitungen nutzen, um den lokalen Server einzustellen:</p>
+										<ul class="unstyled">
+											<li><i class="icon-film"> </i> <a href="/help/how-to-install-appserv-web-development-environment.html" target="_blank">Wie man die Webentwicklungsumgebung wie AppServ installiert </a> </li>
+											<li><i class="icon-film"> </i> <a href="/help/how-to-install-wamp-web-development-environment.html" target="_blank">Wie man die Webentwicklungsumgebung wie WAMP installiert </a> </li>
+											<li><i class="icon-film"> </i> <a href="/help/how-to-install-xamp-web-development-environment.html" target="_blank">Wie man die Webentwicklungsumgebung wie XAMP installiert</a>. </li>
+										</ul>
+									</div>
+								</section>
+								<section class="block-templates" id="getting_started">
+									<h2><i class="icon-play"></i> Anfang <small><i>Worauf man klicken soll, um die Arbeit mit OpenCart anzufangen</i></small> </h2>
+									<div class="row-fluid">
+										<div class="span6 text-center img-paraloid">
+											<h3> <a href="#complete_install" class="scrollTo">Vollständige Installation</a> </h3>
+											<p>Diese Installationsart wird benutzt, wenn Sie noch keine fertige OpenCart Website haben. Das Archiv 
+												'themeXXX(full).zip' enthält die Dateien der OpenCart Engine und des Themes mit Demodaten, deswegen müssen Sie die OpenCart Engine separat nicht hochladen. Die Demodaten ermöglichen es Iherer Website genauso wie Ihre Vorlage auf der Vorschauseite mit allen Produkten, Modulen und Einstellungen auszusehen. </p>
+											<p>&nbsp;</p>
+										</div>
+										<div class="span6 text-center img-paraloid">
+											<h3> <a href="#template-installation" class="scrollTo">Installation auf bestehenden Online-Shop </a> </h3>
+											<p>Folgen Sie dieser Installationsart, wenn Sie schon eine OpenCart Website haben und ihr Aussehen ändern möchten, indem Sie ein neues Theme installieren.</p>
+											<p>&nbsp;</p>
+										</div>
+									</div>
+									
+									<!-- Full OpenCart Installation -->
+									<div id="complete_install">
+										<h3>Vollständige Installation</h3>
+										<p>Die vollständige Installation wird benutzt, wenn Sie Ihre OpenCart Website bei Null installieren. Dafür müssen Sie alles, was oben geschrieben ist, vorbereiten und <a href="#prepare">alle erforderlichen Programme</a> herunterladen. </p>
+										
+										<!-- Creating database -->
+										
+										<article id="creating-database">
+											<h4>Erstellen der Datenbank</h4>
+											<p>Nachdem Sie alle Dateien auf den Hosting-Server hochgeladen haben, müssen Sie eine neue Datenbank für Ihre OpenCart Website vorbereiten. Sie können sie mit Hilfe von dem Datenbank-Verwaltungswerkzeug im Hosting Control Panel (<i>normalerweise PhpMyAdmin</i>) erstellen.</p>
+											<p>Mit Hilfe von phpMyAdmin kann man die neue Datenbank in drei einfachen Schritten erstellen: (schauen Sie sich die folgenden Dias an):</p>
+											<ol class="list">
+												<li>Drücken Sie auf den Button Databases (Datenbank) in dem oberen Navigationsmenü, um zur Liste der Datenbanken zu gelangen. </li>
+												<li>Geben Sie den Namen der Datenbank ins Feld "Create new database (Neue Datenbank erstellen)" ein.</li>
+												<li>Drücken Sie auf den Button rechts Create (Erstellen).</li>
+											</ol>
+											<p>Die Datenbank wird in der Liste angezeigt. Klicken Sie auf sie, um den Zugriff auf die Datenbank zu erhalten:</p>
+											<p>&nbsp;</p>
+											<div class="flexslider clearfix img-polaroid">
+												<ul class="slides">
+													<li> <img src="img/database-create-1.jpg" alt=""/>
+														<div class="flex-caption">
+															<p>1. Öffnen Sie den Tab "Databases (Datenbank)", um zur Liste der Datenbanken zu gelangen.</p>
+														</div>
+													</li>
+													<li> <img src="img/database-create-2.jpg" alt=""/>
+														<div class="flex-caption">
+															<p>2. Geben Sie den Namen der Datenbank ein. <br>
+															3. Klicken Sie auf den Button "Erstellen".</p>
+														</div>
+													</li>
+													<li> <img src="img/database-create-3.jpg" alt=""/>
+														<div class="flex-caption">
+															<p>4. Die Datenbank wird in der Liste angezeigt. Klicken Sie auf sie, um den Zugriff auf die Datenbank zu erhalten.</p>
+														</div>
+													</li>
+												</ul>
+											</div>
+											<p>&nbsp;</p>
+											<p>Sie können auch die ausführliche Video-Anleitung <i
+											class="icon-film"> </i> <a href="/help/how-to-create-a-database.html" target="_blank">Wie man eine Datenbank erstellt</a> nutzen. </p>
+											<div class="box-info"><span> Wenn Sie Schwierigkeiten beim Erstellen der Datenbank haben, nehmen Sie den Kontakt mit dem Hosting-Anbieter auf.</span> </div>
+										</article>
+										
+										<!-- Uploading files -->
+										<article id="uploading">
+											<h4>Hochladen der Vorlage</h4>
+											<p class="">Um mit OpenCart arbeiten zu können, müssen Sie die Dateien auf den Hosting-Server hochladen. Dies können Sie mit Hilfe von dem Dateimanager oder FTP-Manager machen.</p>
+											<ol>
+												<li>Öffnen Sie den Ordner Ihrer Vorlage.</li>
+												<li>Finden Sie den Ordner 'themeXXX' und entpacken Sie das Archiv 'themeXXX(full).zip' auf Ihrem Computer. Den Inhalt des Archives laden Sie auf den Server (<i class="icon-film"> </i> <a href="/help/how-upload-files-server-2.html" target="_blank">Wie man die Dateien auf den Server hochlädt</a>, <i class="icon-film"> </i> <a href="/help/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html" target="_blank"> Wie man die Dateien mit Hilfe vom cPanel (WebHost Manager, WHM) hochlädt</a>) hoch.</li>
+												<li>Legen Sie die richtigen Berechtigungen für die folgenden Ordner und Dateien der OpenCart Engine fest:
+													<ul>
+														<li>system/cache/;</li>
+														<li>system/logs/;</li>
+														<li>system/download/;</li>
+														<li>system/upload/;</li>
+														<li>image/;</li>
+														<li>image/cache/;</li>
+														<li>image/catalog/;</li>
+														<li>config.php;</li>
+														<li>admin/config.php.</li>
+													</ul>
+													<p>Die Berechtigungen müssen CHMOD 755 oder 777 abhängig von der Serverkonfiguration sein. Markieren Sie dafür die gewünschten Dateien und Ordner, wenn Sie mit dem Dateimanager arbeiten und finden Sie den Button "Berechtigungen ändern". Wenn Sie mit Linux arbeiten, brauchen Sie dann chmod -R 777 "Ordner_name".</p>
+												</li>
+											</ol>
+										</article>
+										
+										<!-- OpenCart installation -->
+										
+										<article id="opencart-cms-installation">
+											<h4>OpenCart Installation</h4>
+											<p>Öffnen Sie den Browser und schreiben Sie den Pfad zum OpenCart Verzeichnis in der Adressleiste des Browsers (<i>zum Beispiel, http://your_domain_name/opencart</i>). Der Installationsbildschirm OpenCart muss angezeigt werden:</p>
+											<p>&nbsp;</p>
+											<h5 id="opencart-install-configuration"><span class="badge"> Installationsschritt 1</span> Lizenz</h5>
+											<p>&nbsp;</p>
+											<figure class="img-polaroid"><img
+											src="img/opencart-engine-installation-initital.jpg" alt=""></figure>
+											<p class="muted text-center">Bild 1. OpenCart Installation. Schritt 1. Lizenz</p>
+											<p>Machen Sie sich mit der OpenCart Lizent bekannt und wenn Sie ihren Bedingungen zustimmen, drücken Sie auf den Button <strong class="btn">Continue (Weiter)</strong>.</p>
+											<p>&nbsp;</p>
+											<h5 id="opencart-install-database"><span class="badge"> Schritt 2</span> Vorstufe</h5>
+											<p>&nbsp;</p>
+											<figure class="img-polaroid"><img src="img/opencart-engine-installation-step2.jpg"
+											alt=""></figure>
+											<p class="muted text-center">Bild 2. OpenCart Installation. Vorstufe 2</p>
+											<p>Auf dieser Stufe überprüft OpenCart den Hosting-Server, ob er den OpenCart Anforderungen entspricht und die Berechtigungen für Dateien und Verzeichnisse richtig festgelegt wurden.</p>
+											<p>&nbsp;</p>
+											<h5 id="opencart-install-overview"><span class="badge">Schritt 3</span> Konfiguration </h5>
+											<p>&nbsp;</p>
+											<figure class="img-polaroid"><img src="img/opencart-engine-installation-step3.jpg"
+											alt=""></figure>
+											<p class="muted text-center">Bild 3. OpenCart Installation. Stuge 3. Konfiguration</p>
+											<p>Auf dieser Stufe sollen Sie Details zur Datenbankverbindung angeben. Auf der Vorbereitungsstufe wurde die Datenbank MySQL erstellt und jetzt sollen Sie erhaltene/festgelegte von Ihnen Details angeben:</p>
+											<ul>
+												<li>Datenbankserver;</li>
+												<li>Datenbankname;</li>
+												<li>Benutzername der Datenbank;</li>
+												<li>Benutzerpasswort der Datenbank.</li>
+											</ul>
+											<p></p>
+											<p>Wenn Sie Schwierigkeiten mit diesen Details haben, nehmen Sie den Kontakt mit Ihrem Hosting-Anbieter auf. </p>
+											<p>Sie sollen auch das Administratorprofil erstellen. Geben Sie bitte den Namen, das Passwort und die E-Mail-Adresse an. Diese Details werden für den Zugriff auf das Control Panel
+											OpenCart benutzt. </p>
+											<p>&nbsp;</p>
+											<h5 id="opencart-install-complete"><span class="badge">Schritt 4</span> Fertig!</h5>
+											<p>&nbsp;</p>
+											<figure class="img-polaroid"><img src="img/opencart-engine-installation-step4.jpg"
+											alt=""></figure>
+											<p class="muted text-center">Bild 4. OpenCart Installation. Stufe 4. Fertig!</p>
+											<p>Es ist die letzte Installationsstufe der OpenCart Engine. Es gibt zwei Optionen: Sie können entweder zur Ihren OpenCart Website oder zum OpenCart Control Panel gelangen.</p>
+											<p>Sie können auch die Anleitung zur Installation: <i class="icon-film"> </i> <a href="/help/opencart-2-x-how-to-install-opencart-engine-and-a-template-using-fullpackage.html" target="_blank">OpenCart. Wie man die Engine und Vorlage OpenCart (mit Hilfe von “fullpackage”) installiert,</a> nutzen. </p>
+											<div class="box-info"><span> Entfernen Sie den Ordner "install" vom Server. Sie können Ihren Online-Shop nicht öffnen, wenn dieser Ordner auf dem Server ist.</span> </div>
+											<p>Legen Sie die Berechtigungen 644 oder 444 für die folgenden Dateien fest, um den Zugriff auf Dateien beschränken:</p>
+											<ul>
+												<li>config.php;</li>
+												<li>index.php;</li>
+												<li>admin/config.php;</li>
+												<li>admin/index.php;</li>
+												<li>system/startup.php.</li>
+											</ul>
+										</article>
+										<p>Installation ist abgeschlossen. Um den Online-Shop zu öffnen, schreiben Sie Ihren Domainnamen <strong> in der Adresszeile </strong> des Browsers. Für den Zugriff zum OpenCart Control Panel schreiben Sie den <strong>Domain_namen/admin</strong>.</p>
+									</div>
+									<div class="block-templates" id="template-installation">
+										<h3>Die Installation auf bestehenden Online-Shop</h3>
+										<div class="box-notification"><span>Überzeugen Sie sich davon, dass die Version Ihrer OpenCart Engine allen Anforderungen entspricht. Alle Versionen OpenCart sind auf der <a
+											href=" http://www.opencart.com/index.php?route=download/download"
+										target="_blank" class="spec_link"> offiziellen Webseite OpenCart verfügbar</a>.</span></div>
+										<br/>
+										<ol>
+											<li>Um die OpenCart Vorlage zu installieren, müssen Sie ihre Dateien auf den Hosting-Server hochladen. Im Ordner Ihrer OpenCart Vorlage finden Sie das Archiv <strong> &quot;themeXXX(update).zip&quot;</strong> und entpacken Sie es auf Ihrem Computer.</li>
+											<li>Nachdem laden Sie die entpackten Dateien in das Stammverzeichnis der installierten OpenCart Vorlage. <br/>
+												Sie können auch die ausführliche Video-Anleitung nutzen <a href="/help/how-upload-files-server-2.html" target="_blank"> Wie man die Dateien auf das Hosting hochlädt</a>. <br/>
+											<span class="info-box">Die Vorlagendateien schaden den Online-Shop in keinster Weise;</span> </li>
+											<li>Danach öffnen Sie Ihre Website im Browser und fügen Sie /install am Ende der Adresszeile hinzu (<i>zum Beispiel, http://your_domain_name/opencart/install</i>) </li>
+											<li>Auf der Seite, die auf dem Bildschirm angezeigt ist, drücken Sie auf den Button <strong>Continue (Weiter)</strong>. Aktualisierung vom Theme kann einige Zeit dauern. </li>
+											<li>Loggen Sie sich ins Control Panel Ihrer Website ein, finden Sie Menü <strong>Erweiterungen -> Erweiterungen-Installateur  (Extensions -> Extension	Installer)</strong> und laden Sie die Dateien aus dem Archiv  <strong>themeXXX(extensions)</strong> hoch. Nachdem Sie alle Archivdateien hochgeladen haben, finden Sie Menü <strong>Erweiterungen -> Modifikationen (Extensions -> Modifications)</strong> und drücken Sie auf den Button <strong>Aktualisieren(refresh)</strong> in der oberen rechten Ecke des Bildschirmes; </li>
+											<li>Danach finden Sie die Einstellungen des Online-Shops <strong>System -> Einstellungen (System -> Settings)</strong>, und im Tab Shop (Store) im Feld Vorlage (Template) wählen Sie das Theme - <strong>themeXXX</strong> aus. </li>
+										</ol>
+										<p><strong>Sie können auch die Anleitung zur Installation nutzen:</strong> <a target="_blank"
+											href="/help/opencart-2-x-how-to-install-a-template-over-the-existing-store-using-update-package.html"> OpenCart. Wie man die Vorlage auf bestehenden Online-Shop (mit Hilfe von dem Archiv 
+											“update”) installiert</a>. </p>
+									</div>
+								</section>
+								<section class="block-templates" id="extension_configuration">
+									<h2><i class="icon-cog"></i> Die Einstellung von Erweiterungen</h2>
+									<div id="module_install">
+										<h3>Die Installation von Modulen</h3>
+										<p>Die Installation von Modulen wird in ein paar Schritten durchgeführt. Öffnen Sie das Admin Panel, indem Sie /admin zur Adresszeile www.yoursite.com/admin hinzufügen. Danach wählen Sie in der Seitenleiste den Tab <strong> Erweiterungen (Extensions)</strong> und in der DropDownListe <strong>Module (Modules)</strong> (Bild5) aus. In dem DropDownFenster sind alle installierten und fertigen zur Installation Module angezeigt. Wenn es neben dem Namen den Button <strong>Deinstallieren (Uninstall)</strong> gibt, bedeutet das, dass das Modul schon installiert wurde und wenn Sie auf den Button <strong>Bearbeiten (Edit)</strong> drücken, können Sie die Einstellungen dieses Moduls bearbeiten. Wenn Sie auf den Button <strong>Installieren (Install)</strong> drücken, installieren Sie dieses Modul. Wenn Sie das Modul entfernen möchten, sollen Sie dann auf den Button <strong>Deinstallieren (Uninstall)</strong> drücken, um das jeweilige Modul zu entfernen. </p>
+										<div class="box-info"> <span>Achten Sie darauf, dass beim Entfernen des Moduls alle seinen Einstellungen auch entfernt werden, die es nicht möglich ist, wiederherzustellen.</span> </div>
+										<figure class="img-polaroid"> <img src="img/install_1.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 5. Installation vom Modul</p>
+										<p>Nachdem Sie das Modul installiert haben, müssen Sie es auch einzustellen. Zwar können sich die Einstellungen abhängig von dem Modul unterscheiden, aber es gibt ein Pflichfeld <strong>Status</strong> (Bild 6) - das jeweilige Feld aktiviert/deaktiviert unser Modul.</p>
+										<figure class="img-polaroid"> <img src="img/edit-module_1.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 6. Die Bearbeitung vom Modul</p>
+										<p>Um das Modul zur Seite hinzuzufügen, sollen Sie erst die Liste von Seiten finden. Es gibt zwei Möglichkeiten dafür (Bild 7):</p>
+										<ol class="list">
+											<li>In der Seitenleiste finden Sie den Bereich <strong>System -> Design -> Layout (System -> Design -> Layout)</strong>;</li>
+											<li>Indem Sie sich in dem Modulbereich befinden, drücken Sie auf den Link <strong>here</strong>.</li>
+										</ol>
+										<figure class="img-polaroid"> <img src="img/page-selecting-way.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 7. Die Auswahl von Seiten für die Bearbeitung</p>
+										<p>Wählen Sie eine Seite aus der Liste aus, zu der Sie das Modul hinzufügen möchten. Neben ihr drücken Sie auf den Button <strong>Bearbeiten (Edit)</strong> (Bild 8).</p>
+										<figure class="img-polaroid"> <img src="img/list-of-pages.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 8. Die Auswahl einer Seite für die Bearbeitung</p>
+										<p>Hier finden Sie eine Liste der Module und ihrer Positionen, die schon auf der Seite sind (Bild 9). </p>
+										<figure class="img-polaroid"> <img src="img/layout.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 9. Hinzufügen von Modulen zur Seite</p>
+										<p>Es sind die folgenden Positionen verfügbar (nach der Anzeigereihenfolge):</p>
+										<ol class="list">
+											<li>Header Top (nach der Sektion Header);</li>
+											<li>Column-left (linke Seitenleiste);</li>
+											<li>Column-right (rechte Seitenleiste);</li>
+											<li>Content-top;</li>
+											<li>Content-bottom;</li>
+											<li>Footer.</li>
+										</ol>
+										<p>Das Feld <strong>Sortierreihenfolge (Sort Order)</strong> zeigt die Anzeigereihenfolge von Modulen auf der Seite, die sich in einer Positione befinden. Um das Modul zur Seite hinzuzufügen, drücken Sie auf den Button <strong>Modul hinzufügen (Add Module)</strong>. In der Zeile, die Sie gerade sehen, wählen Sie das gewünschte Modul und seine Position auf der Seite aus, drücken Sie auf den Button <strong>Speichern (Save)</strong>. Die Modulinstallation ist abgeschlossen. </p>
+									</div>
+									<div id="banner_create">
+										<h3>Erstellen von Bannern</h3>
+										<h4>Modifikation TM Description for banners</h4>
+										<p>Die Modifikation wird gebraucht, um die Beschreibungen von Bannern hinzuzufügen.
+										Um die Modifikation zu entfernen oder zu deaktivieren, öffnen Sie <strong>Erweiterungen -> Modifikation (Extensions -> Modifications)</strong> finden Sie in der Liste "TM Description fo banners" Erweiterung und drücken Sie auf den Button <strong>Deaktivieren (Disable)</strong> oder <strong>Entfernen (Delete)</strong>. </p>
+										<p>Die Einstellungen einiger Module haben das Feld zur Auswahl vom Banner, das gebraucht wird. Finden Sie den Bereich <strong> System -> Design -> Banner (System -> Design -> Banner)</strong> (Bild 10).</p>
+										<figure class="img-polaroid"> <img src="img/banner-list.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 10. Die Seite von Bannern</p>
+										<p>Auf der jeweiligen Seite ist die Liste von erstellten Bannern angezeigt. Um ein neues Banner zu erstellen, drücken Sie auf den Button <strong>Neu hinzufügen (Add New)</strong>, um das aktuelle Banner zu bearbeiten, drücken Sie auf den Button
+										<strong>Bearbeiten (Edit)</strong>.</p>
+										<figure class="img-polaroid"> <img src="img/edit-banner.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 11. Die Bearbeitung vom Banner </p>
+										<p>Geben Sie jetzt Banner Name, Status an und drücken Sie auf den Button <strong>Banner hinzufügen (Add Banner)</strong>. In der Tabelle, die Sie gerade sehen, legen Sie das Folgende fest: </p>
+										<ol class="list">
+											<li>Bannername;</li>
+											<li>Beschreibung - der Text, der auf dem Banner angezeigt wird (html-Markup wird unterstützt); </li>
+											<li>Link - legen Sie den relativen Link fest. Es ist der Link relativ zur Website-Adresse (zum Beispiel,
+												index.php?route=product/product&amp;product_id=47) die jeweilige Option ist nicht obligatorisch; </li>
+											<li>Bild;</li>
+											<li>Reihenfolge des Banners. Sie können mehr als ein Banner haben, deswegen muss dieses Feld unbedingt ausgefüllt werden. </li>
+										</ol>
+										<p>Um das Banner zu entfernen, drücken Sie auf den Button <strong>Entfernen (Remove)</strong>. Nachdem Sie das Banner erstellt haben, können Sie es für andere Module nutzen.</p>
+									</div>
+									<div id="module_parallax">
+										<h3>Parallax</h3>
+										<p> Parallax Scrolling ist eine spezielle Scrolling-Technik in der Computergraphik. Dank ihm bewegen sich die Bilder im Hintergrund langsamer als Inhalt, der sich im Vordergrund befindet. Dadurch wird die Illusion von Tiefe und der Effekt des Eintauchens in ein zweidimensionales Videospiel geschaffen.
+										Dank diesem Modul fügen Sie den Parallax-Effekt zur Website ohne zusätzliche Fähigkeiten und Anstrengungen hinzu. </p>
+										<p>Nachdem Sie dieses Modul installiert haben, können Sie es auf der Seite der Moduleinstellungen einstellen (Bild 12).</p>
+										<figure class="img-polaroid"> <img src="img/edit-parallax.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 12. Die Moduleinstellung Parallax</p>
+										<h4>Einstellungen:</h4>
+										<ol>
+											<li><strong>Module Name</strong> - Modulname;</li>
+											<li><strong>Banner</strong> - wählen Sie aus der Liste von Bannern, die Sie vorher erstellt haben, <a href='#banner_create'>aus</a>; </li>
+											<li><strong>Width</strong> - die Bildbreite für das Modul;</li>
+											<li><strong>Height</strong> - die Bildhöhe für das Modul;</li>
+											<li><strong>Status</strong> - der Modulstatus (aktiviert/deaktiviert).</li>
+										</ol>
+										<div class="box-info"> <span>Sowohl die Breite als auch die Höhe des Bildes müssen dem Originalbild, das standardmäßig benutzt wird, entsprechen. Andererseits wird der Effekt Ihren Erwartungen nicht entsprechen. </span> </div>
+									</div>
+									<div id="module_category">
+										<h3>TM Category</h3>
+										<p>Das jeweilige Modul ermöglicht es sowohl Kategorien als ein Akkordeonmenü als auch alle Unterkategorien (Bild 13) anzuzeigen. Normalerweise wird es in der Seitenleiste benutzt. </p>
+										<figure class="img-polaroid"> <img src="img/tm-category-view.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 13. Das Aussehen des Moduls TM Category</p>
+										<h4>Einstellungen:</h4>
+										<p>Nachdem Sie das Modul installiert haben, können Sie es auf der Konfigurationsseite aktivieren und deaktivieren.</p>
+									</div>
+									<div id="module_facebook">
+										<h3>TM Facebook Box</h3>
+										<p>Das jeweilige Modul zeigt Facebook like box an. Es zeigt sowohl Gesichter als auch die Anzahl der Fans, denen Ihre Webseite oder Ihre Marke (Bild 14) gefällt.</p>
+										<figure class="img-polaroid"> <img src="img/tm-facebook-view.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 14. Das Aussehen des Moduls TM Facebook</p>
+										<p>Nachdem Sie das Modul installiert haben, können Sie es auf der Konfigurationsseite einstellen (Bild 15).</p>
+										<figure class="img-polaroid"> <img src="img/tm-facebook-edit.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 15. Die Moduleinstellung TM Facebook</p>
+										<h4>Einstellungen:</h4>
+										<ol class="list">
+											<li><strong>Module Name</strong> - Modulname;</li>
+											<li><strong>Facebook Page URL</strong> - der Link zur Facebook Seite;</li>
+											<li><strong>Color Scheme</strong> - Farbschema (hell, dunkel );</li>
+											<li><strong>Show Faces</strong> - die Gesichter von Benutzern, denen die Seite gefällt (yes, no) zeigen; </li>
+											<li><strong>Show Stream</strong> - die letzten Beiträge (yes, no) zeigen;</li>
+											<li><strong>Show Header</strong> - den Block-Titel (yes, no) zeigen;</li>
+											<li><strong>Show Border</strong> - die Blockgrenze (yes, no) zeigen;</li>
+											<li><strong>Width</strong> - die Blockbreite in Pixel;</li>
+											<li><strong>Height </strong> - die Blockhöhe in Pixel;</li>
+											<li><strong>Status</strong> - der Modulstatus (aktviert/deaktiviert).</li>
+										</ol>
+									</div>
+									<div id="module_twitter">
+										<h3>TM Twitter Box</h3>
+										<p>Das jeweilige Modul zeigt die Beiträge aus dem sozialen Netzwerk Twitter (Bild 16) an. Dank ihm sehen Ihre Webseitenbesucher die letzten Aktualisierungen auf Ihrer Seite bei Twitter.</p>
+										<figure class="img-polaroid"> <img src="img/tm-twitter-view.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 16. Das Aussehen des Moduls TM Twitter</p>
+										<p>Nachdem Sie das Modul installiert haben, können Sie es auf der Konfigurationsseite einstellen (Bild 17).</p>
+										<figure class="img-polaroid"> <img src="img/tm-twitter-edit.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 17. Die Modulbearbeitung TM Twitter</p>
+										<h4>Einstellungen:</h4>
+										<ol class="list">
+											<li><strong>Module Name</strong> - der Modulname;</li>
+											<li><strong>Twitter Page URL</strong> - der Link zum Twitter Konto;</li>
+											<li><strong>Widget ID</strong> - Widget ID, die Sie hier <a href="https://twitter.com/settings/widgets" target="_blank">erhalten können</a>; </li>
+											<li><strong>Tweet Limit</strong> - die Anzahl der Tweets;</li>
+											<li><strong>Color Scheme</strong> - das Farbschema (hell, dunkel);</li>
+											<li><strong>Width</strong> - die Blockbreite in Pixel;</li>
+											<li><strong>Height</strong> - die blockhöhe in Pixel;</li>
+											<li><strong>Status</strong> - der Modulstatus (aktiviert/deaktiviert).</li>
+										</ol>
+									</div>
+									<div id="module_pinterest">
+										<h3>TM Pinterest</h3>
+										<p>TM Pinterest Modul (Bild 17) ermöglicht es die Pinterest Galerie in Ihrem Online-Shop anzuzeigen. </p>
+										<figure class="img-polaroid"> <img src="img/tm-pinterest-view.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 18. das Aussehen des Moduls TM Pinterest</p>
+										<p>Nachdem Sie das Modul installiert haben, können Sie es auf der Konfigurationsseite einstellen (Bild 19).</p>
+										<figure class="img-polaroid"> <img src="img/tm-pinterest-edit.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 19. Die Modulbearbeitung TM Pinterest</p>
+										<h4>Einstellungen:</h4>
+										<ol class="list">
+											<li><strong>Module Name</strong> - der Modulname;</li>
+											<li><strong>Pinterest Page URL</strong> - der vollständige Pfad zur Seite, von der dies angezeigt wird; </li>
+											<li><strong>Width</strong> - die Blockbreite in Pixel;</li>
+											<li><strong>Height</strong> - die blockhöhe in Pixel; </li>
+											<li><strong>Status</strong> - der Modulstatus (aktiviert/deaktiviert).</li>
+										</ol>
+									</div>
+									<div id="module_olark">
+										<h3>Olark Live Chat</h3>
+										<p>Das Modul Olark Live Chat für OpenCart (Bild 20).</p>
+										<figure class="img-polaroid"> <img src="img/olark-view.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 20. Das Aussehen des Moduls Olark Live Chat</p>
+										<p>Nachdem Sie das Modul installiert haben, können Sie es auf der Konfigurationsseite einstellen (Bild 21).</p>
+										<figure class="img-polaroid"> <img src="img/olark-edit.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 21. De Modulbearbeitung Olark Live Chat</p>
+										<h4>Einstellungen:</h4>
+										<ol class="list">
+											<li><strong>Module Name</strong> - der Modulname;</li>
+											<li><strong>Site id</strong> - die Website-ID, die nach der  Registrierung und dem Ausfüllen aller erforderlichen Daten auf der Seite angezeigt wird <a href='https://www.olark.com/install' rel="nofollow" target="_blank">https://www.olark.com/install</a>; </li>
+											<li><strong>Status</strong> - der Modulstatus (aktviert/deaktiviert).</li>
+										</ol>
+									</div>
+									<div id="module_slideshow">
+										<h3>TM Slideshow</h3>
+										<p>Das jeweilige Modul ermöglicht es den Camera Slider auf Ihrer Website anzuzeigen. </p>
+										<p>Nachdem Sie das Modul installiert haben, können Sie es auf der Konfigurationsseite einstellen (Bild 22).</p>
+										<figure class="img-polaroid"> <img src="img/tm-slideshow-edit.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 22. Die Modulbearbeitung TM Slideshow</p>
+										<h4>Einstellungen:</h4>
+										<ol class="list">
+											<li><strong>Module Name</strong> - der Modulname; </li>
+											<li><strong>Banner</strong> - wählen Sie ein Banner aus der Liste, die Sie vorher <a href='#banner_create'>erstellt haben</a>; </li>
+											<li><strong>Width</strong> - die Bildbreite für das Modul; </li>
+											<li><strong>Height</strong> - die Bildhöhe für das Modul; </li>
+											<li><strong>Status</strong> - der Modulstatus (aktviert/deaktiviert).</li>
+										</ol>
+									</div>
+									<div id="module_googlemap">
+										<h3>TM Google Map</h3>
+										<p>Das jeweilige Modul ermöglicht es eine Google Karte mit einer unbegrenzten Anzahl von Markern zur Ihren Website (Bild 23) hinzuzufügen. </p>
+										<figure class="img-polaroid"> <img src="img/tm-googlemap-view.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 23. Das Aussehen des Moduls TM Google Map</p>
+										<p>Sowohl das Kartenzentrum als auch ein von den Markern werden über Einstellungen des Online-Shops - <strong>System -> Einstellungen (System -> Settings)</strong>, im Tab <strong>Allgemeines (General)</strong>, im Feld <strong>Geocode (Geocode)</strong> festgelegt. Beim Drücken auf den Marker, wird das Fenster mit der Adresse, die in demselben Tab im Feld <strong>Adresse (Address) festgelegt wurde,</strong> angezeigt.</p>
+										<p>Nachdem Sie das Modul installiert haben, können Sie es auf der Konfigurationsseite einstellen (Bilder 24-25).</p>
+										<figure class="img-polaroid"> <img src="img/tm-googlemap-edit_1.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 24. Die Modulbearbeitung TM Google Map</p>
+										<figure class="img-polaroid"> <img src="img/tm-googlemap-edit_2.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 25. Die Modulbearbeitung TM Google Map</p>
+										<h4>Einstellungen:</h4>
+										<ol class="list">
+											<li><strong>Module Name</strong> - der Modulname; </li>
+											<li><strong>Google Map API key</strong> - API-Schlüssel für Google Map. Die ausführliche Information ist <a target="_blank" href="https://developers.google.com/maps/documentation/javascript/tutorial#api_key">auf der offiziellen Website verfügbar</a>;</li>
+											<li><strong>Status</strong> - der Modulstatus (aktviert/deaktiviert);</li>
+											<li><strong>Map Type</strong> - Kartentyp. Es sind 4 Werte verfügbar:
+												<ul>
+													<li> <strong>Roadmap</strong> - die Straßenkarte, die standardmäßig benutzt wird ; </li>
+													<li><strong>Terrain (Landscape)</strong> - topografischen Karte basierend auf Geländeinformationen; </li>
+													<li><strong>Hybrid</strong> - eine Kombination aus normalen Karten und Satellitenbildern;</li>
+													<li><strong>Satellite</strong> - Google Earth Bilder, die über den Satellit aufgenommen wurden;</li>
+												</ul>
+											</li>
+											<li><strong>Map Zoom</strong> - Zahlenwert.
+												Anfangsskalierung, die bei der Anzeige der Karte benutzt wird. Der Wert 0 entspricht dem niedrigsten Zoomniveau. Wenn Sie diesen Wert erhöhen, wird die Skalierung der Karte auch erhöht; </li>
+											<li><strong>Sensor </strong>- zeigt, ob es in der Anwendung der Sensor benutzt wird, der den Standort des Benutzers definiert. </li>
+											<li><strong>Map Width</strong> - die Kartenbreite. Sie müssen Maßeinheiten (% oder px) angeben; </li>
+											<li><strong>Map Height</strong> - die Kartenhöhe. Sie müssen Maßeinheiten (% oder px) angeben; </li>
+											<li><strong>Map Styles </strong>- legt den Kartenstil fest. Verschiedene Stile sind unter <a href='https://snazzymaps.com/' rel="nofollow" target="_blank">https://snazzymaps.com/</a> verfügbar; </li>
+											<li><strong>Disable UI </strong>- aktiviert/deaktiviert die Benutzerschnittstelle standardmäßig; </li>
+											<li><strong>Scrollwheel </strong>- aktiviert/deaktiviert die Änderungen von Kartenerweiterungen mit dem Mausrad; </li>
+											<li><strong>Draggable </strong>- aktiviert/deaktiviert die Möglichkeit der Kartenverschiebung; </li>
+											<li><strong>Marker Image </strong>- legt das  Marker-Bild fest. Wenn Sie das Feld leer lassen, wird dann ein Standardmarker angezeigt; </li>
+											<li><strong>Active Marker Image </strong>- legt das Markerbild beim Drücken fest; </li>
+											<li><strong>Marker Image Width </strong>- legt die Breite des Markerbildes fest; </li>
+											<li><strong>Marker Image Height </strong>- legt die Höhe des Markerbildes fest. </li>
+										</ol>
+										<p>Um den Marker hinzuzufügen, drücken Sie auf den Button <strong>Add New</strong>. Im Feld <strong>Geocode</strong> geben Sie die Markerkoordinaten (Breite, Länge - Beispiel:40.6700, -73.9400) und im Feld <strong>Address</strong> die Information, die beim Klicken auf den Marker angezeigt wird, an. Die Koordinaten eines gewünschten Standortes können Sie unter <a href='http://www.mapcoordinates.net' rel="nofollow" target="_blank">http://www.mapcoordinates.net</a> finden. Um den Marker zu entfernen, drücken Sie auf den entsprechenden Button <strong>Delete Marker</strong> über den gewünschten Marker. </p>
+									</div>
+									<div id="module_category_menu">
+										<h3>TM Category Menu </h3>
+										<p>Das jeweilige Modul ermöglicht es Kategorien in der Seitenleiste, Unterkategorien der 1. und 2. Ordnung und  die Bilder der Unterkategorien der 1. Ordnung (Bild 26) anzuzeigen.</p>
+										<figure class="img-polaroid"> <img src="img/tm-category-menu-view.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 26. Das Aussehen des ModulsВ TM Google Map</p>
+										<h4>Einstellungen:</h4>
+										<p>Nachdem Sie das Modul installiert haben, können Sie es auf der Konfigurationsseite einstellen.</p>
+									</div>
+									<div id="module_cookie">
+										<h3>TM Cookie Policy</h3>
+										<p>Das jeweilige Modul zeigt den Benutzern, ob es Cookies (cookies) (Bild 27) benutzt werden. 
+											Laut dem Gesetz über Cookies zeigt dieses Modul den Benutzern, ob Cookies verwendet werden.</p>
+										<p>Cookies sind kleine Textdateien, die Websites auf Computern der Benutzer erstellen. Normalerweise werden sie benutzt, um den Benutzer zu identifizieren. Außerdem werden sie benutzt, damit der Benutzer die Website bequem nutzen kann. Cookies sind ein fester Bestandteil mehrerer Funktionen auf der Website.</p>
+										<p>Zum Beispiel, mit Hilfe von Cookies werden diejenigen Produkte gespeichert, die Sie in dem Online-Shop zum Warenkorb hinzugefügt haben. Außerdem speichern sie Anmeldedaten oder stellen wertvolle Nutzungsstatistik und Informationen den Webseiteninhaber zur Verfügung.</p>
+										<p>Wenn Sie eine Website haben, werden Cookies höchstwahrscheinlich auf dieser Webseite benutzt. Ihre Hauptfunktion besteht darin, dass sie der Anzahl der Benutzer und ihre Interessen über spezielle Werkzeuge wie, zum Beispiel, 
+										Google Analytics folgen. Außerdem werden sie benutzt, um Anzeigen darzstellen. Wenn Sie einen Online-Shop schon haben, sind sie ein wesentlicher Bestandteil vom E-Commerce.</p>
+										<p>Am 26. Mai 2012 hat ICO Organisation einen Akt darüber veröffentlicht, dass "stillschweigende Zustimmung" nicht erlaubt wird. Aus diesem Grund müssen Sie unbedingt zeigen, wo auf der Website sowohl Cookies als auch Datenschutzrichtlinie sind.</p>
+										<figure class="img-polaroid"> <img src="img/tm-cookie-policy-view.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 27. Das Aussehen des Moduls TM Cookie Policy</p>
+										<p> Nachdem Sie das Modul installiert haben, können Sie es auf der Konfigurationsseite einstellen (Bild 28).</p>
+										<figure class="img-polaroid"> <img src="img/tm-cookie-policy-edit.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 28. Die Modulbearbeitung TM Cookie Policy</p>
+									</div>
+									<div id="module_instagram">
+										<h3>TM Instagram</h3>
+										<p>Das jeweilige Modul zeigt Bilder von Instagram als Liste von Bildern mit der angezeigten Anzahl von Likes (Bild 29).</p>
+										<figure class="img-polaroid"> <img src="img/tm-instagram-view.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 29. Das Aussehen des Moduls TM Instagram</p>
+										<p>Nachdem Sie das Modul installiert haben, können Sie es auf der Konfigurationsseite einstellen (Bild 30).</p>
+										<figure class="img-polaroid"> <img src="img/tm-instagram-edit.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 30. die Modulbearbeitung TM Instagram</p>
+										<h4>Einstellungen:</h4>
+										<ol class="list">
+											<li><strong>Module Name</strong> - der Modulname; </li>
+											<li><strong>Select Get</strong> - die Auswahl, wie man Bilder erhält.
+												Es sind 2 Werte verfügbar (user,tagged). Das bedeutet, dass man die Bilder entweder von einem bestimmten Benutzer erhält oder per Hashtag erhält; </li>
+											<li><strong>Entry TagName</strong> - der Tag, mit dem die Bilder (es wird benutzt, wenn die Option "Select get" den Wert tagged hat) angezeigt wird; </li>
+											<li><strong>Entry ClientID</strong> - Ihre API ID von instagram.com (es wird benutzt, wenn die Option "Select get" den Wert tagged hat); </li>
+											<li><strong>Entry UserId</strong> - eine eindeutige Benutzer-ID (es wird benutzt, wenn die Option "Select get" den Wert user hat); </li>
+											<li><strong>Entry accessToken</strong> - ein Zugriffstoke, der benutzerdefinierte Bilder anzeigt (es wird benutzt, wenn die Option "Select get" den Wert user hat); </li>
+											<li><strong>Entry limit</strong> - legt die Beschränkung auf die Anzahl der angezeigten Bilder fest; </li>
+											<li><strong>Status</strong> - der Modulstatus (aktiviert/deaktiviert).</li>
+										</ol>
+									</div>
+									<div id="module_manufacturers">
+										<h3>TM Manufacturers</h3>
+										<p> Das jeweilige Modul zeigt die Liste der Hesteller (Bild 31) an. Die Hersteller werden im Menü <strong>Katalog -> Hersteller (Catalog -> Manufacturers)</strong> hinzugefügt.</p>
+										<figure class="img-polaroid"> <img src="img/tm-manufacturers-view.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 31. Das Aussehen des Moduls TM Manufacturers</p>
+										<h4>Einstellungen:</h4>
+										<p>Nachdem Sie das Modul installiert haben, können Sie es auf der Konfigurationsseite einstellen.</p>
+									</div>
+									<div id="module_tabs">
+										<h3>TM Module Tabs</h3>
+										<p>Das jeweilige Modul zeigt 4 Hauptmodule (Bestsellers, Featured, Specials, Latest) als Tabs (Bild 32) an.</p>
+										<figure class="img-polaroid"> <img src="img/tm-moduletabs-view.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 32. Das Aussehen des Moduls TM Module Tabs</p>
+										<p>Nachdem Sie das Modul installiert haben, können Sie es auf der Konfigurationsseite einstellen (Bild 33).</p>
+										<figure class="img-polaroid"> <img src="img/tm-moduletabs-edit.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 33. Die Modulbearbeitung TM Module Tabs</p>
+										<h4>Einstellungen:</h4>
+										<ol class="list">
+											<li><strong>Module Name</strong> - der Modulname; </li>
+											<li><strong>Specials</strong> - aktiviert/deaktiviert die Darstellung vom Specials Modul; </li>
+											<li><strong>Bestsellers</strong> - aktiviert/deaktiviert die Darstellung vom Bestsellers Modul; </li>
+											<li><strong>Latest</strong> - aktiviert/deaktiviert die Darstellung vom Latest Modul; </li>
+											<li><strong>Featured</strong> - aktiviert/deaktiviert die Darstellung vom Featured Modul; </li>
+											<li><strong>Products</strong> - die Auswahl der Produktliste für den Tab Featured; </li>
+											<li><strong>Limit</strong> - legt die Beschränkung auf die Anzahl der angezeigten Produkten fest; </li>
+											<li><strong>Width</strong> - die Breite des Produktbildes; </li>
+											<li><strong>Height</strong> - die Höhe des Produktbildes;</li>
+											<li><strong>Status</strong> - der Modulstatus (aktviert/deaktiviert).</li>
+										</ol>
+									</div>
+									<div id="module_newsletter">
+										<h3>TM Newsletter</h3>
+										<p>Das jeweilige Modul fügt den Block mit dem Anmeldungsformular für E-Mail-Newsletters (Bild 34) hinzu.</p>
+										<figure class="img-polaroid"> <img src="img/tm-newsletter-view.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 34. Das Aussehen des Modus TM Newsletter</p>
+										<p>Nachdem Sie das Modul installiert haben, können Sie es auf der Konfigurationsseite einstellen (Bild 35).</p>
+										<figure class="img-polaroid"> <img src="img/tm-newsletter-edit.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 35.  Die Modulbearbeitung TM Newsletter</p>
+										<h4>Einstellungen:</h4>
+										<ol class="list">
+											<li><strong>Module Name</strong> - der Modulname; </li>
+											<li><strong>Description</strong> - der Text, der vor dem Anmeldungsformular für E-Mail-Newsletters, angezeigt wird;</li>
+											<li><strong>Status</strong> - der Modulstatus (aktviert/deaktiviert).</li>
+										</ol>
+									</div>
+									<div id="module_newsletter_popup">
+										<h3>TM Newsletter Popup</h3>
+										<p>Das jeweilige Modul fügt das DropDownFenster hinzu, wo es angeboten wird, E-Mail-Newsletters zu abonnieren, sobald der Besucher Ihre Website (Bild 36) öffnet. Das Fenster wird autorisierten Benutzern (die eingeloggt sind) oder denjenigen, die schon E-Mail-Newsletters abonniert haben, nicht angezeigt.</p>
+										<figure class="img-polaroid"> <img src="img/tm-newsletter-popup-view.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 36. Das Aussehen des Moduls TM Newsletter Popup</p>
+										<p>Nachdem Sie das Modul installiert haben, können Sie es auf der Konfigurationsseite einstellen (Bilder 37-38).</p>
+										<figure class="img-polaroid"> <img src="img/tm-newsletter-popup-edit.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 37. Die Modulbearbeitung TM Newsletter Popup</p>
+										<figure class="img-polaroid"> <img src="img/tm-newsletter-popup-edit_2.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 38. Die Modulbearbeitung TM Newsletter Popup</p>
+										<h4>Einstellungen:</h4>
+										<ol class="list">
+											<li><strong>Module Name</strong> - der Modulname; </li>
+											<li><strong>Background Image</strong> - das Hintergrundbild in dem DropDownFenster;</li>
+											<li><strong>Background image width</strong> - die Breite des Hintergrundbildes;</li>
+											<li><strong>Background image height</strong> - die höhe des Hintergrundbildes; </li>
+											<li><strong>Cookie Storage Time</strong> - die Speicherzeit des Cookies; </li>
+											<li><strong>Heading Title</strong> - der Titel n dem DroDownFenster; </li>
+											<li><strong>Description</strong> - die Beschreibung in dem DropDownFenster; </li>
+											<li><strong>Status</strong> - der Modulstatus (aktviert/deaktiviert).</li>
+										</ol>
+									</div>
+									<div id="module_product_slideshow">
+										<h3>TM Product Slideshow</h3>
+										<p>Das jeweilige Modul zeigt ausgewählte Produkte als Karussell (Bild 39) an. </p>
+										<figure class="img-polaroid"> <img src="img/tm-product-slideshow-view.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 39. Das Aussehen des Moduls TM Product Slideshow</p>
+										<p>Nachdem Sie das Modul installiert haben, können Sie es auf der Konfigurationsseite einstellen (Bild 40).</p>
+										<figure class="img-polaroid"> <img src="img/tm-product-slideshow-edit.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 40. Die Modulbearbeitung TM Product Slideshow</p>
+										<h4>Einstellungen:</h4>
+										<ol class="list">
+											<li><strong>Module Name</strong> - der Modulname; </li>
+											<li><strong>Products</strong> - die Auswahl der Produktliste ; </li>
+											<li><strong>Limit</strong> - die Beschränkung auf die Anzahl der angezeigten Produkte; </li>
+											<li><strong>Width</strong> - die Breite des Produktbildes; </li>
+											<li><strong>Height</strong> - die Höhe des Produktbildes; </li>
+											<li><strong>Status</strong> - der Modulstatus (aktiviert/deaktiviert).</li>
+										</ol>
+									</div>
+									<div id="module_social_list">
+										<h3>TM Social List</h3>
+										<p>Das jeweilige Modul zeigt die Liste von Links zu Seiten der beliebten sozialen Netzwerken. </p>
+										<p>Nachdem Sie das Modul installiert haben, können Sie es auf der Konfigurationsseite einstellen (Bild 41). Wenn Sie dieses Feld leer lassen, wird das Listenelement nicht angezeigt.</p>
+										<figure class="img-polaroid"> <img src="img/tm-social-list-edit.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 41. Die Modulbearbeitung TM Social List</p>
+										<h4>Einstellungen:</h4>
+										<ol class="list">
+											<li><strong>Youtube</strong> - der Link zur YouTube Seite; </li>
+											<li><strong>Facebook</strong> - der Link zur Facebook Seite; </li>
+											<li><strong>Google Plus</strong> - der Link zur Google Plus Seite ; </li>
+											<li><strong>Twitter</strong> - der Link zur Twitter Seite; </li>
+											<li><strong>Pinterest</strong> - der Link zur Pinterest eite; </li>
+											<li><strong>Instagram</strong> - der Link zur Instagram Seite; </li>
+											<li><strong>Vimeo</strong> - der Link zur Vimeo Seite; </li>
+											<li><strong>Status</strong> - der Modulstatus (aktiviert/deaktiviert).</li>
+										</ol>
+										<div class="box-info"> <span> Wenn Sie die "update" Version vom Theme installieren, werden die Demodaten der Vorlage (die Liste von Links zu sozialen Netzwerken) nicht verfügbar sein. Füllen Sie die jeweiligen (erforderlichen) Felder aus, damit dieses Modul korrekt fuktionieren kann.</span> </div>
+									</div>
+									<div id="module_video_background">
+										<h3>TM Video Background</h3>
+										<p>Das jeweilige Modul zeigt den Block mit einem Video im Hintergrund, das entweder lokal oder mit mit Hilfe von YouTube hochgeladen wurde, an.</p>
+										<p>Nachdem Sie das Modul installiert haben, können Sie es auf der Konfigurationsseite einstellen ( Bilder 42-43).</p>
+										<figure class="img-polaroid"> <img src="img/tm-video-background-edit.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 42. Die Modulbearbeitung TM Video Background</p>
+										<figure class="img-polaroid"> <img src="img/tm-video-background-edit-2.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 43. Die Modulbearbeitung TM Video Background</p>
+										<h4>Einstellungen:</h4>
+										<ol class="list">
+											<li><strong>Module Name</strong> - der Modulname; </li>
+											<li><strong>Status</strong> - der Modulstatus (aktiviert/deaktiviert).</li>
+											<li><strong>Video Source</strong> - Videoquelle. Es sind 2 Werte verfügbar:
+												<ul>
+													<li><strong>local</strong> - das Video wird von Ihrer Website hochgeladen;</li>
+													<li><strong>youtube</strong> - das Video wird von YouTube hochgeladen.</li>
+												</ul>
+											</li>
+											<li><strong>YouTube url</strong> - der Link zum Video von Youtube; </li>
+											<li><strong>Mute</strong> - Aus Lautstärke; </li>
+											<li><strong>Mobile</strong> - aktiviert/deaktiviert die Darstellung vom Video auf mobilen Geräten.
+											Wenn der Wert 'Yes' ausgewählt wurde, wird das Video auf den mobilen Geräten angezeigt; </li>
+											<li><strong>Start Video</strong> - die Sekunde, ab die das Video abgespielt werden muss; </li>
+											<li><strong>Mobile Image</strong> - das Bild, dass anstatt des Hintergrundbildes angezeigt wird, wenn es auf mobilen Geräten deaktiviert wurde; </li>
+											<li><strong>Mobile Image Width</strong> - die Breite des Hintergrundbildes; </li>
+											<li><strong>Mobile Image Height</strong> - die Höhe des Hintergrundbildes; </li>
+											<li><strong>Description</strong> - html-Markup, das über dem Hintergrundvideo angezeigt wird. </li>
+										</ol>
+										<p>Wenn Sie <strong>Video Source - Local Video</strong> auswählen, legen Sie dann das Bild (Poster) im Format ".jpg" fest, durch das das Hintergrundvideo auf mobilen Geräten ersetzt wird.
+										Damit das Modul korrekt funktioniert, müssen sich in dem Ordner mit dem Bild, das Sie festgelegt haben, 3 Videos mit den gleichen Namen in den folgenden Formaten befinden: </p>
+										<ul>
+											<li>*.ogv</li>
+											<li>*.mp4</li>
+											<li>*.webm</li>
+										</ul>
+									</div>
+									<div id="modification_search">
+										<h3>TM Live search</h3>
+										<p>Modifikation TM Live search zeigt das gewünschte Produkt (en) an, ohne Seite neu zu laden (Bild 44).
+											Um dies zu entfernen oder zu deaktivieren, finden Sie <strong>Erweiterungen -> Modifikationen (Extensions -> Modifications)</strong>, wählen Sie in der Liste gewünschte Modufikation aus, drücken Sie auf den Button <strong>Deaktivieren (Disable)</strong> oder <strong>Entfernen (Delete)</strong>.</p>
+										<figure class="img-polaroid"> <img src="img/tm-live-view.jpg" alt=""/> </figure>
+										<p class="muted text-center">Bild 44. Das Aussehen der Modifikation TM Live Search</p>
+									</div>
+									<div id="modification_lazy">
+										<h3>TM Lazy load</h3>
+										<p>Die Modifikation, die die Produktbilder währden der Zeit hochlädt, wann sie in den Anwendungsbereich beim Scrollen der Website fallen. Die jeweilige Erweiterung wird benutzt, um die Geschwiendigkeit der Website zu erhöhen. Um das Preloader-Bild zu ändern, ersetzen Sie das Bild <strong>lazy_loader.gif</strong>in dem Ordner <strong>catalog/view/theme/themeXXX/image/.</strong></p>
+									</div>
+								</section>
+								<section id="addendum" class="block-templates">
+									<h2><i class="icon-question-sign"></i> Fazit <small><i>An wen man sich wendet, wenn man Hilfe oder zusätzliche Information braucht</i> </small> </h2>
+									<p>OpenCart ist eine multifunktionale, schnelle und klare Lösung für E-Commerce mit ansprechendem Design. Es ist ideale Lösung für einen Online-Shop. Das Standardpaket enthält alle notwendigen Module und Erweiterungen für erfolgreichen Handel. Das Open Source stellt Ihren Kunden gúnglaubliche Möglichkeiten zur Verfügung.</p>
+									<p>Zusätzliche Information:</p>
+									<ul class="list">
+										<li> <a target="_blank" href="http://www.opencart.com/">Offizielle Website OpenCart</a> </li>
+										<li> <a target="_blank" href="http://forum.opencart.com/">Gemeinschaftsforum</a> </li>
+										<li> <a href="/help/ecommerce/opencart/opencart-tutorials/" target="_blank">OpenCart Tutorials</a> </li>
+									</ul>
+									<h5>Sie können Google Fonts nicht hochladen:</h5>
+									<ol>
+										<li>Öffnen Sie <strong>catalog\view\theme\themeXXX\stylesheet\stylesheet.css</strong> Datei.</li>
+										<li>Finden Sie die folgende Zeile: <br />
+											<pre>//fonts.googleapis.com/css?family=[---Name_Ihrer_web_Schrift---]</pre>
+										</li>
+										<li>Ersetzen Sie sie durch: <br />
+											<pre>//fonts.useso.com/css?family=[---Name_Ihrer_web_Schrift---]</pre>
+										</li>
+									</ol>
+									<div id="validation">
+										<h4>Bestätigung</h4>
+										<div class="box-notification"> <span>In unseren Vorlage befolgen wir den semantischen Regeln beim Schreiben des Codes von HTML-Markup und CSS. Aber es können einige Fehler sowieso bei der W3C-Validierung auftreten. Das Erstellen eines Codes, der hundertprozentig ist, beschränkt die Verwendung von modernen Technologien der Webseitenerstellung wie: Spezifikation CSS3 und HTML5-Markup (entsprechend den Standards des W3C). Das Ziel unseres Unternehmens besteht darin, dass wir umfassende Benutzererfahrung und hochwertige Vorlagen zur Verfügung stellen und manchmal müssen wir einige Regeln brechen.</span> </div>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Footer
+		================================================== -->
+		<footer>
+			<div class="container">
+				<div class="span12"> <span>OpenCart Dokumentation</span><br/>
+				&copy; <span id="date"></span> <span id="copyright">Template Monster</span> </div>
+			</div>
+		</footer>
+		<div id="back-top"> <a href="#"><i class="icon-double-angle-up"></i></a> </div>
+		<!-- <script src="js/bootstrap-scrollspy.js"></script>  -->
+		<div class="modal_bg"></div>
+		<div class="modal">
+			<div class="modal-header"> <span class="modal_remove pull-right"><i class="icon-remove"></i></span>
+				<h3>Choose language</h3>
+			</div>
+			<div class="modal-body">
+				<ul id="modal_languages" class="nav nav-list bs-docs-sidenav">
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-2787305-5']);
+			_gaq.push(['_trackPageview']);
 			
-	  </ol>
-      
-      <p><strong>Sie können auch das ausführliche Video-Tutorial zur Installation nutzen:</strong> <a target="_blank" href="/help/de/opencart-how-to-install-a-template-over-the-existing-store-using-update-package.html">OpenCart. Wie installiert man die Vorlage auf den existierenden Online-Shop (anhand des Archivs “update”)</a>.</p>
-
-  </div>
-  
-</section>
-<section class="block-templates" id="extension_configuration">  
-  <h2><i class="icon-cog"></i> Einstellung der Erweiterungen</h2>
-
-  <div id="livechat">
-  <h3>Olark Live Chat</h3>
-  <p>Um den Chat, der auf der Demoversion der Vorlage verfügbar ist, zu nutzen, müssen Sie sich нужно auf der offiziellen Webseite <a href="http://www.olark.com/?r=ad8fbsj2" target="_blank">Olark</a> anmelden. Nachdem Sie alle notwendigen Daten angegeben haben, erhalten Sie den Code, den Sie zur Datei <strong>catalog\view\theme\themeXXX\template\common\footer.tpl</strong> vor dem &lt;/body&gt; Tag hinzufügen müssen.</p>
-  </div>
-</section>
-
-<section class="block-templates" id="cookiepolicy">
-	<h2><i class="icon-exclamation-sign"></i> Nutzungsrichtlinie cookies</h2>
-	<p>Gemäß dem Gesetz ЕС über Cookies müssen Sie auf Ihre Webseite das Modul hinzufügen, das die Warnung über cookies, die auf der Webseite benutzt sind, darstelen wird. Wir empfehlen das folgende Modul zu nutzen:</p>
-	<ul>
-		<li><a target="_blank" href="http://www.opencart.com/index.php?route=extension/extension/info&extension_id=11872&filter_search=cookies">Cookie Policy - EU Cookie Law Compliance</a></li>
-	</ul>
-</section>
-<section id="addendum" class="block-templates">
-  <h2><i class="icon-question-sign"></i> Fazit <small><i>mit wem muss man den Kontakt aufnehmen, um die Hilfe, Unterstützung und zusätzliche Information zu erhalten</i></small> </h2>
-
-  <p>OpenCart ist eine multifunktionale, schnelle und verständliche Lösung für den Internethandel mit dem ansprechenden Design. Es ist tolle Lösung für einen Online-Shop. Das Standardpaket enthält alle notwendigen Module und Erweiterungen für erfolgreichen Handel. Open Source bietet wirklich tolle Möglichkeiten Ihren Kunden.</p>
-      
-        <p>Zusätzliche Information:</p>
-        <ul class="list">
-          <li><a href="http://www.opencart.com/">Offizielle Webseite OpenCart</a></li>
-          <li><a href="http://forum.opencart.com/">Gemeinschaftsforum</a></li>
-          <li><a href="/help/de/ecommerce/opencart/opencart-tutorials/" target="_blank">Tutorials OpenCart</a></li>
-        </ul>
-        
-        <div id="validation">
-    <h4>Validation</h4>
-    <div class="box-notification">
-        <span>In unseren Vorlagen befolgen wir semantischen Regeln für das Schreiben vom Code HTML-Markup und den CSS-Stilen. Aber einige Fehler können sowieso bei W3C-Validierung auftreten. Erstellen des zu 100 Prozent korrekten Codes entsprechend den Standards vom W3C Consortium beschränkt die Verwendung von modernen Technologien zum Erstellen von Websites wie Spezifikation CSS3 und HTML5 Markup. Das Ziel unseres Unternehmens liegt darin, dass wir reiche Benutzererfahrung mit hochwertigen Vorlage zur Verfügung stellen möchten. Aus diesem Grund befolgen wir nicht allen Regeln.</span>
-     </div>
-</div>
-</section>
-
-</div>
-</div>
-</div>
-
-  </div>
-  </div>
-  </div>
-   <!-- Footer
-    ================================================== -->
-	<footer>
-		  <div class="container">        
-		   <div class="span12">
-			<span>Dokumentation OpenCart</span><br />
-			&copy; <span id="date"></span> <span id="copyright">Template Monster</span>
-		   </div>
-		  </div>
-	</footer>
-    <div id="back-top">
-    <a href="#"><i class="icon-double-angle-up"></i></a>
-  </div>
-<!-- <script src="js/bootstrap-scrollspy.js"></script>  -->
-<div class="modal_bg"></div>
-<div class="modal">
-  <div class="modal-header">
-    <span class="modal_remove pull-right"><i class="icon-remove"></i></span>
-    <h3>Choose language</h3>
-  </div>
-  <div class="modal-body">
-    <ul id="modal_languages" class="nav nav-list bs-docs-sidenav"></ul>
-  </div>
-</div>
-<script type="text/javascript"> 
-  var _gaq = _gaq || []; 
-  _gaq.push(['_setAccount', 'UA-2787305-5']); 
-  _gaq.push(['_trackPageview']); 
-
-  (function() { 
-  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
-  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; 
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); 
-  })(); 
-</script>
-    
-</body> 
-
+			(function () {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+	</body>
 </html>
