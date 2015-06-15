@@ -49,13 +49,13 @@ var doc_language = getCookie('doc_language');
 	    var languages = [ 
 	        ['en', 'English', true], 
 	        ['ru', 'Русский', true], 
-	        ['es', 'Español', false],
+	        ['es', 'Español', true], 
 	        ['de', 'Deutsch', true], 
-	        ['fr', 'Français', false],
-	        ['pl', 'Polski', false],
-	        ['pt', 'Português', false],
-	        ['tr', 'Türk', false],
-	        ['it', 'Italiano', false]
+	        ['fr', 'Français', true],
+	        ['pl', 'Polski', true], 
+	        ['pt', 'Português', true], 
+	        ['tr', 'Türk', true], 
+	        ['it', 'Italiano', true]
 	    ];
 
 	    for (var i = 0; i <= languages.length - 1; i++) {
