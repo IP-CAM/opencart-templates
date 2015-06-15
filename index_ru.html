@@ -1,974 +1,1462 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Документация OpenCart 2</title>
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="css/bootstrap.css" media="screen">
-		<link rel="stylesheet" href="css/responsive.css" media="screen">
-		<link rel="stylesheet" href="css/style.css" media="screen">
-		<link rel="stylesheet" href="css/flexslider.css" media="screen">
-		<link rel="stylesheet" href="css/prettify.css" media="screen">
-		<link rel="stylesheet" href="css/prettyPhoto.css" media="screen">
-		<script src="js/jquery.js"></script>
-		<script src="js/jquery.scrollTo.js"></script>
-		<script src="js/jquery-migrate-1.1.0.js"></script>
-		<script src="js/prettify.js"></script>
-		<script src="js/jquery.flexslider.js"></script>
-		<script src="js/bootstrap-affix.js"></script>
-		<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-		<script src="js/script.js"></script>
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" media="all"
-		rel="stylesheet" type="text/css">
-		
-		<!--[if lt IE 8]>
-			<div style='text-align:center'>
-			<a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img
-			src="http://www.theie6countdown.com/img/upgrade.jpg" border="0" alt=""/></a>
-			</div>
-		<![endif]-->
-		<!--[if lt IE 9]>
-			<script src="js/html5shiv.js"></script>
-		<![endif]-->
-	</head>
-	
-	<body>
-		
-		<!-- header
-		================================================== -->
-		<header class="header">
-			<div class="container">
-				<div class="row">
-					<article class="span4"> <a class="brand" href="/help/ru/" target="_blank"></a> </article>
-					<article class="span6">
-						<h1><img alt="" src="img/opencart_logo.png">Документация OpenCart 2</h1>
-					</article>
-					<article class="span2">
-						<div id="languages" class="select-menu pull-right">
-							<div class="select-menu_icon"><b>Ru</b><i class="icon-angle-down"></i></div>
-							<ul class="select-menu_list">
-							</ul>
-						</div>
-						<div id="versions" class="select-menu pull-right">
-							<div class="select-menu_icon"><b>v1-2</b><i class="icon-angle-down"></i></div>
-							<ul class="select-menu_list">
-                                <li class="active"> <a href="/help/quick-start-guide/OpenCart-templates/v1-2/index_ru.html"><span>v1-2</span> </a> </li>
-                                <li> <a href="/help/quick-start-guide/OpenCart-templates/v1-0/index_ru.html"><span>v1-0</span> </a> </li>
-                                <li> <a href="/help/quick-start-guide/OpenCart-templates/v1-1/index_ru.html"><span>v1-1</span> </a> </li>
-							</ul>
-						</div>
-					</article>
-				</div>
-			</div>
-		</header>
-		<div id="content">
-			<div class="bg-content-top">
-				<div class="container"> 
-					
-					<!-- Docs nav
-					================================================== -->
-					<div class="row">
-						<div class="span3">
-							<div id="nav_container"> <a href="javascript:;" id="affect_all"> <span class="expand"> <i class="icon-angle-down"></i> </span> <span class="close"> <i class="icon-angle-up"></i> </span> </a>
-								<div class="clearfix"></div>
-								<ul class="nav nav-list bs-docs-sidenav" id="nav">
-									<li class="nav-item item1">
-										<dl class="slide-down">
-											<dt> <a href="#introduction" class="icon-info-sign">Введение</a> </dt>
-											<dd></dd>
-										</dl>
-									</li>
-									<li class="nav-item item2">
-										<dl class="slide-down">
-											<dt> <a href="#prepare" class="icon-check">Подготовка</a> </dt>
-											<dd></dd>
-										</dl>
-									</li>
-									<li class="nav-item item3">
-										<dl class="slide-down">
-											<dt> <a href="#getting_started" class="icon-play">Начало использования</a> <i class="icon-sample"></i></dt>
-											<dd>
-												<ul class="list">
-													<li> <a href="#complete_install">Полная установка</a> </li>
-													<li> <a href="#template-installation">Установка поверх существующего
-													магазина </a> </li>
-												</ul>
-											</dd>
-										</dl>
-									</li>
-									<li class="nav-item item4">
-										<dl class="slide-down">
-											<dt> <a class="icon-cog" href="#extension_configuration">Настройка расширений</a> <i class="icon-sample"></i></dt>
-											<dd>
-												<ul class="list">
-													<li> <a href="#module_install">Установка модулей</a> </li>
-													<li> <a href="#banner_create">Создание баннеров</a> </li>
-													<li> <a href="#module_parallax">Parallax</a> </li>
-													<li> <a href="#module_category">TM Category</a> </li>
-													<li> <a href="#module_facebook">TM Facebook Box</a> </li>
-													<li> <a href="#module_twitter">TM Twitter Box</a> </li>
-													<li> <a href="#module_pinterest">TM Pinterest</a> </li>
-													<li> <a href="#module_olark">Olark live chat</a> </li>
-													<li> <a href="#module_slideshow">TM Slideshow</a> </li>
-													<li> <a href="#module_googlemap">TM Google Map</a> </li>
-													<li> <a href="#module_category_menu">TM Category Menu</a> </li>
-													<li> <a href="#module_cookie">TM Cookie Policy</a> </li>
-													<li> <a href="#module_instagram">TM Instagram</a> </li>
-													<li> <a href="#module_manufacturers">TM Manufacturers</a> </li>
-													<li> <a href="#module_tabs">TM Module Tabs</a> </li>
-													<li> <a href="#module_newsletter">TM Newsletter</a> </li>
-													<li> <a href="#module_newsletter_popup">TM Newsletter Popup</a> </li>
-													<li> <a href="#module_product_slideshow">TM Product Slideshow</a> </li>
-													<li> <a href="#module_social_list">TM Social List</a> </li>
-													<li> <a href="#module_video_background">TM Video Background</a> </li>
-													<li> <a href="#modification_search">TM Live search</a> </li>
-													<li> <a href="#modification_lazy">TM Lazy load</a> </li>
-												</ul>
-											</dd>
-										</dl>
-									</li>
-									<li class="nav-item item8">
-										<dl class="slide-down">
-											<dt> <a href="#addendum" class="icon-question-sign">Послесловие</a> </dt>
-											<dd></dd>
-										</dl>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="span9"> 
-							
-							<!-- box-content
-							================================================== -->
-							<div class="box-content"> 
-								<!-- block-started
-								================================================== -->
-								<section class="block-started" id="introduction">
-									<h2><i class="icon-info-sign"></i> Введение <small><i>Что находится в шаблоне и для чего его можно использовать</i></small> </h2>
-									<p>Благодарим Вас за приобретение шаблона OpenCart. Данная документация состоит из
-										нескольких частей и охватывает весь процесс установки и настройки веб-сайта OpenCart c
-										нуля. Мы сделали все возможное, чтобы это руководство было понятным и удобным в
-									использовании. </p>
-									<div id="opencart_cms_desc">
-										<h4>Что представляет собой OpenCart?</h4>
-										<p>OpenCart - это бесплатная платформа электронной коммерции с открытым исходным кодом. OpenCart позволяет создать профессиональную и надежную
-											основу для построения успешного онлайн магазина. Сообщество Opencart включает
-											множество пользователей, начиная с опытных веб-разработчиков, ищущих удобный
-											интерфейс, и заканчивая владельцами магазинов, впервые запускающими онлайн-бизнес.
-											OpenCart предоставляет огромное количество функций, позволяющих полностью
-											контролировать магазин. С инструментами OpenCart Вы легко раскроете потенциал
-										магазина. <a href="http://docs.opencart.com" target="_blank">Подробнее</a> </p>
-									</div>
-									<div id="file_structure">
-										<h4>Структура файлов</h4>
-										<p>Шаблон состоит из следующих папок и файлов:</p>
-										<ul class="files_structure">
-											<li class="folder"><i class="icon-folder-close"></i> <b>documentation</b> <small class="muted"> - содержит детальное руководство по установке движка и шаблона; </small>
-												<ul>
-													<li class="file"><i class="icon-file"></i> documentation.html <small class="muted"> - основной файл документации. Вы его сейчас
-													читаете :) </small> </li>
-												</ul>
-											</li>
-											<li class="folder"><i class="icon-folder-close"></i> <b>screenshots</b> <small class="muted"> - содержит скриншоты темы;</small> </li>
-											<li class="folder"><i class="icon-folder-close"></i> <b>themeXXX</b> <small class="muted"> - включает в себя:</small>
-												<ul>
-													<li class="folder"><i class="icon-file"></i> <b>themeXXX(full).zip</b> <small class="muted"> - архив с движком OpenCart, шаблоном и
-														демо-данными темы (предназначен для установки с
-													нуля); </small> </li>
-													<li class="folder"><i class="icon-file"></i> <b>themeXXX(update).zip</b> <small class="muted"> - архив с шаблоном без демо-данных (для установки
-													поверх существующего магазина); </small> </li>
-													<li class="folder"><i class="icon-file"></i> <b>themeXXX(extensions).zip</b> <small class="muted"> - архив с xml-файлами;</small> </li>
-												</ul>
-											</li>
-											<li class="folder"><i class="icon-file"></i> <b>info.txt </b> <small class="muted"> - инструкции по разархивированию исходных файлов;</small> </li>
-											<li class="folder"><i class="icon-file"></i> <b>sources_XXXXXXXX.zip</b> <small class="muted"> - архив с исходными файлами. Включает:</small>
-												<ul>
-													<li class="folder"><i class="icon-folder-close"></i> <b>psd</b> <small class="muted"> - содержит исходный файл шаблона в формате Adobe Photoshop (.psd); </small></li>
-													<li class="folder"><i class="icon-folder-close"></i> <b>SCSS</b> <small class="muted"> - содержит исходные файлы CSS-стилей темы написанных с
-													помощью SCSS. </small> </li>
-												</ul>
-											</li>
-										</ul>
-									</div>
-								</section>
-								<section class="block-templates" id="prepare">
-									<h2><i class="icon-check"></i> Подготовка <small><i>Что нужно сделать перед началом работы</i></small> </h2>
-									<p>Прежде, чем перейти к установке веб-сайта OpenCart, нужно полностью подготовиться. </p>
-									<div id="software">
-										<h4>Программное обеспечение</h4>
-										<p>Для полноценной работы с шаблоном OpenCart мы рекомендуем скачать все требуемые
-											приложения. Список необходимого программного обеспечения находится на странице
-											предпросмотра шаблона. Требования для различных шаблонов могут меняться, поэтому мы
-										перечислим лишь основные:</p>
-										<ol>
-											<li> Вам может понадобиться программа Adobe Photoshop. Она используется для
-												редактирования исходных файлов .PSD и необходима, если требуется изменить
-											графический дизайн и изображения шаблона. </li>
-											<li>Для редактирования исходного кода файлов шаблона нужно использовать редактор
-											кода, например Adobe Dreamweaver, Notepad++, Sublime Text и т.п. </li>
-											<li>Чтобы загрузить файлы на хостинг сервер, потребуется FTP менеджер, например
-											Total Commander, FileZilla, CuteFTP и т.д. </li>
-											<li>Воспользуйтесь следующими инструкциями, чтобы распаковать архивы при помощи <a href="/help/ru/extract-archived-files-windows-os.html" target="_blank"> WinZip(PC) </a> и <a href="/help/ru/extract-archived-files-mac-os.html" target="_blank"> StuffitExpander(MAC)</a>. </li>
-										</ol>
-									</div>
-									<div id="hosting">
-										<h4>Хостинг</h4>
-										<p>Поскольку OpenCart базируется на приложениях PHP/MySQL, необходимо подготовить
-										хостинг сервер. </p>
-										<p>При наличии активного сервера, нужно проверить его на соответствие <a href="http://docs.opencart.com/system/server-requirements" target="_blank"> системным требованиям </a> и на способность обслуживать веб-сайты OpenCart. </p>
-										<p>Также можно установить OpenCart на персональном компьютере при помощи локального
-											сервера. Для создания локального хостинг сервера необходимо использовать программное
-											обеспечение <b>WAMP</b>, <b>AppServ</b>, <b>MAMP</b> и т.п. Любое из них
-										устанавливается как обычная программа и поддерживает OpenCart. </p>
-										<p>Вы можете воспользоваться следующими инструкциями для настройки локального
-										сервера:</p>
-										<ul class="unstyled">
-											<li><i class="icon-film"> </i> <a href="/help/ru/how-to-install-appserv-web-development-environment.html" target="_blank">Как установить среду веб-разработки AppServ </a> </li>
-											<li><i class="icon-film"> </i> <a href="/help/ru/how-to-install-wamp-web-development-environment.html" target="_blank">Как установить среду веб-разработки WAMP </a> </li>
-											<li><i class="icon-film"> </i> <a href="/help/ru/how-to-install-xamp-web-development-environment.html" target="_blank">Как установить среду веб-разработки XAMP</a>. </li>
-										</ul>
-									</div>
-								</section>
-								<section class="block-templates" id="getting_started">
-									<h2><i class="icon-play"></i> Начало использования <small><i>Куда нажимать, чтобы приступить к работе</i></small> </h2>
-									<div class="row-fluid">
-										<div class="span6 text-center img-paraloid">
-											<h3> <a href="#complete_install" class="scrollTo">Полная установка</a> </h3>
-											<p>Данный тип установки используется, если у вас нет готового сайта OpenCart. Архив
-												'themeXXX(full).zip' включает файлы движка OpenCart и темы с демо-данными,
-												поэтому вам не нужно отдельно загружать движок OpenCart. Демо-данные позволят
-												Вашему сайту выглядеть так же, как и шаблон на странице предпросмотра, со всеми
-											образцами товаров, модулей и настройками сайта. </p>
-											<p>&nbsp;</p>
-										</div>
-										<div class="span6 text-center img-paraloid">
-											<h3> <a href="#template-installation" class="scrollTo">Установка на существующий
-											магазин </a> </h3>
-											<p>Следуйте данному типу установки, если у вас уже есть действующий сайт OpenCart и
-											требуется всего лишь изменить его внешний вид, путем установки новой темы.</p>
-											<p>&nbsp;</p>
-										</div>
-									</div>
-									
-									<!-- Full OpenCart Installation -->
-									<div id="complete_install">
-										<h3>Полная установка</h3>
-										<p>Полная установка используется в том случае, если нужно установить веб-сайт OpenCart c
-										нуля. Предусматривается предварительное выполнение всех <a href="#prepare">подготовительных шагов</a> и наличие необходимых программ. </p>
-										
-										<!-- Creating database -->
-										
-										<article id="creating-database">
-											<h4>Создание базы данных</h4>
-											<p>Когда все файлы будут загружены на хостинг сервер, необходимо подготовить новую
-												базу данных для веб-сайта OpenCart. Ее можно создать через инструмент управления
-											базами данных в контрольной панели хостинга (<i>обычно PhpMyAdmin</i>).</p>
-											<p>При помощи phpMyAdmin можно создать новую базу данных за 3 простых шага: (см.
-											следующие слайды):</p>
-											<ol class="list">
-												<li>Щелкните кнопку Databases (базы данных) в верхнем меню навигации, чтобы
-												перейти в список баз данных. </li>
-												<li>Введите название базы данных в поле "Create new database (Создать новую базу
-												данных)".</li>
-												<li>Нажмите справа на кнопку Create (Создать).</li>
-											</ol>
-											<p>База данных появилась в списке. Кликните по ее названию, чтобы получить доступ к
-											ней:</p>
-											<p>&nbsp;</p>
-											<div class="flexslider clearfix img-polaroid">
-												<ul class="slides">
-													<li> <img src="img/database-create-1.jpg" alt=""/>
-														<div class="flex-caption">
-															<p>1. Откройте вкладку "Databases (Базы данных)", чтобы перейти к
-															списку баз данных.</p>
-														</div>
-													</li>
-													<li> <img src="img/database-create-2.jpg" alt=""/>
-														<div class="flex-caption">
-															<p>2. Введите название базы данных. <br>
-															3. Щелкните кнопку "Создать".</p>
-														</div>
-													</li>
-													<li> <img src="img/database-create-3.jpg" alt=""/>
-														<div class="flex-caption">
-															<p>4. База данных появилась в списке. Кликните по названию, чтобы
-															получить доступ к базе данных.</p>
-														</div>
-													</li>
-												</ul>
-											</div>
-											<p>&nbsp;</p>
-											<p>Вы также можете воспользоваться детальной видео инструкцией <i
-											class="icon-film"> </i> <a href="/help/ru/how-to-create-a-database.html" target="_blank">Как создать базу данных</a>. </p>
-											<div class="box-info"><span> В случае возникновения сложностей при создании базы данных, необходимо обратиться к хостинг провайдеру за поддержкой.</span> </div>
-										</article>
-										
-										<!-- Uploading files -->
-										<article id="uploading">
-											<h4>Загрузка шаблона</h4>
-											<p class="">Для начала работы с OpenCart, требуется загрузить файлы на хостинг сервер. Это можно сделать при помощи файлового менеджера хостинга или альтернативного FTP менеджера.</p>
-											<ol>
-												<li>Откройте папку шаблона.</li>
-												<li>Перейдите в папку 'themeXXX' и распакуйте архив 'themeXXX(full).zip' на Ваш компьютер. Содержимое архива загрузите на сервер (<i class="icon-film"> </i> <a href="/help/ru/how-upload-files-server-2.html" target="_blank">Как загрузить файлы на сервер</a>, <i class="icon-film"> </i> <a href="/help/ru/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html" target="_blank"> Как загрузить файлы с помощью cPanel (WebHost менеджер, WHM)</a>).</li>
-												<li>Задайте правильные разрешения на следующие папки и файлы движка OpenCart:
-													<ul>
-														<li>system/cache/;</li>
-														<li>system/logs/;</li>
-														<li>system/download/;</li>
-														<li>system/upload/;</li>
-														<li>image/;</li>
-														<li>image/cache/;</li>
-														<li>image/catalog/;</li>
-														<li>config.php;</li>
-														<li>admin/config.php.</li>
-													</ul>
-													<p>Разрешения должны быть CHMOD 755 или 777 в зависимости от конфигурации
-														сервера. Для этого выделите нужные файлы и папки и если Вы работаете в
-														файловом менеджере - найдите кнопку "изменить права". Если Вы работаете
-													под Linux - вам поможет команда chmod -R 777 "имя_папки".</p>
-												</li>
-											</ol>
-										</article>
-										
-										<!-- OpenCart installation -->
-										
-										<article id="opencart-cms-installation">
-											<h4>Установка OpenCart</h4>
-											<p>Откройте браузер и пропишите путь к директории OpenCart в адресной строке
-											браузера (<i>например, http://your_domain_name/opencart</i>). Должен появиться экран установки OpenCart:</p>
-											<p>&nbsp;</p>
-											<h5 id="opencart-install-configuration"><span class="badge">1 этап установки</span> Лицензия</h5>
-											<p>&nbsp;</p>
-											<figure class="img-polaroid"><img
-											src="img/opencart-engine-installation-initital.jpg" alt=""></figure>
-											<p class="muted text-center">Рис 1. Установка OpenCart. Этап 1. Лицензия</p>
-											<p>Ознакомьтесь с лицензией OpenCart и, если Вы согласны с ее условиями, нажмите кнопку <strong class="btn">Continue (Продолжить)</strong>.</p>
-											<p>&nbsp;</p>
-											<h5 id="opencart-install-database"><span class="badge"> 2 этап</span> Предварительный</h5>
-											<p>&nbsp;</p>
-											<figure class="img-polaroid"><img src="img/opencart-engine-installation-step2.jpg"
-											alt=""></figure>
-											<p class="muted text-center">Рис 2. Установка OpenCart. Этап 2. Предварительный</p>
-											<p>На данном этапе, OpenCart проверит хостинг сервер: соответствуют ли настройки
-											требованиям OpenCart и правильно ли заданы разрешения файлов и директорий.</p>
-											<p>&nbsp;</p>
-											<h5 id="opencart-install-overview"><span class="badge">3 этап</span> Конфигурация </h5>
-											<p>&nbsp;</p>
-											<figure class="img-polaroid"><img src="img/opencart-engine-installation-step3.jpg"
-											alt=""></figure>
-											<p class="muted text-center">Рис 3. Установка OpenCart. Этап 3. Конфигурация</p>
-											<p>На данном этапе нужно указать детали подключения к базе данных. Насколько Вы
-												помните, на этапе подготовки была создана база данных MySQL, сейчас нужно указать
-											полученные/заданные вами детали:</p>
-											<ul>
-												<li>сервер базы данных;</li>
-												<li>название базы данных;</li>
-												<li>имя пользователя базы данных;</li>
-												<li>пароль пользователя базы данных.</li>
-											</ul>
-											<p></p>
-											<p>При возникновении сложностей с этими деталями, обратитесь к хостинг
-											провайдеру. </p>
-											<p>Также нужно создать профиль администратора магазина. Введите имя, пароль и e-mail
-												администратора. Эти детали будут использоваться для доступа в панель управления
-											OpenCart. </p>
-											<p>&nbsp;</p>
-											<h5 id="opencart-install-complete"><span class="badge">4 этап</span> Готово!</h5>
-											<p>&nbsp;</p>
-											<figure class="img-polaroid"><img src="img/opencart-engine-installation-step4.jpg"
-											alt=""></figure>
-											<p class="muted text-center">Рис 4. Установка OpenCart. Этап 4. Готово!</p>
-											<p>Это заключительный этап установки движка OpenCart. Предлагаются две опции:
-											перейти на Ваш сайт магазина OpenCart или в панель управления OpenCart.</p>
-											<p>Вы также можете воспользоваться инструкцией по установке: <i class="icon-film"> </i> <a href="/help/ru/opencart-2-x-how-to-install-opencart-engine-and-a-template-using-fullpackage.html" target="_blank">OpenCart. Как установить движок и шаблон OpenCart (при помощи “fullpackage”)</a>. </p>
-											<div class="box-info"><span> Удалите папку "install" с сервера. Вы не сможете войти в магазин, пока эта папка находится на сервере.</span> </div>
-											<p>Установите разрешения 644 или 444 на следующие файлы с целью ограничения доступа
-											к ним:</p>
-											<ul>
-												<li>config.php;</li>
-												<li>index.php;</li>
-												<li>admin/config.php;</li>
-												<li>admin/index.php;</li>
-												<li>system/startup.php.</li>
-											</ul>
-										</article>
-										<p>Установка завершена. Чтобы открыть магазин, пропишите <strong> свое доменное
-										имя </strong> в
-										адресной строке браузера. Для доступа в панель управления OpenCart, пропишите <strong>доменное_имя/admin</strong>.</p>
-									</div>
-									<div class="block-templates" id="template-installation">
-										<h3>Установка на существующий магазин</h3>
-										<div class="box-notification"><span>Убедитесь, что Ваша версия движка OpenCart соответствует требованиям шаблона. Все версии OpenCart доступны на <a
-											href=" http://www.opencart.com/index.php?route=download/download"
-										target="_blank" class="spec_link"> официальном сайте OpenCart </a>.</span></div>
-										<br/>
-										<ol>
-											<li>Чтобы установить шаблон OpenCart, нужно загрузить его файлы на хостинг сервер. В папке OpenCart шаблона найдите архив <strong> &quot;themeXXX(update).zip&quot;</strong> разархивируйте его на свой компьютер.</li>
-											<li>После этого загрузите разархивированные файлы в корневую директорию
-												установленного OpenCart. <br/>
-												Вы также можете воспользоваться детальной видео инструкцией, <a href="/help/ru/how-upload-files-server-2.html" target="_blank"> как загружать файлы на хостинг
-												сервер</a>. <br/>
-											<span class="info-box">Файлы шаблона никаким образом не повредят магазину;</span> </li>
-											<li>Затем откройте сайт в браузере и добавьте /install в конце адресной строки
-											браузера (<i>например, http://your_domain_name/opencart/install</i>) </li>
-											<li>В появившейся на экране странице нажмите кнопку <strong>Continue (Продолжить)</strong>. Обновление
-											темы может занять некоторое время. </li>
-											<li>Войдите в панель управления Вашим сайтом, перейдите в меню <strong>Расширения -> Установщик расширений (Extensions -> Extension	Installer)</strong> и
-											загрузите файлы из архива <strong>themeXXX(extensions)</strong>. После загрузки
-											всех файлов архива, перейдите в меню <strong>Расширения -> Модификации (Extensions -> Modifications)</strong> и нажмите
-											копку <strong>обновить(refresh)</strong> в правом верхнем углу экрана; </li>
-											<li>Далее перейдите в настройки магазина <strong>Система -> Настройки (System -> Settings)</strong>, и во вкладке  Магазин (Store) в поле Шаблон (Template) выберите тему - <strong>themeXXX</strong>. </li>
-										</ol>
-										<p><strong>Вы также можете воспользоваться инструкцией по установке:</strong> <a target="_blank"
-											href="/help/ru/opencart-2-x-how-to-install-a-template-over-the-existing-store-using-update-package.html"> OpenCart. Как установить шаблон на существующий магазин (при помощи архива
-											“update”)</a>. </p>
-									</div>
-								</section>
-								<section class="block-templates" id="extension_configuration">
-									<h2><i class="icon-cog"></i> Настройка расширений</h2>
-									<div id="module_install">
-										<h3>Установка модулей</h3>
-										<p>Установка модуля проходит в несколько шагов. Перейдите в панель администратора
-											(добавив /admin в адресной строке - www.yoursite.com/admin). Далее, в боковой панели
-											выберите вкладку <strong> Расширения (Extensions)</strong> и в выпадающем списке <strong>Модули (Modules)</strong>
-											(Рис.5). В открывшемся окне показаны все установленные и готовые к установке модули. Если напротив названия
-											модуля есть кнопка <strong>Деинсталлировать (Uninstall)</strong> - это значит, что модуль уже установлен и, нажав на <strong>Редактировать (Edit)</strong>, Вы можете редактировать настройки данного модуля. В противном случае, нажав
-										на <strong>Установить (Install)</strong>, Вы произведете установку модуля. Удаление модуля происходит похожим образом: необходимо нажать кнопку <strong>Деинсталлировать (Uninstall)</strong>, после чего модуль будет удален. </p>
-										<div class="box-info"> <span>Будьте внимательны, так как при удалении модуля будут удалены его настройки, которые восстановить будет невозможно.</span> </div>
-										<figure class="img-polaroid"> <img src="img/install_1.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 5. Установка модуля</p>
-										<p>После установки модуля необходимо его настроить. Настройки могут отличаться в
-											зависимости от модуля, кроме обязательного поля <strong>Status</strong> (Рис. 6) - данное поле
-										включает/выключает наш модуль.</p>
-										<figure class="img-polaroid"> <img src="img/edit-module_1.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 6. Редактирование модуля</p>
-										<p>Для добавления модуля на страницу требуется перейти к списку страниц. Это можно
-										сделать 2-мя способами (Рис.7):</p>
-										<ol class="list">
-											<li>В боковом меню перейдите в раздел <strong>Система -> Дизайн -> Макет (System -> Design -> Layout)</strong>;</li>
-											<li>Находясь в разделе модулей, нажмите на ссылку <strong>here</strong>.</li>
-										</ol>
-										<figure class="img-polaroid"> <img src="img/page-selecting-way.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 7. Переход на выбор страницы для редактирования</p>
-										<p>Выберите из списка страницу, на которую нужно добавить модуль, напротив неё нажмите <strong>Редактировать (Edit)</strong> (Рис.8).</p>
-										<figure class="img-polaroid"> <img src="img/list-of-pages.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 8. Выбор страницы для редактирования</p>
-										<p>Далее показан список модулей, которые уже имеются на странице, и их позиции
-										(Рис.9). </p>
-										<figure class="img-polaroid"> <img src="img/layout.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 9. Добавление модулей на страницу</p>
-										<p>Доступны следующие позиции (по порядку отображения):</p>
-										<ol class="list">
-											<li>Header Top (после секции Header);</li>
-											<li>Column-left (левая боковая панель);</li>
-											<li>Column-right (правая боковая панель);</li>
-											<li>Content-top;</li>
-											<li>Content-bottom;</li>
-											<li>Footer.</li>
-										</ol>
-										<p>Поле <strong>Порядок Сортировки (Sort Order)</strong> указывает порядок отображения модулей на странице, которые
-											находятся в одной позиции.
-											Для добавления модуля на страницу нажмите <strong>Добавить модуль (Add Module)</strong>. В появившейся строке выберите необходимый модуль и позицию на странице и нажмите <strong>Сохранить (Save)</strong>. Установка модуля на этом
-										закончена. </p>
-									</div>
-									<div id="banner_create">
-										<h3>Создание баннеров</h3>
-										<h4>Модификация TM Description for banners</h4>
-										<p>Модификация предназначенная для добавления описания баннеров.
-										Для удаления или отключения модификации зайдите в <strong>Расширения -> Модификации (Extensions -> Modifications)</strong> найдите в списке "TM Description for banners" расширение и нажмите кнопку <strong>Отключить (Disable)</strong> или <strong>Удалить (Delete)</strong>. </p>
-										<p>Настройки некоторых модулей содержат поле для выбора баннера, который будет
-										использоваться. Перейдите в раздел <strong> Система -> Дизайн -> Баннера (System -> Design -> Banner)</strong> (Рис.10).</p>
-										<figure class="img-polaroid"> <img src="img/banner-list.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 10. Страница баннеров</p>
-										<p>На данной странице отображается список созданных баннеров. Для создания нового
-											баннера нажмите <strong>Добавить новый (Add New)</strong>, для редактирования существующего баннера нажмите
-										<strong>Редактировать (Edit)</strong>.</p>
-										<figure class="img-polaroid"> <img src="img/edit-banner.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 11. Редактирование баннера</p>
-										<p>Далее укажите Banner Name, Status и нажмите <strong>Добавить баннер (Add Banner)</strong>. В появившейся таблице	укажите: </p>
-										<ol class="list">
-											<li>Название баннера;</li>
-											<li>Описание - отображаемый в баннере текст (поддерживается html-разметка); </li>
-											<li>Ссылку - укажите относительную ссылку. ссылку относительно адреса сайта (например,
-												index.php?route=product/product&amp;product_id=47) данный параметр не является
-											обязательным; </li>
-											<li>Изображение;</li>
-											<li>Порядок баннера - так как баннер может быть не один, необходимо заполнять данное поле. </li>
-										</ol>
-										<p>Для удаления баннера нажмите <strong>Удалить (Remove)</strong>. После создания баннера, Вы сможете
-										использовать его для других модулей.</p>
-									</div>
-									<div id="module_parallax">
-										<h3>Parallax</h3>
-										<p>Параллакс-скроллинг - это специальная техника скроллинга в компьютерной графике, при
-											которой изображения на заднем фоне двигаются медленнее контента, который находится на переднем фоне,
-											создавая, таким образом, иллюзию глубины и эффект погружения в двухмерной видео-игре.
-										Данный модуль добавит параллакс-эффект на сайт, не требуя каких-либо дополнительных навыков и усилий. </p>
-										<p>После установки модуля Вы можете настроить его на странице настроек модуля (Рис.12).</p>
-										<figure class="img-polaroid"> <img src="img/edit-parallax.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 12. Настройка модуля Parallax</p>
-										<h4>Настройки:</h4>
-										<ol>
-											<li><strong>Module Name</strong> - название модуля;</li>
-											<li><strong>Banner</strong> - выберите из списка созданных ранее <a href='#banner_create'>баннеров</a>; </li>
-											<li><strong>Width</strong> - ширина картинки для модуля;</li>
-											<li><strong>Height</strong> - высота картинки для модуля;</li>
-											<li><strong>Status</strong> - статус модуля (включен/отключен).</li>
-										</ol>
-										<div class="box-info"> <span>Ширина и высота картинки должна соответствовать оригинальной (используемой по умолчанию), иначе эффект может не соответствовать Вашим ожиданиям. </span> </div>
-									</div>
-									<div id="module_category">
-										<h3>TM Category</h3>
-										<p>Данный модуль позволяет выводить категории в виде аккордеон меню, также выводит все
-										подкатегории (Рис.13). Как правило, используется в боковой панели. </p>
-										<figure class="img-polaroid"> <img src="img/tm-category-view.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 13. Внешний вид модуля TM Category</p>
-										<h4>Настройки:</h4>
-										<p>После установки модуля Вы можете включить или выключить его на странице
-										конфигураций.</p>
-									</div>
-									<div id="module_facebook">
-										<h3>TM Facebook Box</h3>
-										<p>Данный модуль отображает Facebook like box - отображает лица и количество поклонников, кому естественно нравится Ваш сайт или бренд (Рис.14).</p>
-										<figure class="img-polaroid"> <img src="img/tm-facebook-view.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 14. Внешний вид модуля TM Facebook</p>
-										<p>После установки модуля Вы можете настроить его на странице настроек модуля (Рис.15).</p>
-										<figure class="img-polaroid"> <img src="img/tm-facebook-edit.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 15. Настройка модуля TM Facebook</p>
-										<h4>Настройки:</h4>
-										<ol class="list">
-											<li><strong>Module Name</strong> - название модуля;</li>
-											<li><strong>Facebook Page URL</strong> - ссылка на Facebook страницу;</li>
-											<li><strong>Color Scheme</strong> - цветовая схема (светлая, темная);</li>
-											<li><strong>Show Faces</strong> - показывать лица пользователей, которым понравилась страница (yes, no); </li>
-											<li><strong>Show Stream</strong> - показывать ленту последних постов (yes, no);</li>
-											<li><strong>Show Header</strong> - показывать заголовок блока (yes, no);</li>
-											<li><strong>Show Border</strong> - показывать границу блока (yes, no);</li>
-											<li><strong>Width</strong> - ширина блока в пикселях;</li>
-											<li><strong>Height </strong> - высота блока в пикселях;</li>
-											<li><strong>Status</strong> - статус модуля (включен/отключен).</li>
-										</ol>
-									</div>
-									<div id="module_twitter">
-										<h3>TM Twitter Box</h3>
-										<p>Данный модуль отображает ленту постов из социальной сети Twitter (Рис.16). Он
-										позволяет посетителям сайта быть в курсе всех последних обновлений и сообщений на Вашей странице в социальной сети Twitter.</p>
-										<figure class="img-polaroid"> <img src="img/tm-twitter-view.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 16. Внешний вид модуля TM Twitter</p>
-										<p>После установки модуля Вы можете настроить его на странице настроек модуля (Рис. 17).</p>
-										<figure class="img-polaroid"> <img src="img/tm-twitter-edit.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 17. Редактирование модуля TM Twitter</p>
-										<h4>Настройки:</h4>
-										<ol class="list">
-											<li><strong>Module Name</strong>- название модуля;</li>
-											<li><strong>Twitter Page URL</strong> - ссылка на Twitter аккаунт;</li>
-											<li><strong>Widget ID</strong> - Widget ID, который Вы можете получить <a href="https://twitter.com/settings/widgets" target="_blank">здесь</a>; </li>
-											<li><strong>Tweet Limit</strong> - количество твитов;</li>
-											<li><strong>Color Scheme</strong> - цветовая схема (светлая, темная);</li>
-											<li><strong>Width</strong> - ширина блока в пикселях;</li>
-											<li><strong>Height</strong> - высота блока в пикселях;</li>
-											<li><strong>Status</strong> - статус модуля (включен/отключен).</li>
-										</ol>
-									</div>
-									<div id="module_pinterest">
-										<h3>TM Pinterest</h3>
-										<p>TM Pinterest модуль (Рис.17) позволяет отобразить Pinterest галерею в Вашем магазине. </p>
-										<figure class="img-polaroid"> <img src="img/tm-pinterest-view.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 18. Внешний вид модуля TM Pinterest</p>
-										<p>После установки модуля Вы можете настроить его на странице настроек модуля
-										(Рис.19).</p>
-										<figure class="img-polaroid"> <img src="img/tm-pinterest-edit.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 19. Редактирование модуля TM Pinterest</p>
-										<h4>Настройки:</h4>
-										<ol class="list">
-											<li><strong>Module Name</strong>- название модуля;</li>
-											<li><strong>Pinterest Page URL</strong> - полный путь к странице, с которой будет
-											выводиться лента; </li>
-											<li><strong>Width</strong> - ширина блока в пикселях;</li>
-											<li><strong>Height</strong> - высота блока в пикселях; </li>
-											<li><strong>Status</strong> - статус модуля (включен/отключен).</li>
-										</ol>
-									</div>
-									<div id="module_olark">
-										<h3>Olark Live Chat</h3>
-										<p>Модуль Olark Live Chat для OpenCart (Рис.20).</p>
-										<figure class="img-polaroid"> <img src="img/olark-view.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 20. Внешний вид модуля Olark Live Chat</p>
-										<p>После установки модуля Вы можете настроить его на странице настроек модуля (Рис.
-										21).</p>
-										<figure class="img-polaroid"> <img src="img/olark-edit.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 21. Редактирование модуля Olark Live Chat</p>
-										<h4>Настройки:</h4>
-										<ol class="list">
-											<li><strong>Module Name</strong> - название модуля;</li>
-											<li><strong>Site id</strong> - идентификатор сайта, который после регистрации и
-												заполнения всех необходимых данных будет указан на
-											странице <a href='https://www.olark.com/install' rel="nofollow" target="_blank">https://www.olark.com/install</a>; </li>
-											<li><strong>Status</strong> - статус модуля (включен/отключен).</li>
-										</ol>
-									</div>
-									<div id="module_slideshow">
-										<h3>TM Slideshow</h3>
-										<p>Данный модуль позволяет отобразить Camera слайдер на Вашем сайте. </p>
-										<p>После установки модуля Вы можете настроить его на странице настроек модуля
-										(Рис.22).</p>
-										<figure class="img-polaroid"> <img src="img/tm-slideshow-edit.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 22. Редактирование модуля TM Slideshow</p>
-										<h4>Настройки:</h4>
-										<ol class="list">
-											<li><strong>Module Name</strong> - название модуля; </li>
-											<li><strong>Banner</strong> - выберите из списка созданных ранее <a href='#banner_create'>баннеров</a>; </li>
-											<li><strong>Width</strong> - ширина картинки для модуля; </li>
-											<li><strong>Height</strong> - высота картинки для модуля; </li>
-											<li><strong>Status</strong> - статус модуля (включен/отключен).</li>
-										</ol>
-									</div>
-									<div id="module_googlemap">
-										<h3>TM Google Map</h3>
-										<p>Данный модуль позволяет добавлять Google карту с неограниченным количеством маркеров
-										на Ваш сайт (Рис. 23). </p>
-										<figure class="img-polaroid"> <img src="img/tm-googlemap-view.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 23. Внешний вид модуля TM Google Map</p>
-										<p>Центр карты и один из маркеров определяются настройками магазина - <strong>Система -> Настройки (System -> Settings)</strong>, во вкладке <strong>Общие (General)</strong>, поле <strong>Геокод (Geocode)</strong>. При нажатии на маркер, появляется окно с адресом
-										указанным в той же вкладке в поле <strong>Адрес (Address)</strong>.</p>
-										<p>После установки модуля Вы можете настроить его на странице настроек модуля
-										(Рис.24-25).</p>
-										<figure class="img-polaroid"> <img src="img/tm-googlemap-edit_1.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 24. Редактирование модуля TM Google Map</p>
-										<figure class="img-polaroid"> <img src="img/tm-googlemap-edit_2.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 25. Редактирование модуля TM Google Map</p>
-										<h4>Настройки:</h4>
-										<ol class="list">
-											<li><strong>Module Name</strong> - название модуля; </li>
-											<li><strong>Google Map API key</strong> - API ключ для Google Map. Подробная информация доступна на <a target="_blank" href="https://developers.google.com/maps/documentation/javascript/tutorial#api_key">официальном сайте</a>;</li>
-											<li><strong>Status</strong> - статус модуля (включен/отключен);</li>
-											<li><strong>Map Type</strong> - тип карты. Доступны 4 значения:
-												<ul>
-													<li> <strong>Roadmap</strong> - дорожная карта, используемая по умолчанию; </li>
-													<li><strong>Terrain (Landscape)</strong> - топографическая карта, основанная на информации о
-													ландшафте; </li>
-													<li><strong>Hybrid</strong> - комбинация обычной карты и снимков со спутника;</li>
-													<li><strong>Satellite</strong> - снимки Google Планета Земля, сделанные со спутника;</li>
-												</ul>
-											</li>
-											<li><strong>Map Zoom</strong> - численное значение.
-												Начальное масштабирование, используемое при отображении
-												карты. Значение 0 соответствует наименьшему уровню
-												масштабирования. При увеличении этого значения
-											увеличивается масштабирование карты; </li>
-											<li><strong>Sensor </strong>- указывает, используется или нет в приложении датчик
-											определения местоположения пользователя. </li>
-											<li><strong>Map Width</strong> - ширина карты. Необходимо указать единицы измерения (% или px); </li>
-											<li><strong>Map Height</strong> - высота карты. Необходимо указать единицы измерения (% или px); </li>
-											<li><strong>Map Styles </strong>- задает стиль карты. Разнообразные стили доступны
-											на <a href='https://snazzymaps.com/' rel="nofollow" target="_blank">https://snazzymaps.com/</a>; </li>
-											<li><strong>Disable UI </strong>- включает/отключает пользовательский интерфейс
-											по умолчанию; </li>
-											<li><strong>Scrollwheel </strong>- включает/отключает изменение расширения карты
-											с помощью колеса мыши; </li>
-											<li><strong>Draggable </strong>- включает/отключает возможность перемещения карты; </li>
-											<li><strong>Marker Image </strong>- устанавливает изображение маркера. Если оставить
-											поле пустым, будет отображен стандартный маркер; </li>
-											<li><strong>Active Marker Image </strong>- устанавливает изображение маркера при
-											нажатии; </li>
-											<li><strong>Marker Image Width </strong>- устанавливает ширину изображения маркера; </li>
-											<li><strong>Marker Image Height </strong>- устанавливает высоту изображения маркера. </li>
-										</ol>
-										<p>Для добавления маркера нажмите <strong>Add New</strong>. В поле <strong>Geocode</strong> укажите координаты
-											маркера (широта, долгота - Пример:40.6700, -73.9400) и в поле <strong>Address</strong> укажите
-											информацию, которая будет отображена при клике на маркер. Координаты необходимого
-										места можно найти на <a href='http://www.mapcoordinates.net' rel="nofollow" target="_blank">http://www.mapcoordinates.net</a>. Для удаления маркера, соответственно, нажмите <strong>Delete Marker</strong> над необходимым маркером. </p>
-									</div>
-									<div id="module_category_menu">
-										<h3>TM Category Menu </h3>
-										<p>Данный модуль позволяет выводить категории в боковой панели и подкатегории 1-го и
-										2-го порядка, включая изображения подкатегории 1-го порядка (Рис.26).</p>
-										<figure class="img-polaroid"> <img src="img/tm-category-menu-view.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 26. Внешний вид модуля TM Google Map</p>
-										<h4>Настройки:</h4>
-										<p>После установки модуля, Вы можете включить или выключить его на странице
-										настроек модуля.</p>
-									</div>
-									<div id="module_cookie">
-										<h3>TM Cookie Policy</h3>
-										<p>Данный модуль оповещает пользователя об использовании Кукис (cookies) (Рис. 27).
-											Согласно Закону о Кукис, модуль позволяет оповещать пользователей об использовании
-										Кукис.</p>
-										<p>Cookies - это небольшие текстовые файлы, которые веб-сайты создают на компьютерах
-											пользователей. Они используются для идентификации пользователей и улучшения качества
-											использования веб-сайта. Cookies являются важной частью многих функций
-										веб-сайтов.</p>
-										<p>Например, cookies позволяют онлайн магазинам запоминать, какие товары Вы добавили в
-											корзину. Также они сохраняют данные входа на сайт или предоставляют ценную статистику
-										использования и информацию владельцам сайтов.</p>
-										<p>Если у вас есть веб-сайт, он почти наверняка использует cookies. Их главная функция -
-											изучать количество и интересы пользователей через специальные инструменты, например
-											Google Analytics. Также они могут использоваться для отображения объявлений, или –
-											если у вас есть онлайн-магазин – быть ключевой частью системы электронной
-										коммерции.</p>
-										<p>26 мая 2012 г. - ICO опубликовал акт о том, что "подразумеваемое согласие" не
-										допускается и необходимо сообщать о политике приватности/cookies.</p>
-										<figure class="img-polaroid"> <img src="img/tm-cookie-policy-view.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 27. Внешний вид модуля TM Cookie Policy</p>
-										<p> После установки модуля, Вы можете настроить его на странице настроек модуля (Рис. 28).</p>
-										<figure class="img-polaroid"> <img src="img/tm-cookie-policy-edit.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 28. Редактирование модуля TM Cookie Policy</p>
-									</div>
-									<div id="module_instagram">
-										<h3>TM Instagram</h3>
-										<p>Данный модуль отображает фотографии из сети Instagram в виде списка картинок с
-										отображением количества лайков (Рис.29).</p>
-										<figure class="img-polaroid"> <img src="img/tm-instagram-view.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 29. Внешний вид модуля TM Instagram</p>
-										<p>После установки модуля, Вы можете настроить его на странице настроек модуля (Рис.
-										30).</p>
-										<figure class="img-polaroid"> <img src="img/tm-instagram-edit.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 30. Редактирование модуля TM Instagram</p>
-										<h4>Настройки:</h4>
-										<ol class="list">
-											<li><strong>Module Name</strong> - наименование модуля; </li>
-											<li><strong>Select Get</strong> - выбор, каким образом получать изображения.
-												Доступны 2 значения (user,tagged), что соответственно
-												означает, получать изображения либо конкретного
-											пользователя, либо по хештегу; </li>
-											<li><strong>Entry TagName</strong> - тег, по которому будут выводиться
-											изображения (используется, если опция "Select get" имеет значение tagged); </li>
-											<li><strong>Entry ClientID</strong> - Ваш API идентификатор из instagram.com (используется, если опция "Select get" имеет значение tagged); </li>
-											<li><strong>Entry UserId</strong> - уникальный идентификатор пользователя (используется, если опция "Select get" имеет значение user); </li>
-											<li><strong>Entry accessToken</strong> - маркер доступа для отображения
-											пользовательских изображений (используется, если опция "Select get" имеет значение user); </li>
-											<li><strong>Entry limit</strong> - устанавливает ограничение на количество отображаемых изображений; </li>
-											<li><strong>Status</strong> - статус модуля (включен/отключен).</li>
-										</ol>
-									</div>
-									<div id="module_manufacturers">
-										<h3>TM Manufacturers</h3>
-										<p> Данный модуль отображает список производителей (Рис. 31). Производители добавляются
-										в меню <strong>Каталог -> Производители (Catalog -> Manufacturers)</strong>.</p>
-										<figure class="img-polaroid"> <img src="img/tm-manufacturers-view.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 31. Внешний вид модуля TM Manufacturers</p>
-										<h4>Настройки:</h4>
-										<p>После установки модуля, Вы можете включить или выключить его на странице настроек модуля.</p>
-									</div>
-									<div id="module_tabs">
-										<h3>TM Module Tabs</h3>
-										<p>Данный модуль выводит 4 основных модуля (Bestsellers, Featured, Specials, Latest) в
-										виде вкладок (Рис. 32).</p>
-										<figure class="img-polaroid"> <img src="img/tm-moduletabs-view.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 32. Внешний вид модуля TM Module Tabs</p>
-										<p>После установки модуля, Вы можете настроить его на странице настроек модуля
-										(Рис.33).</p>
-										<figure class="img-polaroid"> <img src="img/tm-moduletabs-edit.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 33. Редактирование модуля TM Module Tabs</p>
-										<h4>Настройки:</h4>
-										<ol class="list">
-											<li><strong>Module Name</strong> - название модуля; </li>
-											<li><strong>Specials</strong> - включает/отключает отображение модуля Specials; </li>
-											<li><strong>Bestsellers</strong> - включает/отключает отображение модуля Bestsellers; </li>
-											<li><strong>Latest</strong> - включает/отключает отображение модуля Latest; </li>
-											<li><strong>Featured</strong> - включает/отключает отображение модуля Featured; </li>
-											<li><strong>Products</strong> - выбор списка продуктов для вкладки Featured; </li>
-											<li><strong>Limit</strong> - устанавливает ограничение на количество отображаемых продуктов; </li>
-											<li><strong>Width</strong> - ширина изображения продукта; </li>
-											<li><strong>Height</strong> - высота изображения продукта;</li>
-											<li><strong>Status</strong> - статус модуля (включен/отключен).</li>
-										</ol>
-									</div>
-									<div id="module_newsletter">
-										<h3>TM Newsletter</h3>
-										<p>Данный модуль добавляет блок с формой подписки на email рассылку (Рис.34).</p>
-										<figure class="img-polaroid"> <img src="img/tm-newsletter-view.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 34. Внешний вид модуля TM Newsletter</p>
-										<p>После установки модуля, Вы можете настроить его на странице настроек модуля (Рис.35).</p>
-										<figure class="img-polaroid"> <img src="img/tm-newsletter-edit.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 35.  Редактирование модуля TM Newsletter</p>
-										<h4>Настройки:</h4>
-										<ol class="list">
-											<li><strong>Module Name</strong> - название модуля; </li>
-											<li><strong>Description</strong> - текст, который будет добавлен перед формой подписки на email рассылку;</li>
-											<li><strong>Status</strong> - статус модуля (включен/отключен).</li>
-										</ol>
-									</div>
-									<div id="module_newsletter_popup">
-										<h3>TM Newsletter Popup</h3>
-										<p>Данный модуль добавляет всплывающее окно с предложением подписаться на email рассылку при
-											посещении Вашего сайта. (Рис.36). Окно не выводится для авторизованных (вошедших в аккаунт) или уже подписавшихся на рассылку
-										пользователей.</p>
-										<figure class="img-polaroid"> <img src="img/tm-newsletter-popup-view.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рис 36. Внешний вид модуля TM Newsletter Popup</p>
-										<p>После установки модуля, Вы можете настроить его на странице настроек модуля (Рис.
-										37-38).</p>
-										<figure class="img-polaroid"> <img src="img/tm-newsletter-popup-edit.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рисунок 37. Редактирование модуля TM Newsletter Popup</p>
-										<figure class="img-polaroid"> <img src="img/tm-newsletter-popup-edit_2.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рисунок 38. Редактирование модуля TM Newsletter Popup</p>
-										<h4>Настройки:</h4>
-										<ol class="list">
-											<li><strong>Module Name</strong> - название модуля; </li>
-											<li><strong>Background Image</strong> - фоновое изображение всплывающего окна;</li>
-											<li><strong>Background image width</strong> - ширина фонового изображения;</li>
-											<li><strong>Background image height</strong> - высота фонового изображения; </li>
-											<li><strong>Cookie Storage Time</strong> - время хранения кукис; </li>
-											<li><strong>Heading Title</strong> - заголовок в всплывающем окне; </li>
-											<li><strong>Description</strong> - описание в всплывающем окне; </li>
-											<li><strong>Status</strong> - статус модуля (включен/отключен).</li>
-										</ol>
-									</div>
-									<div id="module_product_slideshow">
-										<h3>TM Product Slideshow</h3>
-										<p>Данный модуль выводит выбранные продукты в виде карусели (Рис. 39). </p>
-										<figure class="img-polaroid"> <img src="img/tm-product-slideshow-view.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рисунок 39. Внешний вид модуля TM Product Slideshow</p>
-										<p>После установки модуля, Вы можете настроить его на странице настроек
-										модуля (Рис.40).</p>
-										<figure class="img-polaroid"> <img src="img/tm-product-slideshow-edit.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рисунок 40. Редактирование модуля TM Product Slideshow</p>
-										<h4>Настройки:</h4>
-										<ol class="list">
-											<li><strong>Module Name</strong> - название модуля; </li>
-											<li><strong>Products</strong> - выбор списка продуктов; </li>
-											<li><strong>Limit</strong> - ограничение на количество отображаемых продуктов; </li>
-											<li><strong>Width</strong> - ширина изображения продукта; </li>
-											<li><strong>Height</strong> - высота изображения продукта; </li>
-											<li><strong>Status</strong> - статус модуля (включен/отключен).</li>
-										</ol>
-									</div>
-									<div id="module_social_list">
-										<h3>TM Social List</h3>
-										<p>Данный модуль выводит список ссылок на страницы популярных социальных сетей и сервисов. </p>
-										<p>После установки модуля, Вы можете настроить его на странице настроек модуля (Рис.41). Если оставить поле пустым, элемент списка не будет отображен.</p>
-										<figure class="img-polaroid"> <img src="img/tm-social-list-edit.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рисунок 41. Редактирование модуля TM Social List</p>
-										<h4>Настройки:</h4>
-										<ol class="list">
-											<li><strong>Youtube</strong> - ссылка на страницу сервиса YouTube; </li>
-											<li><strong>Facebook</strong> - ссылка на страницу сети Facebook; </li>
-											<li><strong>Google Plus</strong> - ссылка на страницу сервиса Google Plus; </li>
-											<li><strong>Twitter</strong> - ссылка на страницу сети Twitter; </li>
-											<li><strong>Pinterest</strong> - ссылка на страницу сети Pinterest; </li>
-											<li><strong>Instagram</strong> - ссылка на страницу сети Instagram; </li>
-											<li><strong>Vimeo</strong> - ссылка на страницу сервиса Vimeo; </li>
-											<li><strong>Status</strong> - статус модуля (включен/отключен).</li>
-										</ol>
-										<div class="box-info"> <span> В случае установки "update" версии темы, демо данные шаблона (список ссылок на соц. сети) будут недоступны. Заполните данные (необходимые) поля для корректного отображения модуля.</span> </div>
-									</div>
-									<div id="module_video_background">
-										<h3>TM Video Background</h3>
-										<p>Данный модуль выводит блок с фоновым видео, загруженного либо локально, либо с помощью сервиса YouTube.</p>
-										<p>После установки модуля, Вы можете настроить его на странице настроек модуля (Рис.42-43).</p>
-										<figure class="img-polaroid"> <img src="img/tm-video-background-edit.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рисунок 42. Редактирование модуля TM Video Background</p>
-										<figure class="img-polaroid"> <img src="img/tm-video-background-edit-2.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рисунок 43. Редактирование модуля TM Video Background</p>
-										<h4>Настройки:</h4>
-										<ol class="list">
-											<li><strong>Module Name</strong> - название модуля; </li>
-											<li><strong>Status</strong> - статус модуля (включен/отключен).</li>
-											<li><strong>Video Source</strong> - источник загрузки видео. Доступны 2 значения:
-												<ul>
-													<li><strong>local</strong> - видео загружается с Вашего сайта;</li>
-													<li><strong>youtube</strong> - видео загружается с сервиса YouTube.</li>
-												</ul>
-											</li>
-											<li><strong>YouTube url</strong> - ссылка на видео сервиса Youtube; </li>
-											<li><strong>Mute</strong> - отключение громкости; </li>
-											<li><strong>Mobile</strong> - включает/отключает отображение видео на мобильных устройствах.
-											При значении 'Yes' - видео будет отображаться на мобильных устройствах; </li>
-											<li><strong>Start Video</strong> - секунда, с которой необходимо воспроизвести видео; </li>
-											<li><strong>Mobile Image</strong> - картинка, которая будет отображена вместо фонового видео, в случае его отключения на мобильных устройствах; </li>
-											<li><strong>Mobile Image Width</strong> - ширина фоновой картинки; </li>
-											<li><strong>Mobile Image Height</strong> - высота фоновой картинки; </li>
-											<li><strong>Description</strong> - html-разметка, которая будет отображена поверх фонового видео. </li>
-										</ol>
-										<p>При выборе <strong>Video Source - Local Video</strong> укажите картинку (постер) в формате ".jpg", на который будет заменено фоновое видео на мобильных устройствах.
-										Для правильной работы модуля в папке с картинкой, которую Вы указали, должны находиться 3 видео с одинаковыми названиями в следующих форматах: </p>
-										<ul>
-											<li>*.ogv</li>
-											<li>*.mp4</li>
-											<li>*.webm</li>
-										</ul>
-									</div>
-									<div id="modification_search">
-										<h3>TM Live search</h3>
-										<p>Модификация TM Live search выводит искомый продукт(ы) без перезагрузки страницы (Рис. 44).
-											Для ее удаления или отключения, перейдите в <strong>Расширения -> Модификации (Extensions -> Modifications)</strong>, выберите в
-										списке нужную вам модификацию, нажмите кнопку <strong>Отключить (Disable)</strong> или <strong>Удалить (Delete)</strong>.</p>
-										<figure class="img-polaroid"> <img src="img/tm-live-view.jpg" alt=""/> </figure>
-										<p class="muted text-center">Рисунок 44. Внешний вид модификации TM Live Search</p>
-									</div>
-									<div id="modification_lazy">
-										<h3>TM Lazy load</h3>
-										<p>Модификация, которая загружает картинки продуктов в момент, когда они попадают в область видимости при прокрутке сайта. Данное расширение используется для ускорения
-											работы сайта. Для смены картинки прелоадера, замените картинку <strong>lazy_loader.gif</strong> в
-										папке <strong>catalog/view/theme/themeXXX/image/.</strong></p>
-									</div>
-								</section>
-								<section id="addendum" class="block-templates">
-									<h2><i class="icon-question-sign"></i> Послесловие <small><i>куда обращаться за помощью, поддержкой и дополнительной информацией</i> </small> </h2>
-									<p>OpenCart - это многофункциональное, быстрое и понятное пользователю решение для
-										электронной коммерции с привлекательным дизайном. Это идеальное решение для онлайн
-										магазина. Стандартный пакет содержит все необходимые модуля и расширения для успешной
-										торговли. Открытый исходный код предоставляет поистине выдающиеся возможности для Ваших
-									клиентов.</p>
-									<p>Дополнительная информация:</p>
-									<ul class="list">
-										<li> <a target="_blank" href="http://www.opencart.com/">Официальный сайт OpenCart</a> </li>
-										<li> <a target="_blank" href="http://forum.opencart.com/">Форум сообщества</a> </li>
-										<li> <a href="/help/ru/ecommerce/opencart/opencart-tutorials/" target="_blank">OpenCart туториалы</a> </li>
-									</ul>
-									<h5>Не удается загрузить Google Fonts:</h5>
-									<ol>
-										<li>Откройте <strong>catalog\view\theme\themeXXX\stylesheet\stylesheet.css</strong> файл.</li>
-										<li>Найдите следующую строку: <br />
-											<pre>//fonts.googleapis.com/css?family=[---имя_вашего_web_шрифта---]</pre>
-										</li>
-										<li>Замените её следующим: <br />
-											<pre>//fonts.useso.com/css?family=[---имя_вашего_web_шрифта---]</pre>
-										</li>
-									</ol>
-									<div id="validation">
-										<h4>Валидация</h4>
-										<div class="box-notification"> <span>В наших шаблонах мы придерживаемся семантических правил написания кода HTML-разметки и CSS-стилей. Однако, некоторые ошибки все же могут возникать при W3C валидации. Создание 100-процентно правильного кода, согласно стандартам консорциума W3C, ограничивает использование современных технологий создания сайтов, таких как спецификация CSS3 и разметка HTML5. Целью нашей компании является предоставление богатого пользовательского опыта с высококачественными шаблонами, и иногда нам приходится нарушать некоторые правила.</span> </div>
-									</div>
-								</section>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Footer
-		================================================== -->
-		<footer>
-			<div class="container">
-				<div class="span12"> <span>Документация OpenCart</span><br/>
-				&copy; <span id="date"></span> <span id="copyright">Template Monster</span> </div>
-			</div>
-		</footer>
-		<div id="back-top"> <a href="#"><i class="icon-double-angle-up"></i></a> </div>
-		<!-- <script src="js/bootstrap-scrollspy.js"></script>  -->
-		<div class="modal_bg"></div>
-		<div class="modal">
-			<div class="modal-header"> <span class="modal_remove pull-right"><i class="icon-remove"></i></span>
-				<h3>Choose language</h3>
-			</div>
-			<div class="modal-body">
-				<ul id="modal_languages" class="nav nav-list bs-docs-sidenav">
-				</ul>
-			</div>
-		</div>
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-2787305-5']);
-			_gaq.push(['_trackPageview']);
-			
-			(function () {
-				var ga = document.createElement('script');
-				ga.type = 'text/javascript';
-				ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0];
-				s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-	</body>
+<head>
+    <title>Документация OpenCart 2</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="css/responsive.css" media="screen">
+    <link rel="stylesheet" href="css/style.css" media="screen">
+    <link rel="stylesheet" href="css/flexslider.css" media="screen">
+    <link rel="stylesheet" href="css/prettify.css" media="screen">
+    <link rel="stylesheet" href="css/prettyPhoto.css" media="screen">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/jquery-migrate-1.1.0.js"></script>
+    <script src="js/prettify.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/bootstrap-affix.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/script.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" media="all"
+          rel="stylesheet" type="text/css">
+
+    <!--[if lt IE 8]>
+    <div style='text-align:center'>
+        <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img
+                src="http://www.theie6countdown.com/img/upgrade.jpg" border="0" alt=""/></a>
+    </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<!-- header
+================================================== -->
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <article class="span4">
+                <a class="brand" href="/help/ru/" target="_blank"></a>
+            </article>
+            <article class="span6">
+                <h1><img alt="" src="img/opencart_logo.png">Документация OpenCart 2</h1>
+            </article>
+            <article class="span2">
+                <div id="languages" class="select-menu pull-right">
+                    <div class="select-menu_icon"><b>Ru</b><i class="icon-angle-down"></i></div>
+                    <ul class="select-menu_list">
+                    </ul>
+                </div>
+                <div id="versions" class="select-menu pull-right">
+                    <div class="select-menu_icon"><b>v1-2</b><i class="icon-angle-down"></i></div>
+                    <ul class="select-menu_list">
+                        <li class="active">
+                            <a href="/help/quick-start-guide/OpenCart-templates/v1-2/index_ru.html"><span>v1-2</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/help/quick-start-guide/OpenCart-templates/v1-0/index_ru.html"><span>v1-0</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/help/quick-start-guide/OpenCart-templates/v1-1/index_ru.html"><span>v1-1</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </div>
+</header>
+<div id="content">
+    <div class="bg-content-top">
+        <div class="container">
+
+            <!-- Docs nav
+            ================================================== -->
+            <div class="row">
+                <div class="span3">
+                    <div id="nav_container">
+                        <a href="javascript:;" id="affect_all"><span class="expand"> <i
+                                class="icon-angle-down"></i> </span> <span class="close"> <i class="icon-angle-up"></i> </span>
+                        </a>
+                        <div class="clearfix"></div>
+                        <ul class="nav nav-list bs-docs-sidenav" id="nav">
+                            <li class="nav-item item1">
+                                <dl class="slide-down">
+                                    <dt>
+                                        <a href="#introduction" class="icon-info-sign">Введение</a>
+                                    </dt>
+                                    <dd></dd>
+                                </dl>
+                            </li>
+                            <li class="nav-item item2">
+                                <dl class="slide-down">
+                                    <dt>
+                                        <a href="#prepare" class="icon-check">Подготовка</a>
+                                    </dt>
+                                    <dd></dd>
+                                </dl>
+                            </li>
+                            <li class="nav-item item3">
+                                <dl class="slide-down">
+                                    <dt>
+                                        <a href="#getting_started" class="icon-play">Начало использования</a>
+                                        <i class="icon-sample"></i></dt>
+                                    <dd>
+                                        <ul class="list">
+                                            <li>
+                                                <a href="#complete_install">Полная установка</a>
+                                            </li>
+                                            <li>
+                                                <a href="#template-installation">Установка поверх существующего
+                                                                                 магазина
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li class="nav-item item4">
+                                <dl class="slide-down">
+                                    <dt>
+                                        <a class="icon-cog" href="#extension_configuration">Настройка расширений</a>
+                                        <i class="icon-sample"></i></dt>
+                                    <dd>
+                                        <ul class="list">
+                                            <li>
+                                                <a href="#module_install">Установка модулей</a>
+                                            </li>
+                                            <li>
+                                                <a href="#banner_create">Создание баннеров</a>
+                                            </li>
+                                            <li>
+                                                <a href="#module_parallax">Parallax</a>
+                                            </li>
+                                            <li>
+                                                <a href="#module_category">TM Category</a>
+                                            </li>
+                                            <li>
+                                                <a href="#module_facebook">TM Facebook Box</a>
+                                            </li>
+                                            <li>
+                                                <a href="#module_twitter">TM Twitter Box</a>
+                                            </li>
+                                            <li>
+                                                <a href="#module_pinterest">TM Pinterest</a>
+                                            </li>
+                                            <li>
+                                                <a href="#module_olark">Olark live chat</a>
+                                            </li>
+                                            <li>
+                                                <a href="#module_slideshow">TM Slideshow</a>
+                                            </li>
+                                            <li>
+                                                <a href="#module_googlemap">TM Google Map</a>
+                                            </li>
+                                            <li>
+                                                <a href="#module_category_menu">TM Category Menu</a>
+                                            </li>
+                                            <li>
+                                                <a href="#module_cookie">TM Cookie Policy</a>
+                                            </li>
+                                            <li>
+                                                <a href="#module_instagram">TM Instagram</a>
+                                            </li>
+                                            <li>
+                                                <a href="#module_manufacturers">TM Manufacturers</a>
+                                            </li>
+                                            <li>
+                                                <a href="#module_tabs">TM Module Tabs</a>
+                                            </li>
+                                            <li>
+                                                <a href="#module_newsletter">TM Newsletter</a>
+                                            </li>
+                                            <li>
+                                                <a href="#module_newsletter_popup">TM Newsletter Popup</a>
+                                            </li>
+                                            <li>
+                                                <a href="#module_product_slideshow">TM Product Slideshow</a>
+                                            </li>
+                                            <li>
+                                                <a href="#module_social_list">TM Social List</a>
+                                            </li>
+                                            <li>
+                                                <a href="#module_video_background">TM Video Background</a>
+                                            </li>
+                                            <li>
+                                                <a href="#modification_search">TM Live search</a>
+                                            </li>
+                                            <li>
+                                                <a href="#modification_lazy">TM Lazy load</a>
+                                            </li>
+                                        </ul>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li class="nav-item item8">
+                                <dl class="slide-down">
+                                    <dt>
+                                        <a href="#addendum" class="icon-question-sign">Послесловие</a>
+                                    </dt>
+                                    <dd></dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="span9">
+
+                    <!-- box-content
+                    ================================================== -->
+                    <div class="box-content">
+                        <!-- block-started
+                        ================================================== -->
+                        <section class="block-started" id="introduction">
+                            <h2><i class="icon-info-sign"></i> Введение
+                                <small><i>Что находится в шаблоне и для чего его можно использовать</i></small>
+                            </h2>
+                            <p>Благодарим Вас за приобретение шаблона OpenCart. Данная документация состоит из
+                               нескольких частей и охватывает весь процесс установки и настройки веб-сайта OpenCart c
+                               нуля. Мы сделали все возможное, чтобы это руководство было понятным и удобным в
+                               использовании. </p>
+
+                            <div id="opencart_cms_desc">
+                                <h4>Что представляет собой OpenCart?</h4>
+
+                                <p>OpenCart - это бесплатная платформа электронной коммерции с открытым исходным кодом.
+                                   OpenCart позволяет создать профессиональную и надежную
+                                   основу для построения успешного онлайн магазина. Сообщество Opencart включает
+                                   множество пользователей, начиная с опытных веб-разработчиков, ищущих удобный
+                                   интерфейс, и заканчивая владельцами магазинов, впервые запускающими онлайн-бизнес.
+                                   OpenCart предоставляет огромное количество функций, позволяющих полностью
+                                   контролировать магазин. С инструментами OpenCart Вы легко раскроете потенциал
+                                   магазина.
+                                    <a href="http://docs.opencart.com" target="_blank">Подробнее</a>
+                                </p>
+                            </div>
+                            <div id="file_structure">
+                                <h4>Структура файлов</h4>
+
+                                <p>Шаблон состоит из следующих папок и файлов:</p>
+                                <ul class="files_structure">
+                                    <li class="folder"><i class="icon-folder-close"></i> <b>documentation</b>
+                                        <small class="muted"> - содержит детальное руководство по установке движка и
+                                                              шаблона;
+                                        </small>
+                                        <ul>
+                                            <li class="file"><i class="icon-file"></i> documentation.html
+                                                <small class="muted"> - основной файл документации. Вы его сейчас
+                                                                      читаете :)
+                                                </small>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="folder"><i class="icon-folder-close"></i> <b>screenshots</b>
+                                        <small class="muted"> - содержит скриншоты темы;</small>
+                                    </li>
+                                    <li class="folder"><i class="icon-folder-close"></i> <b>themeXXX</b>
+                                        <small class="muted"> - включает в себя:</small>
+                                        <ul>
+                                            <li class="folder"><i class="icon-file"></i> <b>themeXXX(full).zip</b>
+                                                <small class="muted"> - архив с движком OpenCart, шаблоном и
+                                                                      демо-данными темы (предназначен для установки с
+                                                                      нуля);
+                                                </small>
+                                            </li>
+                                            <li class="folder"><i class="icon-file"></i> <b>themeXXX(update).zip</b>
+                                                <small class="muted"> - архив с шаблоном без демо-данных (для установки
+                                                                      поверх существующего магазина);
+                                                </small>
+                                            </li>
+                                            <li class="folder"><i class="icon-file"></i> <b>themeXXX(extensions).zip</b>
+                                                <small class="muted"> - архив с xml-файлами;</small>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="folder"><i class="icon-file"></i> <b>info.txt </b>
+                                        <small class="muted"> - инструкции по разархивированию исходных файлов;</small>
+                                    </li>
+                                    <li class="folder"><i class="icon-file"></i> <b>sources_XXXXXXXX.zip</b>
+                                        <small class="muted"> - архив с исходными файлами. Включает:</small>
+                                        <ul>
+                                            <li class="folder"><i class="icon-folder-close"></i> <b>psd</b>
+                                                <small class="muted"> - содержит исходный файл шаблона в формате Adobe
+                                                                      Photoshop (.psd);
+                                                </small>
+                                            </li>
+                                            <li class="folder"><i class="icon-folder-close"></i> <b>SCSS</b>
+                                                <small class="muted"> - содержит исходные файлы CSS-стилей темы
+                                                                      написанных с
+                                                                      помощью SCSS.
+                                                </small>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                        <section class="block-templates" id="prepare">
+                            <h2><i class="icon-check"></i> Подготовка
+                                <small><i>Что нужно сделать перед началом работы</i></small>
+                            </h2>
+                            <p>Прежде, чем перейти к установке веб-сайта OpenCart, нужно полностью подготовиться. </p>
+
+                            <div id="software">
+                                <h4>Программное обеспечение</h4>
+
+                                <p>Для полноценной работы с шаблоном OpenCart мы рекомендуем скачать все требуемые
+                                   приложения. Список необходимого программного обеспечения находится на странице
+                                   предпросмотра шаблона. Требования для различных шаблонов могут меняться, поэтому мы
+                                   перечислим лишь основные:</p>
+                                <ol>
+                                    <li> Вам может понадобиться программа Adobe Photoshop. Она используется для
+                                         редактирования исходных файлов .PSD и необходима, если требуется изменить
+                                         графический дизайн и изображения шаблона.
+                                    </li>
+                                    <li>Для редактирования исходного кода файлов шаблона нужно использовать редактор
+                                        кода, например Adobe Dreamweaver, Notepad++, Sublime Text и т.п.
+                                    </li>
+                                    <li>Чтобы загрузить файлы на хостинг сервер, потребуется FTP менеджер, например
+                                        Total Commander, FileZilla, CuteFTP и т.д.
+                                    </li>
+                                    <li>Воспользуйтесь следующими инструкциями, чтобы распаковать архивы при помощи
+                                        <a href="/help/ru/extract-archived-files-windows-os.html" target="_blank">
+                                            WinZip(PC)
+                                        </a>
+                                        и
+                                        <a href="/help/ru/extract-archived-files-mac-os.html" target="_blank">
+                                            StuffitExpander(MAC)
+                                        </a>
+                                        .
+                                    </li>
+                                </ol>
+                            </div>
+                            <div id="hosting">
+                                <h4>Хостинг</h4>
+
+                                <p>Поскольку OpenCart базируется на приложениях PHP/MySQL, необходимо подготовить
+                                   хостинг сервер. </p>
+
+                                <p>При наличии активного сервера, нужно проверить его на соответствие
+                                    <a href="http://docs.opencart.com/system/server-requirements" target="_blank">
+                                        системным требованиям
+                                    </a>
+                                   и на способность обслуживать веб-сайты OpenCart.
+                                </p>
+                                <p>Также можно установить OpenCart на персональном компьютере при помощи локального
+                                   сервера. Для создания локального хостинг сервера необходимо использовать программное
+                                   обеспечение <b>WAMP</b>, <b>AppServ</b>, <b>MAMP</b> и т.п. Любое из них
+                                   устанавливается как обычная программа и поддерживает OpenCart. </p>
+
+                                <p>Вы можете воспользоваться следующими инструкциями для настройки локального
+                                   сервера:</p>
+                                <ul class="unstyled">
+                                    <li><i class="icon-film"> </i>
+                                        <a href="/help/ru/how-to-install-appserv-web-development-environment.html"
+                                           target="_blank">Как установить среду веб-разработки AppServ
+                                        </a>
+                                    </li>
+                                    <li><i class="icon-film"> </i>
+                                        <a href="/help/ru/how-to-install-wamp-web-development-environment.html"
+                                           target="_blank">Как установить среду веб-разработки WAMP
+                                        </a>
+                                    </li>
+                                    <li><i class="icon-film"> </i>
+                                        <a href="/help/ru/how-to-install-xamp-web-development-environment.html"
+                                           target="_blank">Как установить среду веб-разработки XAMP
+                                        </a>
+                                        .
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                        <section class="block-templates" id="getting_started">
+                            <h2><i class="icon-play"></i> Начало использования
+                                <small><i>Куда нажимать, чтобы приступить к работе</i></small>
+                            </h2>
+                            <div class="row-fluid">
+                                <div class="span6 text-center img-paraloid">
+                                    <h3>
+                                        <a href="#complete_install" class="scrollTo">Полная установка</a>
+                                    </h3>
+                                    <p>Данный тип установки используется, если у вас нет готового сайта OpenCart. Архив
+                                       'themeXXX(full).zip' включает файлы движка OpenCart и темы с демо-данными,
+                                       поэтому вам не нужно отдельно загружать движок OpenCart. Демо-данные позволят
+                                       Вашему сайту выглядеть так же, как и шаблон на странице предпросмотра, со всеми
+                                       образцами товаров, модулей и настройками сайта. </p>
+
+                                    <p>&nbsp;</p>
+                                </div>
+                                <div class="span6 text-center img-paraloid">
+                                    <h3>
+                                        <a href="#template-installation" class="scrollTo">Установка на существующий
+                                                                                          магазин
+                                        </a>
+                                    </h3>
+                                    <p>Следуйте данному типу установки, если у вас уже есть действующий сайт OpenCart и
+                                       требуется всего лишь изменить его внешний вид, путем установки новой темы.</p>
+
+                                    <p>&nbsp;</p>
+                                </div>
+                            </div>
+
+                            <!-- Full OpenCart Installation -->
+                            <div id="complete_install">
+                                <h3>Полная установка</h3>
+
+                                <p>Полная установка используется в том случае, если нужно установить веб-сайт OpenCart c
+                                   нуля. Предусматривается предварительное выполнение всех
+                                    <a href="#prepare">подготовительных шагов</a>
+                                   и наличие необходимых программ.
+                                </p>
+
+                                <!-- Creating database -->
+
+                                <article id="creating-database">
+                                    <h4>Создание базы данных</h4>
+
+                                    <p>Когда все файлы будут загружены на хостинг сервер, необходимо подготовить новую
+                                       базу данных для веб-сайта OpenCart. Ее можно создать через инструмент управления
+                                       базами данных в контрольной панели хостинга (<i>обычно PhpMyAdmin</i>).</p>
+
+                                    <p>При помощи phpMyAdmin можно создать новую базу данных за 3 простых шага: (см.
+                                       следующие слайды):</p>
+                                    <ol class="list">
+                                        <li>Щелкните кнопку Databases (базы данных) в верхнем меню навигации, чтобы
+                                            перейти в список баз данных.
+                                        </li>
+                                        <li>Введите название базы данных в поле "Create new database (Создать новую базу
+                                            данных)".
+                                        </li>
+                                        <li>Нажмите справа на кнопку Create (Создать).</li>
+                                    </ol>
+                                    <p>База данных появилась в списке. Кликните по ее названию, чтобы получить доступ к
+                                       ней:</p>
+
+                                    <p>&nbsp;</p>
+
+                                    <div class="flexslider clearfix img-polaroid">
+                                        <ul class="slides">
+                                            <li><img src="img/database-create-1.jpg" alt=""/>
+
+                                                <div class="flex-caption">
+                                                    <p>1. Откройте вкладку "Databases (Базы данных)", чтобы перейти к
+                                                       списку баз данных.</p>
+                                                </div>
+                                            </li>
+                                            <li><img src="img/database-create-2.jpg" alt=""/>
+
+                                                <div class="flex-caption">
+                                                    <p>2. Введите название базы данных. <br>
+                                                       3. Щелкните кнопку "Создать".</p>
+                                                </div>
+                                            </li>
+                                            <li><img src="img/database-create-3.jpg" alt=""/>
+
+                                                <div class="flex-caption">
+                                                    <p>4. База данных появилась в списке. Кликните по названию, чтобы
+                                                       получить доступ к базе данных.</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <p>&nbsp;</p>
+
+                                    <p>Вы также можете воспользоваться детальной видео инструкцией <i
+                                            class="icon-film"> </i>
+                                        <a href="/help/ru/how-to-create-a-database.html" target="_blank">Как создать
+                                                                                                         базу данных
+                                        </a>
+                                       .
+                                    </p>
+                                    <div class="box-info"><span> В случае возникновения сложностей при создании базы данных, необходимо обратиться к хостинг провайдеру за поддержкой.</span>
+                                    </div>
+                                </article>
+
+                                <!-- Uploading files -->
+                                <article id="uploading">
+                                    <h4>Загрузка шаблона</h4>
+
+                                    <p class="">Для начала работы с OpenCart, требуется загрузить файлы на хостинг
+                                                сервер. Это можно сделать при помощи файлового менеджера хостинга или
+                                                альтернативного FTP менеджера.</p>
+                                    <ol>
+                                        <li>Откройте папку шаблона.</li>
+                                        <li>Перейдите в папку 'themeXXX' и распакуйте архив 'themeXXX(full).zip' на Ваш
+                                            компьютер. Содержимое архива загрузите на сервер (<i class="icon-film"> </i>
+                                            <a href="/help/ru/how-upload-files-server-2.html" target="_blank">Как
+                                                                                                              загрузить
+                                                                                                              файлы на
+                                                                                                              сервер
+                                            </a>
+                                            , <i class="icon-film"> </i>
+                                            <a href="/help/ru/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html"
+                                               target="_blank"> Как загрузить файлы с помощью cPanel (WebHost менеджер,
+                                                                WHM)
+                                            </a>
+                                            ).
+                                        </li>
+                                        <li>Задайте правильные разрешения на следующие папки и файлы движка OpenCart:
+                                            <ul>
+                                                <li>system/cache/;</li>
+                                                <li>system/logs/;</li>
+                                                <li>system/download/;</li>
+                                                <li>system/upload/;</li>
+                                                <li>image/;</li>
+                                                <li>image/cache/;</li>
+                                                <li>image/catalog/;</li>
+                                                <li>config.php;</li>
+                                                <li>admin/config.php.</li>
+                                            </ul>
+                                            <p>Разрешения должны быть CHMOD 755 или 777 в зависимости от конфигурации
+                                               сервера. Для этого выделите нужные файлы и папки и если Вы работаете в
+                                               файловом менеджере - найдите кнопку "изменить права". Если Вы работаете
+                                               под Linux - вам поможет команда chmod -R 777 "имя_папки".</p>
+                                        </li>
+                                    </ol>
+                                </article>
+
+                                <!-- OpenCart installation -->
+
+                                <article id="opencart-cms-installation">
+                                    <h4>Установка OpenCart</h4>
+
+                                    <p>Откройте браузер и пропишите путь к директории OpenCart в адресной строке
+                                       браузера (<i>например, http://your_domain_name/opencart</i>). Должен появиться
+                                       экран установки OpenCart:</p>
+
+                                    <p>&nbsp;</p>
+                                    <h5 id="opencart-install-configuration"><span class="badge">1 этап установки</span>
+                                        Лицензия</h5>
+
+                                    <p>&nbsp;</p>
+                                    <figure class="img-polaroid"><img
+                                            src="img/opencart-engine-installation-initital.jpg" alt=""></figure>
+                                    <p class="muted text-center">Рис 1. Установка OpenCart. Этап 1. Лицензия</p>
+
+                                    <p>Ознакомьтесь с лицензией OpenCart и, если Вы согласны с ее условиями, нажмите
+                                       кнопку <strong class="btn">Continue (Продолжить)</strong>.</p>
+
+                                    <p>&nbsp;</p>
+                                    <h5 id="opencart-install-database"><span class="badge"> 2 этап</span>
+                                        Предварительный</h5>
+
+                                    <p>&nbsp;</p>
+                                    <figure class="img-polaroid"><img src="img/opencart-engine-installation-step2.jpg"
+                                                                      alt=""></figure>
+                                    <p class="muted text-center">Рис 2. Установка OpenCart. Этап 2. Предварительный</p>
+
+                                    <p>На данном этапе, OpenCart проверит хостинг сервер: соответствуют ли настройки
+                                       требованиям OpenCart и правильно ли заданы разрешения файлов и директорий.</p>
+
+                                    <p>&nbsp;</p>
+                                    <h5 id="opencart-install-overview"><span class="badge">3 этап</span> Конфигурация
+                                    </h5>
+
+                                    <p>&nbsp;</p>
+                                    <figure class="img-polaroid"><img src="img/opencart-engine-installation-step3.jpg"
+                                                                      alt=""></figure>
+                                    <p class="muted text-center">Рис 3. Установка OpenCart. Этап 3. Конфигурация</p>
+
+                                    <p>На данном этапе нужно указать детали подключения к базе данных. Насколько Вы
+                                       помните, на этапе подготовки была создана база данных MySQL, сейчас нужно указать
+                                       полученные/заданные вами детали:</p>
+                                    <ul>
+                                        <li>сервер базы данных;</li>
+                                        <li>название базы данных;</li>
+                                        <li>имя пользователя базы данных;</li>
+                                        <li>пароль пользователя базы данных.</li>
+                                    </ul>
+                                    <p></p>
+
+                                    <p>При возникновении сложностей с этими деталями, обратитесь к хостинг
+                                       провайдеру. </p>
+
+                                    <p>Также нужно создать профиль администратора магазина. Введите имя, пароль и e-mail
+                                       администратора. Эти детали будут использоваться для доступа в панель управления
+                                       OpenCart. </p>
+
+                                    <p>&nbsp;</p>
+                                    <h5 id="opencart-install-complete"><span class="badge">4 этап</span> Готово!</h5>
+
+                                    <p>&nbsp;</p>
+                                    <figure class="img-polaroid"><img src="img/opencart-engine-installation-step4.jpg"
+                                                                      alt=""></figure>
+                                    <p class="muted text-center">Рис 4. Установка OpenCart. Этап 4. Готово!</p>
+
+                                    <p>Это заключительный этап установки движка OpenCart. Предлагаются две опции:
+                                       перейти на Ваш сайт магазина OpenCart или в панель управления OpenCart.</p>
+
+                                    <p>Вы также можете воспользоваться инструкцией по установке: <i
+                                            class="icon-film"> </i>
+                                        <a href="/help/ru/opencart-2-x-how-to-install-opencart-engine-and-a-template-using-fullpackage.html"
+                                           target="_blank">OpenCart. Как установить движок и шаблон OpenCart (при помощи
+                                                           “fullpackage”)
+                                        </a>
+                                       .
+                                    </p>
+                                    <div class="box-info"><span> Удалите папку "install" с сервера. Вы не сможете войти в магазин, пока эта папка находится на сервере.</span>
+                                    </div>
+                                    <p>Установите разрешения 644 или 444 на следующие файлы с целью ограничения доступа
+                                       к ним:</p>
+                                    <ul>
+                                        <li>config.php;</li>
+                                        <li>index.php;</li>
+                                        <li>admin/config.php;</li>
+                                        <li>admin/index.php;</li>
+                                        <li>system/startup.php.</li>
+                                    </ul>
+                                </article>
+                                <p>Установка завершена. Чтобы открыть магазин, пропишите <strong> свое доменное
+                                                                                                  имя </strong> в
+                                   адресной строке браузера. Для доступа в панель управления OpenCart, пропишите
+                                    <strong>доменное_имя/admin</strong>.</p>
+                            </div>
+                            <div class="block-templates" id="template-installation">
+                                <h3>Установка на существующий магазин</h3>
+
+                                <div class="box-notification"><span>Убедитесь, что Ваша версия движка OpenCart соответствует требованиям шаблона. Все версии OpenCart доступны на <a
+                                        href=" http://www.opencart.com/index.php?route=download/download"
+                                        target="_blank" class="spec_link"> официальном сайте OpenCart
+                                </a>.</span></div>
+                                <br/>
+                                <ol>
+                                    <li>Чтобы установить шаблон OpenCart, нужно загрузить его файлы на хостинг сервер. В
+                                        папке OpenCart шаблона найдите архив <strong>
+                                            &quot;themeXXX(update).zip&quot;</strong> разархивируйте его на свой
+                                        компьютер.
+                                    </li>
+                                    <li>После этого загрузите разархивированные файлы в корневую директорию
+                                        установленного OpenCart. <br/>
+                                        Вы также можете воспользоваться детальной видео инструкцией,
+                                        <a href="/help/ru/how-upload-files-server-2.html" target="_blank"> как загружать
+                                                                                                           файлы на
+                                                                                                           хостинг
+                                                                                                           сервер
+                                        </a>
+                                        . <br/>
+                                        <span class="info-box">Файлы шаблона никаким образом не повредят магазину;</span>
+                                    </li>
+                                    <li>Затем откройте сайт в браузере и добавьте /install в конце адресной строки
+                                        браузера (<i>например, http://your_domain_name/opencart/install</i>)
+                                    </li>
+                                    <li>В появившейся на экране странице нажмите кнопку <strong>Continue
+                                                                                                (Продолжить)</strong>.
+                                        Обновление
+                                        темы может занять некоторое время.
+                                    </li>
+                                    <li>Войдите в панель управления Вашим сайтом, перейдите в меню <strong>Расширения ->
+                                                                                                           Установщик
+                                                                                                           расширений
+                                                                                                           (Extensions
+                                                                                                           -> Extension
+                                                                                                           Installer)</strong>
+                                        и
+                                        загрузите файлы из архива <strong>themeXXX(extensions)</strong>. После загрузки
+                                        всех файлов архива, перейдите в меню <strong>Расширения -> Модификации
+                                                                                     (Extensions ->
+                                                                                     Modifications)</strong> и нажмите
+                                        копку <strong>обновить(refresh)</strong> в правом верхнем углу экрана;
+                                    </li>
+                                    <li>Далее перейдите в настройки магазина <strong>Система -> Настройки (System ->
+                                                                                     Settings)</strong>, и во вкладке
+                                        Магазин (Store) в поле Шаблон (Template) выберите тему -
+                                        <strong>themeXXX</strong>.
+                                    </li>
+                                </ol>
+                                <p><strong>Вы также можете воспользоваться инструкцией по установке:</strong>
+                                    <a target="_blank"
+                                       href="/help/ru/opencart-2-x-how-to-install-a-template-over-the-existing-store-using-update-package.html">
+                                        OpenCart. Как установить шаблон на существующий магазин (при помощи архива
+                                        “update”)
+                                    </a>
+                                    .
+                                </p>
+                            </div>
+                        </section>
+                        <section class="block-templates" id="extension_configuration">
+                            <h2><i class="icon-cog"></i> Настройка расширений</h2>
+
+                            <div id="module_install">
+                                <h3>Установка модулей</h3>
+
+                                <p>Установка модуля проходит в несколько шагов. Перейдите в панель администратора
+                                   (добавив /admin в адресной строке - www.yoursite.com/admin). Далее, в боковой панели
+                                   выберите вкладку <strong> Расширения (Extensions)</strong> и в выпадающем списке
+                                    <strong>Модули (Modules)</strong>
+                                   (Рис.5). В открывшемся окне показаны все установленные и готовые к установке модули.
+                                   Если напротив названия
+                                   модуля есть кнопка <strong>Деинсталлировать (Uninstall)</strong> - это значит, что
+                                   модуль уже установлен и, нажав на <strong>Редактировать (Edit)</strong>, Вы можете
+                                   редактировать настройки данного модуля. В противном случае, нажав
+                                   на <strong>Установить (Install)</strong>, Вы произведете установку модуля. Удаление
+                                   модуля происходит похожим образом: необходимо нажать кнопку <strong>Деинсталлировать
+                                                                                                       (Uninstall)</strong>,
+                                   после чего модуль будет удален. </p>
+
+                                <div class="box-info"><span>Будьте внимательны, так как при удалении модуля будут удалены его настройки, которые восстановить будет невозможно.</span>
+                                </div>
+                                <figure class="img-polaroid"><img src="img/install_1.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 5. Установка модуля</p>
+
+                                <p>После установки модуля необходимо его настроить. Настройки могут отличаться в
+                                   зависимости от модуля, кроме обязательного поля <strong>Status</strong> (Рис. 6) -
+                                   данное поле
+                                   включает/выключает наш модуль.</p>
+                                <figure class="img-polaroid"><img src="img/edit-module_1.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 6. Редактирование модуля</p>
+
+                                <p>Для добавления модуля на страницу требуется перейти к списку страниц. Это можно
+                                   сделать 2-мя способами (Рис.7):</p>
+                                <ol class="list">
+                                    <li>В боковом меню перейдите в раздел <strong>Система -> Дизайн -> Макет (System ->
+                                                                                  Design -> Layout)</strong>;
+                                    </li>
+                                    <li>Находясь в разделе модулей, нажмите на ссылку <strong>here</strong>.</li>
+                                </ol>
+                                <figure class="img-polaroid"><img src="img/page-selecting-way.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 7. Переход на выбор страницы для редактирования</p>
+
+                                <p>Выберите из списка страницу, на которую нужно добавить модуль, напротив неё нажмите
+                                    <strong>Редактировать (Edit)</strong> (Рис.8).</p>
+                                <figure class="img-polaroid"><img src="img/list-of-pages.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 8. Выбор страницы для редактирования</p>
+
+                                <p>Далее показан список модулей, которые уже имеются на странице, и их позиции
+                                   (Рис.9). </p>
+                                <figure class="img-polaroid"><img src="img/layout.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 9. Добавление модулей на страницу</p>
+
+                                <p>Доступны следующие позиции (по порядку отображения):</p>
+                                <ol class="list">
+                                    <li>Header Top (после секции Header);</li>
+                                    <li>Column-left (левая боковая панель);</li>
+                                    <li>Column-right (правая боковая панель);</li>
+                                    <li>Content-top;</li>
+                                    <li>Content-bottom;</li>
+                                    <li>Footer.</li>
+                                </ol>
+                                <p>Поле <strong>Порядок Сортировки (Sort Order)</strong> указывает порядок отображения
+                                   модулей на странице, которые
+                                   находятся в одной позиции.
+                                   Для добавления модуля на страницу нажмите <strong>Добавить модуль (Add
+                                                                                     Module)</strong>. В появившейся
+                                   строке выберите необходимый модуль и позицию на странице и нажмите <strong>Сохранить
+                                                                                                              (Save)</strong>.
+                                   Установка модуля на этом
+                                   закончена. </p>
+                            </div>
+                            <div id="banner_create">
+                                <h3>Создание баннеров</h3>
+                                <h4>Модификация TM Description for banners</h4>
+
+                                <p>Модификация предназначенная для добавления описания баннеров.
+                                   Для удаления или отключения модификации зайдите в <strong>Расширения -> Модификации
+                                                                                             (Extensions ->
+                                                                                             Modifications)</strong>
+                                   найдите в списке "TM Description for banners" расширение и нажмите кнопку <strong>Отключить
+                                                                                                                     (Disable)</strong>
+                                   или <strong>Удалить (Delete)</strong>. </p>
+
+                                <p>Настройки некоторых модулей содержат поле для выбора баннера, который будет
+                                   использоваться. Перейдите в раздел <strong> Система -> Дизайн -> Баннера (System ->
+                                                                               Design -> Banner)</strong> (Рис.10).</p>
+                                <figure class="img-polaroid"><img src="img/banner-list.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 10. Страница баннеров</p>
+
+                                <p>На данной странице отображается список созданных баннеров. Для создания нового
+                                   баннера нажмите <strong>Добавить новый (Add New)</strong>, для редактирования
+                                   существующего баннера нажмите
+                                    <strong>Редактировать (Edit)</strong>.</p>
+                                <figure class="img-polaroid"><img src="img/edit-banner.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 11. Редактирование баннера</p>
+
+                                <p>Далее укажите Banner Name, Status и нажмите <strong>Добавить баннер (Add
+                                                                                       Banner)</strong>. В появившейся
+                                   таблице укажите: </p>
+                                <ol class="list">
+                                    <li>Название баннера;</li>
+                                    <li>Описание - отображаемый в баннере текст (поддерживается html-разметка);</li>
+                                    <li>Ссылку - укажите относительную ссылку. ссылку относительно адреса сайта
+                                        (например,
+                                        index.php?route=product/product&amp;product_id=47) данный параметр не является
+                                        обязательным;
+                                    </li>
+                                    <li>Изображение;</li>
+                                    <li>Порядок баннера - так как баннер может быть не один, необходимо заполнять данное
+                                        поле.
+                                    </li>
+                                </ol>
+                                <p>Для удаления баннера нажмите <strong>Удалить (Remove)</strong>. После создания
+                                   баннера, Вы сможете
+                                   использовать его для других модулей.</p>
+                            </div>
+                            <div id="module_parallax">
+                                <h3>Parallax</h3>
+
+                                <p>Параллакс-скроллинг - это специальная техника скроллинга в компьютерной графике, при
+                                   которой изображения на заднем фоне двигаются медленнее контента, который находится на
+                                   переднем фоне,
+                                   создавая, таким образом, иллюзию глубины и эффект погружения в двухмерной видео-игре.
+                                   Данный модуль добавит параллакс-эффект на сайт, не требуя каких-либо дополнительных
+                                   навыков и усилий. </p>
+
+                                <p>После установки модуля Вы можете настроить его на странице настроек модуля
+                                   (Рис.12).</p>
+                                <figure class="img-polaroid"><img src="img/edit-parallax.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 12. Настройка модуля Parallax</p>
+                                <h4>Настройки:</h4>
+                                <ol>
+                                    <li><strong>Module Name</strong> - название модуля;</li>
+                                    <li><strong>Banner</strong> - выберите из списка созданных ранее
+                                        <a href='#banner_create'>баннеров</a>
+                                                                ;
+                                    </li>
+                                    <li><strong>Width</strong> - ширина картинки для модуля;</li>
+                                    <li><strong>Height</strong> - высота картинки для модуля;</li>
+                                    <li><strong>Status</strong> - статус модуля (включен/отключен).</li>
+                                </ol>
+                                <div class="box-info"><span>Ширина и высота картинки должна соответствовать оригинальной (используемой по умолчанию), иначе эффект может не соответствовать Вашим ожиданиям. </span>
+                                </div>
+                            </div>
+                            <div id="module_category">
+                                <h3>TM Category</h3>
+
+                                <p>Данный модуль позволяет выводить категории в виде аккордеон меню, также выводит все
+                                   подкатегории (Рис.13). Как правило, используется в боковой панели. </p>
+                                <figure class="img-polaroid"><img src="img/tm-category-view.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 13. Внешний вид модуля TM Category</p>
+                                <h4>Настройки:</h4>
+
+                                <p>После установки модуля Вы можете включить или выключить его на странице
+                                   конфигураций.</p>
+                            </div>
+                            <div id="module_facebook">
+                                <h3>TM Facebook Box</h3>
+
+                                <p>Данный модуль отображает Facebook like box - отображает лица и количество
+                                   поклонников, кому естественно нравится Ваш сайт или бренд (Рис.14).</p>
+                                <figure class="img-polaroid"><img src="img/tm-facebook-view.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 14. Внешний вид модуля TM Facebook</p>
+
+                                <p>После установки модуля Вы можете настроить его на странице настроек модуля
+                                   (Рис.15).</p>
+                                <figure class="img-polaroid"><img src="img/tm-facebook-edit.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 15. Настройка модуля TM Facebook</p>
+                                <h4>Настройки:</h4>
+                                <ol class="list">
+                                    <li><strong>Module Name</strong> - название модуля;</li>
+                                    <li><strong>Facebook Page URL</strong> - ссылка на Facebook страницу;</li>
+                                    <li><strong>Color Scheme</strong> - цветовая схема (светлая, темная);</li>
+                                    <li><strong>Show Faces</strong> - показывать лица пользователей, которым понравилась
+                                                                    страница (yes, no);
+                                    </li>
+                                    <li><strong>Show Stream</strong> - показывать ленту последних постов (yes, no);</li>
+                                    <li><strong>Show Header</strong> - показывать заголовок блока (yes, no);</li>
+                                    <li><strong>Show Border</strong> - показывать границу блока (yes, no);</li>
+                                    <li><strong>Width</strong> - ширина блока в пикселях;</li>
+                                    <li><strong>Height </strong> - высота блока в пикселях;</li>
+                                    <li><strong>Status</strong> - статус модуля (включен/отключен).</li>
+                                </ol>
+                            </div>
+                            <div id="module_twitter">
+                                <h3>TM Twitter Box</h3>
+
+                                <p>Данный модуль отображает ленту постов из социальной сети Twitter (Рис.16). Он
+                                   позволяет посетителям сайта быть в курсе всех последних обновлений и сообщений на
+                                   Вашей странице в социальной сети Twitter.</p>
+                                <figure class="img-polaroid"><img src="img/tm-twitter-view.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 16. Внешний вид модуля TM Twitter</p>
+
+                                <p>После установки модуля Вы можете настроить его на странице настроек модуля (Рис.
+                                   17).</p>
+                                <figure class="img-polaroid"><img src="img/tm-twitter-edit.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 17. Редактирование модуля TM Twitter</p>
+                                <h4>Настройки:</h4>
+                                <ol class="list">
+                                    <li><strong>Module Name</strong>- название модуля;</li>
+                                    <li><strong>Twitter Page URL</strong> - ссылка на Twitter аккаунт;</li>
+                                    <li><strong>Widget ID</strong> - Widget ID, который Вы можете получить
+                                        <a href="https://twitter.com/settings/widgets" target="_blank">здесь</a>
+                                                                   ;
+                                    </li>
+                                    <li><strong>Tweet Limit</strong> - количество твитов;</li>
+                                    <li><strong>Color Scheme</strong> - цветовая схема (светлая, темная);</li>
+                                    <li><strong>Width</strong> - ширина блока в пикселях;</li>
+                                    <li><strong>Height</strong> - высота блока в пикселях;</li>
+                                    <li><strong>Status</strong> - статус модуля (включен/отключен).</li>
+                                </ol>
+                            </div>
+                            <div id="module_pinterest">
+                                <h3>TM Pinterest</h3>
+
+                                <p>TM Pinterest модуль (Рис.17) позволяет отобразить Pinterest галерею в Вашем
+                                   магазине. </p>
+                                <figure class="img-polaroid"><img src="img/tm-pinterest-view.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 18. Внешний вид модуля TM Pinterest</p>
+
+                                <p>После установки модуля Вы можете настроить его на странице настроек модуля
+                                   (Рис.19).</p>
+                                <figure class="img-polaroid"><img src="img/tm-pinterest-edit.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 19. Редактирование модуля TM Pinterest</p>
+                                <h4>Настройки:</h4>
+                                <ol class="list">
+                                    <li><strong>Module Name</strong>- название модуля;</li>
+                                    <li><strong>Pinterest Page URL</strong> - полный путь к странице, с которой будет
+                                                                            выводиться лента;
+                                    </li>
+                                    <li><strong>Width</strong> - ширина блока в пикселях;</li>
+                                    <li><strong>Height</strong> - высота блока в пикселях;</li>
+                                    <li><strong>Status</strong> - статус модуля (включен/отключен).</li>
+                                </ol>
+                            </div>
+                            <div id="module_olark">
+                                <h3>Olark Live Chat</h3>
+
+                                <p>Модуль Olark Live Chat для OpenCart (Рис.20).</p>
+                                <figure class="img-polaroid"><img src="img/olark-view.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 20. Внешний вид модуля Olark Live Chat</p>
+
+                                <p>После установки модуля Вы можете настроить его на странице настроек модуля (Рис.
+                                   21).</p>
+                                <figure class="img-polaroid"><img src="img/olark-edit.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 21. Редактирование модуля Olark Live Chat</p>
+                                <h4>Настройки:</h4>
+                                <ol class="list">
+                                    <li><strong>Module Name</strong> - название модуля;</li>
+                                    <li><strong>Site id</strong> - идентификатор сайта, который после регистрации и
+                                                                 заполнения всех необходимых данных будет указан на
+                                                                 странице
+                                        <a href='https://www.olark.com/install' rel="nofollow" target="_blank">
+                                            https://www.olark.com/install
+                                        </a>
+                                                                 ;
+                                    </li>
+                                    <li><strong>Status</strong> - статус модуля (включен/отключен).</li>
+                                </ol>
+                            </div>
+                            <div id="module_slideshow">
+                                <h3>TM Slideshow</h3>
+
+                                <p>Данный модуль позволяет отобразить Camera слайдер на Вашем сайте. </p>
+
+                                <p>После установки модуля Вы можете настроить его на странице настроек модуля
+                                   (Рис.22).</p>
+                                <figure class="img-polaroid"><img src="img/tm-slideshow-edit.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 22. Редактирование модуля TM Slideshow</p>
+                                <h4>Настройки:</h4>
+                                <ol class="list">
+                                    <li><strong>Module Name</strong> - название модуля;</li>
+                                    <li><strong>Banner</strong> - выберите из списка созданных ранее
+                                        <a href='#banner_create'>баннеров</a>
+                                                                ;
+                                    </li>
+                                    <li><strong>Width</strong> - ширина картинки для модуля;</li>
+                                    <li><strong>Height</strong> - высота картинки для модуля;</li>
+                                    <li><strong>Status</strong> - статус модуля (включен/отключен).</li>
+                                </ol>
+                            </div>
+                            <div id="module_googlemap">
+                                <h3>TM Google Map</h3>
+
+                                <p>Данный модуль позволяет добавлять Google карту с неограниченным количеством маркеров
+                                   на Ваш сайт (Рис. 23). </p>
+                                <figure class="img-polaroid"><img src="img/tm-googlemap-view.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 23. Внешний вид модуля TM Google Map</p>
+
+                                <p>Центр карты и один из маркеров определяются настройками магазина - <strong>Система ->
+                                                                                                              Настройки
+                                                                                                              (System ->
+                                                                                                              Settings)</strong>,
+                                   во вкладке <strong>Общие (General)</strong>, поле <strong>Геокод (Geocode)</strong>.
+                                   При нажатии на маркер, появляется окно с адресом
+                                   указанным в той же вкладке в поле <strong>Адрес (Address)</strong>.</p>
+
+                                <p>После установки модуля Вы можете настроить его на странице настроек модуля
+                                   (Рис.24-25).</p>
+                                <figure class="img-polaroid"><img src="img/tm-googlemap-edit_1.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 24. Редактирование модуля TM Google Map</p>
+                                <figure class="img-polaroid"><img src="img/tm-googlemap-edit_2.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 25. Редактирование модуля TM Google Map</p>
+                                <h4>Настройки:</h4>
+                                <ol class="list">
+                                    <li><strong>Module Name</strong> - название модуля;</li>
+                                    <li><strong>Google Map API key</strong> - API ключ для Google Map. Подробная
+                                                                            информация доступна на
+                                        <a target="_blank"
+                                           href="https://developers.google.com/maps/documentation/javascript/tutorial#api_key">
+                                            официальном сайте
+                                        </a>
+                                                                            ;
+                                    </li>
+                                    <li><strong>Status</strong> - статус модуля (включен/отключен);</li>
+                                    <li><strong>Map Type</strong> - тип карты. Доступны 4 значения:
+                                        <ul>
+                                            <li><strong>Roadmap</strong> - дорожная карта, используемая по умолчанию;
+                                            </li>
+                                            <li><strong>Terrain (Landscape)</strong> - топографическая карта, основанная
+                                                                                     на информации о
+                                                                                     ландшафте;
+                                            </li>
+                                            <li><strong>Hybrid</strong> - комбинация обычной карты и снимков со
+                                                                        спутника;
+                                            </li>
+                                            <li><strong>Satellite</strong> - снимки Google Планета Земля, сделанные со
+                                                                           спутника;
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><strong>Map Zoom</strong> - численное значение.
+                                                                  Начальное масштабирование, используемое при
+                                                                  отображении
+                                                                  карты. Значение 0 соответствует наименьшему уровню
+                                                                  масштабирования. При увеличении этого значения
+                                                                  увеличивается масштабирование карты;
+                                    </li>
+                                    <li><strong>Sensor </strong>- указывает, используется или нет в приложении датчик
+                                                                определения местоположения пользователя.
+                                    </li>
+                                    <li><strong>Map Width</strong> - ширина карты. Необходимо указать единицы измерения
+                                                                   (% или px);
+                                    </li>
+                                    <li><strong>Map Height</strong> - высота карты. Необходимо указать единицы измерения
+                                                                    (% или px);
+                                    </li>
+                                    <li><strong>Map Styles </strong>- задает стиль карты. Разнообразные стили доступны
+                                                                    на
+                                        <a href='https://snazzymaps.com/' rel="nofollow" target="_blank">
+                                            https://snazzymaps.com/
+                                        </a>
+                                                                    ;
+                                    </li>
+                                    <li><strong>Disable UI </strong>- включает/отключает пользовательский интерфейс
+                                                                    по умолчанию;
+                                    </li>
+                                    <li><strong>Scrollwheel </strong>- включает/отключает изменение расширения карты
+                                                                     с помощью колеса мыши;
+                                    </li>
+                                    <li><strong>Draggable </strong>- включает/отключает возможность перемещения карты;
+                                    </li>
+                                    <li><strong>Marker Image </strong>- устанавливает изображение маркера. Если оставить
+                                                                      поле пустым, будет отображен стандартный маркер;
+                                    </li>
+                                    <li><strong>Active Marker Image </strong>- устанавливает изображение маркера при
+                                                                             нажатии;
+                                    </li>
+                                    <li><strong>Marker Image Width </strong>- устанавливает ширину изображения маркера;
+                                    </li>
+                                    <li><strong>Marker Image Height </strong>- устанавливает высоту изображения маркера.
+                                    </li>
+                                </ol>
+                                <p>Для добавления маркера нажмите <strong>Add New</strong>. В поле
+                                    <strong>Geocode</strong> укажите координаты
+                                   маркера (широта, долгота - Пример:40.6700, -73.9400) и в поле
+                                    <strong>Address</strong> укажите
+                                   информацию, которая будет отображена при клике на маркер. Координаты необходимого
+                                   места можно найти на
+                                    <a href='http://www.mapcoordinates.net' rel="nofollow" target="_blank">
+                                        http://www.mapcoordinates.net
+                                    </a>
+                                   . Для удаления маркера, соответственно, нажмите <strong>Delete Marker</strong> над
+                                   необходимым маркером.
+                                </p>
+                            </div>
+                            <div id="module_category_menu">
+                                <h3>TM Category Menu </h3>
+
+                                <p>Данный модуль позволяет выводить категории в боковой панели и подкатегории 1-го и
+                                   2-го порядка, включая изображения подкатегории 1-го порядка (Рис.26).</p>
+                                <figure class="img-polaroid"><img src="img/tm-category-menu-view.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 26. Внешний вид модуля TM Google Map</p>
+                                <h4>Настройки:</h4>
+
+                                <p>После установки модуля, Вы можете включить или выключить его на странице
+                                   настроек модуля.</p>
+                            </div>
+                            <div id="module_cookie">
+                                <h3>TM Cookie Policy</h3>
+
+                                <p>Данный модуль оповещает пользователя об использовании Кукис (cookies) (Рис. 27).
+                                   Согласно Закону о Кукис, модуль позволяет оповещать пользователей об использовании
+                                   Кукис.</p>
+
+                                <p>Cookies - это небольшие текстовые файлы, которые веб-сайты создают на компьютерах
+                                   пользователей. Они используются для идентификации пользователей и улучшения качества
+                                   использования веб-сайта. Cookies являются важной частью многих функций
+                                   веб-сайтов.</p>
+
+                                <p>Например, cookies позволяют онлайн магазинам запоминать, какие товары Вы добавили в
+                                   корзину. Также они сохраняют данные входа на сайт или предоставляют ценную статистику
+                                   использования и информацию владельцам сайтов.</p>
+
+                                <p>Если у вас есть веб-сайт, он почти наверняка использует cookies. Их главная функция -
+                                   изучать количество и интересы пользователей через специальные инструменты, например
+                                   Google Analytics. Также они могут использоваться для отображения объявлений, или –
+                                   если у вас есть онлайн-магазин – быть ключевой частью системы электронной
+                                   коммерции.</p>
+
+                                <p>26 мая 2012 г. - ICO опубликовал акт о том, что "подразумеваемое согласие" не
+                                   допускается и необходимо сообщать о политике приватности/cookies.</p>
+                                <figure class="img-polaroid"><img src="img/tm-cookie-policy-view.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 27. Внешний вид модуля TM Cookie Policy</p>
+
+                                <p> После установки модуля, Вы можете настроить его на странице настроек модуля (Рис.
+                                    28).</p>
+                                <figure class="img-polaroid"><img src="img/tm-cookie-policy-edit.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 28. Редактирование модуля TM Cookie Policy</p>
+                            </div>
+                            <div id="module_instagram">
+                                <h3>TM Instagram</h3>
+
+                                <p>Данный модуль отображает фотографии из сети Instagram в виде списка картинок с
+                                   отображением количества лайков (Рис.29).</p>
+                                <figure class="img-polaroid"><img src="img/tm-instagram-view.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 29. Внешний вид модуля TM Instagram</p>
+
+                                <p>После установки модуля, Вы можете настроить его на странице настроек модуля (Рис.
+                                   30).</p>
+                                <figure class="img-polaroid"><img src="img/tm-instagram-edit.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 30. Редактирование модуля TM Instagram</p>
+                                <h4>Настройки:</h4>
+                                <ol class="list">
+                                    <li><strong>Module Name</strong> - наименование модуля;</li>
+                                    <li><strong>Select Get</strong> - выбор, каким образом получать изображения.
+                                                                    Доступны 2 значения (user,tagged), что
+                                                                    соответственно
+                                                                    означает, получать изображения либо конкретного
+                                                                    пользователя, либо по хештегу;
+                                    </li>
+                                    <li><strong>Entry TagName</strong> - тег, по которому будут выводиться
+                                                                       изображения (используется, если опция "Select
+                                                                       get" имеет значение tagged);
+                                    </li>
+                                    <li><strong>Entry ClientID</strong> - Ваш API идентификатор из instagram.com
+                                                                        (используется, если опция "Select get" имеет
+                                                                        значение tagged);
+                                    </li>
+                                    <li><strong>Entry UserId</strong> - уникальный идентификатор пользователя
+                                                                      (используется, если опция "Select get" имеет
+                                                                      значение user);
+                                    </li>
+                                    <li><strong>Entry accessToken</strong> - маркер доступа для отображения
+                                                                           пользовательских изображений (используется,
+                                                                           если опция "Select get" имеет значение user);
+                                    </li>
+                                    <li><strong>Entry limit</strong> - устанавливает ограничение на количество
+                                                                     отображаемых изображений;
+                                    </li>
+                                    <li><strong>Status</strong> - статус модуля (включен/отключен).</li>
+                                </ol>
+                            </div>
+                            <div id="module_manufacturers">
+                                <h3>TM Manufacturers</h3>
+
+                                <p> Данный модуль отображает список производителей (Рис. 31). Производители добавляются
+                                    в меню <strong>Каталог -> Производители (Catalog -> Manufacturers)</strong>.</p>
+                                <figure class="img-polaroid"><img src="img/tm-manufacturers-view.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 31. Внешний вид модуля TM Manufacturers</p>
+                                <h4>Настройки:</h4>
+
+                                <p>После установки модуля, Вы можете включить или выключить его на странице настроек
+                                   модуля.</p>
+                            </div>
+                            <div id="module_tabs">
+                                <h3>TM Module Tabs</h3>
+
+                                <p>Данный модуль выводит 4 основных модуля (Bestsellers, Featured, Specials, Latest) в
+                                   виде вкладок (Рис. 32).</p>
+                                <figure class="img-polaroid"><img src="img/tm-moduletabs-view.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 32. Внешний вид модуля TM Module Tabs</p>
+
+                                <p>После установки модуля, Вы можете настроить его на странице настроек модуля
+                                   (Рис.33).</p>
+                                <figure class="img-polaroid"><img src="img/tm-moduletabs-edit.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 33. Редактирование модуля TM Module Tabs</p>
+                                <h4>Настройки:</h4>
+                                <ol class="list">
+                                    <li><strong>Module Name</strong> - название модуля;</li>
+                                    <li><strong>Specials</strong> - включает/отключает отображение модуля Specials;</li>
+                                    <li><strong>Bestsellers</strong> - включает/отключает отображение модуля
+                                                                     Bestsellers;
+                                    </li>
+                                    <li><strong>Latest</strong> - включает/отключает отображение модуля Latest;</li>
+                                    <li><strong>Featured</strong> - включает/отключает отображение модуля Featured;</li>
+                                    <li><strong>Products</strong> - выбор списка продуктов для вкладки Featured;</li>
+                                    <li><strong>Limit</strong> - устанавливает ограничение на количество отображаемых
+                                                               продуктов;
+                                    </li>
+                                    <li><strong>Width</strong> - ширина изображения продукта;</li>
+                                    <li><strong>Height</strong> - высота изображения продукта;</li>
+                                    <li><strong>Status</strong> - статус модуля (включен/отключен).</li>
+                                </ol>
+                            </div>
+                            <div id="module_newsletter">
+                                <h3>TM Newsletter</h3>
+
+                                <p>Данный модуль добавляет блок с формой подписки на email рассылку (Рис.34).</p>
+                                <figure class="img-polaroid"><img src="img/tm-newsletter-view.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 34. Внешний вид модуля TM Newsletter</p>
+
+                                <p>После установки модуля, Вы можете настроить его на странице настроек модуля
+                                   (Рис.35).</p>
+                                <figure class="img-polaroid"><img src="img/tm-newsletter-edit.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рис 35. Редактирование модуля TM Newsletter</p>
+                                <h4>Настройки:</h4>
+                                <ol class="list">
+                                    <li><strong>Module Name</strong> - название модуля;</li>
+                                    <li><strong>Description</strong> - текст, который будет добавлен перед формой
+                                                                     подписки на email рассылку;
+                                    </li>
+                                    <li><strong>Status</strong> - статус модуля (включен/отключен).</li>
+                                </ol>
+                            </div>
+                            <div id="module_newsletter_popup">
+                                <h3>TM Newsletter Popup</h3>
+
+                                <p>Данный модуль добавляет всплывающее окно с предложением подписаться на email рассылку
+                                   при
+                                   посещении Вашего сайта. (Рис.36). Окно не выводится для авторизованных (вошедших в
+                                   аккаунт) или уже подписавшихся на рассылку
+                                   пользователей.</p>
+                                <figure class="img-polaroid"><img src="img/tm-newsletter-popup-view.jpg" alt=""/>
+                                </figure>
+                                <p class="muted text-center">Рис 36. Внешний вид модуля TM Newsletter Popup</p>
+
+                                <p>После установки модуля, Вы можете настроить его на странице настроек модуля (Рис.
+                                   37-38).</p>
+                                <figure class="img-polaroid"><img src="img/tm-newsletter-popup-edit.jpg" alt=""/>
+                                </figure>
+                                <p class="muted text-center">Рисунок 37. Редактирование модуля TM Newsletter Popup</p>
+                                <figure class="img-polaroid"><img src="img/tm-newsletter-popup-edit_2.jpg" alt=""/>
+                                </figure>
+                                <p class="muted text-center">Рисунок 38. Редактирование модуля TM Newsletter Popup</p>
+                                <h4>Настройки:</h4>
+                                <ol class="list">
+                                    <li><strong>Module Name</strong> - название модуля;</li>
+                                    <li><strong>Background Image</strong> - фоновое изображение всплывающего окна;</li>
+                                    <li><strong>Background image width</strong> - ширина фонового изображения;</li>
+                                    <li><strong>Background image height</strong> - высота фонового изображения;</li>
+                                    <li><strong>Cookie Storage Time</strong> - время хранения кукис;</li>
+                                    <li><strong>Heading Title</strong> - заголовок в всплывающем окне;</li>
+                                    <li><strong>Description</strong> - описание в всплывающем окне;</li>
+                                    <li><strong>Status</strong> - статус модуля (включен/отключен).</li>
+                                </ol>
+                            </div>
+                            <div id="module_product_slideshow">
+                                <h3>TM Product Slideshow</h3>
+
+                                <p>Данный модуль выводит выбранные продукты в виде карусели (Рис. 39). </p>
+                                <figure class="img-polaroid"><img src="img/tm-product-slideshow-view.jpg" alt=""/>
+                                </figure>
+                                <p class="muted text-center">Рисунок 39. Внешний вид модуля TM Product Slideshow</p>
+
+                                <p>После установки модуля, Вы можете настроить его на странице настроек
+                                   модуля (Рис.40).</p>
+                                <figure class="img-polaroid"><img src="img/tm-product-slideshow-edit.jpg" alt=""/>
+                                </figure>
+                                <p class="muted text-center">Рисунок 40. Редактирование модуля TM Product Slideshow</p>
+                                <h4>Настройки:</h4>
+                                <ol class="list">
+                                    <li><strong>Module Name</strong> - название модуля;</li>
+                                    <li><strong>Products</strong> - выбор списка продуктов;</li>
+                                    <li><strong>Limit</strong> - ограничение на количество отображаемых продуктов;</li>
+                                    <li><strong>Width</strong> - ширина изображения продукта;</li>
+                                    <li><strong>Height</strong> - высота изображения продукта;</li>
+                                    <li><strong>Status</strong> - статус модуля (включен/отключен).</li>
+                                </ol>
+                            </div>
+                            <div id="module_social_list">
+                                <h3>TM Social List</h3>
+
+                                <p>Данный модуль выводит список ссылок на страницы популярных социальных сетей и
+                                   сервисов. </p>
+
+                                <p>После установки модуля, Вы можете настроить его на странице настроек модуля (Рис.41).
+                                   Если оставить поле пустым, элемент списка не будет отображен.</p>
+                                <figure class="img-polaroid"><img src="img/tm-social-list-edit.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рисунок 41. Редактирование модуля TM Social List</p>
+                                <h4>Настройки:</h4>
+                                <ol class="list">
+                                    <li><strong>Youtube</strong> - ссылка на страницу сервиса YouTube;</li>
+                                    <li><strong>Facebook</strong> - ссылка на страницу сети Facebook;</li>
+                                    <li><strong>Google Plus</strong> - ссылка на страницу сервиса Google Plus;</li>
+                                    <li><strong>Twitter</strong> - ссылка на страницу сети Twitter;</li>
+                                    <li><strong>Pinterest</strong> - ссылка на страницу сети Pinterest;</li>
+                                    <li><strong>Instagram</strong> - ссылка на страницу сети Instagram;</li>
+                                    <li><strong>Vimeo</strong> - ссылка на страницу сервиса Vimeo;</li>
+                                    <li><strong>Status</strong> - статус модуля (включен/отключен).</li>
+                                </ol>
+                                <div class="box-info"><span> В случае установки "update" версии темы, демо данные шаблона (список ссылок на соц. сети) будут недоступны. Заполните данные (необходимые) поля для корректного отображения модуля.</span>
+                                </div>
+                            </div>
+                            <div id="module_video_background">
+                                <h3>TM Video Background</h3>
+
+                                <p>Данный модуль выводит блок с фоновым видео, загруженного либо локально, либо с
+                                   помощью сервиса YouTube.</p>
+
+                                <p>После установки модуля, Вы можете настроить его на странице настроек модуля
+                                   (Рис.42-43).</p>
+                                <figure class="img-polaroid"><img src="img/tm-video-background-edit.jpg" alt=""/>
+                                </figure>
+                                <p class="muted text-center">Рисунок 42. Редактирование модуля TM Video Background</p>
+                                <figure class="img-polaroid"><img src="img/tm-video-background-edit-2.jpg" alt=""/>
+                                </figure>
+                                <p class="muted text-center">Рисунок 43. Редактирование модуля TM Video Background</p>
+                                <h4>Настройки:</h4>
+                                <ol class="list">
+                                    <li><strong>Module Name</strong> - название модуля;</li>
+                                    <li><strong>Status</strong> - статус модуля (включен/отключен).</li>
+                                    <li><strong>Video Source</strong> - источник загрузки видео. Доступны 2 значения:
+                                        <ul>
+                                            <li><strong>local</strong> - видео загружается с Вашего сайта;</li>
+                                            <li><strong>youtube</strong> - видео загружается с сервиса YouTube.</li>
+                                        </ul>
+                                    </li>
+                                    <li><strong>YouTube url</strong> - ссылка на видео сервиса Youtube;</li>
+                                    <li><strong>Mute</strong> - отключение громкости;</li>
+                                    <li><strong>Mobile</strong> - включает/отключает отображение видео на мобильных
+                                                                устройствах.
+                                                                При значении 'Yes' - видео будет отображаться на
+                                                                мобильных устройствах;
+                                    </li>
+                                    <li><strong>Start Video</strong> - секунда, с которой необходимо воспроизвести
+                                                                     видео;
+                                    </li>
+                                    <li><strong>Mobile Image</strong> - картинка, которая будет отображена вместо
+                                                                      фонового видео, в случае его отключения на
+                                                                      мобильных устройствах;
+                                    </li>
+                                    <li><strong>Mobile Image Width</strong> - ширина фоновой картинки;</li>
+                                    <li><strong>Mobile Image Height</strong> - высота фоновой картинки;</li>
+                                    <li><strong>Description</strong> - html-разметка, которая будет отображена поверх
+                                                                     фонового видео.
+                                    </li>
+                                </ol>
+                                <p>При выборе <strong>Video Source - Local Video</strong> укажите картинку (постер) в
+                                   формате ".jpg", на который будет заменено фоновое видео на мобильных устройствах.
+                                   Для правильной работы модуля в папке с картинкой, которую Вы указали, должны
+                                   находиться 3 видео с одинаковыми названиями в следующих форматах: </p>
+                                <ul>
+                                    <li>*.ogv</li>
+                                    <li>*.mp4</li>
+                                    <li>*.webm</li>
+                                </ul>
+                            </div>
+                            <div id="modification_search">
+                                <h3>TM Live search</h3>
+
+                                <p>Модификация TM Live search выводит искомый продукт(ы) без перезагрузки страницы (Рис.
+                                   44).
+                                   Для ее удаления или отключения, перейдите в <strong>Расширения -> Модификации
+                                                                                       (Extensions ->
+                                                                                       Modifications)</strong>, выберите
+                                   в
+                                   списке нужную вам модификацию, нажмите кнопку <strong>Отключить (Disable)</strong>
+                                   или <strong>Удалить (Delete)</strong>.</p>
+                                <figure class="img-polaroid"><img src="img/tm-live-view.jpg" alt=""/></figure>
+                                <p class="muted text-center">Рисунок 44. Внешний вид модификации TM Live Search</p>
+                            </div>
+                            <div id="modification_lazy">
+                                <h3>TM Lazy load</h3>
+
+                                <p>Модификация, которая загружает картинки продуктов в момент, когда они попадают в
+                                   область видимости при прокрутке сайта. Данное расширение используется для ускорения
+                                   работы сайта. Для смены картинки прелоадера, замените картинку <strong>lazy_loader.gif</strong>
+                                   в
+                                   папке <strong>catalog/view/theme/themeXXX/image/.</strong></p>
+                            </div>
+                        </section>
+                        <section id="addendum" class="block-templates">
+                            <h2><i class="icon-question-sign"></i> Послесловие
+                                <small><i>куда обращаться за помощью, поддержкой и дополнительной информацией</i>
+                                </small>
+                            </h2>
+                            <p>OpenCart - это многофункциональное, быстрое и понятное пользователю решение для
+                               электронной коммерции с привлекательным дизайном. Это идеальное решение для онлайн
+                               магазина. Стандартный пакет содержит все необходимые модуля и расширения для успешной
+                               торговли. Открытый исходный код предоставляет поистине выдающиеся возможности для Ваших
+                               клиентов.</p>
+
+                            <p>Дополнительная информация:</p>
+                            <ul class="list">
+                                <li>
+                                    <a target="_blank" href="http://www.opencart.com/">Официальный сайт OpenCart</a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="http://forum.opencart.com/">Форум сообщества</a>
+                                </li>
+                                <li>
+                                    <a href="/help/ru/ecommerce/opencart/opencart-tutorials/" target="_blank">OpenCart
+                                                                                                              туториалы
+                                    </a>
+                                </li>
+                            </ul>
+                            <h5>Не удается загрузить Google Fonts:</h5>
+                            <ol>
+                                <li>Откройте <strong>catalog\view\theme\themeXXX\stylesheet\stylesheet.css</strong>
+                                    файл.
+                                </li>
+                                <li>Найдите следующую строку: <br/>
+                                    <pre>//fonts.googleapis.com/css?family=[---имя_вашего_web_шрифта---]</pre>
+                                </li>
+                                <li>Замените её следующим: <br/>
+                                    <pre>//fonts.useso.com/css?family=[---имя_вашего_web_шрифта---]</pre>
+                                </li>
+                            </ol>
+                            <div id="validation">
+                                <h4>Валидация</h4>
+
+                                <div class="box-notification"><span>В наших шаблонах мы придерживаемся семантических правил написания кода HTML-разметки и CSS-стилей. Однако, некоторые ошибки все же могут возникать при W3C валидации. Создание 100-процентно правильного кода, согласно стандартам консорциума W3C, ограничивает использование современных технологий создания сайтов, таких как спецификация CSS3 и разметка HTML5. Целью нашей компании является предоставление богатого пользовательского опыта с высококачественными шаблонами, и иногда нам приходится нарушать некоторые правила.</span>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer
+================================================== -->
+<footer>
+    <div class="container">
+        <div class="span12"><span>Документация OpenCart</span><br/>
+            &copy; <span id="date"></span> <span id="copyright">Template Monster</span></div>
+    </div>
+</footer>
+<div id="back-top">
+    <a href="#"><i class="icon-double-angle-up"></i></a>
+</div>
+<!-- <script src="js/bootstrap-scrollspy.js"></script>  -->
+<div class="modal_bg"></div>
+<div class="modal">
+    <div class="modal-header"><span class="modal_remove pull-right"><i class="icon-remove"></i></span>
+
+        <h3>Choose language</h3>
+    </div>
+    <div class="modal-body">
+        <ul id="modal_languages" class="nav nav-list bs-docs-sidenav">
+        </ul>
+    </div>
+</div>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-2787305-5']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+</body>
 </html>
