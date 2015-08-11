@@ -1,0 +1,15 @@
+{
+  "id": "prepare",
+  "translations": {
+    "en": "Prepare",
+    "ru": "Подготовка",
+    "de": "Vorbereitung",
+    "es": "Preparación",
+    "fr": "Préparation",
+    "it": "Preparazione",
+    "pt": "Preparação",
+    "tr": "Hazırlık"
+  },
+  "articles": {
+  }
+}

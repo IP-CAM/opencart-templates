@@ -1,0 +1,41 @@
+{
+  "id": "getting-started",
+  "translations": {
+    "en": "Getting Started",
+    "ru": "Начало использования",
+    "de": "Anfang",
+    "es": "Primeros Pasos",
+    "fr": "Prise en Main",
+    "it": "Getting started",
+    "pt": "Do início",
+    "tr": "Başlangıç"
+  },
+  "articles": [
+    {
+      "id": "complete_install",
+      "translations": {
+        "en": "Complete Installation",
+        "ru": "Полная установка",
+        "de": "Vollständige Installation",
+        "es": "Instalación Completa",
+        "fr": "Installation Complète",
+        "it": "Installazione completa",
+        "pt": "Instalação completa",
+        "tr": "Tam kurulum"
+      }
+    },
+    {
+      "id": "extension_configuration",
+      "translations": {
+        "en": "Installation over existing store",
+        "ru": "Установка на существующий магазин",
+        "de": "Die Installation auf bestehenden Online-Shop",
+        "es": "Instalación sobre una tienda existente",
+        "fr": "Installation sur une boutique existante",
+        "it": "Installazione su negozi preesistenti",
+        "pt": "Instalação sobre uma loja existente",
+        "tr": "Var olan mağazanın üstüne kurulum"
+      }
+    }
+  ]
+}

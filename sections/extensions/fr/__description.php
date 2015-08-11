@@ -1,0 +1,1 @@
+<h2 class="item4">Configuration des extensions</h2>
