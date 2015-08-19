@@ -43,6 +43,13 @@ if (!isset($sections)) {
             <a href="<?php echo $path; ?>"><img src="<?php echo $path; ?>/img/logo.png" alt=""></a>
         </div>
         <div class="panel">
+            <div class="select select-version">
+                <select>
+                    <option data-href="#" selected>Version v1-2</option>
+                    <option data-href="http://info.template-help.com/help/quick-start-guide/opencart-templates/v1-1/index_en.html">Version v1-1</option>
+                    <option data-href="//info.template-help.com/help/quick-start-guide/opencart-templates/v1-0/index_en.html">Version v1-0</option>
+                </select>
+            </div>
             <div class="select select-lang">
                 <select>
                     <option
