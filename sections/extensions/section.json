@@ -1,0 +1,301 @@
+{
+  "id": "extensions",
+  "translations": {
+    "en": "Extension configuration",
+    "ru": "Настройка расширений",
+    "de": "Die Einstellung von Erweiterungen",
+    "es": "Configuración de extensiones",
+    "fr": "Configuration des extensions",
+    "it": "Configurazione estensione",
+    "pt": "Extension configuration",
+    "tr": "Bileşen ayarları"
+  },
+  "articles": [
+    {
+      "id": "module_install",
+      "translations": {
+        "en": "Module installation",
+        "ru": "Установка модулей",
+        "de": "Die Installation von Modulen",
+        "es": "Instalación del módulo",
+        "fr": "Installation du module",
+        "it": "Installazione modulo",
+        "pt": "Instalação de módulos",
+        "tr": "Modül kurulumu"
+      }
+    },
+    {
+      "id": "banner_create",
+      "translations": {
+        "en": "Creating banners",
+        "ru": "Создание баннеров",
+        "de": "Erstellen von Bannern",
+        "es": "La creación de banners",
+        "fr": "Création de bannières",
+        "it": "Creazione di banner",
+        "pt": "Como criar banners",
+        "tr": "Banner oluşturmak"
+      }
+    },
+    {
+      "id": "module_parallax",
+      "translations": {
+        "en": "Parallax",
+        "ru": "Parallax",
+        "de": "Parallax",
+        "es": "Parallax",
+        "fr": "Parallax",
+        "it": "Parallax",
+        "pt": "Parallax",
+        "tr": "Parallax"
+      }
+    },
+    {
+      "id": "module_category",
+      "translations": {
+        "en": "TM Category",
+        "ru": "TM Category",
+        "de": "TM Category",
+        "es": "TM Category",
+        "fr": "TM Category",
+        "it": "TM Category",
+        "pt": "TM Category",
+        "tr": "TM Category"
+      }
+    },
+    {
+      "id": "module_facebook",
+      "translations": {
+        "en": "TM Facebook Box",
+        "ru": "TM Facebook Box",
+        "de": "TM Facebook Box",
+        "es": "TM Facebook Box",
+        "fr": "TM Facebook Box",
+        "it": "TM Facebook Box",
+        "pt": "TM Facebook Box",
+        "tr": "TM Facebook Box"
+      }
+    },
+    {
+      "id": "module_twitter",
+      "translations": {
+        "en": "TM Twitter Box",
+        "ru": "TM Twitter Box",
+        "de": "TM Twitter Box",
+        "es": "TM Twitter Box",
+        "fr": "TM Twitter Box",
+        "it": "TM Twitter Box",
+        "pt": "TM Twitter Box",
+        "tr": "TM Twitter Box"
+      }
+    },
+    {
+      "id": "module_pinterest",
+      "translations": {
+        "en": "TM Pinterest",
+        "ru": "TM Pinterest",
+        "de": "TM Pinterest",
+        "es": "TM Pinterest",
+        "fr": "TM Pinterest",
+        "it": "TM Pinterest",
+        "pt": "TM Pinterest",
+        "tr": "TM Pinterest"
+      }
+    },
+    {
+      "id": "module_olark",
+      "translations": {
+        "en": "Olark Live Chat",
+        "ru": "Olark Live Chat",
+        "de": "Olark Live Chat",
+        "es": "Olark Live Chat",
+        "fr": "Olark Live Chat",
+        "it": "Olark Live Chat",
+        "pt": "Olark Live Chat",
+        "tr": "Olark Live Chat"
+      }
+    },
+    {
+      "id": "module_slideshow",
+      "translations": {
+        "en": "TM Slideshow",
+        "ru": "TM Slideshow",
+        "de": "TM Slideshow",
+        "es": "TM Slideshow",
+        "fr": "TM Slideshow",
+        "it": "TM Slideshow",
+        "pt": "TM Slideshow",
+        "tr": "TM Slideshow"
+      }
+    },
+    {
+      "id": "module_googlemap",
+      "translations": {
+        "en": "TM Google Map",
+        "ru": "TM Google Map",
+        "de": "TM Google Map",
+        "es": "TM Google Map",
+        "fr": "TM Google Map",
+        "it": "TM Google Map",
+        "pt": "TM Google Map",
+        "tr": "TM Google Map"
+      }
+    },
+    {
+      "id": "module_category_menu",
+      "translations": {
+        "en": "TM Category Menu",
+        "ru": "TM Category Menu",
+        "de": "TM Category Menu",
+        "es": "TM Category Menu",
+        "fr": "TM Category Menu",
+        "it": "TM Category Menu",
+        "pt": "TM Category Menu",
+        "tr": "TM Category Menu"
+      }
+    },
+    {
+      "id": "module_cookie",
+      "translations": {
+        "en": "TM Cookie Policy",
+        "ru": "TM Cookie Policy",
+        "de": "TM Cookie Policy",
+        "es": "TM Cookie Policy",
+        "fr": "TM Cookie Policy",
+        "it": "TM Cookie Policy",
+        "pt": "TM Cookie Policy",
+        "tr": "TM Cookie Policy"
+      }
+    },
+    {
+      "id": "module_instagram",
+      "translations": {
+        "en": "TM Instagram",
+        "ru": "TM Instagram",
+        "de": "TM Instagram",
+        "es": "TM Instagram",
+        "fr": "TM Instagram",
+        "it": "TM Instagram",
+        "pt": "TM Instagram",
+        "tr": "TM Instagram"
+      }
+    },
+    {
+      "id": "module_manufacturers",
+      "translations": {
+        "en": "TM Manufacturers",
+        "ru": "TM Manufacturers",
+        "de": "TM Manufacturers",
+        "es": "TM Manufacturers",
+        "fr": "TM Manufacturers",
+        "it": "TM Manufacturers",
+        "pt": "TM Manufacturers",
+        "tr": "TM Manufacturers"
+      }
+    },
+    {
+      "id": "module_tabs",
+      "translations": {
+        "en": "TM Module Tabs",
+        "ru": "TM Module Tabs",
+        "de": "TM Module Tabs",
+        "es": "TM Module Tabs",
+        "fr": "TM Module Tabs",
+        "it": "TM Module Tabs",
+        "pt": "TM Module Tabs",
+        "tr": "TM Module Tabs"
+      }
+    },
+    {
+      "id": "module_newsletter",
+      "translations": {
+        "en": "TM Newsletter",
+        "ru": "TM Newsletter",
+        "de": "TM Newsletter",
+        "es": "TM Newsletter",
+        "fr": "TM Newsletter",
+        "it": "TM Newsletter",
+        "pt": "TM Newsletter",
+        "tr": "TM Newsletter"
+      }
+    },
+    {
+      "id": "module_newsletter_popup",
+      "translations": {
+        "en": "TM Newsletter Popup",
+        "ru": "TM Newsletter Popup",
+        "de": "TM Newsletter Popup",
+        "es": "TM Newsletter Popup",
+        "fr": "TM Newsletter Popup",
+        "it": "TM Newsletter Popup",
+        "pt": "TM Newsletter Popup",
+        "tr": "TM Newsletter Popup"
+      }
+    },
+    {
+      "id": "module_product_slideshow",
+      "translations": {
+        "en": "TM Product Slideshow",
+        "ru": "TM Product Slideshow",
+        "de": "TM Product Slideshow",
+        "es": "TM Product Slideshow",
+        "fr": "TM Product Slideshow",
+        "it": "TM Product Slideshow",
+        "pt": "TM Product Slideshow",
+        "tr": "TM Product Slideshow"
+      }
+    },
+    {
+      "id": "module_social_list",
+      "translations": {
+        "en": "TM Social List",
+        "ru": "TM Social List",
+        "de": "TM Social List",
+        "es": "TM Social List",
+        "fr": "TM Social List",
+        "it": "TM Social List",
+        "pt": "TM Social List",
+        "tr": "TM Social List"
+      }
+    },
+    {
+      "id": "module_video-background",
+      "translations": {
+        "en": "TM Video Background",
+        "ru": "TM Video Background",
+        "de": "TM Video Background",
+        "es": "TM Video Background",
+        "fr": "TM Video Background",
+        "it": "TM Video Background",
+        "pt": "TM Video Background",
+        "tr": "TM Video Background"
+      }
+    },
+    {
+      "id": "modification_search",
+      "translations": {
+        "en": "TM Live search",
+        "ru": "TM Live search",
+        "de": "TM Live search",
+        "es": "TM Live search",
+        "fr": "TM Live search",
+        "it": "TM Live search",
+        "pt": "TM Live search",
+        "tr": "TM Live search"
+      }
+    },
+    {
+      "id": "modification_lazy",
+      "translations": {
+        "en": "TM Lazy load",
+        "ru": "TM Lazy load",
+        "de": "TM Lazy load",
+        "es": "TM Lazy load",
+        "fr": "TM Lazy load",
+        "it": "TM Lazy load",
+        "pt": "TM Lazy load",
+        "tr": "TM Lazy load"
+      }
+    }
+  ]
+}

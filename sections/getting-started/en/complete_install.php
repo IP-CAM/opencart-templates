@@ -1,0 +1,208 @@
+<h3>Complete installation</h3>
+
+<p>This kind of installation can be used in case you do not have a ready to use OpenCart store. The
+    'themeXXX(full).zip' archive contains OpenCart engine files and theme files including sample data,
+    so you do not need to install an OpenCart engine separately. Template sample data will make your site
+    look just like our demo template including all the sample products, modules and site configuration.</p>
+
+<!-- Creating database -->
+<h4>Creating a database</h4>
+
+<p>When all the files are uploaded to the server, you need to prepare a newly created database for you OpenCart
+    website. It can be created using a database management tool in your hosting cPanel (
+    <i>usually it is PhpMyAdmin</i>
+    ).
+</p>
+
+<p>You can create a new database in phpMyAdmin following the simple 3 steps listed below (check the next
+    slides):</p>
+
+<ol class="index-list">
+    <li>In order to get to the database list, click Databases button in the top navigation menu .</li>
+
+    <li>Enter a new database name in the "Create new database" field.</li>
+
+    <li>On the right side click the Create button.</li>
+</ol>
+
+<h6>You should see the newly created database in the list. In order to get the access to the database, click its
+    name:</h6>
+
+
+<div class="owl-carousel">
+    <div class="item">
+        <p>1. Open the "Databases" tab, in order to get to the list of databases.</p>
+        <figure class="img-polaroid">
+            <img src="img/database-create-1.jpg" alt=""/>
+        </figure>
+    </div>
+    <div class="item">
+        <p>2. Enter a database name.</p>
+        <figure class="img-polaroid">
+            <img src="img/database-create-2.jpg" alt=""/>
+        </figure>
+    </div>
+    <div class="item">
+        <p>3. Click "Create".</p>
+        <figure class="img-polaroid">
+            <img src="img/database-create-3.jpg" alt=""/>
+        </figure>
+    </div>
+    <div class="item">
+        <p>4. The newly created database appears in the list. Click the database name to get the access to the
+            database.</p>
+        <figure class="img-polaroid">
+            <img src="img/database-create-4.jpg" alt=""/>
+        </figure>
+    </div>
+</div>
+
+
+<p class="alert alert-info">Feel free to check the detailed video guide
+    <a href="/help/how-to-create-a-database.html" target="_blank">How to create a database</a>
+    .
+</p>
+
+<p>In case of any issues, please contact your hosting provider for further support.</p>
+
+<!-- Uploading files -->
+<h4>Uploading the template</h4>
+
+<p>In order to start working with OpenCart, you need to upload the files to your server. You can do it via
+    your hosting cPanel or using an alternative FTP client.</p>
+
+<ol class="index-list">
+    <li>Open the template folder.</li>
+
+    <li>Go to the 'themeXXX' folder and unzip the 'themeXXX(full).zip' archive to your computer. Upload the content
+        of the archive to your server (
+        <a href="/help/how-upload-files-server-2.html" target="_blank">How to upload files to server</a>
+        ,
+        <a href="/help/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html" target="_blank"> How
+            to upload files to server using cPanel (WebHost manager, WHM)</a>
+        ).
+    </li>
+    <li>Set the correct permissions to your OpenCart folders and files:
+        <ul class="marked-list">
+            <li>system/cache/;</li>
+
+            <li>system/logs/;</li>
+
+            <li>system/download/;</li>
+
+            <li>system/upload/;</li>
+
+            <li>image/;</li>
+
+            <li>image/cache/;</li>
+
+            <li>image/catalog/;</li>
+
+            <li>config.php;</li>
+
+            <li>admin/config.php.</li>
+        </ul>
+        <p>The permissions should be set to CHMOD 755 or 777 depending on the server configuration. In order to do
+            so, select all you files and folders and find the buttons "Change Permissions" if you are working in
+            File Manager. If you are working with Linux - use command chmod -R 777 "folder_name".</p>
+    </li>
+</ol>
+
+<!-- OpenCart installation -->
+<h4>OpenCart Installation</h4>
+
+<p>Open any browser and enter the OpenCart directory path in the browser address bar (
+    <strong>for example http://your_domain_name/opencart</strong>
+    ). You will see the OpenCart installation page:
+</p>
+
+<ol class="index-list">
+    <li>Installation license</li>
+    <li>Preliminary stage </li>
+    <li>Configuration</li>
+    <li>Ready!</li>
+</ol>
+
+<h5>Installation license</h5>
+
+<p>Check an OpenCart license agreement and click the
+    <strong>Continue</strong>
+    button if you agree.
+</p>
+
+<figure class="img-polaroid">
+    <img src="img/opencart-engine-installation-initital.jpg" alt="">
+</figure>
+
+<h5>Preliminary stage </h5>
+
+<p>At the second step OpenCart is going to check if your hosting settings match the required ones and if the
+    files
+    and folders permissions are correct.</p>
+
+<figure class="img-polaroid">
+    <img src="img/opencart-engine-installation-step2.jpg" alt="">
+</figure>
+
+<h5>Configuration</h5>
+
+<p>At the Configuration step you need to input your database details. The MySQL database was created on the
+    preparation step, now you need to enter the details you have used:</p>
+
+<ul class="marked-list">
+    <li>database server;</li>
+
+    <li>database name;</li>
+
+    <li>database username;</li>
+
+    <li>password.</li>
+</ul>
+
+<p>If there are any issues with the database details, contact your hosting provider.</p>
+
+<p>You need to create the administrator user for your store. Enter the name, password and administrators
+    e-mail
+    address. The details you enter will be used to log into your store backend.</p>
+
+<figure class="img-polaroid">
+    <img src="img/opencart-engine-installation-step3.jpg" alt="">
+</figure>
+
+<h5>Ready!</h5>
+
+<p>This is the last OpenCart installation step. You will see 2 options: you can be redirected to your
+    OpenCart
+    website or to the OpenCart admin panel.</p>
+
+<figure class="img-polaroid">
+    <img src="img/opencart-engine-installation-step4.jpg" alt="">
+</figure>
+
+<p>You can use the following installation instructions:
+    <a href="/help/opencart-2-x-how-to-install-opencart-engine-and-a-template-using-fullpackage.html"
+       target="_blank">OpenCart. How to install OpenCart engine and template (using “fullpackage”)</a>
+    .
+</p>
+
+<p>In order to set access restrictions, change the permissions to 644 and 444 for the following files:</p>
+
+<ul class="marked-list">
+    <li>config.php;</li>
+
+    <li>index.php;</li>
+
+    <li>admin/config.php;</li>
+
+    <li>admin/index.php;</li>
+
+    <li>system/startup.php.</li>
+</ul>
+
+<p class="alert alert-danger">Remove the "install" folder from your server. You will not be able to enter the
+    store
+    until the folder remains on the server.</p>
+
+<p>The installation is complete. In order to open the store page, enter
+    <strong>domain name</strong> in the browser address bar. In order to access OpenCart admin panel, enter
+    <strong>domain_name/admin</strong>.</p>

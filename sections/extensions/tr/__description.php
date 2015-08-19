@@ -1,0 +1,1 @@
+<h2 class="item4">Bileşen ayarları</h2>
