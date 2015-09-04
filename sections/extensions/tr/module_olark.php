@@ -1,4 +1,4 @@
-<h3>Olark Live Chat</h3>
+<h3><a href="//special.olark.com/cDqdW">Olark Live Chat</a></h3>
 
 <p>OpenCart için Olark Live Chat.</p>
 <figure class="img-polaroid">
@@ -20,7 +20,7 @@
         <dl class="inline-term">
             <dt>Site id</dt>
             <dd>
-                <a href='https://www.olark.com/install' rel="nofollow" target="_blank">https://www.olark.com/install</a>
+                <a href='//www.olark.com/install' rel="nofollow" target="_blank">https://www.olark.com/install</a>
                 adresinden kayıt yaptırıp gerekli alanları doldurduktan sonra alabileceğiniz website ID (site
                 kimliğiniz);
             </dd>
