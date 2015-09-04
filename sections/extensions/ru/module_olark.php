@@ -1,4 +1,4 @@
-<h3>Olark Live Chat</h3>
+<h3><a href="//special.olark.com/cDqdW">Olark Live Chat</a></h3>
 
 <p>Модуль Olark Live Chat для OpenCart.</p>
 
@@ -21,7 +21,7 @@
             <dt>Site id</dt>
             <dd>идентификатор сайта, который после регистрации и заполнения всех необходимых данных будет указан на
                 странице
-                <a href='https://www.olark.com/install' rel="nofollow" target="_blank">
+                <a href='//www.olark.com/install' rel="nofollow" target="_blank">
                     https://www.olark.com/install</a>
                 ;
             </dd>
