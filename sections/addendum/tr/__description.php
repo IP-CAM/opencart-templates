@@ -22,11 +22,11 @@
 <ol class="index-list">
     <li><strong>catalog\view\theme\themeXXX\stylesheet\stylesheet.css</strong> dosyasıı açın.</li>
 
-    <li>Aşağıdaki satırı bulun: <br/>
-        <pre>//fonts.googleapis.com/css?family=[---your_web_font_name---]</pre>
+    <li><p>Aşağıdaki satırı bulun:</p>
+        <code>//fonts.googleapis.com/css?family=[---your_web_font_name---]</code>
     </li>
-    <li>Bununla değiştirin: <br/>
-        <pre>//fonts.useso.com/css?family=[---your_web_font_name---]</pre>
+    <li><p>Bununla değiştirin:</p>
+        <code>//fonts.useso.com/css?family=[---your_web_font_name---]</code>
     </li>
 </ol>
 

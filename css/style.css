@@ -257,6 +257,14 @@ b, strong {
   font-weight: 700;
 }
 
+code {
+  display: block;
+  background: #eeeeee;
+  padding: 20px;
+  color: #434343;
+  font: 400 13px/24px "Roboto Mono", monospace;
+}
+
 /*=======================================================
                         Components
 =========================================================*/

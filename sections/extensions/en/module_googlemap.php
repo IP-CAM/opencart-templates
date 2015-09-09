@@ -42,9 +42,8 @@
     <li>
         <dl class="inline-term">
             <dt>Map Type</dt>
-            <dd>map type. There are 4 options avail</dd>
+            <dd>map type. There are 4 options available:</dd>
         </dl>
-        able:
         <ul class="marked-list">
             <li>
                 <dl class="inline-term">

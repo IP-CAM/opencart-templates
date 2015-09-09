@@ -4,7 +4,7 @@
     process of how to set up and administer an OpenCart Web store from scratch. We did our best to make this manual as
     clear and easy to follow as possible.</h5>
 
-<article id="whatisopencart">
+
     <h3>What is OpenCart?</h3>
 
     <p>OpenCart - is an Open Source e-commerce application. OpenCart provides easy customizations of your online store.
@@ -14,9 +14,9 @@
         uncover the store potential.
         <a href="http://docs.opencart.com" target="_blank">More details</a>
     </p>
-</article>
 
-<article id="structure">
+
+
     <h3>Template structure</h3>
 
     <h6>The template package you have downloaded consists of several folders. Let's see what each folder contains:</h6>
@@ -131,4 +131,3 @@
             </ul>
         </li>
     </ul>
-</article>

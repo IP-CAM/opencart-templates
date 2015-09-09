@@ -4,7 +4,7 @@
     colocar de pé e administrar uma loja OpenCart do zero. Nos esforçamos para para tornar este manual o mais simples e
     claro possível.</h5>
 
-<article id="whatisopencart">
+
     <h3>O que é o OpenCart?</h3>
 
     <p>OpenCart - é um programa de comércio eletrônico Open Source. O OpenCart providencia personalização simples para
@@ -15,9 +15,9 @@
         permite controlar sua loja. Ao usar ferramentas do OpenCart você pode descobrir o potencial de sua loja
         <a href="http://docs.OpenCart.com" target="_blank">Mais detalhes</a>
     </p>
-</article>
 
-<article id="structure">
+
+
     <h3>Estrutura de arquivos</h3>
 
     <h6>O pacote de template que você baixou consiste de diversas pastas. Vejamos o que cada uma contém:</h6>
@@ -131,4 +131,3 @@
             </ul>
         </li>
     </ul>
-</article>

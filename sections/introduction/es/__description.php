@@ -4,7 +4,7 @@
     proceso de creación y administración de la tienda de OpenCart desde cero. Hemos hecho todo lo posible para que este
     manual sea lo más claro y fácil de seguir.</h5>
 
-<article id="whatisopencart">
+
     <h3>¿Qué es OpenCart?</h3>
 
     <p>OpenCart - es una aplicación e-commerce Open Source. OpenCart proporciona una fácil personalización de su tienda
@@ -14,9 +14,9 @@
         herramientas de OpenCart usted puede facilmente descubrir el potencial de su tienda.
         <a href="http://docs.OpenCart.com" target="_blank">Más detalles</a>
     </p>
-</article>
 
-<article id="structure">
+
+
     <h3>Estructura de los archívos</h3>
 
     <h6>El paquete de la plantilla que ha descargado incluye varias carpetas. Vamos a ver lo que cada archivo
@@ -137,4 +137,3 @@
             </ul>
         </li>
     </ul>
-</article>

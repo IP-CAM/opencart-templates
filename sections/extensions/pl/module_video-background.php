@@ -1,43 +1,46 @@
 <h3>TM Video Background</h3>
 
-<p>This module allows to add a block with the video background (either uploaded from your website or the one shared from
-    YouTube service) .</p>
+<p>Ten moduł pozwala dodać blok z wideo w tle (zarówno z twojej witryny, jak i z serwisu
+    YouTube).</p>
 
-<p>When the module is installed you can configure it on the module configuration page.</p>
+<p>Kiedy moduł został zainstalowany, możesz konfigurować go na stonie konfiguracji
+    modułu .</p>
 
-<h5>Settings:</h5>
+<h5>Ustawienia:</h5>
+
 <ol class="index-list">
     <li>
         <dl class="inline-term">
             <dt>Module Name</dt>
-            <dd>the name of the module;</dd>
+            <dd> nazwa modułu;</dd>
         </dl>
     </li>
 
     <li>
         <dl class="inline-term">
             <dt>Status</dt>
-            <dd>module status (enabled/disabled)</dd>
+            <dd> status modułu (włączony/wyłączony);</dd>
         </dl>
     </li>
 
     <li>
         <dl class="inline-term">
             <dt>Video Source</dt>
-            <dd>video source. There are 2 options available:</dd>
+            <dd> źródło wideo. Są dostępne 2 opcje:</dd>
+
         </dl>
         <ul class="marked-list">
             <li>
                 <dl class="inline-term">
                     <dt>local</dt>
-                    <dd>loading from your website;</dd>
+                    <dd> ładowanie ze swojej witryny;</dd>
                 </dl>
             </li>
 
             <li>
                 <dl class="inline-term">
                     <dt>youtube</dt>
-                    <dd>loading from YouTube.</dd>
+                    <dd> ładowanie z YouTube.</dd>
                 </dl>
             </li>
         </ul>
@@ -45,64 +48,67 @@
     <li>
         <dl class="inline-term">
             <dt>YouTube url</dt>
-            <dd>YouTube video link;</dd>
+            <dd> link do wideo z YouTube;</dd>
         </dl>
     </li>
 
     <li>
         <dl class="inline-term">
             <dt>Mute</dt>
-            <dd>disabling volume;</dd>
+            <dd> wyłączenie dźwięku;</dd>
         </dl>
     </li>
 
     <li>
         <dl class="inline-term">
             <dt>Mobile</dt>
-            <dd>enables/disables video on mobile device. IF 'Yes', video will be showing up on mobile;</dd>
+            <dd> włącza/wyłącza wideo na telefonie komórkowym. Jeśli postawisz 'Yes' ("Tak"), wideo będzie odtwarzane na
+                telefonie komórkowym;
+            </dd>
         </dl>
     </li>
 
     <li>
         <dl class="inline-term">
             <dt>Start Video</dt>
-            <dd>exact time when the video starts;</dd>
+            <dd> dokładny czas początku odtwarzania wideo;</dd>
         </dl>
     </li>
 
     <li>
         <dl class="inline-term">
             <dt>Mobile Image</dt>
-            <dd>image that will show up on mobile if the video is disabled for mobile device;</dd>
+            <dd> obrazek, który będzie pokazywany zamiast wideo, jeśli wyłączysz go dla telefonu komórkowego;</dd>
         </dl>
     </li>
 
     <li>
         <dl class="inline-term">
             <dt>Mobile Image Width</dt>
-            <dd>background image width;</dd>
+            <dd> szerokość obrazka tła;</dd>
         </dl>
     </li>
 
     <li>
         <dl class="inline-term">
             <dt>Mobile Image Height</dt>
-            <dd>background image height;</dd>
+            <dd> wysokość obrazka tła;</dd>
         </dl>
     </li>
 
     <li>
         <dl class="inline-term">
             <dt>Description</dt>
-            <dd>html-markup that will be showing up in from of the video.</dd>
+            <dd> treść HTML, która będzie się pojawiać w tle wideo.</dd>
         </dl>
     </li>
 </ol>
-<p>If choosing
-    <strong>Video Source - Local Video</strong>, set an image (banner) in ".jpg" format, that will be used for mobile
-    devices. The folder that contains background image should also include 3 video files with the same name and using
-    the following formats:
-</p>
+
+<p>Jeśli wybierasz <strong>Video Source (Źródło Wideo - Local Video (Lokalne
+        Wideo)</strong>, ustaw obrazek (baner) w formacie".jpg", który będzie wykorzystywany
+    na telefonach komórkowych. Folder, zawierający obrazek tła, powinien również mieścić
+    3 pliki wideo o tej samej nazwie w następujących formatach: </p>
+
 <ul class="marked-list">
     <li>*.ogv</li>
 

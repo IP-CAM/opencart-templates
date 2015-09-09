@@ -23,11 +23,11 @@
 <ol class="index-list">
     <li>Откройте <strong>catalog\view\theme\themeXXX\stylesheet\stylesheet.css</strong> файл. </li>
 
-    <li>Найдите следующую строку: <br/>
-        <pre>//fonts.googleapis.com/css?family=[---имя_вашего_web_шрифта---]</pre>
+    <li><p>Найдите следующую строку: </p>
+        <code>//fonts.googleapis.com/css?family=[---your_web_font_name---]</code>
     </li>
-    <li>Замените её следующим: <br/>
-        <pre>//fonts.useso.com/css?family=[---имя_вашего_web_шрифта---]</pre>
+    <li><p>Замените её следующим: </p>
+        <code>//fonts.useso.com/css?family=[---your_web_font_name---]</code>
     </li>
 </ol>
 

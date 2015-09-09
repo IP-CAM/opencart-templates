@@ -22,11 +22,11 @@
 <ol class="index-list">
     <li>Open <strong>catalog\view\theme\themeXXX\stylesheet\stylesheet.css</strong> file. </li>
 
-    <li>Locate the line: <br/>
-        <pre>//fonts.googleapis.com/css?family=[---your_web_font_name---]</pre>
+    <li><p>Locate the line: </p>
+        <code>//fonts.googleapis.com/css?family=[---your_web_font_name---]</code>
     </li>
-    <li>Replace it with the following: <br/>
-        <pre>//fonts.useso.com/css?family=[---your_web_font_name---]</pre>
+    <li><p>Replace it with the following: </p>
+        <code>//fonts.useso.com/css?family=[---your_web_font_name---]</code>
     </li>
 </ol>
 

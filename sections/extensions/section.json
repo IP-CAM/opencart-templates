@@ -7,6 +7,7 @@
     "es": "Configuración de extensiones",
     "fr": "Configuration des extensions",
     "it": "Configurazione estensione",
+    "pl": "Rozszerzona konfiguracja",
     "pt": "Extension configuration",
     "tr": "Bileşen ayarları"
   },
@@ -20,6 +21,7 @@
         "es": "Instalación del módulo",
         "fr": "Installation du module",
         "it": "Installazione modulo",
+        "pl": "Instalacja modułu",
         "pt": "Instalação de módulos",
         "tr": "Modül kurulumu"
       }
@@ -33,6 +35,7 @@
         "es": "La creación de banners",
         "fr": "Création de bannières",
         "it": "Creazione di banner",
+        "pl": "Tworzenie banerów",
         "pt": "Como criar banners",
         "tr": "Banner oluşturmak"
       }
@@ -46,6 +49,7 @@
         "es": "Parallax",
         "fr": "Parallax",
         "it": "Parallax",
+        "pl": "Parallax",
         "pt": "Parallax",
         "tr": "Parallax"
       }
@@ -59,6 +63,7 @@
         "es": "TM Category",
         "fr": "TM Category",
         "it": "TM Category",
+        "pl": "TM Category",
         "pt": "TM Category",
         "tr": "TM Category"
       }
@@ -72,6 +77,7 @@
         "es": "TM Facebook Box",
         "fr": "TM Facebook Box",
         "it": "TM Facebook Box",
+        "pl": "TM Facebook Box",
         "pt": "TM Facebook Box",
         "tr": "TM Facebook Box"
       }
@@ -85,6 +91,7 @@
         "es": "TM Twitter Box",
         "fr": "TM Twitter Box",
         "it": "TM Twitter Box",
+        "pl": "TM Twitter Box",
         "pt": "TM Twitter Box",
         "tr": "TM Twitter Box"
       }
@@ -98,6 +105,7 @@
         "es": "TM Pinterest",
         "fr": "TM Pinterest",
         "it": "TM Pinterest",
+        "pl": "TM Pinterest",
         "pt": "TM Pinterest",
         "tr": "TM Pinterest"
       }
@@ -111,6 +119,7 @@
         "es": "Olark Live Chat",
         "fr": "Olark Live Chat",
         "it": "Olark Live Chat",
+        "pl": "Olark Live Chat",
         "pt": "Olark Live Chat",
         "tr": "Olark Live Chat"
       }
@@ -124,6 +133,7 @@
         "es": "TM Slideshow",
         "fr": "TM Slideshow",
         "it": "TM Slideshow",
+        "pl": "TM Slideshow",
         "pt": "TM Slideshow",
         "tr": "TM Slideshow"
       }
@@ -137,6 +147,7 @@
         "es": "TM Google Map",
         "fr": "TM Google Map",
         "it": "TM Google Map",
+        "pl": "TM Google Map",
         "pt": "TM Google Map",
         "tr": "TM Google Map"
       }
@@ -150,6 +161,7 @@
         "es": "TM Category Menu",
         "fr": "TM Category Menu",
         "it": "TM Category Menu",
+        "pl": "TM Category Menu",
         "pt": "TM Category Menu",
         "tr": "TM Category Menu"
       }
@@ -163,6 +175,7 @@
         "es": "TM Cookie Policy",
         "fr": "TM Cookie Policy",
         "it": "TM Cookie Policy",
+        "pl": "TM Cookie Policy",
         "pt": "TM Cookie Policy",
         "tr": "TM Cookie Policy"
       }
@@ -176,6 +189,7 @@
         "es": "TM Instagram",
         "fr": "TM Instagram",
         "it": "TM Instagram",
+        "pl": "TM Instagram",
         "pt": "TM Instagram",
         "tr": "TM Instagram"
       }
@@ -189,6 +203,7 @@
         "es": "TM Manufacturers",
         "fr": "TM Manufacturers",
         "it": "TM Manufacturers",
+        "pl": "TM Manufacturers",
         "pt": "TM Manufacturers",
         "tr": "TM Manufacturers"
       }
@@ -202,6 +217,7 @@
         "es": "TM Module Tabs",
         "fr": "TM Module Tabs",
         "it": "TM Module Tabs",
+        "pl": "TM Module Tabs",
         "pt": "TM Module Tabs",
         "tr": "TM Module Tabs"
       }
@@ -215,6 +231,7 @@
         "es": "TM Newsletter",
         "fr": "TM Newsletter",
         "it": "TM Newsletter",
+        "pl": "TM Newsletter",
         "pt": "TM Newsletter",
         "tr": "TM Newsletter"
       }
@@ -228,6 +245,7 @@
         "es": "TM Newsletter Popup",
         "fr": "TM Newsletter Popup",
         "it": "TM Newsletter Popup",
+        "pl": "TM Newsletter Popup",
         "pt": "TM Newsletter Popup",
         "tr": "TM Newsletter Popup"
       }
@@ -241,6 +259,7 @@
         "es": "TM Product Slideshow",
         "fr": "TM Product Slideshow",
         "it": "TM Product Slideshow",
+        "pl": "TM Product Slideshow",
         "pt": "TM Product Slideshow",
         "tr": "TM Product Slideshow"
       }
@@ -254,6 +273,7 @@
         "es": "TM Social List",
         "fr": "TM Social List",
         "it": "TM Social List",
+        "pl": "TM Social List",
         "pt": "TM Social List",
         "tr": "TM Social List"
       }
@@ -267,6 +287,7 @@
         "es": "TM Video Background",
         "fr": "TM Video Background",
         "it": "TM Video Background",
+        "pl": "TM Video Background",
         "pt": "TM Video Background",
         "tr": "TM Video Background"
       }
@@ -280,6 +301,7 @@
         "es": "TM Live search",
         "fr": "TM Live search",
         "it": "TM Live search",
+        "pl": "TM Live search",
         "pt": "TM Live search",
         "tr": "TM Live search"
       }
@@ -293,6 +315,7 @@
         "es": "TM Lazy load",
         "fr": "TM Lazy load",
         "it": "TM Lazy load",
+        "pl": "TM Lazy load",
         "pt": "TM Lazy load",
         "tr": "TM Lazy load"
       }
