@@ -319,6 +319,34 @@
         "pt": "TM Lazy load",
         "tr": "TM Lazy load"
       }
+    },
+    {
+      "id": "module_blog",
+      "translations": {
+        "en": "Blog",
+        "ru": "Blog",
+        "de": "Blog",
+        "es": "Blog",
+        "fr": "Blog",
+        "it": "Blog",
+        "pl": "Blog",
+        "pt": "Blog",
+        "tr": "Blog"
+      }
+    },
+    {
+      "id": "module_single_category",
+      "translations": {
+        "en": "TM Single Category Products",
+        "ru": "TM Single Category Products",
+        "de": "TM Einzelkategorien Produkte",
+        "es": "TM Single Category Products",
+        "fr": "TM Single Category Products",
+        "it": "TM Single Category Products",
+        "pl": "TM Produkty jednej kategorii",
+        "pt": "TM Single Category Products",
+        "tr": "TM Single Category Products"
+      }
     }
   ]
 }
