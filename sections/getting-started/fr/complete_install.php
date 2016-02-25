@@ -222,3 +222,13 @@
     <strong>le nom de domaine</strong> dans la barre d'adresse de votre navigateur. Pour accéder au panneau
     d'administration d'OpenCart, entrez
     <strong>nom_de_domaine/admin</strong>.</p>
+
+    <p class="alert alert-danger"> Afin d'éviter le telechargement des fichiers de modèle depuis votre site vous devriez vérifier si le téléchargement des fichiers est interdit au public. Pour le faire, vous devez ouvrir le fichier .htaccess dans le répertoire racine du site et vérifier s'il inclut le contenu suivant:
+    <code>
+&lt;FilesMatch&rt; "(?i)((\.tpl|\.ini|\.log|(?<!robots)\.txt))">
+Order deny,allow
+Deny from all
+&lt;/FilesMatch&rt;
+</code>
+Dans le cas où ce code n'est pas là, vous devez l'ajouter à la fin du fichier et renommer ce fichier ".htaccess.txt" en ".htaccess".
+    </p>

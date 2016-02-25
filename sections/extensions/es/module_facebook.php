@@ -1,4 +1,4 @@
-<h3>TM Facebook Box</h3>
+<h3>TemplateMonster Facebook Box</h3>
 
 <p>El módulo permite mostrar Facebook como la caja que muestra a los fans que aman su página web y su marca.</p>
 

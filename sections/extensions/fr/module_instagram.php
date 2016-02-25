@@ -1,4 +1,4 @@
-<h3>TM Instagram</h3>
+<h3>TemplateMonster Instagram</h3>
 
 <p>Ce module affiche les photos du réseau social Instagram y compris le nombre de "likes" sous forme de liste
     .</p>

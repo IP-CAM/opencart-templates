@@ -1,4 +1,4 @@
-<h3>TM Video Background</h3>
+<h3>TemplateMonster Video Background</h3>
 
 <p>Ten moduł pozwala dodać blok z wideo w tle (zarówno z twojej witryny, jak i z serwisu
     YouTube).</p>

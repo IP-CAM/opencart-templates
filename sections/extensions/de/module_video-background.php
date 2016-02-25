@@ -1,4 +1,4 @@
-<h3>TM Video Background</h3>
+<h3>TemplateMonster Video Background</h3>
 
 <p>Das jeweilige Modul zeigt den Block mit einem Video im Hintergrund, das entweder lokal oder mit mit Hilfe von YouTube
     hochgeladen wurde, an.</p>

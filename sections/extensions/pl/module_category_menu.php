@@ -1,4 +1,4 @@
-<h3>TM Category Menu </h3>
+<h3>TemplateMonster Category Menu </h3>
 
 <p>Ten moduł pozwala na wyświetlenie kategorii i 2 poziomów podkategorii w panelu paska
     bocznego, w tym obrazków pierwszego poziomu podkategorii. </p>

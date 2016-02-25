@@ -1,4 +1,4 @@
-<h3>TM Instagram</h3>
+<h3>TemplateMonster Instagram</h3>
 
 <p>Este módulo exibe fotos do Instagram incluindo o número de curtidas em uma lista.</p>
 

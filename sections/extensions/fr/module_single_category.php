@@ -1,4 +1,4 @@
-<h3>TM Single Category Products</h3>
+<h3>TemplateMonster Single Category Products</h3>
 
 <p>Ce module vous permet d'afficher 4 modules principaux (Best-sellers, En vedette, Promotions, Les plus récents) avec les produits de la catégorie en vue d'onglet.</p>
 

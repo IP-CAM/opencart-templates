@@ -1,4 +1,4 @@
-﻿<h3>TM Single Category Products</h3>
+﻿<h3>TemplateMonster Single Category Products</h3>
 
 <p>Bu modül sekme görünümünde, belli bir kategoriye ait olan 4 ana modülün (Bestsellers, Featured, Specials, Latest) ürünleriyle birlikte görüntülenmesini saðlar.</p>
 

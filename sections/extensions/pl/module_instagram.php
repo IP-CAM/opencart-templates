@@ -1,4 +1,4 @@
-<h3>TM Instagram</h3>
+<h3>TemplateMonster Instagram</h3>
 
 <p>Ten moduł wyświetla zdjęcia z sieci socjalnej Instagram, włącznie z liczbą "lajków" w
     formie listy </p>

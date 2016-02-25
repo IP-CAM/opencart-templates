@@ -1,4 +1,4 @@
-<h3>TM Newsletter</h3>
+<h3>TemplateMonster Newsletter</h3>
 
 <p>This module allows to add newsletter block with the subscription form.</p>
 <figure class="img-polaroid">

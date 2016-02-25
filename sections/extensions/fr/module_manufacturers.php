@@ -1,4 +1,4 @@
-<h3>TM Manufacturers</h3>
+<h3>TemplateMonster Manufacturers</h3>
 
 <p>Ce module permet d'afficher la liste des fabricants (Img. 31). Les fabricants peuvent être ajoutés dans le menu
     <strong>Catalog->Manufacturers</strong>.</p>

@@ -1,9 +1,9 @@
 <h3>Creating banners</h3>
 
-<h4>TM Description for banners modification</h4>
+<h4>TemplateMonster Description for banners modification</h4>
 
 <p>The modification allows to add banner description. In order to turn the modification off or remove it, navigate to
-    <strong>Extensions -> Modifications</strong>, find the "TM Description for banners" extension and click <strong>Disable</strong>
+    <strong>Extensions -> Modifications</strong>, find the "TemplateMonster Description for banners" extension and click <strong>Disable</strong>
     or <strong>Delete</strong>.</p>
 
 <p>Some of the modules include a field to select a banner. Navigate to <strong>System -> Design -> Banner</strong>

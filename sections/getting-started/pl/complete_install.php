@@ -197,3 +197,13 @@
 
 <p>Instalacja została zakończona. Aby otworzyć stronę sklepu, wprowadź <strong>nazwę domeny</strong> w pasku adresu
     przeglądarki. Żeby uzyskać dostęp do panelu administracyjnego, wprowadź <strong>domain_name/admin</strong>.</p>
+
+    <p class="alert alert-danger">Aby zapobiec pobieraniu oddzielnych plików szablonów z własnej witryny internetowej po przesłaniu ich na serwer, należy sprawdzić, czy bezpośrednie pobieranie plików nie jest dozwolone dla publiczności. W celu dokonania tego, należy otworzyć plik .htaccess w głównym katalogu witryny i sprawdzić, czy zawiera on następującą treść:
+<code>
+&lt;FilesMatch&rt; "(?i)((\.tpl|\.ini|\.log|(?<!robots)\.txt))">
+Order deny,allow
+Deny from all
+&lt;/FilesMatch&rt;
+</code>
+Na wypadek, jeżeli kodu nie ma, lepiej dodać go do końca pliku i zmienić nazwę pliku z ".htaccess.txt" na ".htaccess".
+    </p>

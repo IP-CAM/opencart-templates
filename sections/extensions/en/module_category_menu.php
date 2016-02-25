@@ -1,4 +1,4 @@
-<h3>TM Category Menu </h3>
+<h3>TemplateMonster Category Menu </h3>
 
 <p>This module allows to display the categories and 2 levels of the subcategories in the
     sidebar panel and including the images of the first level subcategories.</p>

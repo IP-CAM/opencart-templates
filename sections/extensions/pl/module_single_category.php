@@ -1,4 +1,4 @@
-<h3>TM Produkty jednej kategorii </h3>
+<h3>TemplateMonster Produkty jednej kategorii </h3>
 
 <p>Ten moduł pozwala pokazywać 4 główne moduły (Bestsellery, Produkty polecane (Featured), Blok promocji (Specials), Nowe produkty) z produktami pewnej kateorii from certain category pry otkryciu zakładki.</p>
 

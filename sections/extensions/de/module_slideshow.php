@@ -1,4 +1,4 @@
-<h3>TM Slideshow</h3>
+<h3>TemplateMonster Slideshow</h3>
 
 <p>Das jeweilige Modul ermöglicht es den Camera Slider auf Ihrer Website anzuzeigen. </p>
 

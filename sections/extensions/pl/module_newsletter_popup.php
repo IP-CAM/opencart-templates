@@ -1,4 +1,4 @@
-<h3>TM Newsletter Popup</h3>
+<h3>TemplateMonster Newsletter Popup</h3>
 
 <p>Ten moduł pozwala dodać wyskakujące okno z propozycją do zapisania się do
     newslettera, kiedy ktoś przegląda twoją witrynę (Img.36). Okno nie wyświetla się

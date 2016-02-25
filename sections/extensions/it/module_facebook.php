@@ -1,4 +1,4 @@
-<h3>TM Facebook Box</h3>
+<h3>TemplateMonster Facebook Box</h3>
 
 <p>Il modulo consente di inserire una casella per il Mi piace di Facebook che mostra le persone a cui piace il tuo
     sito.</p>

@@ -1,4 +1,4 @@
-<h3>TM Twitter Box</h3>
+<h3>TemplateMonster Twitter Box</h3>
 
 <p>Bu modül, Twitter'daki gönderilerinizi göstermek için kullanılır. Böylelikle sitenize gelen ziyaretçiler,
     güncel Twitter mesajlarınızdan da haberdar olur.</p>

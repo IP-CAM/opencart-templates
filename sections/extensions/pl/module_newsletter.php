@@ -1,4 +1,4 @@
-<h3>TM Newsletter</h3>
+<h3>TemplateMonster Newsletter</h3>
 
 <p>Moduł ten pozwala dodać blok newslettera z formularzem subskrypcji.</p>
 

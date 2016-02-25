@@ -1,6 +1,6 @@
-<h3>TM Pinterest</h3>
+<h3>TemplateMonster Pinterest</h3>
 
-<p>TM Pinterest modülü mağazanızda Pinterest galerisi gösterilmesini sağlar.</p>
+<p>TemplateMonster Pinterest modülü mağazanızda Pinterest galerisi gösterilmesini sağlar.</p>
 <figure class="img-polaroid">
     <img src="img/tm-pinterest-view.jpg" alt=""/>
 </figure>

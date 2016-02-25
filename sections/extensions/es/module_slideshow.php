@@ -1,4 +1,4 @@
-<h3>TM Slideshow</h3>
+<h3>TemplateMonster Slideshow</h3>
 
 <p>Este módulo le permite mostrar Camera slideshow en su página web. </p>
 

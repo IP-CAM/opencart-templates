@@ -1,4 +1,4 @@
-<h3>TM Instagram</h3>
+<h3>TemplateMonster Instagram</h3>
 
 <p>Bu modül, beğenilme sayısı da dahil olmak üzere Instagram fotoğraflarının görüntülenmesini sağlar.</p>
 <figure class="img-polaroid">

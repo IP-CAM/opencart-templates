@@ -1,4 +1,4 @@
-<h3>TM Category Menu </h3>
+<h3>TemplateMonster Category Menu </h3>
 
 <p>Este módulo permite exibir categorias e 2 núveis de subcategoris na barra lateral e incluir as imagens no primeiro
     nível de subcategorias.</p>

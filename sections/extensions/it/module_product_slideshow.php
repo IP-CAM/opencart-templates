@@ -1,4 +1,4 @@
-<h3>TM Product Slideshow</h3>
+<h3>TemplateMonster Product Slideshow</h3>
 
 <p>Questo modulo consente di visualizzare prodotti selezionati con vista sequenza (carousel).</p>
 <figure class="img-polaroid">

@@ -1,4 +1,4 @@
-<h3>TM Video Background</h3>
+<h3>TemplateMonster Video Background</h3>
 
 <p>Данный модуль выводит блок с фоновым видео, загруженного либо локально, либо с помощью сервиса YouTube.</p>
 

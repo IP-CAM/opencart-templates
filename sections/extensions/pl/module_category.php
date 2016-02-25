@@ -1,4 +1,4 @@
-<h3>TM Category</h3>
+<h3>TemplateMonster Category</h3>
 
 <p>Moduł pozwala na wyświetlenie kategorii oraz ich wszystkich podkategorii za pomocą funkcji "accordion". Zwykle stosuje się go w panelu bocznym. </p>
 

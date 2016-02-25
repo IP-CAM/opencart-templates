@@ -1,4 +1,4 @@
-<h3>TM Cookie Policy</h3>
+<h3>TemplateMonster Cookie Policy</h3>
 
 <p>Das jeweilige Modul zeigt den Benutzern, ob es Cookies (cookies) benutzt
     werden.

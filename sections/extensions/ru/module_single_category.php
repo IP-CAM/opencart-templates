@@ -1,4 +1,4 @@
-<h3>TM Single Category Products</h3>
+<h3>TemplateMonster Single Category Products</h3>
 
 <p>Данный модуль выводит 4 основных модуля (Bestsellers, Featured, Specials, Latest) продуктов определенной категории в
     виде вкладок.</p>

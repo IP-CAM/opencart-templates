@@ -1,4 +1,4 @@
-<h3>TM Product Slideshow</h3>
+<h3>TemplateMonster Product Slideshow</h3>
 
 <p>Bu modül sayesinde, seçeceğiniz ürünler karusel görünümüyle gösterilir. </p>
 

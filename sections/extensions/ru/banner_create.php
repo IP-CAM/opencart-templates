@@ -1,12 +1,12 @@
 <h3>Создание баннеров</h3>
 
-<h4>Модификация TM Description for banners</h4>
+<h4>Модификация TemplateMonster Description for banners</h4>
 
 <p>Модификация предназначенная для добавления описания баннеров.
     Для удаления или отключения модификации зайдите в <strong>Расширения -> Модификации
         (Extensions ->
         Modifications)</strong>
-    найдите в списке "TM Description for banners" расширение и нажмите кнопку <strong>Отключить
+    найдите в списке "TemplateMonster Description for banners" расширение и нажмите кнопку <strong>Отключить
         (Disable)</strong>
     или <strong>Удалить (Delete)</strong>. </p>
 

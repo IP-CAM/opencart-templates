@@ -1,4 +1,4 @@
-<h3>TM Slideshow</h3>
+<h3>TemplateMonster Slideshow</h3>
 
 <p>Ten moduł pozwala na wyświetlenie pokazu slajdów Camera na twojej witrynie. </p>
 

@@ -1,4 +1,4 @@
-<h3>TM Social List</h3>
+<h3>TemplateMonster Social List</h3>
 
 <p>Este módulo permite exibir uma lista de endereços para redes sociais populares. </p>
 

@@ -1,4 +1,4 @@
-<h3>TM Single Category Products</h3>
+<h3>TemplateMonster Single Category Products</h3>
 
 <p>Questo modulo permette di visualizzare 4 moduli principali (Più Venduti, In Primo Piano, Specials, Ultimi) con i prodotti provenienti da certa categoria in vista scheda.</p>
 

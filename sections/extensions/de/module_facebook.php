@@ -1,4 +1,4 @@
-<h3>TM Facebook Box</h3>
+<h3>TemplateMonster Facebook Box</h3>
 
 <p>Das jeweilige Modul zeigt Facebook like box an. Es zeigt sowohl Gesichter als auch die Anzahl der Fans, denen Ihre
     Webseite oder Ihre Marke gefällt.</p>

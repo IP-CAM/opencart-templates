@@ -1,4 +1,4 @@
-<h3>TM Live search</h3>
+<h3>TemplateMonster Live search</h3>
 
 <p>Sayfa yenilenmeden, aratılan ürünlerin görüntülenmesini sağlayan modüldür. Kaldırmak veya kapatmak için
     <strong>Extensions -> Modifications</strong> menüsündeki listeden aracı seçerek <strong>Disable</strong> veya

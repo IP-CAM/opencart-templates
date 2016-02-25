@@ -1,4 +1,4 @@
-<h3>TM Lazy load</h3>
+<h3>TemplateMonster Lazy load</h3>
 
 <p>Ta modyfikacja pozwala ładować obrazki produktów w tym samym momencie, kiedy one się
     pojawiają podczas przewijania witryny. To rozszerzenie pozwala przyśpieszyć

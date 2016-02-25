@@ -207,3 +207,13 @@
 <p>Kurulum bitti. Mağazaya girmek için tarayıcınızın adres çubuğuna
     <strong>alan adı</strong> nı yazın. OpenCart yönetim paneline girmek için ise <strong>domain_name/admin</strong>.
 </p>
+
+    <p class="alert alert-danger"> Sunucuya yьklediрiniz юablonlarэn ayrэ ayrэ indirilmesini engellemek iзin, direkt dosya indirme iznini kapatmalэsэnэz. Bunu yapmak iзin .htaccess dosyasэnэ aзэn ve alttaki satэrlarэn yazэlэ olduрuna emin olun:
+     <code>
+    &lt;FilesMatch&rt; "(?i)((\.tpl|\.ini|\.log|(?<!robots)\.txt))">
+    Order deny,allow
+    Deny from all
+    &lt;/FilesMatch&rt;
+    </code>
+    Dosyada bu kod yoksa, en sona ekleyin ve ".htaccess.txt" uzantэsэnэ ".htaccess" olarak deрiюtirin.
+    </p>

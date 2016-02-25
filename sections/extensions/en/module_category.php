@@ -1,4 +1,4 @@
-<h3>TM Category</h3>
+<h3>TemplateMonster Category</h3>
 
 <p>The module allows to display categories with the accordion view, it also allows to
     display all the subcategories. Usually it is used in the side panel. </p>

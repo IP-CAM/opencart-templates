@@ -1,4 +1,4 @@
-<h3>TM Module Tabs</h3>
+<h3>TemplateMonster Module Tabs</h3>
 
 <p>This module allows to display 4 main modules (Bestsellers, Featured, Specials, Latest) in tabs.</p>
 

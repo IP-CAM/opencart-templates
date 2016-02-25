@@ -1,4 +1,4 @@
-<h3>TM Product Slideshow</h3>
+<h3>TemplateMonster Product Slideshow</h3>
 
 <p>Ten moduł pozwala wyświetlać wybrane produkty za pomocą funkcji kazureli.</p>
 

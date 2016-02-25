@@ -1,4 +1,4 @@
-<h3>TM Google Map</h3>
+<h3>TemplateMonster Google Map</h3>
 
 <p>This module allows you to add a Google map with an unlimited number of markers to your website. </p>
 

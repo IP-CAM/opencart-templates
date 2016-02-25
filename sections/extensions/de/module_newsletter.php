@@ -1,4 +1,4 @@
-<h3>TM Newsletter</h3>
+<h3>TemplateMonster Newsletter</h3>
 
 <p>Das jeweilige Modul fügt den Block mit dem Anmeldungsformular für E-Mail-Newsletters hinzu.</p>
 <figure class="img-polaroid">

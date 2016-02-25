@@ -1,4 +1,4 @@
-<h3>TM Instagram</h3>
+<h3>TemplateMonster Instagram</h3>
 
 <p>Данный модуль отображает фотографии из сети Instagram в виде списка картинок с отображением количества лайков</p>
 <figure class="img-polaroid">

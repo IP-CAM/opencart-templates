@@ -1,4 +1,4 @@
-<h3>TM Manufacturers</h3>
+<h3>TemplateMonster Manufacturers</h3>
 
 <p>Bu modül, imalatçıların listesinin görüntülenmesini sağlar (Img. 31). Üreticiler
     <strong>Catalog->Manufacturers</strong> menüsünden eklenir.</p>

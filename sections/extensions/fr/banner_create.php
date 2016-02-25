@@ -1,9 +1,9 @@
 <h3>Création de bannières</h3>
 
-<h4>Modification de TM Description for banners</h4>
+<h4>Modification de TemplateMonster Description for banners</h4>
 
 <p>La modification permet d'ajouter la description de bannière. Pour désactiver ou supprimer la modification, accédez à
-    <strong>Extensions -> Modifications</strong>, trouvez une extension "TM Description for banners" et cliquez
+    <strong>Extensions -> Modifications</strong>, trouvez une extension "TemplateMonster Description for banners" et cliquez
     <strong>Disable</strong> ou <strong>Delete</strong>.</p>
 
 <p>Certains modules comprennent un champ pour sélectionner une bannière. Accédez à la section

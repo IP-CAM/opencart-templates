@@ -1,4 +1,4 @@
-<h3>TM Google Map</h3>
+<h3>TemplateMonster Google Map</h3>
 
 <p>Ten moduł pozwala dodać na swoją witrynę mapę Google z nieograniczoną liczbą znaczników </p>
 

@@ -1,4 +1,4 @@
-<h3>TM Category</h3>
+<h3>TemplateMonster Category</h3>
 
 <p>Le module permet d'afficher les catégories sous forme de l'accordéon, il permet également d'afficher toutes les
     sous-catégories. Il est habituellement utilisé dans le panneau latéral. </p>

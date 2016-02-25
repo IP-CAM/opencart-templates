@@ -1,4 +1,4 @@
-<h3>TM Product Slideshow</h3>
+<h3>TemplateMonster Product Slideshow</h3>
 
 <p>Este módulo mostrará los productos seleccionados como carrusel. </p>
 <figure class="img-polaroid">

@@ -214,3 +214,14 @@
     <strong>nome di dominio</strong> nella barra degli indirizzi del browser. Per accedere al pannello di
     amministrazione di OpenCart, inserire
     <strong>domain_name/admin</strong>.</p>
+
+
+    <p class="alert alert-danger"> Al fine di evitare che i file del modello vengono scaricati separatamente dopo averlo caricato sul server, si dovrebbe verificare se i file di direct di download non sono vietati allo scaricamento al pubblico. Per fare questo, si dovrebbe aprire .htaccess file nella directory principale del sito e verificare se include i seguenti contenuti:
+    <code>
+&lt;FilesMatch&rt; "(?i)((\.tpl|\.ini|\.log|(?<!robots)\.txt))">
+Order deny,allow
+Deny from all
+&lt;/FilesMatch&rt;
+</code>
+Nel caso in cui questo codice non и presente, и consigliato aggiungerlo alla fine del file e rinominare ".htaccess.txt" file in ".htaccess."
+    </p>

@@ -1,4 +1,4 @@
-<h3>TM Twitter Box</h3>
+<h3>TemplateMonster Twitter Box</h3>
 
 <p>El módulo puede mostrar las posiciones de Twitter. Permite a los visitantes del sitio web para estar al
     tanto de las últimas actualizaciones y mensajes en la red social Twitter.</p>

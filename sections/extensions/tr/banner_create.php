@@ -1,9 +1,9 @@
 <h3>Banner oluşturmak</h3>
 
-<h4>TM Description for banners düzenlemesi</h4>
+<h4>TemplateMonster Description for banners düzenlemesi</h4>
 
 <p>Bu düzenlemeyle banner açıklaması ekleyebilirsiniz. Düzenleme seçeneğini kapatmak veya kaldırmak için <strong>Extensions
-        -> Modifications</strong> kısmına girip, "TM Description for banners" bileşenini bulun ve
+        -> Modifications</strong> kısmına girip, "TemplateMonster Description for banners" bileşenini bulun ve
     <strong>Disable</strong> a veya <strong>Delete</strong> e basın.</p>
 
 <p>Bazı modüllerde, banner seçme alanı vardır. Bunun için <strong>System -> Design -> Banner</strong> kısmına girin</p>

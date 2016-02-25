@@ -1,4 +1,4 @@
-<h3>TM Newsletter Popup</h3>
+<h3>TemplateMonster Newsletter Popup</h3>
 
 <p>Este módulo permite incluir uma janela de pop-up oferecendo a assinatura da lista de emails quando estiverem
     visitando seu site. Esse janela não aparece para usuários já cadastrados ou que já se inscreveram.</p>

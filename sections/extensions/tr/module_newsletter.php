@@ -1,4 +1,4 @@
-<h3>TM Newsletter</h3>
+<h3>TemplateMonster Newsletter</h3>
 
 <p>Bu modül abonelik formuyla birlikte haber bülteni kutusu eklemenizi sağlar.</p>
 <figure class="img-polaroid">

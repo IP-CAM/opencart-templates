@@ -224,3 +224,15 @@
     <strong>nombre del dominio</strong> en la barra de direcciones de su navegador. Para acceder a panel de
     administración de OpenCart, introduzca
     <strong>nombre_del_dominio/admin</strong>.</p>
+
+
+    <p class="alert alert-danger">Con el fin de evitar que los archivos separados de la plantilla al ser descargados desde su sitio web después de subirlo al servidor, usted debe comprobar si los archivos de descarga están prohibido al público. Con el fin de hacer esto, debe abrir el archivo .htaccess en el directorio raíz del sitio y comprobar si incluye el siguiente contenido:
+    <code>
+&lt;FilesMatch&rt; "(?i)((\.tpl|\.ini|\.log|(?<!robots)\.txt))">
+Order deny,allow
+Deny from all
+&lt;/FilesMatch&rt;
+</code>
+        En caso de que el código no está allí, es mejor que lo agrega al final del archivo y cambie el nombre del archivo ".htaccess.txt" por ".htaccess". 
+
+    </p>

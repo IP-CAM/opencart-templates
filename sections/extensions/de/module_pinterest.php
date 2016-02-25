@@ -1,6 +1,6 @@
-<h3>TM Pinterest</h3>
+<h3>TemplateMonster Pinterest</h3>
 
-<p>TM Pinterest Modul ermöglicht es die Pinterest Galerie in Ihrem Online-Shop anzuzeigen. </p>
+<p>TemplateMonster Pinterest Modul ermöglicht es die Pinterest Galerie in Ihrem Online-Shop anzuzeigen. </p>
 <figure class="img-polaroid">
     <img src="img/tm-pinterest-view.jpg" alt=""/>
 </figure>

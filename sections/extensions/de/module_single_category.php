@@ -1,4 +1,4 @@
-<h3>TM Einzelkategorien Produkte</h3>
+<h3>TemplateMonster Einzelkategorien Produkte</h3>
 
 <p>Dieses Modul ermöglicht es Ihnen, 4 Hauptmodule (Angebote, Bestseller, Ausgewählte, Neuste) mit Produkten aus bestimmten Kategorien im Ansichttab anzuzeigen.</p>
 

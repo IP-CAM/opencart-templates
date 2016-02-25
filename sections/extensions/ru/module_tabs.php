@@ -1,4 +1,4 @@
-<h3>TM Module Tabs</h3>
+<h3>TemplateMonster Module Tabs</h3>
 
 <p>Данный модуль выводит 4 основных модуля (Bestsellers, Featured, Specials, Latest) в виде вкладок.</p>
 <figure class="img-polaroid">

@@ -1,4 +1,4 @@
-<h3>TM Lazy load</h3>
+<h3>TemplateMonster Lazy load</h3>
 
 <p>Die Modifikation, die die Produktbilder währden der Zeit hochlädt, wann sie in den
     Anwendungsbereich beim Scrollen der Website fallen. Die jeweilige Erweiterung wird

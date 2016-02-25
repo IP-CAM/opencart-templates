@@ -204,3 +204,15 @@
         Adresszeile </strong> des Browsers. Für den Zugriff zum OpenCart Control Panel schreiben Sie den
     <strong>Domain_namen/admin</strong>.
 </p>
+
+<p class="alert alert-danger">
+    Um das Herunterladen der einzelnen Vorlagendateien aus Ihrer Website (nachdem sie auf dem Server installiert wurde) zu vermeiden, sollen Sie ьberprьfen, ob es der Zugriff auf das direkte Herunterladen der Dateien aus dem Server verweigert ist. Dafьr sollen Sie die Datei .htaccess im Stammordner цffnen und sich ьberzeugen, ob es den folgenden Code in ihr gibt:
+
+<code>
+&lt;FilesMatch&rt; "(?i)((\.tpl|\.ini|\.log|(?<!robots)\.txt))">
+Order deny,allow
+Deny from all
+&lt;/FilesMatch&rt;
+</code>
+Wenn dieser Code fehlt, fьgen Sie ihn am Ende der Datei hinzu und benennen Sie die Datei ".htaccess.txt" auf ".htaccess." um.
+</p>

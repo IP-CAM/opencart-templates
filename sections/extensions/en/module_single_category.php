@@ -1,4 +1,4 @@
-<h3>TM Single Category Products</h3>
+<h3>TemplateMonster Single Category Products</h3>
 
 <p>This module allows you to display 4 main modules (Bestsellers, Featured, Specials, Latest) with the products from certain category in tab view.</p>
 

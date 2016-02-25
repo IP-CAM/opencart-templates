@@ -1,4 +1,4 @@
-<h3>TM Newsletter Popup</h3>
+<h3>TemplateMonster Newsletter Popup</h3>
 
 <p>Este módulo añade la ventana emergente con una oferta para suscribirse a boletines de noticias cuando alguien ve su
     sitio web. La ventana no se muestra para los usuarios autorizados (conectados) y para aquellos que ya han
