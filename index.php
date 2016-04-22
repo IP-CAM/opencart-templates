@@ -40,7 +40,7 @@ if (!isset($sections)) {
 <div class="page-wrap">
     <div class="rd-mobilemenu active">
         <div class="logo">
-            <a href="<?php echo $path; ?>"><img src="<?php echo $path; ?>/img/logo.png" alt=""></a>
+            <a href="<?php echo $path; ?>/"><img src="<?php echo $path; ?>/img/logo.png" alt=""></a>
         </div>
         <div class="panel">
             <div class="select select-version">
@@ -75,6 +75,10 @@ if (!isset($sections)) {
                     <option
                         data-href="<?php echo $path; ?>/index.php?lang=it&section=<?php echo $section_param; ?>" <?php echo $lang == "it" ? "selected" : ""; ?>>
                         IT
+                    </option>
+                    <option
+                        data-href="<?php echo $path; ?>/index.php?lang=pl&section=<?php echo $section_param; ?>" <?php echo $lang == "pl" ? "selected" : ""; ?>>
+                        PL
                     </option>
                     <option
                         data-href="<?php echo $path; ?>/index.php?lang=pt&section=<?php echo $section_param; ?>" <?php echo $lang == "pt" ? "selected" : ""; ?>>

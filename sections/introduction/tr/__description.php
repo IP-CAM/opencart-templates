@@ -4,7 +4,7 @@
     yöneteceğiniz hakkındaki tüm bilgileri içermektedir. Bu bilgileri mümkün olduğunca açık ve kolay anlaşılabilir
     şekilde hazırladık.</h5>
 
-<article id="whatisopencart">
+
     <h3>OpenCart nedir?</h3>
 
     <p>OpenCart - açık kaynaklı bir e-mağaza uygulamasıdır. OpenCart online mağazanız için kolay düzenlemeler sağlar.
@@ -14,9 +14,9 @@
         kullanarak mağazanızın potansiyelini artırabilirsiniz.
         <a href="http://docs.OpenCart.com" target="_blank">Daha fazla bilgi</a>
     </p>
-</article>
 
-<article id="structure">
+
+
     <h3>Dosya yapısı</h3>
 
     <h6>İndirdiğiniz şablon paketinde pek çok klasör yer alır. İçlerinde neler olduğuna şöyle bir bakalım:</h6>
@@ -130,4 +130,3 @@
             </ul>
         </li>
     </ul>
-</article>

@@ -1,4 +1,4 @@
-<h3>TM Newsletter</h3>
+<h3>TemplateMonster Newsletter</h3>
 
 <p>Данный модуль добавляет блок с формой подписки на email рассылку.</p>
 <figure class="img-polaroid">

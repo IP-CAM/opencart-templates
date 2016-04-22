@@ -1,4 +1,4 @@
-<h3>TM Newsletter</h3>
+<h3>TemplateMonster Newsletter</h3>
 
 <p>Este módulo permite incluir um bloco para assinatura de lista de emails.</p>
 <figure class="img-polaroid">

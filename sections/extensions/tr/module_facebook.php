@@ -1,4 +1,4 @@
-<h3>TM Facebook Box</h3>
+<h3>TemplateMonster Facebook Box</h3>
 
 <p>Bu modül, websitenizi ve markanızı beğenen fanlarınızın Facebook beğeni kutusunda gösterilmesini sağlar.</p>
 

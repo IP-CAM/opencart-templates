@@ -1,6 +1,6 @@
-<h3>TM Pinterest</h3>
+<h3>TemplateMonster Pinterest</h3>
 
-<p>TM Pinterest модуль позволяет отобразить Pinterest галерею в Вашем магазине. </p>
+<p>TemplateMonster Pinterest модуль позволяет отобразить Pinterest галерею в Вашем магазине. </p>
 
 <figure class="img-polaroid">
     <img src="img/tm-pinterest-view.jpg" alt=""/>

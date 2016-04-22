@@ -1,4 +1,4 @@
-<h3>TM Category</h3>
+<h3>TemplateMonster Category</h3>
 
 <p>El módulo muestra categorías para el acordeón, también muestra todas las subcategorías (Img.13). Se utiliza por lo
     general en el panel lateral. </p>

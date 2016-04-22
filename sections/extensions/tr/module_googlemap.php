@@ -1,4 +1,4 @@
-<h3>TM Google Map</h3>
+<h3>TemplateMonster Google Map</h3>
 
 <p>Bu modül sayesinde websitenizde, Google haritası üzerinden istediğiniz kadar yer imi işaretleyebilirsiniz . </p>
 

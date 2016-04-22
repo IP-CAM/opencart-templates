@@ -1,4 +1,4 @@
-<h3>TM Video Background</h3>
+<h3>TemplateMonster Video Background</h3>
 
 <p>This module allows to add a block with the video background (either uploaded from your website or the one shared from
     YouTube service) .</p>
@@ -24,8 +24,7 @@
     <li>
         <dl class="inline-term">
             <dt>Video Source</dt>
-            <dd>video source. There are 2 options avail</dd>
-            able:
+            <dd>video source. There are 2 options available:</dd>
         </dl>
         <ul class="marked-list">
             <li>

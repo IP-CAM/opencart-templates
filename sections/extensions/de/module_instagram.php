@@ -1,4 +1,4 @@
-<h3>TM Instagram</h3>
+<h3>TemplateMonster Instagram</h3>
 
 <p>Das jeweilige Modul zeigt Bilder von Instagram als Liste von Bildern mit der angezeigten Anzahl von Likes.</p>
 

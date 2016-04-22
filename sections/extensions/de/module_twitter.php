@@ -1,4 +1,4 @@
-<h3>TM Twitter Box</h3>
+<h3>TemplateMonster Twitter Box</h3>
 
 <p>Das jeweilige Modul zeigt die Beiträge aus dem sozialen Netzwerk Twitter an. Dank ihm sehen Ihre
     Webseitenbesucher die letzten Aktualisierungen auf Ihrer Seite bei Twitter.</p>

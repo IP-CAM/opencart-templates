@@ -1,4 +1,4 @@
-<h3>TM Newsletter</h3>
+<h3>TemplateMonster Newsletter</h3>
 
 <p>Este módulo añade el bloque con un formulario de suscripción a boletines de noticias.</p>
 <figure class="img-polaroid">

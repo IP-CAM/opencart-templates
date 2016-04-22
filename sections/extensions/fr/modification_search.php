@@ -1,6 +1,6 @@
-<h3>TM Live search</h3>
+<h3>TemplateMonster Live search</h3>
 
-<p> La modification TM Live search permet d'afficher les produits recherchés sans recharger la page. Pour
+<p> La modification TemplateMonster Live search permet d'afficher les produits recherchés sans recharger la page. Pour
     désactiver ou supprimer la modification, accédez à
     <strong>Extensions -> Modifications</strong>, sélectionnez la modification dans la liste, et cliquez
     <strong>Disable</strong> ou <strong>Delete</strong>.</p>

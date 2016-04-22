@@ -1,4 +1,4 @@
-<h3>TM Cookie Policy</h3>
+<h3>TemplateMonster Cookie Policy</h3>
 
 <p>Bu modül, site ziyaretçilerini, çerez kullanımı için uyarır. Çerez Yasası gereğince, websitenizde çerez
     kullanıldığı uyarısını uygun modüllerle bildirmeniz gerekir.</p>

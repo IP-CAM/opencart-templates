@@ -1,4 +1,4 @@
-<h3>TM Instagram</h3>
+<h3>TemplateMonster Instagram</h3>
 
 <p>Questo modulo consente di inserire in un elenco immagini della rete Instagram, incluso il numero di mi piace.</p>
 <figure class="img-polaroid">

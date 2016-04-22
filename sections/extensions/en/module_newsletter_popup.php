@@ -1,4 +1,4 @@
-<h3>TM Newsletter Popup</h3>
+<h3>TemplateMonster Newsletter Popup</h3>
 
 <p>This module allows to add pop-up window with an offer to subscribe to the email newsletter when someone is viewing
     your site. The window is not showing up for authorized (logged in) users and those who has already

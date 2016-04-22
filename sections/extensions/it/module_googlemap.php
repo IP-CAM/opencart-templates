@@ -1,4 +1,4 @@
-<h3>TM Google Map</h3>
+<h3>TemplateMonster Google Map</h3>
 
 <p>Questo modulo consente di inserire sul sito Web una mappa Google con numero illimitato di puntatori. </p>
 

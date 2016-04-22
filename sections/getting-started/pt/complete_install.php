@@ -222,3 +222,15 @@
     <strong>nome do domínio</strong> na barra de endereço do seu navegador. Para acessar o painel administrativo do
     OpenCart admin panel, preencha com
     <strong>nome_do_domínio/admin</strong>.</p>
+
+
+
+  <p class="alert alert-danger">  Para proteger seus arquivos de template de serem baixados do seu site após enviá-los ao seu servidor, você deve se certificar de que o download direto de arquivos está proibido para o público. Para fazer isso, você deve abrir o arquivo .htaccess na raíz do site e verificar se ele contém o seguinte:
+<code>
+&lt;FilesMatch&rt; "(?i)((\.tpl|\.ini|\.log|(?<!robots)\.txt))">
+Order deny,allow
+Deny from all
+&lt;/FilesMatch&rt;
+</code>
+Caso este código não esteja lá, é melhor incluí-lo ao fim do arquivo e renomear o arquivo ".htaccess.txt" para ".htaccess."
+  </p>

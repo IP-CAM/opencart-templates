@@ -1,4 +1,4 @@
-<h3>TM Module Tabs</h3>
+<h3>TemplateMonster Module Tabs</h3>
 
 <p>Bu modül sayesinde, sekmelerde 4 ana modülü görüntületebilirsiniz (Bestsellers, Featured, Specials, Latest) (En Çok
     Satanlar, Özel Ürünler, İndirimler, Yeni Gelenler).</p>

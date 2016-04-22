@@ -1,4 +1,4 @@
-<h3>TM Facebook Box</h3>
+<h3>TemplateMonster Facebook Box</h3>
 
 <p>The module allows to display Facebook like box that shows the fans who like your website and brand.</p>
 

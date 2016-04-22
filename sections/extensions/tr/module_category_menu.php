@@ -1,4 +1,4 @@
-<h3>TM Category Menu </h3>
+<h3>TemplateMonster Category Menu </h3>
 
 <p>Bu modül kenar çubuğundaki panelde kategorileri ve 2 seviye alt kategorileri göstermeyi sağlar. Birinci seviyedeki
     kategoriler için görseller de atayabilirsiniz.</p>

@@ -1,4 +1,4 @@
-<h3>TM Facebook Box</h3>
+<h3>TemplateMonster Facebook Box</h3>
 
 <p>Este módulo permite exibir uma caixa de curtidas do Facebook que mostra os fans que curtiram sua marca e seu site.</p>
 

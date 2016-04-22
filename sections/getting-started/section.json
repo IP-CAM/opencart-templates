@@ -7,6 +7,7 @@
     "es": "Primeros Pasos",
     "fr": "Prise en Main",
     "it": "Getting started",
+    "pl": "Rozpoczęcie pracy",
     "pt": "Do início",
     "tr": "Başlangıç"
   },
@@ -20,6 +21,7 @@
         "es": "Instalación Completa",
         "fr": "Installation Complète",
         "it": "Installazione completa",
+        "pl": "Pełna instalacja",
         "pt": "Instalação completa",
         "tr": "Tam kurulum"
       }
@@ -33,6 +35,7 @@
         "es": "Instalación sobre una tienda existente",
         "fr": "Installation sur une boutique existante",
         "it": "Installazione su negozi preesistenti",
+        "pl": "Installing the template over existing store",
         "pt": "Instalação sobre uma loja existente",
         "tr": "Var olan mağazanın üstüne kurulum"
       }

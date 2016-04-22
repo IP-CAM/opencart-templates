@@ -1,4 +1,4 @@
-<h3>TM Category</h3>
+<h3>TemplateMonster Category</h3>
 
 <p>Bu modül, kategorileri ve alt kategorileri akordeon biçiminde gösterir. Genelde yan panelde kullanılır.</p>
 

@@ -1,11 +1,11 @@
 <h3>Erstellen von Bannern</h3>
 
-<h4>Modifikation TM Description for banners</h4>
+<h4>Modifikation TemplateMonster Description for banners</h4>
 
 <p>Die Modifikation wird gebraucht, um die Beschreibungen von Bannern hinzuzufügen.
     Um die Modifikation zu entfernen oder zu deaktivieren, öffnen Sie <strong>Erweiterungen
         -> Modifikation (Extensions -> Modifications)</strong> finden Sie in der Liste
-    "TM Description fo banners" Erweiterung und drücken Sie auf den Button <strong>Deaktivieren
+    "TemplateMonster Description fo banners" Erweiterung und drücken Sie auf den Button <strong>Deaktivieren
         (Disable)</strong> oder <strong>Entfernen (Delete)</strong>. </p>
 
 <p>Die Einstellungen einiger Module haben das Feld zur Auswahl vom Banner, das gebraucht

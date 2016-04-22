@@ -1,4 +1,4 @@
-<h3>TM Cookie Policy</h3>
+<h3>TemplateMonster Cookie Policy</h3>
 
 <p>Ce module informe les visiteurs que ce site web utilise des cookies. Selon les termes de la loi relative
     aux cookies, vous devez ajouter des modules appropriés à votre site Web qui permettront d'afficher un message

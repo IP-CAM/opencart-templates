@@ -1,4 +1,4 @@
-<h3>TM Newsletter</h3>
+<h3>TemplateMonster Newsletter</h3>
 
 <p>Questo modulo consente di aggiungere un blocco newsletter con modulo di iscrizione.</p>
 <figure class="img-polaroid">

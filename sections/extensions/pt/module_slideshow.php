@@ -1,4 +1,4 @@
-<h3>TM Slideshow</h3>
+<h3>TemplateMonster Slideshow</h3>
 
 <p>Este módulo lhe permite exibir um slideshow no seu site. </p>
 

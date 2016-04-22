@@ -1,4 +1,4 @@
-<h3>TM Video Background</h3>
+<h3>TemplateMonster Video Background</h3>
 
 <p>Bu modül sayesinde sitenize video arakaplanına sahip bir kutu ekleyebilirsiniz (kendi websitenize veya YouTube'a
     yüklediğiniz bir video olabilir).</p>

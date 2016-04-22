@@ -1,4 +1,4 @@
-<h3>TM Module Tabs</h3>
+<h3>TemplateMonster Module Tabs</h3>
 
 <p>Das jeweilige Modul zeigt 4 Hauptmodule (Bestsellers, Featured, Specials, Latest) als Tabs an.</p>
 

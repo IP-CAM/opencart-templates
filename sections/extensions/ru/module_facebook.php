@@ -1,4 +1,4 @@
-<h3>TM Facebook Box</h3>
+<h3>TemplateMonster Facebook Box</h3>
 
 <p>Данный модуль отображает Facebook like box - отображает лица и количество поклонников, кому естественно нравится Ваш
     сайт или бренд.</p>

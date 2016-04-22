@@ -1,4 +1,4 @@
-<h3>TM Module Tabs</h3>
+<h3>TemplateMonster Module Tabs</h3>
 
 <p>Questo modulo consente di visualizzare 4 componenti principali nelle schede (Bestsellers, Featured, Specials, Latest)
     in tabs.</p>

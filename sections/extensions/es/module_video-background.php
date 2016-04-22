@@ -1,4 +1,4 @@
-<h3>TM Video Background</h3>
+<h3>TemplateMonster Video Background</h3>
 
 <p>Este módulo añade un bloque con el vídeo de fondo (se puede subir un video desde su sitio web o de YouTube) .</p>
 

@@ -1,4 +1,4 @@
-<h3>TM Manufacturers</h3>
+<h3>TemplateMonster Manufacturers</h3>
 
 <p> Данный модуль отображает список производителей (Рис. 31). Производители добавляются
     в меню <strong>Каталог -> Производители (Catalog -> Manufacturers)</strong>.</p>

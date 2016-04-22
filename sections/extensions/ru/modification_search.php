@@ -1,6 +1,6 @@
-<h3>TM Live search</h3>
+<h3>TemplateMonster Live search</h3>
 
-<p>Модификация TM Live search выводит искомый продукт(ы) без перезагрузки страницы.
+<p>Модификация TemplateMonster Live search выводит искомый продукт(ы) без перезагрузки страницы.
     Для ее удаления или отключения, перейдите в <strong>Расширения -> Модификации
         (Extensions ->
         Modifications)</strong>, выберите

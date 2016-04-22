@@ -1,4 +1,4 @@
-<h3>TM Category </h3>
+<h3>TemplateMonster Category </h3>
 
 <p>Questo modulo consente di visualizzare categorie con effetto fisarmonica, consentendo anche di visualizzare tutte le
     sottocategorie. Solitamente utilizzato nel pannello a lato. </p>

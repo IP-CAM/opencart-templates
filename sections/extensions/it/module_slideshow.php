@@ -1,4 +1,4 @@
-<h3>TM Slideshow</h3>
+<h3>TemplateMonster Slideshow</h3>
 
 <p>Questo modulo consente di inserire presentazioni Camera sul sito Web. </p>
 

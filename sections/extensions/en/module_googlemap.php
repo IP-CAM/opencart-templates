@@ -1,4 +1,4 @@
-<h3>TM Google Map</h3>
+<h3>TemplateMonster Google Map</h3>
 
 <p>This module allows you to add a Google map with an unlimited number of markers to your website. </p>
 
@@ -42,9 +42,8 @@
     <li>
         <dl class="inline-term">
             <dt>Map Type</dt>
-            <dd>map type. There are 4 options avail</dd>
+            <dd>map type. There are 4 options available:</dd>
         </dl>
-        able:
         <ul class="marked-list">
             <li>
                 <dl class="inline-term">

@@ -1,6 +1,6 @@
-<?php 
+<?php
 
-$path = dirname($_SERVER['PHP_SELF']);
+$path = 'http://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['SCRIPT_NAME']);
 
 //$path = 111;
 

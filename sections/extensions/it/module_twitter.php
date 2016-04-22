@@ -1,4 +1,4 @@
-<h3>TM Twitter Box</h3>
+<h3>TemplateMonster Twitter Box</h3>
 
 <p>Questo modulo consente di inserire post da Twitter. In questo modo i tuoi visitatori saranno tenuti al
     corrente di tutti gli ultimi aggiornamenti attraverso la rete Twitter.</p>

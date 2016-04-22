@@ -1,4 +1,4 @@
-<h3>TM Newsletter Popup</h3>
+<h3>TemplateMonster Newsletter Popup</h3>
 
 <p>Das jeweilige Modul fügt das DropDownFenster hinzu, wo es angeboten wird, E-Mail-Newsletters zu abonnieren, sobald
     der Besucher Ihre Website (Bild 36) öffnet. Das Fenster wird autorisierten Benutzern (die eingeloggt sind) oder

@@ -1,4 +1,4 @@
-<h3>TM Twitter Box</h3>
+<h3>TemplateMonster Twitter Box</h3>
 
 <p>Este módulo lhe permite exibir posts do Twitter. Ele ajuda a manter os visitantes do site por dentro das
     últimas novidades e mensagens na rede social Twitter.</p>

@@ -206,3 +206,13 @@
 <p>The installation is complete. In order to open the store page, enter
     <strong>domain name</strong> in the browser address bar. In order to access OpenCart admin panel, enter
     <strong>domain_name/admin</strong>.</p>
+
+    <p class="alert alert-danger">In order to prevent separate template files from being downloaded from your website after uploading it to server, you should check whether direct files download is forbidden for public. In order to do this, you should open .htaccess file in the site root directory and check if it includes the following content:
+
+<code>
+&lt;FilesMatch&rt; "(?i)((\.tpl|\.ini|\.log|(?<!robots)\.txt))">
+Order deny,allow
+Deny from all
+&lt;/FilesMatch&rt;
+</code>
+In case this code is not there, you'd better add it to the end of the file and rename ".htaccess.txt" file to ".htaccess."</p>

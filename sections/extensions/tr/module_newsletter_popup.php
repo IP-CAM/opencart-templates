@@ -1,4 +1,4 @@
-<h3>TM Newsletter Popup</h3>
+<h3>TemplateMonster Newsletter Popup</h3>
 
 <p>Sitenizi gezen ziyaretçilere, email ile haber bültenine üye olmaları için açılır pencere aracılığıyla teklif sunan
     bir modüldür. Bu pencere, bültene zaten üye olan ve siteye giriş yapmış kayıtlı kullanıcılara açılmaz.</p>

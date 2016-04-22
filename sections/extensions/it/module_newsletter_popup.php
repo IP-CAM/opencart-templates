@@ -1,4 +1,4 @@
-<h3>TM Newsletter Popup</h3>
+<h3>TemplateMonster Newsletter Popup</h3>
 
 <p>Questo modulo consente di aggiungere un finestra popup con offerta al visitatore di iscrizione alla newsletter. La
     finestra non verrà visualizzata per gli utenti autorizzati del sito (quello che hanno effettuato

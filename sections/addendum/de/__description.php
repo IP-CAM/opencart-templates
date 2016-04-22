@@ -19,13 +19,13 @@
 
 <h4>Sie können Google Fonts nicht hochladen:</h4>
 <ol class="index-list">
-    <li>Öffnen Sie <strong>catalog\view\theme\themeXXX\stylesheet\stylesheet.css</strong> Datei. </li>
+    <li>Öffnen Sie <strong>catalog\view\theme\themeXXX\stylesheet\stylesheet.css</strong> Datei.</li>
 
-    <li>Finden Sie die folgende Zeile: <br/>
-        <pre>//fonts.googleapis.com/css?family=[---Name_Ihrer_web_Schrift---]</pre>
+    <li><p>Finden Sie die folgende Zeile: </p>
+        <code>//fonts.googleapis.com/css?family=[---your_web_font_name---]</code>
     </li>
-    <li>Ersetzen Sie sie durch: <br/>
-        <pre>//fonts.useso.com/css?family=[---Name_Ihrer_web_Schrift---]</pre>
+    <li><p>Ersetzen Sie sie durch: </p>
+        <code>//fonts.useso.com/css?family=[---your_web_font_name---]</code>
     </li>
 </ol>
 

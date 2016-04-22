@@ -1,4 +1,4 @@
-<h3>TM Category Menu </h3>
+<h3>TemplateMonster Category Menu </h3>
 
 <p>Questo modulo consente di visualizzare le categorie e 2 livelli di sottocategorie nel riquadro della barra laterale e
     di includere le immagini delle sottocategorie di primo livello .</p>
