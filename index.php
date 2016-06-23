@@ -48,6 +48,7 @@ if (!isset($sections)) {
                     <option data-href="#" selected>Version v1-2</option>
                     <option data-href="/help/quick-start-guide/opencart-templates/v1-1/index_en.html">Version v1-1</option>
                     <option data-href="/help/quick-start-guide/opencart-templates/v1-0/index_en.html">Version v1-0</option>
+                    <!-- <option data-href="/help/quick-start-guide/opencart-templates/v1-0/index_en.html">Version v1-0</option> -->
                 </select>
             </div>
             <div class="select select-lang">
