@@ -29,7 +29,7 @@
 <p>As OpenCart engine is a PHP/MySQL based application, you need to prepare a hosting environment. </p>
 
 <p>If you have live hosting, please make sure it matches
-    <a href="http://docs.opencart.com/system/server-requirements"
+    <a href="http://docs.opencart.com/requirements/"
        target="_blank">OpenCart system requirements
     </a>
     and is

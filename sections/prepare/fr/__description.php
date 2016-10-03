@@ -26,7 +26,7 @@
 <p>Comme OpenCart est une application basée sur PHP/MySQL, vous devez préparer un environnement d'hébergement. </p>
 
 <p>Si vous avez un hébergement, assurez-vous qu'il est conforme aux
-    <a href="http://docs.OpenCart.com/system/server-requirements" target="_blank">Exigences du système OpenCart</a>
+    <a href="http://docs.opencart.com/requirements/" target="_blank">Exigences du système OpenCart</a>
    et qu'il est prêt à être utilisé pour les sites OpenCart.
 </p>
 <p>Sinon, vous pouvez faire tourner OpenCart localement sur votre ordinateur en utilisant un serveur local. Pour créer un serveur d'hébergement local, veuillez utiliser les applications localhost telles que
