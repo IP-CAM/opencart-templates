@@ -29,7 +29,7 @@
     vorbereiten. </p>
 
 <p>Wenn Sie einen aktiveren Server haben, müssen Sie dann überprüfen, ob er den Systemanforderungen <a
-        href="http://docs.opencart.com/system/server-requirements" target="_blank"> entspricht </a> und ob Ihre OpenCart
+        href="http://docs.opencart.com/requirements/" target="_blank"> entspricht </a> und ob Ihre OpenCart
     Website auf ihm korrekt funktionieren wird. </p>
 
 <p>Sie können OpenCart auch auf Ihrem Computer mit Hilfe von einem lokalen Server installieren. Um einen lokalen
