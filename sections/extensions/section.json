@@ -347,6 +347,76 @@
         "pt": "TemplateMonster Single Category Products",
         "tr": "TemplateMonster Single Category Products"
       }
+    },
+    {
+      "id": "module_product_page_zoom",
+      "translations": {
+        "en": "Product Page Zoom",
+        "ru": "Product Page Zoom",
+        "de": "Product Page Zoom",
+        "es": "Product Page Zoom",
+        "fr": "Product Page Zoom",
+        "it": "Product Page Zoom",
+        "pl": "Product Page Zoom",
+        "pt": "Product Page Zoom",
+        "tr": "Product Page Zoom"
+      }
+    },
+    {
+      "id": "module_catalog_page",
+      "translations": {
+        "en": "Catalog Page",
+        "ru": "Catalog Page",
+        "de": "Catalog Page",
+        "es": "Catalog Page",
+        "fr": "Catalog Page",
+        "it": "Catalog Page",
+        "pl": "Catalog Page",
+        "pt": "Catalog Page",
+        "tr": "Catalog Page"
+      }
+    },
+    {
+      "id": "module_tm_lookbook",
+      "translations": {
+        "en": "TM Lookbook",
+        "ru": "TM Lookbook",
+        "de": "TM Lookbook",
+        "es": "TM Lookbook",
+        "fr": "TM Lookbook",
+        "it": "TM Lookbook",
+        "pl": "TM Lookbook",
+        "pt": "TM Lookbook",
+        "tr": "TM Lookbook"
+      }
+    },
+    {
+      "id": "module_tm_abc_customer",
+      "translations": {
+        "en": "TM ABC Customers",
+        "ru": "TM ABC Customers",
+        "de": "TM ABC Customers",
+        "es": "TM ABC Customers",
+        "fr": "TM ABC Customers",
+        "it": "TM ABC Customers",
+        "pl": "TM ABC Customers",
+        "pt": "TM ABC Customers",
+        "tr": "TM ABC Customers"
+      }
+    },
+    {
+      "id": "modulel_tm_layout_builder",
+      "translations": {
+        "en": "TM Layout Builder",
+        "ru": "TM Layout Builder",
+        "de": "TM Layout Builder",
+        "es": "TM Layout Builder",
+        "fr": "TM Layout Builder",
+        "it": "TM Layout Builder",
+        "pl": "TM Layout Builder",
+        "pt": "TM Layout Builder",
+        "tr": "TM Layout Builder"
+      }
     }
   ]
 }
