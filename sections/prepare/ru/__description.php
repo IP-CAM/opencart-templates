@@ -38,7 +38,7 @@
     хостинг сервер. </p>
 
 <p>При наличии активного сервера, нужно проверить его на соответствие
-    <a href="http://docs.opencart.com/requirements" target="_blank">
+    <a href="http://docs.opencart.com/requirements/" target="_blank">
         системным требованиям
     </a>
     и на способность обслуживать веб-сайты OpenCart.

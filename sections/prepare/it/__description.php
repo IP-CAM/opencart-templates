@@ -26,7 +26,7 @@
 <p>Dato che il motore OpenCart è un'applicazione basata su PHP/MySQL, sarà necessario preparare un ambiente host. </p>
 
 <p>Se hai già un hosting live, assicurati che questo risponda ai
-    <a href="http://docs.OpenCart.com/requirements" target="_blank">requisiti di sistema OpenCart</a>
+    <a href="http://docs.OpenCart.com/system/server-requirements" target="_blank">requisiti di sistema OpenCart</a>
    e che sia pronto all'utilizzo con i Siti Web OpenCart.
 </p>
 

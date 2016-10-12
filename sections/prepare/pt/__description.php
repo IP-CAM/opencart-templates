@@ -26,7 +26,7 @@
 <p>Já que o programa do OpenCart é baseado em PHP/MySQL, você precisa preparar um ambiente de hospedagem com essas tecnologias.</p>
 
 <p>Se você usa uma hospedagem pré-configurada, verifique se ela comporta os
-    <a href="http://docs.OpenCart.com/requirements" target="_blank">requisitos de sistema OpenCart</a>
+    <a href="http://docs.OpenCart.com/system/server-requirements" target="_blank">requisitos de sistema OpenCart</a>
    e está pronto para ser utilizado para sites OpenCart.
 </p>
 
