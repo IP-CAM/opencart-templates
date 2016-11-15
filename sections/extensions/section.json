@@ -12,6 +12,76 @@
     "tr": "Bileşen ayarları"
   },
   "articles": [
+  {
+      "id": "module_catalog_page",
+      "translations": {
+        "en": "Catalog",
+        "ru": "Каталог",
+        "de": "Catalog",
+        "es": "Catalog",
+        "fr": "Catalog",
+        "it": "Catalog",
+        "pl": "Catalog",
+        "pt": "Catalog",
+        "tr": "Catalog"
+      }
+    },
+  {
+      "id": "module_product_page_zoom",
+      "translations": {
+        "en": "Product page zoom",
+        "ru": "Зум на странице продукта",
+        "de": "Product page zoom",
+        "es": "Product page zoom",
+        "fr": "Product page zoom",
+        "it": "Product page zoom",
+        "pl": "Product page zoom",
+        "pt": "Product page zoom",
+        "tr": "Product page zoom"
+      }
+    },
+   {
+      "id": "module_tm_abc_customer",
+      "translations": {
+        "en": "ABC customer",
+        "ru": "ABC клиент",
+        "de": "ABC customer",
+        "es": "ABC customer",
+        "fr": "ABC customer",
+        "it": "ABC customer",
+        "pl": "ABC customer",
+        "pt": "ABC customer",
+        "tr": "ABC customer"
+      }
+    },
+  {
+      "id": "module_tm_layout_builder",
+      "translations": {
+        "en": "Layout builder",
+        "ru": "Конструктор лейаутов",
+        "de": "Layout builder",
+        "es": "Layout builder",
+        "fr": "Layout builder",
+        "it": "Layout builder",
+        "pl": "Layout builder",
+        "pt": "Layout builder",
+        "tr": "Layout builder"
+      }
+    },
+  {
+      "id": "module_tm_lookbook",
+      "translations": {
+        "en": "Lookbook",
+        "ru": "Lookbook",
+        "de": "Lookbook",
+        "es": "Lookbook",
+        "fr": "Lookbook",
+        "it": "Lookbook",
+        "pl": "Lookbook",
+        "pt": "Lookbook",
+        "tr": "Lookbook"
+      }
+    },
     {
       "id": "module_install",
       "translations": {
