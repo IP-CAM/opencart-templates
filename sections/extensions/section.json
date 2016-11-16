@@ -26,6 +26,48 @@
         "tr": "Catalog"
       }
     },
+    {
+      "id": "module_mega_menu",
+      "translations": {
+        "en": "Mega menu",
+        "ru": "Мега меню",
+        "de": "Mega menu",
+        "es": "Mega menu",
+        "fr": "Mega menu",
+        "it": "Mega menu",
+        "pl": "Mega menu",
+        "pt": "Mega menu",
+        "tr": "Mega menu"
+      }
+    },
+    {
+      "id": "module_parallax",
+      "translations": {
+        "en": "Parallax",
+        "ru": "Параллакс",
+        "de": "Parallax",
+        "es": "Parallax",
+        "fr": "Parallax",
+        "it": "Parallax",
+        "pl": "Parallax",
+        "pt": "Parallax",
+        "tr": "Parallax"
+      }
+    },
+    {
+      "id": "module_countdown",
+      "translations": {
+        "en": "Countdown timer",
+        "ru": "Таймер обратного отсчета",
+        "de": "Countdown timer",
+        "es": "Countdown timer",
+        "fr": "Countdown timer",
+        "it": "Countdown timer",
+        "pl": "Countdown timer",
+        "pt": "Countdown timer",
+        "tr": "Countdown timer"
+      }
+    },
   {
       "id": "module_product_page_zoom",
       "translations": {
@@ -108,20 +150,6 @@
         "pl": "Tworzenie banerów",
         "pt": "Como criar banners",
         "tr": "Banner oluşturmak"
-      }
-    },
-    {
-      "id": "module_parallax",
-      "translations": {
-        "en": "Parallax",
-        "ru": "Parallax",
-        "de": "Parallax",
-        "es": "Parallax",
-        "fr": "Parallax",
-        "it": "Parallax",
-        "pl": "Parallax",
-        "pt": "Parallax",
-        "tr": "Parallax"
       }
     },
     {
