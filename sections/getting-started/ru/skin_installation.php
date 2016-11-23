@@ -3,6 +3,9 @@
 <ol class="index-list">
 <li>
 	<a href="http://opencart-ftp.template-help.com:9080/storeflex_61111_household_goods.zip" target="_blank">Household goods</a>
+</li>
+<li>
+    <a href="http://opencart-ftp.template-help.com:9080/storeflex_61111_sports.zip" target="_blank">Sports</a>
 </li>	
 </ol>
 <p>
