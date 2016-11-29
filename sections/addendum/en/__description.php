@@ -39,6 +39,6 @@
 
 <h4>Translation of language files </h4>    
 <p>After the installation of a new language package, check if the language files of English package were modified.
-To do so go to the folder "the system\storage\modification\{admin,catalog}\language\en-gb" and check if there are the needed language files in the folder .
+To do so go to the folder "system\storage\modification\{admin,catalog}\language\en-gb" and check if there are the needed language files in the folder .
 If the folder contains the files, you should replace them with the new language files and add the appropriate modifications for each of them.
 All the language modifications exist inside .ocmod.xml files, in the folder with extensions (themeXXX-extensions).</p>
