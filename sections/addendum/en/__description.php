@@ -1,4 +1,4 @@
-<h2 class="item5">Conclusion</h2>
+<h2 class="item5">Useful information</h2>
 
 <p>OpenCart is a multifunctional, quick and understandable solution for the users that would like to start online
     business. It is a great solution for your online store. The default engine package contains all modules necessary

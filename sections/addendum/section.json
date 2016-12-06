@@ -1,15 +1,15 @@
 {
   "id": "addendum",
   "translations": {
-    "en": "Conclusion",
-    "ru": "Послесловие",
-    "es": "Conclusión",
-    "de": "Fazit",
-    "fr": "Conclusion",
-    "it": "Conclusioni",
-    "pl": "Podsumowanie",
-    "pt": "Conclusão",
-    "tr": "Son olarak"
+    "en": "Useful information",
+    "ru": "Полезная информация",
+    "es": "Información útil",
+    "de": "Nützliche Information",
+    "fr": "Informations utiles",
+    "it": "Informazioni utili",
+    "pl": "Przydatna informacja",
+    "pt": "Informação útil",
+    "tr": "Yararlı bilgi"
   },
   "articles": [
   ]

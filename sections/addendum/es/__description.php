@@ -1,4 +1,4 @@
-<h2 class="item5">Conclusión</h2>
+<h2 class="item5">Información útil</h2>
 
 <p>OpenCart es una solución multifuncional, rápido y comprensible para los usuarios que quieren iniciar un negocio en
     línea. Es una excelente solución para su tienda en línea. El paquete del motor por defecto contiene todos los

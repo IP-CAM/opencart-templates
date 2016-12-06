@@ -1,4 +1,4 @@
-<h2 class="item5">Conclusão</h2>
+<h2 class="item5">Informação útil</h2>
 
 <p>O OpenCart é uma solução multi-funcional, rápida e clara para usuários que querem começar um negócio online. É uma
     grande solução para sua loja online. O pacote do programa contém todos os módulos necessários para obter vendas.
