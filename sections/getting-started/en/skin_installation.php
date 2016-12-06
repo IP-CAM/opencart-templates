@@ -17,7 +17,6 @@ In order to install desired skin you should unzip skin's [ackage and copy all th
         </figure>
 <!-- Creating database -->
 
-http://opencart-ftp.template-help.com:9080/storeflex_61111_household_goods.zip
 
 <p class="alert alert-info">
 Open any browser and enter the OpenCart directory path in the browser address bar ( for example http://your_domain_name/install ). You will see the OpenCart installation page:
