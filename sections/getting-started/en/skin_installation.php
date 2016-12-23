@@ -8,10 +8,10 @@
     <a href="http://opencart-ftp.template-help.com:9080/storeflex_61111_sports.zip" target="_blank">Sports</a>
 </li>   
 <li>
-    <a href="http://opencart-ftp.template-help.com:9080/storeflex_61111_food.zip" target="_blank">Sports</a>
+    <a href="http://opencart-ftp.template-help.com:9080/storeflex_61111_food.zip" target="_blank">Food</a>
 </li>   
 <li>
-    <a href="http://opencart-ftp.template-help.com:9080/storeflex_61111_beauty.zip" target="_blank">Sports</a>
+    <a href="http://opencart-ftp.template-help.com:9080/storeflex_61111_beauty.zip" target="_blank">Beauty</a>
 </li>   
 </ol>
 <p>
