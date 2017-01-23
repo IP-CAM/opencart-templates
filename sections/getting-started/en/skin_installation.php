@@ -16,7 +16,7 @@
 </ol>
 <p>
 Storeflex  is a multipurpose template with several skins. You can set the skin by yourself. 
-In order to install desired skin you should unzip skin's [ackage and copy all the content into the fullpackage folder. Then go to the installation page and press "Continue" .
+In order to install desired skin you should unzip skin's package and copy all the content into the fullpackage folder. Then go to the installation page and press "Continue" .
  </p>
  <figure class="img-polaroid">
             <img src="img/skin-install-1.jpg" alt=""/>
