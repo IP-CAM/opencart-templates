@@ -1,6 +1,6 @@
 <h3>TemplateMonster Video Background</h3>
 
-<p>This module allows to add a block with the video background (either uploaded from your website or the one shared from
+<p>This module allows you to add a block with the video background (either uploaded from your website or the one shared from
     YouTube service) .</p>
 
 <p>When the module is installed you can configure it on the module configuration page.</p>

@@ -53,7 +53,7 @@
 	<li>
 		<dl class="inline-term">
 			<dt>Status</dt>
-			<dd>Статус модуля (enabled | disabled );</dd>
+			<dd>Статус модуля (enabled | disabled);</dd>
 		</dl>
 	</li>
 	<li>

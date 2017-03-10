@@ -1,4 +1,4 @@
-{
+ {
   "id": "extensions",
   "translations": {
     "en": "Extension configuration",
@@ -54,63 +54,147 @@
         "tr": "Parallax"
       }
     },
-    {
-      "id": "module_category",
+      {
+      "id": "module_mega_menu",
       "translations": {
-        "en": "TemplateMonster Category",
-        "ru": "TemplateMonster Category",
-        "de": "TemplateMonster Category",
-        "es": "TemplateMonster Category",
-        "fr": "TemplateMonster Category",
-        "it": "TemplateMonster Category",
-        "pl": "TemplateMonster Category",
-        "pt": "TemplateMonster Category",
-        "tr": "TemplateMonster Category"
+        "en": "Megamenu",
+        "ru": "Megamenu",
+        "de": "Megamenu",
+        "es": "Megamenu",
+        "fr": "Megamenu",
+        "it": "Megamenu",
+        "pl": "Megamenu",
+        "pt": "Megamenu",
+        "tr": "Megamenu"
       }
     },
     {
       "id": "module_facebook",
       "translations": {
-        "en": "TemplateMonster Facebook Box",
-        "ru": "TemplateMonster Facebook Box",
-        "de": "TemplateMonster Facebook Box",
-        "es": "TemplateMonster Facebook Box",
-        "fr": "TemplateMonster Facebook Box",
-        "it": "TemplateMonster Facebook Box",
-        "pl": "TemplateMonster Facebook Box",
-        "pt": "TemplateMonster Facebook Box",
-        "tr": "TemplateMonster Facebook Box"
+        "en": "TM Facebook Box",
+        "ru": "TM Facebook Box",
+        "de": "TM Facebook Box",
+        "es": "TM Facebook Box",
+        "fr": "TM Facebook Box",
+        "it": "TM Facebook Box",
+        "pl": "TM Facebook Box",
+        "pt": "TM Facebook Box",
+        "tr": "TM Facebook Box"
       }
     },
     {
       "id": "module_twitter",
       "translations": {
-        "en": "TemplateMonster Twitter Box",
-        "ru": "TemplateMonster Twitter Box",
-        "de": "TemplateMonster Twitter Box",
-        "es": "TemplateMonster Twitter Box",
-        "fr": "TemplateMonster Twitter Box",
-        "it": "TemplateMonster Twitter Box",
-        "pl": "TemplateMonster Twitter Box",
-        "pt": "TemplateMonster Twitter Box",
-        "tr": "TemplateMonster Twitter Box"
+        "en": "TM Twitter Box",
+        "ru": "TM Twitter Box",
+        "de": "TM Twitter Box",
+        "es": "TM Twitter Box",
+        "fr": "TM Twitter Box",
+        "it": "TM Twitter Box",
+        "pl": "TM Twitter Box",
+        "pt": "TM Twitter Box",
+        "tr": "TM Twitter Box"
       }
     },
     {
       "id": "module_pinterest",
       "translations": {
-        "en": "TemplateMonster Pinterest",
-        "ru": "TemplateMonster Pinterest",
-        "de": "TemplateMonster Pinterest",
-        "es": "TemplateMonster Pinterest",
-        "fr": "TemplateMonster Pinterest",
-        "it": "TemplateMonster Pinterest",
-        "pl": "TemplateMonster Pinterest",
-        "pt": "TemplateMonster Pinterest",
-        "tr": "TemplateMonster Pinterest"
+        "en": "TM Pinterest",
+        "ru": "TM Pinterest",
+        "de": "TM Pinterest",
+        "es": "TM Pinterest",
+        "fr": "TM Pinterest",
+        "it": "TM Pinterest",
+        "pl": "TM Pinterest",
+        "pt": "TM Pinterest",
+        "tr": "TM Pinterest"
       }
     },
     {
+      "id": "module_slideshow",
+      "translations": {
+        "en": "TM Slideshow",
+        "ru": "TM Slideshow",
+        "de": "TM Slideshow",
+        "es": "TM Slideshow",
+        "fr": "TM Slideshow",
+        "it": "TM Slideshow",
+        "pl": "TM Slideshow",
+        "pt": "TM Slideshow",
+        "tr": "TM Slideshow"
+      }
+    },
+    {
+      "id": "module_googlemap",
+      "translations": {
+        "en": "TM Google Map",
+        "ru": "TM Google Map",
+        "de": "TM Google Map",
+        "es": "TM Google Map",
+        "fr": "TM Google Map",
+        "it": "TM Google Map",
+        "pl": "TM Google Map",
+        "pt": "TM Google Map",
+        "tr": "TM Google Map"
+      }
+    },
+    {
+      "id": "module_cookie",
+      "translations": {
+        "en": "TM Cookie Policy",
+        "ru": "TM Cookie Policy",
+        "de": "TM Cookie Policy",
+        "es": "TM Cookie Policy",
+        "fr": "TM Cookie Policy",
+        "it": "TM Cookie Policy",
+        "pl": "TM Cookie Policy",
+        "pt": "TM Cookie Policy",
+        "tr": "TM Cookie Policy"
+      }
+    },
+    {
+      "id": "module_instagram",
+      "translations": {
+        "en": "TM Instagram",
+        "ru": "TM Instagram",
+        "de": "TM Instagram",
+        "es": "TM Instagram",
+        "fr": "TM Instagram",
+        "it": "TM Instagram",
+        "pl": "TM Instagram",
+        "pt": "TM Instagram",
+        "tr": "TM Instagram"
+      }
+    },
+    {
+      "id": "module_newsletter",
+      "translations": {
+        "en": "TM Newsletter",
+        "ru": "TM Newsletter",
+        "de": "TM Newsletter",
+        "es": "TM Newsletter",
+        "fr": "TM Newsletter",
+        "it": "TM Newsletter",
+        "pl": "TM Newsletter",
+        "pt": "TM Newsletter",
+        "tr": "TM Newsletter"
+      }
+    },
+    {
+      "id": "module_newsletter_popup",
+      "translations": {
+        "en": "TM Newsletter Popup",
+        "ru": "TM Newsletter Popup",
+        "de": "TM Newsletter Popup",
+        "es": "TM Newsletter Popup",
+        "fr": "TM Newsletter Popup",
+        "it": "TM Newsletter Popup",
+        "pl": "TM Newsletter Popup",
+        "pt": "TM Newsletter Popup",
+        "tr": "TM Newsletter Popup"
+      }
+    },
+      {
       "id": "module_olark",
       "translations": {
         "en": "Olark Live Chat",
@@ -125,199 +209,31 @@
       }
     },
     {
-      "id": "module_slideshow",
-      "translations": {
-        "en": "TemplateMonster Slideshow",
-        "ru": "TemplateMonster Slideshow",
-        "de": "TemplateMonster Slideshow",
-        "es": "TemplateMonster Slideshow",
-        "fr": "TemplateMonster Slideshow",
-        "it": "TemplateMonster Slideshow",
-        "pl": "TemplateMonster Slideshow",
-        "pt": "TemplateMonster Slideshow",
-        "tr": "TemplateMonster Slideshow"
-      }
-    },
-    {
-      "id": "module_googlemap",
-      "translations": {
-        "en": "TemplateMonster Google Map",
-        "ru": "TemplateMonster Google Map",
-        "de": "TemplateMonster Google Map",
-        "es": "TemplateMonster Google Map",
-        "fr": "TemplateMonster Google Map",
-        "it": "TemplateMonster Google Map",
-        "pl": "TemplateMonster Google Map",
-        "pt": "TemplateMonster Google Map",
-        "tr": "TemplateMonster Google Map"
-      }
-    },
-    {
-      "id": "module_category_menu",
-      "translations": {
-        "en": "TemplateMonster Category Menu",
-        "ru": "TemplateMonster Category Menu",
-        "de": "TemplateMonster Category Menu",
-        "es": "TemplateMonster Category Menu",
-        "fr": "TemplateMonster Category Menu",
-        "it": "TemplateMonster Category Menu",
-        "pl": "TemplateMonster Category Menu",
-        "pt": "TemplateMonster Category Menu",
-        "tr": "TemplateMonster Category Menu"
-      }
-    },
-    {
-      "id": "module_cookie",
-      "translations": {
-        "en": "TemplateMonster Cookie Policy",
-        "ru": "TemplateMonster Cookie Policy",
-        "de": "TemplateMonster Cookie Policy",
-        "es": "TemplateMonster Cookie Policy",
-        "fr": "TemplateMonster Cookie Policy",
-        "it": "TemplateMonster Cookie Policy",
-        "pl": "TemplateMonster Cookie Policy",
-        "pt": "TemplateMonster Cookie Policy",
-        "tr": "TemplateMonster Cookie Policy"
-      }
-    },
-    {
-      "id": "module_instagram",
-      "translations": {
-        "en": "TemplateMonster Instagram",
-        "ru": "TemplateMonster Instagram",
-        "de": "TemplateMonster Instagram",
-        "es": "TemplateMonster Instagram",
-        "fr": "TemplateMonster Instagram",
-        "it": "TemplateMonster Instagram",
-        "pl": "TemplateMonster Instagram",
-        "pt": "TemplateMonster Instagram",
-        "tr": "TemplateMonster Instagram"
-      }
-    },
-    {
-      "id": "module_manufacturers",
-      "translations": {
-        "en": "TemplateMonster Manufacturers",
-        "ru": "TemplateMonster Manufacturers",
-        "de": "TemplateMonster Manufacturers",
-        "es": "TemplateMonster Manufacturers",
-        "fr": "TemplateMonster Manufacturers",
-        "it": "TemplateMonster Manufacturers",
-        "pl": "TemplateMonster Manufacturers",
-        "pt": "TemplateMonster Manufacturers",
-        "tr": "TemplateMonster Manufacturers"
-      }
-    },
-    {
-      "id": "module_tabs",
-      "translations": {
-        "en": "TemplateMonster Module Tabs",
-        "ru": "TemplateMonster Module Tabs",
-        "de": "TemplateMonster Module Tabs",
-        "es": "TemplateMonster Module Tabs",
-        "fr": "TemplateMonster Module Tabs",
-        "it": "TemplateMonster Module Tabs",
-        "pl": "TemplateMonster Module Tabs",
-        "pt": "TemplateMonster Module Tabs",
-        "tr": "TemplateMonster Module Tabs"
-      }
-    },
-    {
-      "id": "module_newsletter",
-      "translations": {
-        "en": "TemplateMonster Newsletter",
-        "ru": "TemplateMonster Newsletter",
-        "de": "TemplateMonster Newsletter",
-        "es": "TemplateMonster Newsletter",
-        "fr": "TemplateMonster Newsletter",
-        "it": "TemplateMonster Newsletter",
-        "pl": "TemplateMonster Newsletter",
-        "pt": "TemplateMonster Newsletter",
-        "tr": "TemplateMonster Newsletter"
-      }
-    },
-    {
-      "id": "module_newsletter_popup",
-      "translations": {
-        "en": "TemplateMonster Newsletter Popup",
-        "ru": "TemplateMonster Newsletter Popup",
-        "de": "TemplateMonster Newsletter Popup",
-        "es": "TemplateMonster Newsletter Popup",
-        "fr": "TemplateMonster Newsletter Popup",
-        "it": "TemplateMonster Newsletter Popup",
-        "pl": "TemplateMonster Newsletter Popup",
-        "pt": "TemplateMonster Newsletter Popup",
-        "tr": "TemplateMonster Newsletter Popup"
-      }
-    },
-    {
-      "id": "module_product_slideshow",
-      "translations": {
-        "en": "TemplateMonster Product Slideshow",
-        "ru": "TemplateMonster Product Slideshow",
-        "de": "TemplateMonster Product Slideshow",
-        "es": "TemplateMonster Product Slideshow",
-        "fr": "TemplateMonster Product Slideshow",
-        "it": "TemplateMonster Product Slideshow",
-        "pl": "TemplateMonster Product Slideshow",
-        "pt": "TemplateMonster Product Slideshow",
-        "tr": "TemplateMonster Product Slideshow"
-      }
-    },
-    {
       "id": "module_social_list",
       "translations": {
-        "en": "TemplateMonster Social List",
-        "ru": "TemplateMonster Social List",
-        "de": "TemplateMonster Social List",
-        "es": "TemplateMonster Social List",
-        "fr": "TemplateMonster Social List",
-        "it": "TemplateMonster Social List",
-        "pl": "TemplateMonster Social List",
-        "pt": "TemplateMonster Social List",
-        "tr": "TemplateMonster Social List"
-      }
-    },
-    {
-      "id": "module_video-background",
-      "translations": {
-        "en": "TemplateMonster Video Background",
-        "ru": "TemplateMonster Video Background",
-        "de": "TemplateMonster Video Background",
-        "es": "TemplateMonster Video Background",
-        "fr": "TemplateMonster Video Background",
-        "it": "TemplateMonster Video Background",
-        "pl": "TemplateMonster Video Background",
-        "pt": "TemplateMonster Video Background",
-        "tr": "TemplateMonster Video Background"
+        "en": "TM Social List",
+        "ru": "TM Social List",
+        "de": "TM Social List",
+        "es": "TM Social List",
+        "fr": "TM Social List",
+        "it": "TM Social List",
+        "pl": "TM Social List",
+        "pt": "TM Social List",
+        "tr": "TM Social List"
       }
     },
     {
       "id": "modification_search",
       "translations": {
-        "en": "TemplateMonster Live search",
-        "ru": "TemplateMonster Live search",
-        "de": "TemplateMonster Live search",
-        "es": "TemplateMonster Live search",
-        "fr": "TemplateMonster Live search",
-        "it": "TemplateMonster Live search",
-        "pl": "TemplateMonster Live search",
-        "pt": "TemplateMonster Live search",
-        "tr": "TemplateMonster Live search"
-      }
-    },
-    {
-      "id": "modification_lazy",
-      "translations": {
-        "en": "TemplateMonster Lazy load",
-        "ru": "TemplateMonster Lazy load",
-        "de": "TemplateMonster Lazy load",
-        "es": "TemplateMonster Lazy load",
-        "fr": "TemplateMonster Lazy load",
-        "it": "TemplateMonster Lazy load",
-        "pl": "TemplateMonster Lazy load",
-        "pt": "TemplateMonster Lazy load",
-        "tr": "TemplateMonster Lazy load"
+        "en": "TM Search",
+        "ru": "TM Search",
+        "de": "TM Search",
+        "es": "TM Search",
+        "fr": "TM Search",
+        "it": "TM Search",
+        "pl": "TM Search",
+        "pt": "TM Search",
+        "tr": "TM Search"
       }
     },
     {
@@ -335,48 +251,6 @@
       }
     },
     {
-      "id": "module_single_category",
-      "translations": {
-        "en": "TemplateMonster Single Category Products",
-        "ru": "TemplateMonster Single Category Products",
-        "de": "TemplateMonster Einzelkategorien Produkte",
-        "es": "TemplateMonster Single Category Products",
-        "fr": "TemplateMonster Single Category Products",
-        "it": "TemplateMonster Single Category Products",
-        "pl": "TemplateMonster Produkty jednej kategorii",
-        "pt": "TemplateMonster Single Category Products",
-        "tr": "TemplateMonster Single Category Products"
-      }
-    },
-    {
-      "id": "module_product_page_zoom",
-      "translations": {
-        "en": "Product Page Zoom",
-        "ru": "Product Page Zoom",
-        "de": "Product Page Zoom",
-        "es": "Product Page Zoom",
-        "fr": "Product Page Zoom",
-        "it": "Product Page Zoom",
-        "pl": "Product Page Zoom",
-        "pt": "Product Page Zoom",
-        "tr": "Product Page Zoom"
-      }
-    },
-    {
-      "id": "module_catalog_page",
-      "translations": {
-        "en": "Catalog Page",
-        "ru": "Catalog Page",
-        "de": "Catalog Page",
-        "es": "Catalog Page",
-        "fr": "Catalog Page",
-        "it": "Catalog Page",
-        "pl": "Catalog Page",
-        "pt": "Catalog Page",
-        "tr": "Catalog Page"
-      }
-    },
-    {
       "id": "module_tm_lookbook",
       "translations": {
         "en": "TM Lookbook",
@@ -390,18 +264,132 @@
         "tr": "TM Lookbook"
       }
     },
+    
     {
-      "id": "module_tm_abc_customer",
+      "id": "module_single_category",
       "translations": {
-        "en": "TM ABC Customers",
-        "ru": "TM ABC Customers",
-        "de": "TM ABC Customers",
-        "es": "TM ABC Customers",
-        "fr": "TM ABC Customers",
-        "it": "TM ABC Customers",
-        "pl": "TM ABC Customers",
-        "pt": "TM ABC Customers",
-        "tr": "TM ABC Customers"
+        "en": "TM Single Category Products",
+        "ru": "TM Single Category Products",
+        "de": "TM Einzelkategorien Produkte",
+        "es": "TM Single Category Products",
+        "fr": "TM Single Category Products",
+        "it": "TM Single Category Products",
+        "pl": "TM Produkty jednej kategorii",
+        "pt": "TM Single Category Products",
+        "tr": "TM Single Category Products"
+      }
+    },
+    
+    {
+      "id": "tm_cart",
+      "translations": {
+        "en": "TM Cart",
+        "ru": "TM Cart",
+        "de": "TM Cart",
+        "es": "TM Cart",
+        "fr": "TM Cart",
+        "it": "TM Cart",
+        "pl": "TM Cart",
+        "pt": "TM Cart",
+        "tr": "TM Cart"
+      }
+    },
+    {
+      "id": "tm_color_switcher",
+      "translations": {
+        "en": "TM Color Switcher",
+        "ru": "TM Color Switcher",
+        "de": "TM Color Switcher",
+        "es": "TM Color Switcher",
+        "fr": "TM Color Switcher",
+        "it": "TM Color Switcher",
+        "pl": "TM Color Switcher",
+        "pt": "TM Color Switcher",
+        "tr": "TM Color Switcher"
+      }
+    },
+    {
+      "id": "tm_currency",
+      "translations": {
+        "en": "TM Currency",
+        "ru": "TM Currency",
+        "de": "TM Currency",
+        "es": "TM Currency",
+        "fr": "TM Currency",
+        "it": "TM Currency",
+        "pl": "TM Currency",
+        "pt": "TM Currency",
+        "tr": "TM Currency"
+      }
+    },
+        {
+      "id": "tm_deal_banner",
+      "translations": {
+        "en": "TM Deal Banner",
+        "ru": "TM Deal Banner",
+        "de": "TM Deal Banner",
+        "es": "TM Deal Banner",
+        "fr": "TM Deal Banner",
+        "it": "TM Deal Banner",
+        "pl": "TM Deal Banner",
+        "pt": "TM Deal Banner",
+        "tr": "TM Deal Banner"
+      }
+    },
+       {
+      "id": "tm_filter",
+      "translations": {
+        "en": "TM Filter",
+        "ru": "TM Filter",
+        "de": "TM Filter",
+        "es": "TM Filter",
+        "fr": "TM Filter",
+        "it": "TM Filter",
+        "pl": "TM Filter",
+        "pt": "TM Filter",
+        "tr": "TM Filter"
+      }
+    },
+        {
+      "id": "tm_footer_links",
+      "translations": {
+        "en": "TM Footer Links",
+        "ru": "TM Footer Links",
+        "de": "TM Footer Links",
+        "es": "TM Footer Links",
+        "fr": "TM Footer Links",
+        "it": "TM Footer Links",
+        "pl": "TM Footer Links",
+        "pt": "TM Footer Links",
+        "tr": "TM Footer Links"
+      }
+    },
+        {
+      "id": "tm_logo",
+      "translations": {
+        "en": "TM Logo",
+        "ru": "TM Logo",
+        "de": "TM Logo",
+        "es": "TM Logo",
+        "fr": "TM Logo",
+        "it": "TM Logo",
+        "pl": "TM Logo",
+        "pt": "TM Logo",
+        "tr": "TM Logo"
+      }
+    },
+        {
+      "id": "tm_nav",
+      "translations": {
+        "en": "TM Nav",
+        "ru": "TM Nav",
+        "de": "TM Nav",
+        "es": "TM Nav",
+        "fr": "TM Nav",
+        "it": "TM Nav",
+        "pl": "TM Nav",
+        "pt": "TM Nav",
+        "tr": "Blog"
       }
     },
     {

@@ -1,6 +1,6 @@
 <h3>TemplateMonster Category Menu </h3>
 
-<p>This module allows to display the categories and 2 levels of the subcategories in the
+<p>This module allows you to display the categories and 2 levels of the subcategories in the
     sidebar panel and including the images of the first level subcategories.</p>
 
 <p>When the module is installed, you can enable/disable it on the module settings
