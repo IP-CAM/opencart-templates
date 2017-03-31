@@ -16,7 +16,7 @@
   <figure class="img-polaroid"> <img src="img/edit-parallax-2.jpg" alt=""/></figure>
 </p>
 <p align="justify">В таблице с перечнем всех модулей, найдите раздел<strong> TemplateMonster Instagram</strong>. Нажав кнопку &quot;редактировать&quot; (edit), вы перейдете к окну настроек существующего модуля. В данном случае это модуль <strong> Instagram</strong>.</p>
-<p align="justify" class="alert alert-info">Используйте сочетание клавиш <strong>Ctrl+F</strong> для упрощения процесса поиска.</p>
+<p align="justify" class="alert alert-info">Используйте сочетание клавиш &lt;strong&gt;Ctrl+F&lt;/strong&gt; для упрощения процесса поиска.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/instagram-1.jpg" alt=""/> </figure>
 </p>
@@ -54,7 +54,7 @@
     <figure class="img-polaroid"> <img src="img/edit-parallax-2.jpg" alt=""/></figure>
 </p>
   <p align="justify">В таблице с перечнем всех модулей, найдите раздел <strong> TemplateMonster Instagram</strong>. Нажмите кнопку &quot;Добавить&quot; и вы перейдете к процессу создания нового модуля этого типа.</p>
-  <p align="justify" class="alert alert-info">Используйте сочетание клавиш <strong>Ctrl+F </strong>для упрощения процесса поиска.</p>
+  <p align="justify" class="alert alert-info">Используйте сочетание клавиш <strong>&lt;strong&gt;Ctrl+F&lt;/strong&gt;</strong> для упрощения процесса поиска.</p>
   <p>
     <figure class="img-polaroid"> <img src="img/instagram-15.jpg" alt=""/></figure>
 </p>
@@ -71,7 +71,7 @@
     <div align="justify"><strong>Entry TagName</strong> — укажите тег, по которому будут выводиться изображения (используется, если опция "Select get" имеет значение
       tagged); </div>
   </li>
-  <li><strong>Entry Client ID</strong> — введите ваш API идентификатор из instagram.com (используется, если опция "Select get" имеет значение tagged); </li>
+  <li><strong>Entry Client ID</strong> — введите ааш API идентификатор из instagram.com (используется, если опция "Select get" имеет значение tagged); </li>
 
   <li><strong>Entry User ID</strong> — введите уникальный идентификатор пользователя (используется, если опция "Select get" имеет значение user);</li>
 
@@ -162,11 +162,10 @@
   <p><strong>Скопируйте сгенерированный  Access Token.</strong></p>
   <p align="justify">Поздравляет! Вы получили <strong> Instagram Access Token</strong>. Используйте его для отображения ленты  Instagram с помощью плагина <strong>TM Instagram</strong> на вашем сайте.</p>
   <p>Вы получили ваш  Access Token: </p>
-  <figure class="img-polaroid"> 
-    <p><img src="img/instagram-13.jpg" alt="" /> </p></figure>
-    <blockquote> <p>Данная информация была взята из <a href="https://www.instagram.com/developer/authentication/">oфициальных источников</a>.</p> </blockquote>
-
-<h4 align="justify">Как добавить новый модуль  TemplateMonster Instagram  на Home Page (через Layout Builder)</h4>
+  <figure class="img-polaroid"> <img src="img/instagram-13.jpg" alt="" /> </figure>
+<h5>Боитесь за сохранность вашего Instagram аккаунта?</h5>
+<p align="justify"> Instagram Access Token предоставляет возможность просматривать фото профиля, не более. Владение вашим Instagram Access Token НЕ может помочь получить доступ к вашему аккаунту и, уж тем более, не позволит совершать с аккаунтом  действия от вашего имени.</p>
+<h4 align="justify">Как добавить новый модуль  TemplateMonster Instagram module на Home Page (через Layout Builder)</h4>
 <p align="justify">Перейдите к разделу <strong>Модули / Расширения</strong> (Extensions) &gt; <strong> Модули / Расширения </strong>(Extensions).</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-1.jpg" alt=""/></figure>
@@ -179,7 +178,7 @@
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-7.jpg" alt=""/></figure>
 </p>
-<p align="justify" class="alert alert-info">Используйте сочетание клавиш <strong>Ctrl+F</strong> для упрощения процесса поиска.</p>
+<p align="justify" class="alert alert-info">Используйте сочетание клавиш <strong>&lt;strong&gt;Ctrl+F&lt;/strong&gt;</strong> для упрощения процесса поиска.</p>
 <p>Вы перейдете к следующему окну настроек:</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-8.jpg" alt=""/></figure>
@@ -191,7 +190,7 @@
   <figure class="img-polaroid"> <img src="img/edit-parallax-11.jpg" alt=""/></figure>
 </p>
 <p align="justify"> В появившемся окне выберите тот модуль <strong> TemplateMonster Instagram</strong>, который хотите добавить на главную страницу сайта. </p>
-<p align="justify" class="alert alert-info">Используйте сочетание клавиш <strong>Ctrl+F</strong> для упрощения процесса поиска.</p>
+<p align="justify" class="alert alert-info">Используйте сочетание клавиш <strong>&lt;strong&gt;Ctrl+F&lt;/strong&gt;</strong> для упрощения процесса поиска.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/instagram-18.jpg" alt=""/></figure>
 </p>
@@ -203,12 +202,12 @@
   <figure class="img-polaroid"> <img src="img/edit-parallax-14.jpg" alt=""/></figure>
 </p>
 <p align="justify" class="alert alert-info">Используйте данный способ для добавления модуля любого типа на главную страницу вашего сайта.</p>
-<h4 align="justify">Как добавить новый модуль TemplateMonster Facebook Box на  страницу (макет) вашего интернет-магазина через стандартную систему макетов</h4>
+<h4 align="justify">Как добавить новый модуль TemplateMonster Facebook Box на  страницу вашего интернет-магазина через стандартную систему макетов</h4>
   <p>Перейдите к разделу <strong>Дизайн</strong> (Design) &gt; <strong>Макеты </strong>(Layouts).</p>
   <p>
     <figure class="img-polaroid"> <img src="img/edit-parallax-15.jpg" alt=""/></figure>
   </p>
-  <p align="justify">Выберите страницу (макет), на которую(ый) вы хотите добавить новый TemplateMonster Facebook Box модуль. Затем нажмите кнопку &quot;редактировать&quot; (edit)   напротив той (того) страницы (макета), где будет располагаться модуль.</p>
+  <p align="justify">Выберите страницу (макет) на которую(ый) вы хотите добавить новый TemplateMonster Facebook Box модуль. Затем нажмите кнопку &quot;редактировать&quot; (edit)  напротив той страницы, где будет располагаться модуль.</p>
   <p>
     <figure class="img-polaroid"> <img src="img/edit-parallax-17.jpg" alt=""/></figure>
   </p>
@@ -226,7 +225,7 @@
   <p>
     <figure class="img-polaroid"> <img src="img/instagram-22.jpg" alt=""/></figure>
 </p>
-  <p align="justify">В данном окне настроек у вас есть возможность удалять или редактировать добавленные модули, нажав соответствующую кнопку (&quot;Редактировать&quot; или &quot;Удалить&quot;).</p>
+  <p align="justify">В данном окне настроек у вас есть возможность удалять или редактировать добавленный модули, нажав соответствующие кнопки (&quot;Редактировать&quot; или &quot;Удалить&quot;).</p>
   <p>Не забудьте сохранить настройки модуля, нажав кнопку &quot;<strong>Сохранить</strong>&quot; в правом верхнем углу:
 
     <figure class="img-polaroid"> <img src="img/edit-parallax-21.jpg" alt=""/></figure>

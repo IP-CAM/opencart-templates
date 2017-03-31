@@ -12,7 +12,7 @@
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-2.jpg" alt=""/></figure>
 </p>
-<p>Find the <strong>TemplateMonster Slideshow</strong> section. Press <strong>edit</strong> button to configure the existing module.</p>
+<p>Find the <strong>TemplateMonster Slideshow</strong> section. Press the <strong>edit</strong> button to configure the existing module.</p>
 <p align="justify" class="alert alert-info">Use <strong>Ctrl+F</strong> to simplify the search process.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/slideshow-1.jpg" alt=""/></figure>
@@ -30,9 +30,9 @@
   </li>
   <li> <strong>Height</strong> — the pixel height of the block; </li>
   <li><strong>Min Height </strong>— set the minimum height of the slider;</li>
-  <li><strong>Effect</strong> — the animation effect of the slides. Could be &quot;slide&quot;, &quot;fade&quot;, &quot;cube&quot;, &quot;coverflow&quot; or &quot;flip&quot;;</li>
+  <li><strong>Effect</strong> — the animation effect of the slides. Can be &quot;slide&quot;, &quot;fade&quot;, &quot;cube&quot;, &quot;coverflow&quot; or &quot;flip&quot;;</li>
   <li> <strong>Speed</strong> — duration of transition between slides (in ms)(0-1);</li>
-  <li><strong>Autoplay</strong> — delay between transitions (in ms). If this parameter is not specified, auto play will be disabled;</li>
+  <li><strong>Autoplay</strong> — delay between transitions (in ms). If this parameter is not specified, autoplay will be disabled;</li>
   <li>
     <div align="justify"><strong>Keyboard control</strong> — set to true to enable navigation through slides using keyboard right and left, top and bottom  keyboard arrows;</div>
   </li>
@@ -50,7 +50,7 @@
   <figure class="img-polaroid">
   <img src="img/slideshow-6.jpg" alt=""/>
 </figure>
-  <p>Delete the slide pressing the &quot;<strong>Remove Slide</strong>&quot;.</p>
+  <p>Delete the slide pressing the &quot;<strong>Remove Slide</strong>&quot; button.</p>
   <figure class="img-polaroid">
   <img src="img/slideshow-7.jpg" alt=""/>
 </figure>
@@ -62,26 +62,26 @@
   <figure class="img-polaroid">
   <img src="img/slideshow-13.jpg" alt=""/>
 </figure>
-  <li><strong>Title</strong> — specify the image-slide title;</li>
-  <li> <strong>Description </strong>— some further information, description about the Slide;
+  <li><strong>Title</strong> — specify the image slide title;</li>
+  <li> <strong>Description </strong>— some further information, Slide description;
     
   </li>
-  <li><strong>Link </strong>— hyperlink a slide  to another page in your site or an external website.</li>
+  <li><strong>Link </strong>— link a slide to another page on your store or on the external website.</li>
   <figure class="img-polaroid">
   <img src="img/slideshow-4.jpg" alt=""/>
 </figure>
 
 <p><strong>Video:</strong></p>
 
-  <li><strong>Video loop</strong> —  if disabled, The video will only play once each time the video is initially played;</li>
-  <li><strong>Video autoplay</strong> — the video starts automatically, once the web-page is loaded;</li>
+  <li><strong>Video loop</strong> —  if disabled, the video will only play once, each time the video is played initially;</li>
+  <li><strong>Video autoplay</strong> — the video starts automatically, once the webpage is loaded;</li>
   <li><strong>Video playback rate</strong> — enables you to select the video playback rate (0 -1);</li>
   <li><strong>Video muted </strong>— choose to mute the video's volume if it normally has sound;</li>
-  <li><strong>Video volume</strong> — set the default volume level for the video  (0-1);</li>
-  <li><strong>Image </strong> —   show this image on mobile devices instead of a video;</li>
-  <li><strong>Title</strong> — specify the video-slide title;</li>
-  <li> <strong>Description </strong>— some further information, description about the Slide;</li>
-  <li><strong>Link</strong> — hyperlink a slide  to another page in your site or an external website.</li>
+  <li><strong>Video volume</strong> — set the default volume level for the video (0-1);</li>
+  <li><strong>Image </strong> — show this image on mobile devices instead of a video;</li>
+  <li><strong>Title</strong> — specify the video slide title;</li>
+  <li> <strong>Description </strong>— some further information, Slide description;</li>
+  <li><strong>Link</strong> — link a slide to another page on your store or on the external website.</li>
   <figure class="img-polaroid">
   <img src="img/slideshow-5.jpg" alt=""/>
 </figure>
@@ -95,7 +95,7 @@
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-2.jpg" alt=""/></figure>
 </p>
-<p align="justify">Find the <strong>TemplateMonster Slideshow</strong> section. Press<strong> Add New </strong>button to create a new module.</p>
+<p align="justify">Find the <strong>TemplateMonster Slideshow</strong> section. Press the<strong> Add New </strong>button to create a new module.</p>
 <p align="justify" class="alert alert-info">Use <strong>Ctrl+F</strong> to simplify the search process.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/slideshow-20.jpg" alt=""/></figure>
@@ -104,18 +104,16 @@
 <figure class="img-polaroid"> <img src="img/slideshow-3.jpg" alt=""/></figure>
 <p>Fill in the required fields:</p>
 <ul class="marked-list">
-  <li> <strong>Module Name</strong> — enter the name of the module;</li>
+  <li><strong>Module Name</strong> — enter the name of the module;</li>
   <li><strong> <strong>Status</strong> — </strong>define the module status (enabled/disabled); </li>
-  <li><strong>Width</strong> — set the pixel width of the block;
-  
-  </li>
-  <li> <strong>Height</strong> — set the pixel height of the block; </li>
+  <li><strong>Width</strong> — set the pixel width of the block;</li>
+  <li><strong>Height</strong> — set the pixel height of the block;</li>
   <li><strong>Min Height </strong>— set the minimum height of the slider;</li>
-  <li><strong>Effect</strong> — choose the animation effect of the slides. Could be &quot;slide&quot;, &quot;fade&quot;, &quot;cube&quot;, &quot;coverflow&quot; or &quot;flip&quot;;</li>
-  <li> <strong>Speed</strong> — specify the duration of transition between slides (in ms)(0-1);</li>
-  <li><strong>Autoplay</strong> — specify the delay between transitions (in ms). If this parameter is not specified, auto play will be disabled;</li>
+  <li><strong>Effect</strong> — choose the animation effect of the slides. Can be &quot;slide&quot;, &quot;fade&quot;, &quot;cube&quot;, &quot;coverflow&quot; or &quot;flip&quot;;</li>
+  <li><strong>Speed</strong> — specify the duration of transition between slides (in ms)(0-1);</li>
+  <li><strong>Autoplay</strong> — specify the delay between transitions (in ms). If this parameter is not specified, autoplay will be disabled;</li>
   <li>
-    <div align="justify"><strong>Keyboard control</strong> — set to true to enable navigation through slides using keyboard right and left, top and bottom  keyboard arrows;</div>
+    <div align="justify"><strong>Keyboard control</strong> — set to true to enable navigation through slides using keyboard right and left, top and bottom keyboard arrows;</div>
   </li>
   <li><strong>Mousewheel control</strong> — set to true to enable navigation through slides using mouse wheel; </li>
   <li><strong>Mousewheel release on edges</strong> — choose whether to allow page scrolling when swiper is on edge positions (in the beginning or in the end);</li>
@@ -138,25 +136,25 @@
 <p><strong>Image:</strong></p>
 
   <li><strong>Image </strong> — choose an image file. In order to choose the image, press the &quot;edit button&quot;;</li>
-  <li><strong>Title</strong> — specify the video-slide title;</li>
-  <li> <strong>Description </strong>— add some further information, description about the Slide;
+  <li><strong>Title</strong> — specify the video slide title;</li>
+  <li><strong>Description </strong>— add some further information, Slide description;
     
   </li>
-  <li><strong>Link </strong>— hyperlink a slide  to another page in your site or an external website.</li>
+  <li><strong>Link </strong>— link a slide to another page on your store or on the external website.</li>
 
 <p><strong>Video:</strong></p>
 
-  <li><strong>Video loop</strong> —  if disabled, The video will only play once each time the video is initially played;</li>
+  <li><strong>Video loop</strong> —  if disabled, the video will only play once each time the video is initially played;</li>
   <li><strong>Video autoplay</strong> — the video starts automatically, once the web-page is loaded;</li>
   <li><strong>Video playback rate</strong> — enables you to select the video playback rate (0 -1);</li>
   <li><strong>Video muted </strong>— choose to mute the video's volume if it normally has sound;</li>
-  <li><strong>Video volume</strong> — set the default volume level for the video  (0-1);</li>
+  <li><strong>Video volume</strong> — set the default volume level for the video (0-1);</li>
   <li><strong>Image </strong> —   show this image on mobile devices instead of a video;</li>
-  <li><strong>Title</strong> — specify the video-slide title;</li>
+  <li><strong>Title</strong> — specify the video slide title;</li>
   <li> <strong>Description </strong>— add some further information, description about the Slide;</li>
-  <li><strong>Link</strong> — hyperlink a slide  to another page in your site or an external website.</li>
+  <li><strong>Link</strong> — link a slide to another page on your store or on the external website.</li>
 </ul>
-<h4 align="justify">How to assign the new  TemplateMonster Slideshow module to the Home Page (via Layout Builder)</h4>
+<h4 align="justify">How to assign the new TemplateMonster Slideshow module to the Home Page (via Layout Builder)</h4>
 <p align="justify">Navigate to <strong>Extensions</strong> &gt; <strong>Extensions</strong>.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-1.jpg" alt=""/></figure>
@@ -165,29 +163,29 @@
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-2.jpg" alt=""/></figure>
 </p>
-<p>Find the <strong>Template Monster Layout Builder</strong> section. Navigate to the Home Page module  and press the edit button.</p>
+<p>Find the <strong>Template Monster Layout Builder</strong> section. Navigate to the Home Page module and press the edit button.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-7.jpg" alt=""/></figure>
 </p>
-<p align="justify" class="alert alert-info">Use <strong>Ctrl+F</strong> to  facilitate the search process.</p>
+<p align="justify" class="alert alert-info">Use <strong>Ctrl+F</strong> to facilitate the search process.</p>
 <p>You will be brought to the settings window:</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-8.jpg" alt=""/></figure>
 </p>
-<p>Chose the position where you want to place the <strong>New  TemplateMonster Slideshow </strong> module. You can add row or column, if you want.</p>
+<p>Choose the position where you want to place the <strong>New TemplateMonster Slideshow </strong> module. You can add a row or a column.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-9.jpg" alt=""/></figure>
 </p>
-<p>Press <strong>Add Widget</strong> button.</p>
+<p>Press the <strong>Add Widget</strong> button.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-11.jpg" alt=""/></figure>
 </p>
-<p> In the pop-up window choose the <strong>TemplateMonster Slideshow</strong> module to add. </p>
+<p> In the popup window choose the <strong>TemplateMonster Slideshow</strong> module to add. </p>
 <p align="justify" class="alert alert-info">Use <strong>Ctrl+F</strong> to simplify the search process.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/slideshow-8.jpg" alt=""/></figure>
 </p>
-<p>We have added the <strong>New  TemplateMonster Slideshow </strong>module.</p>
+<p>We have added the <strong>New TemplateMonster Slideshow </strong>module.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/slideshow-9.jpg" alt=""/></figure>
 </p>
@@ -200,13 +198,13 @@
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-15.jpg" alt=""/></figure>
 </p>
-<p align="justify">Choose the page (layout) you want the New  TemplateMonster Slideshow  module place on and press the edit button in the corresponding field in the action column.</p>
+<p align="justify">Choose the page (layout) you want the New TemplateMonster Slideshow  module place on and press the edit button in the corresponding field in the action column.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-17.jpg" alt=""/></figure>
 </p>
 <p>Move to the <strong>Choose the position of the modules</strong> section.</p>
 <p>Select the module position you want to place the module.</p>
-<p>Find the required module  in the dropdown.</p>
+<p>Find the required module in the dropdown.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/slideshow-10.jpg" alt=""/></figure>
 </p>
@@ -214,7 +212,7 @@
 <p>
   <figure class="img-polaroid"> <img src="img/slideshow-11.jpg" alt=""/></figure>
 </p>
-<p>You will see the module was successfully added.</p>
+<p>The module was added successfully.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/slideshow-12.jpg" alt=""/></figure>
 </p>
@@ -222,4 +220,4 @@
 <p>Scroll the page up and click the <strong>Save</strong> button at the top right of the screen to apply the changes:
   <figure class="img-polaroid"> <img src="img/edit-parallax-21.jpg" alt=""/></figure>
 </p>
-<p align="justify" class="alert alert-info">You can use such method to assign any module type to any layout of your online-store.</p>
+<p align="justify" class="alert alert-info">You can use this method to assign any module type to any layout of your online store.</p>

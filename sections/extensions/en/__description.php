@@ -1,1 +1,1 @@
-<h2 class="item4">Extension configuration</h2>
+<h2 class="item4">Extension configuration </h2>

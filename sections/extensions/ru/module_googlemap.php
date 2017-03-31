@@ -22,7 +22,7 @@
     <img src="img/tm-googlemap-view.jpg" alt=""/>
 </figure>
 
-<p>После установки модуля вы можете настроить его на странице настроек модуля.</p>
+<p>После установки модуля Вы можете настроить его на странице настроек модуля.</p>
 <h4 align="justify">Как управлять модулем TemplateMonster Google Map </h4>
 <p>Перейдите к разделу <strong>Модули / Расширения</strong> (Extensions) &gt; <strong> Модули / Расширения </strong>(Extensions).</p>
 <p>

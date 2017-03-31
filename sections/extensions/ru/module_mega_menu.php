@@ -31,7 +31,6 @@
         <p>На открывшейся странице у вас есть возможность создавать и удалять пункты меню, а также редактировать их.</p>
 
         <p align="justify" class="alert alert-info"> Обратите внимание: данный модуль поддерживает мультиязычность, что дает вам возможность настраивать его отдельно под все установленные в вашем магазине языки.</p></li>
-
 <li>
 <p align="justify">Кликнув на один из пунктов меню вы можете приступить к его редактированию. Заполните следующие поля:</p>
         <figure class="img-polaroid">
@@ -44,19 +43,23 @@
                 
             </li>
         </ul>
-        <h5>При выборе опции Custom:</h5>
+        <h5>при Custom:</h5>
         <ul class="marked-list">
             <li>
                                     <strong>Menu title</strong>
-                     — название пункта меню;</li>
+                     — название пункта меню
+                
+            </li>
             <li>
                                     <strong>Menu link</strong>
-                     — ссылка для данного пункта меню;
+                     — ссылка для данного пункта меню
                 
             </li>
             <li>
                                     <strong>Show megamenu</strong>
-                     — отображение мега-меню;</li>
+                     — отображение мега-меню
+                
+            </li>
         </ul>
     </li>
 
@@ -68,25 +71,27 @@
         <ul class="marked-list">
             <li>
                                     <strong>Columns count</strong>
-                     — количество колонок;
+                     — количество колонок
                 
         </li>
             <li>
                                     <strong>Columns per row</strong>
-                     — количество колонок в строке;</li>
+                     — количество колонок в строке
+                
+            </li>
             <li>
                                     <strong>Background image</strong>
-                     — фоновое изображение;
+                     — фоновое изображение
                 
             </li>
             <li>
                                     <strong>Background image width</strong>
-                     — ширина фонового изображения;
+                     — ширина фонового изображения
                 
             </li>
             <li>
                                     <strong>Background image height</strong>
-                     — высота фонового изображения;
+                     — высота фонового изображения
                 
             </li>
         </ul>
@@ -99,41 +104,41 @@
         <ul class="marked-list">
             <li>
                                     <strong>Column width</strong>
-                     — ширина колонки;
+                     — ширина колонки
                 
             </li>
 
             <li>
                                     <strong>Columns content</strong>
-                     — содержимое колонки;
+                     — содержимое колонки
                 
             </li>
             <li>
                                     <strong>Categories(Products) limit</strong>
-                     — максимальное количество отображаемых категорий или продуктов в колонке;
+                     — максимальное количество отображаемых категорий или продуктов в колонке
                 
             </li>
             <li>
                                     <strong>Module</strong>
-                     — название отображаемого модуля;
+                     — название отображаемого модуля
                 
             </li>
             <li>
                                     <strong>Category name</strong>
-                     — название категории;
+                     — название категории
                 
             </li>
             <li>
                                     <strong>Show Category name</strong>
-                     — вывод названия категории;
+                     — вывод названия категории
                 
             </li>
         </ul>
-        <h5>При выборе опции Category:</h5>
+        <h5>при Category:</h5>
         <ul class="marked-list">
             <li>
                                     <strong>Menu item submenu type</strong>
-                     — тип отображаемого подменю;
+                     — тип отображаемого подменю
                 
             </li>
         </ul>
@@ -146,27 +151,27 @@
         <ul class="marked-list">
             <li>
                                     <strong>Columns count</strong>
-                     — количество колонок;
+                     — количество колонок
                 
             </li>
             <li>
                                     <strong>Сolumns per row</strong>
-                     — количество колонок в строке;
+                     — количество колонок в строке
                 
             </li>
             <li>
                                     <strong>Background image</strong>
-                     — фоновое изображение;
+                     — фоновое изображение
                 
             </li>
             <li>
                                     <strong>Background image width</strong>
-                     — ширина фонового изображения;
+                     — ширина фонового изображения
                 
             </li>
             <li>
                                     <strong>Background image height</strong>
-                     — высота фонового изображения;
+                     — высота фонового изображения
                 
             </li>
         </ul>
@@ -179,17 +184,17 @@
         <ul class="marked-list">
             <li>
                                     <strong>Column width</strong>
-                     — ширина колонки;
+                     — ширина колонки
                 
             </li>
             <li>
                                     <strong>Columns content</strong>
-                     — содержимое колонки;
+                     — содержимое колонки
                 
             </li>
             <li>
                                     <strong>Categories(Products) limit</strong>
-                     — максимальное количество отображаемых категорий или продуктов в колонке.            
+                     — максимальное количество отображаемых категорий или продуктов в колонке            
                 
             </li>
         </ul>

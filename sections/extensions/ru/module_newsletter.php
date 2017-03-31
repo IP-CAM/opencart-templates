@@ -54,7 +54,7 @@
   </li>
   <li><strong>Status </strong>— определите статус модуля (включен/отключен). </li>
 </ol>
-<h4 align="justify">Как добавить новый модуль  TemplateMonster Newsletter на Home Page (через Layout Builder)</h4>
+<h4 align="justify">Как добавить новый модуль  TemplateMonster Newsletter module на Home Page (через Layout Builder)</h4>
 <p align="justify">Перейдите к разделу <strong>Модули / Расширения</strong> (Extensions) &gt; <strong> Модули / Расширения </strong>(Extensions).</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-1.jpg" alt=""/></figure>
@@ -91,12 +91,12 @@
   <figure class="img-polaroid"> <img src="img/edit-parallax-14.jpg" alt=""/></figure>
 </p>
 <p align="justify" class="alert alert-info">Используйте данный способ для добавления модуля любого типа на главную страницу вашего сайта.</p>
-<h4 align="justify">Как добавить новый модуль TemplateMonster Newsletter на страницу (на любой макет) вашего интернет-магазина через стандартную систему макетов</h4>
+<h4 align="justify">Как добавить новый модуль TemplateMonster Newsletter на страницу вашего интернет-магазина через стандартную систему макетов</h4>
 <p>Перейдите к разделу <strong>Дизайн</strong> (Design) &gt; <strong>Макеты </strong>(Layouts).</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-15.jpg" alt=""/></figure>
 </p>
-<p align="justify">Выберите страницу (макет), на которую(-ый) вы хотите добавить новый TemplateMonster  Newsletter модуль. Затем нажмите кнопку &quot;редактировать&quot; (edit)  напротив той (того) страницы (макета), где будет располагаться модуль.</p>
+<p align="justify">Выберите страницу (макет) на которую(-ый) вы хотите добавить новый TemplateMonster  Newsletter модуль. Затем нажмите кнопку &quot;редактировать&quot; (edit) напротив той страницы, где будет располагаться модуль.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-17.jpg" alt=""/></figure>
 </p>
@@ -114,7 +114,7 @@
 <p>
   <figure class="img-polaroid"> <img src="img/news-22.jpg" alt=""/></figure>
 </p>
-<p align="justify">В данном окне настроек у вас есть возможность удалять или редактировать добавленные модули, нажав соответствующую кнопку (&quot;Редактировать&quot; или &quot;Удалить&quot;).</p>
+<p align="justify">В данном окне настроек у вас есть возможность удалять или редактировать добавленный модули, нажав соответствующие кнопки (&quot;Редактировать&quot; или &quot;Удалить&quot;).</p>
 <p>Не забудьте сохранить настройки модуля, нажав кнопку &quot;<strong>Сохранить</strong>&quot; в правом верхнем углу:
   <figure class="img-polaroid"> <img src="img/edit-parallax-21.jpg" alt=""/></figure>
 </p>

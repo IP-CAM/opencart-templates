@@ -6,7 +6,7 @@
     <img src="img/tm-facebook-view.jpg" alt=""/>
 </figure>
 
-<p>После установки модуля вы можете настроить его на странице настроек модуля.</p>
+<p>После установки модуля Вы можете настроить его на странице настроек модуля.</p>
 <h4>Как управлять модулем TemplateMonster Facebook Box</h4>
 <p>Перейдите к разделу <strong>Модули / Расширения</strong> (Extensions) &gt; <strong>Модули / Расширения</strong> (Extensions).</p>
 <p>
@@ -176,12 +176,12 @@
   <figure class="img-polaroid"> <img src="img/edit-parallax-14.jpg" alt=""/></figure>
 </p>
 <p align="justify" class="alert alert-info">Используйте данный способ для добавления модуля любого типа на главную страницу вашего сайта.</p>
-<h4 align="justify">Как добавить новый модуль TemplateMonster Facebook Box на  страницу (макет) вашего интернет-магазина через стандартную систему макетов</h4>
+<h4 align="justify">Как добавить новый модуль TemplateMonster Facebook Box на  страницу вашего интернет-магазина через стандартную систему макетов</h4>
 <p>Перейдите к разделу <strong>Дизайн</strong> (Design) &gt; <strong>Макеты </strong>(Layouts).</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-15.jpg" alt=""/></figure>
 </p>
-<p align="justify">Выберите страницу (макет), на которую вы хотите добавить новый <strong>TemplateMonster Facebook Box</strong> модуль. Затем нажмите кнопку &quot;редактировать&quot; (edit)   напротив той (того) страницы (макета), где будет располагаться модуль.</p>
+<p align="justify">Выберите страницу, на которую вы хотите добавить новый <strong>TemplateMonster Facebook Box</strong> модуль. Затем нажмите кнопку &quot;редактировать&quot; (edit)  напротив той страницы, где будет располагаться модуль.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-17.jpg" alt=""/></figure>
 </p>
@@ -199,8 +199,8 @@
 <p>
   <figure class="img-polaroid"> <img src="img/tm-facebook-view-10.jpg" alt=""/></figure>
 </p>
-<p align="justify">В данном окне настроек у вас есть возможность удалять или редактировать добавленные модули, нажав соответствующую кнопку (&quot;Редактировать&quot; или &quot;Удалить&quot;).</p>
+<p align="justify">В данном окне настроек у вас есть возможность удалять или редактировать добавленный модули, нажав соответствующие кнопки (&quot;Редактировать&quot; или &quot;Удалить&quot;).</p>
 <p>Не забудьте сохранить настройки модуля, нажав кнопку &quot;Сохранить&quot; в правом верхнем углу:
   <figure class="img-polaroid"> <img src="img/edit-parallax-21.jpg" alt=""/></figure>
 </p>
-<p align="justify" class="alert alert-info">Используйте данный способ для добавления модуля любого типа на любую страницу (макет) вашего интернет-магазина.</p>
+<p align="justify" class="alert alert-info">Используйте данный способ для добавления модуля любого типа на любую страницу вашего интернет-магазина.</p>

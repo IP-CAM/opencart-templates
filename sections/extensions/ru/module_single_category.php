@@ -7,7 +7,7 @@
     <img src="img/tm-single-category-product-view.jpg" alt="">
 </figure>
 
-<p>После установки модуля вы можете настроить его на странице настроек модуля.</p>
+<p>После установки модуля Вы можете настроить его на странице настроек модуля.</p>
 <h4>Как управлять модулем  TemplateMonsterSingle Category Products</h4>
 <p>Перейдите к разделу <strong>Модули / Расширения</strong> (Extensions) &gt; <strong> Модули / Расширения </strong>(Extensions).</p>
 <p>

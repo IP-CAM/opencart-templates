@@ -1,6 +1,6 @@
 <h2 class="item2">Preparation</h2>
 
-<h6 align="justify">Before setting up your OpenCart website, make sure you are fully prepared. Please complete the following preparation steps:</h6>
+<h6 align="justify">Before setting up your Joomla website, make sure you are fully prepared. Please complete the following preparation steps:</h6>
 
 <h4>Software required</h4>
 <p align="justify">To feel comfortable working with the OpenCart template, we recommend downloading all the applications required. You can see the list of required software at the template Live Demo page. Requirements can vary significantly depending upon the  template, the common ones will be defined  only:</p>
@@ -58,14 +58,14 @@
         </a></li>
 </ul>
 <h4>System Requirements</h4>
-<p align="justify">OpenCart requires certain technical requirements to be met for the   store to operate properly. First, a web server must be created to make   the OpenCart store publicly available on the web. Domain names and   hosting services can easily be purchased for an affordable price.</p>
+<p align="justify">OpenCart needs certain technical requirements to be met for the store to operate properly. First, a web server must be created to make the OpenCart store publicly available on the web. Domain names and hosting services can easily be purchased for an affordable price.</p>
 <p>These extensions must be enabled for OpenCart to install properly on the web server.</p>
 <ul>
   <li>Web Server (Apache suggested)</li>
   <li>PHP 5.4+(1.5.x at least 5.2+)</li>
   <li>Database (MySQLi suggested)</li>
 </ul>
-<p><strong>Required PHP libraries / modules</strong></p>
+<p><strong>Required PHP libraries/modules</strong></p>
 <ol class="marked-list">
   <li>Curl</li>
   <li>ZIP</li>
@@ -75,4 +75,4 @@
   <li>Mbstrings</li>
   <li>Xml</li>
 </ol>
-<p align="justify">The above PHP extensions should be available by almost all hosting   providers, during the installation process it will check you have them all   enabled. You should contact your hosting provider if one is missing.</p>
+<p align="justify">The above PHP extensions should be available by almost all the hosting providers, during the installation process it will check if you have them all enabled. You should contact your hosting provider if some are missing.</p>

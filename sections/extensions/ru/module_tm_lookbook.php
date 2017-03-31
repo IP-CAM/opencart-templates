@@ -120,7 +120,7 @@
     <li>
         
             <strong>Collection Image Width</strong>
-            — ширина картинки коллекции;
+            — ширина картики колелкции;
         
     </li>
     <li>

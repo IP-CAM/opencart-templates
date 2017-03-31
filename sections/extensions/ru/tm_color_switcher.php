@@ -7,9 +7,9 @@
 </figure>
 <h4>Как управлять модулем TemplateMonster Color Switcher 
 </h4>
-<p>Для того чтобы изменить цветовую схему вашего шаблона, следуйте  перечисленным ниже инструкциям:</p>
+<p>Для того чтобы изменить цветовую схему вашего шаблона, следуйте перечисленым ниже инструкциям:</p>
 <ul class="marked-list">
-  <li>В админ панели вашего сайта перейдите к <strong>Srores</strong> &gt; <strong>StoreFlex </strong>(Ваш Магазин).</li>
+  <li>В админ панеле вашего сайта перейдите к <strong>Srores</strong> &gt; <strong>StoreFlex </strong>(Ваш Магазин).</li>
 
   <p>
     <figure class="img-polaroid">
@@ -17,7 +17,7 @@
     </figure>
     
   </p>
-<li>Нажмите кнопку модуля &quot;Color Switcher&quot;, расположенную слева:</li>
+<li>Нажмите кнопку модуля &quot;Color Switcher&quot;, расположеную слева:</li>
 <p>
   <figure class="img-polaroid">
     <img src="img/switcher-2.jpg" alt=""/>

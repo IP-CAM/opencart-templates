@@ -1,6 +1,6 @@
 <h3>Installation over existing store</h3>
 
-<p align="justify">In case, you already have a ready OpenCart store and you just need to change its appearance with the help
+<p align="justify">In case you already have a ready OpenCart store and you just need to change its appearance with the help
     of the theme, use the following installation method.</p>
 
 <p align="justify" class="alert alert-warning">Make sure your OpenCart version is corresponding to the template requirements. All the
@@ -16,7 +16,7 @@
     </div>
 </li>
     <li>
-      <div align="justify">After that, upload the unzipped files to the root directory of the OpenCart installation. <p></p>
+      <div align="justify">After that, upload the unzipped files to the root directory of the OpenCart installation. <br/>
         You can check the detailed video instructions on <a href="/help/how-upload-files-server-2.html" target="_blank">how
             to upload files to the server</a>.</div></li>
           <p align="justify" class="alert alert-danger"><strong>The template files will not affect your store content in any way.</strong></p>

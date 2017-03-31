@@ -1,4 +1,4 @@
-<h3 align="justify">Установка шаблона на существующий магазин</h3>
+<h3>Установка шаблона на существующий магазин</h3>
 
 <p align="justify">Следуйте данному типу установки, если у вас уже есть действующий сайт OpenCart и
     требуется всего лишь изменить его внешний вид, путем установки новой темы.</p>
@@ -19,7 +19,7 @@
     </li>
     <li>
       <div align="justify">После этого загрузите разархивированные файлы в корневую директорию
-      установленного OpenCart. </p></p>
+      установленного OpenCart. <br/>
         Вы также можете воспользоваться детальной видео инструкцией,
         <a href="/help/ru/how-upload-files-server-2.html" target="_blank"> как загружать
             файлы на
@@ -65,7 +65,6 @@
       </div>
     </li>
 </ol>
-<p></p>
 <p align="justify" class="alert alert-info">Вы также можете воспользоваться инструкцией по установке:
     <a target="_blank"
        href="/help/ru/opencart-2-x-how-to-install-a-template-over-the-existing-store-using-update-package.html">

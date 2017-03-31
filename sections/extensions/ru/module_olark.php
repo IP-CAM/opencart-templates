@@ -6,7 +6,7 @@
     <img src="img/olark-view.jpg" alt=""/>
 </figure>
 
-<p>После установки модуля вы можете настроить его на странице настроек модуля. </p>
+<p>После установки модуля Вы можете настроить его на странице настроек модуля. </p>
 <p align="justify" class="alert alert-info">Для более детальной информации обращайтесь к <a href="https://www.olark.com/help/guide" target="_blank" rel="nofollow">официальному веб-сайту</a>.</p>
 
 <h4 align="justify">Как управлять модулем Olark Live Chat</h4>
@@ -63,11 +63,11 @@
                 странице
       <a href='//www.olark.com/install' rel="nofollow" target="_blank"> https://www.olark.com/install</a>;</div>
   </li>
-  <li> <strong>Status</strong> — определите статус модуля (включен/отключен).
+  <li> <strong>Status</strong> — отпределите статус модуля (включен/отключен).
     
   </li>
 </ul>
-<h4 align="justify">Как добавить новый модуль  Olark Live Chat на Home Page (через Layout Builder)</h4>
+<h4 align="justify">Как добавить новый модуль  Olark Live Chat  module на Home Page (через Layout Builder)</h4>
 <p align="justify">Перейдите к разделу <strong>Модули / Расширения</strong> (Extensions) &gt; <strong> Модули / Расширения </strong>(Extensions).</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-1.jpg" alt=""/></figure>
@@ -85,7 +85,7 @@
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-8.jpg" alt=""/></figure>
 </p>
-<p align="justify">Определитесь с позицией для нового модуля <strong>New  Olark Live Chat</strong>. Помните о том, что вы можете редактировать расположение рядов и колонок в макете, если есть такая необходимость.</p>
+<p align="justify">Определитесь с позицией для нового модуля <strong>New  Olark Live Chat</strong> . Помните о том, что вы можете редактировать расположение рядов и колонок в макете, если есть такая необходимость.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-9.jpg" alt=""/></figure>
 </p>
@@ -106,12 +106,12 @@
 <figure class="img-polaroid"> <img src="img/edit-parallax-14.jpg" alt=""/></figure>
 </p>
 <p align="justify" class="alert alert-info">Используйте данный способ для добавления модуля любого типа на главную страницу вашего сайта.</p>
-<h4 align="justify">Как добавить новый модуль Olark Live Chat на  страницу (макет) вашего интернет-магазина через стандартную систему макетов</h4>
+<h4 align="justify">Как добавить новый модуль Olark Live Chat на  страницу вашего интернет-магазина через стандартную систему макетов</h4>
 <p>Перейдите к разделу <strong>Дизайн</strong> (Design) &gt; <strong>Макеты </strong>(Layouts).</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-15.jpg" alt=""/></figure>
 </p>
-<p align="justify">Выберите страницу (макет), на которую(-ый) вы хотите добавить новый New  Olark Live Chat модуль. Затем нажмите кнопку &quot;редактировать&quot; (edit)   напротив той (того) страницы (макета), где будет располагаться модуль.</p>
+<p align="justify">Выберите страницу на которую вы хотите добавить новый <strong>New  Olark Live Chat</strong> модуль. Затем нажмите кнопку &quot;редактировать&quot; (edit)  напротив той страницы, где будет располагаться модуль.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-17.jpg" alt=""/></figure>
 </p>
@@ -129,10 +129,10 @@
 <p>
   <figure class="img-polaroid"> <img src="img/olark-view-10.jpg" alt=""/></figure>
 </p>
-<p align="justify">В данном окне настроек у вас есть возможность удалять или редактировать добавленные модули, нажав соответствующую кнопку (&quot;Редактировать&quot; или &quot;Удалить&quot;).</p>
+<p align="justify">В данном окне настроек у вас есть возможность удалять или редактировать добавленный модули, нажав соответствующие кнопки (&quot;Редактировать&quot; или &quot;Удалить&quot;).</p>
 <p>Не забудьте сохранить настройки модуля, нажав кнопку &quot;<strong>Сохранить</strong>&quot; в правом верхнем углу:
 <figure class="img-polaroid"> <img src="img/edit-parallax-21.jpg" alt=""/></figure>
 </p>
-<p align="justify" class="alert alert-info">Используйте данный способ для добавления модуля любого типа на любую страницу (макет) вашего интернет-магазина.</p>
+<p align="justify" class="alert alert-info">Используйте данный способ для добавления модуля любого типа на любую страницу вашего интернет-магазина.</p>
 
 

@@ -34,9 +34,9 @@ module</h4>
     <div align="justify"><strong>Image</strong> — выберите изображение для баннера.  Для этого нажните на иконку изображения, а затем кнопку &quot;редактировать&quot;; </div>
   </li>
   <li><strong>Image Width</strong> —    ширина баннера;</li>
-  <li><strong>Image Height</strong> —     высота баннера;</li>
+  <li><strong>Image Height</strong> —     высота беннера;</li>
   <li>
-    <div align="justify"><strong>Description</strong> — укажите текст, который будет отображаться на баннере. Добавьте ссылку на любой продукт или категорию. Для этого нажмите кнопку &quot;edit&quot; на панели инструментов редактора;</div>
+    <div align="justify"><strong>Description</strong> — укажите текст, который будет отображаться на баннере. Добавьте ссылку на любой продукт или категорию. Для этого нажмите кнопку &quot;edit&quot; на панеле инструментов редактора;</div>
   </li>
   <li>
     <div align="justify"><strong>Title on Days/Hours/Minutes/Seconds</strong> — введите текст, который будет отображаться на баннере под областью <strong>Days/Hours/Minutes/Seconds</strong> обратного отчета.</div>
@@ -67,9 +67,9 @@ module</h4>
     <div align="justify"><strong>Image</strong> — выберите изображение для баннера.  Для этого нажните на иконку изображения, а затем кнопку &quot;редактировать&quot;; </div>
   </li>
   <li><strong>Image Width</strong> —    ширина баннера;</li>
-  <li><strong>Image Height</strong> —     высота баннера;</li>
+  <li><strong>Image Height</strong> —     высота беннера;</li>
   <li>
-    <div align="justify"><strong>Description</strong> — укажите текст, который будет отображаться на баннере. Добавьте ссылку на любой продукт или категорию. Для этого нажмите кнопку &quot;edit&quot; на панели инструментов редактора;</div>
+    <div align="justify"><strong>Description</strong> — укажите текст, который будет отображаться на баннере. Добавьте ссылку на любой продукт или категорию. Для этого нажмите кнопку &quot;edit&quot; на панеле инструментов редактора;</div>
   </li>
   <li>
     <div align="justify"><strong>Title on Days/Hours/Minutes/Seconds</strong> — введите текст, который будет отображаться на баннере под областью <strong>Days/Hours/Minutes/Seconds</strong> обратного отчета.</div>
@@ -114,12 +114,12 @@ module</h4>
   <figure class="img-polaroid"> <img src="img/edit-parallax-14.jpg" alt=""/></figure>
 </p>
 <p align="justify" class="alert alert-info">Используйте данный способ для добавления модуля любого типа на главную страницу вашего сайта.</p>
-<h4 align="justify">Как добавить новый модуль TemplateMonster Deal Banner на страницу (на любой макет) вашего интернет-магазина через стандартную систему макетов</h4>
+<h4 align="justify">Как добавить новый модуль TemplateMonster Deal Banner на страницу вашего интернет-магазина через стандартную систему макетов</h4>
 <p>Перейдите к разделу <strong>Дизайн</strong> (Design) &gt; <strong>Макеты </strong>(Layouts).</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-15.jpg" alt=""/></figure>
 </p>
-<p align="justify">Выберите страницу (макет), на которую вы хотите добавить новый <strong>New  TemplateMonster Deal Banner</strong> модуль. Затем нажмите кнопку &quot;редактировать&quot; (edit)  напротив той (того) страницы (макета), где будет располагаться модуль.</p>
+<p align="justify">Выберите страницу, на которую вы хотите добавить новый <strong>New  TemplateMonster Deal Banner</strong>модуль. Затем нажмите кнопку &quot;редактировать&quot; (edit) напротив той страницы, где будет располагаться модуль.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-17.jpg" alt=""/></figure>
 </p>
@@ -137,9 +137,9 @@ module</h4>
 <p>
   <figure class="img-polaroid"> <img src="img/olark-view-10.jpg" alt=""/></figure>
 </p>
-<p align="justify">В данном окне настроек у вас есть возможность удалять или редактировать добавленные модули, нажав соответствующую кнопку (&quot;Редактировать&quot; или &quot;Удалить&quot;).</p>
+<p align="justify">В данном окне настроек у вас есть возможность удалять или редактировать добавленный модули, нажав соответствующие кнопки (&quot;Редактировать&quot; или &quot;Удалить&quot;).</p>
 <p>Не забудьте сохранить настройки модуля, нажав кнопку &quot;Сохранить&quot; в правом верхнем углу:
 
   <figure class="img-polaroid"> <img src="img/edit-parallax-21.jpg" alt=""/></figure>
 </p>
-<p align="justify" class="alert alert-info">Используйте данный способ для добавления модуля любого типа на любую страницу (макет) вашего интернет-магазина.</p>
+<p align="justify" class="alert alert-info">Используйте данный способ для добавления модуля любого типа на любую страницу вашего интернет-магазина.</p>

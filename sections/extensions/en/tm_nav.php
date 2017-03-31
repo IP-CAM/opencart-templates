@@ -1,13 +1,6 @@
-<h3>TemplateMonster Nav
-</h3>
-<figure class="img-polaroid">
-    <img src="img/nav.jpg" alt=""/>
-</figure>
-
-<p align="justify">When the module is installed, you can configure it on the module configuration page. </p>
-
+<h3>TemplateMonster Nav</h3>
 <h4 align="justify">How to manage TemplateMonster Nav module</h4>
-Navigate to <strong>Extensions</strong> &gt; <strong>Extensions</strong>.</p>
+<p>Navigate to <strong>Extensions</strong> &gt; <strong>Extensions</strong>.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-1.jpg" alt=""/> </figure>
 </p>
@@ -15,7 +8,7 @@ Navigate to <strong>Extensions</strong> &gt; <strong>Extensions</strong>.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-2.jpg" alt=""/> </figure>
 </p>
-<p>Find the<strong> TemplateMonster Nav </strong>module. Press <strong>edit</strong> button to configure the  module.</p>
+<p>Find the<strong> TemplateMonster Nav </strong>module. Press an <strong>edit</strong> button to configure the  module.</p>
 <p align="justify" class="alert alert-info">Use <strong>Ctrl+F</strong> to simplify the search process.</p>
   <figure class="img-polaroid"> <img src="img/nav-1.jpg" alt=""/></figure>
 </p>

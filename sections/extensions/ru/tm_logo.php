@@ -24,10 +24,10 @@
   <li><strong>Width</strong> —  	задайте значение ширины изображения Logo;  </li>
 
 
-  <li><strong>Height</strong> —   	задайте значение высоты изображения Logo.</li>
+  <li><strong>Height</strong> —   	задайте значение высотыы изображения Logo.</li>
   <li> <strong>Status</strong> — статус модуля (включен/отключен). </li>
 </ul>
 <div class="alert alert-info"> 
-  <div align="center">Ознакомиться со статьей ниже: </div>
+  <div align="center">Ознакомиться с детальным туториалом ниже: </div>
   <h5 align="center"><a href="https://www.templatemonster.com/help/opencart-2-x-how-to-change-store-logo.html">Как изменить логотип магазина </a></h5>
 </div>

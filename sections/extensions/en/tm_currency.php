@@ -7,7 +7,7 @@ Navigate to <strong>Extensions</strong> &gt; <strong>Extensions</strong>.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-2.jpg" alt=""/> </figure>
 </p>
-<p>Find the<strong> TemplateMonster Currency</strong> module. Press <strong>edit</strong> button to configure the  module.</p>
+<p>Find the<strong> TemplateMonster Currency</strong> module. Press the <strong>edit</strong> button to configure the  module.</p>
 <p align="justify" class="alert alert-info">Use <strong>Ctrl+F</strong> to simplify the search process.</p>
   <figure class="img-polaroid"> <img src="img/сurrency-1.jpg" alt=""/></figure>
 </p>

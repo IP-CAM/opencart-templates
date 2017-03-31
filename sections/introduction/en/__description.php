@@ -1,23 +1,21 @@
 <h2 class="item1">Introduction
+
 </h2>
-<h5 align="justify">Congratulations on your purchase of an OpenCart   template! This documentation consists of several parts and describes the installation, creation and setting up a  OpenCart website process. </h5>
-<h5 align="justify">We did our best to make  this manual  information  to be  presented in a simple, straightforward manner.   For ease of reference, the text  the manual provides has been restructured in different  chapters, you can  see  in the leftside menu.  You are able to navigate to any part of the documentation, using the active content headers' links.</h5>
+<h5 align="justify">Congratulations on your purchase of an OpenCart template! This documentation consists of several parts and describes the installation, creation and setting up an OpenCart website process.</h5>
+<h5 align="justify">We did our best to make this manual information to be presented in a simple, straightforward manner. For ease of reference, the text the manual provides has been restructured in different chapters, you can see in the left-side menu.  You are able to navigate to any part of the documentation using the active content headers' links.</h5>
 <h5 align="justify">We recommend you start reading   the documentation at    the  first section.</h5>
 <h3>What is OpenCart?</h3>
 
-    <p align="justify">OpenCart — is an Open Source e-commerce application. OpenCart provides easy customization of your online store.
+    <p align="justify">OpenCart — is an Open Source e-commerce application. OpenCart provides easy customizations of your online store.
         OpenCart community includes a number of users starting from the experienced web developers looking for the
         user-friendly interface, ending with shopkeepers that start their online business for the first time. OpenCart
         provides a great amount of features that allow you to control your store. Using OpenCart tools you can easily
         uncover the store potential.
     <a href="http://docs.opencart.com" target="_blank">Go here for </a><a href="http://docs.opencart.com" target="_blank">More details.</a></p>
     <div class="alert alert-info">
-      <div align="justify">There are often many different settings that are available with a new Template, and
-        because this is open source software, it isn't always the same for each developer.
-        Make sure to read through this documentation available for the Template that you
-        are installing so you know what features are available to you.</div>
-    </div>
-    <h3>Template structure</h3>
+  <div align="justify">Usually there is vast of different settings that available with a new Template, and because this is an  open source software, it isn't always the same for each developer. Make sure to read through this documentation available for the Template that you are installing so that you know what features are available for you.</div>
+</div>
+<h3>Template structure</h3>
 
     <h6>The theme package you have downloaded consists of several folders. Let's see what each folder contains:</h6>
 

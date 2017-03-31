@@ -20,4 +20,4 @@ Modifications)</strong>.</p>
     <img src="img/tm-live-view-2.jpg" alt=""/>
   </figure>
 </p>
-<p align="justify" class="alert alert-info">Используйте сочетание клавиш <strong>Ctrl+F</strong> для упрощения процесса поиска.</p>
+<p align="justify" class="alert alert-info">Используйте сочетание клавиш <strong>&lt;strong&gt;Ctrl+F&lt;/strong&gt;</strong> для упрощения процесса поиска.</p>

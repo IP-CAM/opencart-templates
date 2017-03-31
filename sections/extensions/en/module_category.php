@@ -1,6 +1,6 @@
 <h3>TemplateMonster Category</h3>
 
-<p align="justify">The module allows you to display categories with the accordion view, it also allows you to
+<p align="justify">The module allows to display categories with the accordion view, it also allows to
     display all the subcategories. Usually it is used in the side panel. </p>
 
 <p>When the module is installed, you can enable/disable it on the configuration

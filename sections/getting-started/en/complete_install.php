@@ -1,6 +1,6 @@
 <h3>Complete installation</h3>
 
-<p align="justify">This kind of installation can be used in case, you do not have a ready to use OpenCart store. The
+<p align="justify">This kind of installation can be used in case you do not have a ready to use OpenCart store. The
     '<strong>themeXXX(full).zip</strong>' archive contains OpenCart <strong>engine files</strong> and <strong>theme files</strong> including<strong> sample data</strong>,
     so you do not need to install an OpenCart engine separately. Template sample data will make your site
     look just like our demo template including all the sample products, modules and site configuration.</p>
@@ -101,9 +101,9 @@
             <li>config.php;</li>
 
             <li>admin/config.php.</li>
-      </ul>
-        <p align="justify">The permissions should be set to <strong>CHMOD 755</strong> or <strong>777</strong> depending on the server configuration. In order to do
-            so, select all your files and folders and find the buttons "Change Permissions" if you are working in
+        </ul>
+        <p align="justify">The permissions should be set to CHMOD 755 or 777 depending on the server configuration. In order to do
+            so, select all you files and folders and find the buttons "Change Permissions" if you are working in
             File Manager. If you are working with Linux — use command chmod -R 777 "folder_name".</p>
     </li>
 </ol>
@@ -116,15 +116,15 @@
 </p>
 
 <ol class="index-list">
-<li>Installation license;</li>
-    <li>Preliminary stage; </li>
-    <li>Configuration;</li>
+<li>Installation license</li>
+    <li>Preliminary stage </li>
+    <li>Configuration</li>
     <li>Ready!</li>
 </ol>
 
 <h5>Installation license</h5>
 
-<p align="justify">Check an OpenCart license agreement and click the
+<p>Check an OpenCart license agreement and click the
     <strong>Continue</strong>
     button if you agree.
 </p>
@@ -209,7 +209,7 @@
 
 <code>
 &lt;FilesMatch&rt; "(?i)((\.tpl|\.ini|\.log|(?<!robots)\.txt))">
-Order deny, allow
+Order deny,allow
 Deny from all
 &lt;/FilesMatch&rt;
 </code>

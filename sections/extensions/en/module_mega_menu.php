@@ -1,7 +1,6 @@
 <h3>TM Megamenu</h3>
 
-<p align="justify">This module allows you to create complex menus. The module provides the ability to display a single item (without submenus), an item with a submenu and an item with the multi-row and multi-column submenu block. This module can be displayed in the various positions, but with the same content.
-</p>
+<p align="justify">This module allows you to create complex menus. The module provides the ability to display a single item (without submenus), an item with a submenu and an item with the multi-row and multi-column submenu block. This module can be displayed in the various positions, but with the same content.</p>
 
 <h5>General information</h5>
 
@@ -9,8 +8,7 @@
     <li>
         <p>Menu activation</p>
 
-        <p align="justify">In order to enable megamenu you should navigate to the <strong>Extensions > Modules > TM Megamenu</strong> page, press the <strong>Edit</strong> button next to the appropriate item and choose the <strong>Enabled</strong> option in the new window.
-        </p>
+        <p align="justify">In order to enable megamenu you should navigate to the <strong>Extensions > Modules > TM Megamenu</strong> page, press the <strong>Edit</strong> button next to the appropriate item and choose the <strong>Enabled</strong> option in the new window.</p>
     </li>
 </ol>
 
@@ -38,27 +36,23 @@
         <ul class="marked-list">
             <li>
                 
-                    <strong>Menu Item type</strong>
-                     — type of the menu (regular/megamenu);</li>
+                    <strong>Menu Item type</strong> — type of the menu (regular/megamenu);</li>
         </ul>
         <h5>For 'Custom' option:</h5>
         <ul class="marked-list">
             <li>
                 
-                    <strong>Menu title</strong>
-                     — menu item label;
+                    <strong>Menu title</strong> — menu item label;
                 
             </li>
             <li>
                 
-                    <strong>Menu link</strong>
-                     — menu item link;
+                    <strong>Menu link</strong> — menu item link;
                 
             </li>
             <li>
                 
-                    <strong>Show megamenu</strong>
-                     — megamenu display;
+                    <strong>Show megamenu</strong> — megamenu display;
                 
             </li>
         </ul>
@@ -170,7 +164,7 @@
             </li>
             <li>
                 
-                    <strong>Сolumns per row</strong>
+                    <strong>Columns per row</strong>
                      — number of columns per row;
                 
             </li>
@@ -221,8 +215,7 @@
             <li>
                 
                     <strong>Module</strong>
-                     — name of the module to display;
-                
+                     — name of the module to display;                
             </li>
         </ul>
     </li>

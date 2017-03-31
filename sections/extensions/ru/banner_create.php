@@ -38,7 +38,7 @@
 <li><strong>Banner Name</strong> (Название баннера);</li>
     <li><strong>Description</strong> (Описание) — отображаемый в баннере текст (поддерживается html-разметка);</li>
     <li>
-      <div align="justify"><strong>Link</strong> (Ссылку) — укажите относительную ссылку, ссылку относительно адреса сайта
+      <div align="justify"><strong>Link</strong> (Ссылку) — укажите относительную ссылку. ссылку относительно адреса сайта
         (например,
         index.php?route=product/product&amp;product_id=47) данный параметр не является
         обязательным;

@@ -1,10 +1,9 @@
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <h3>TM Lookbook</h3>
 
 <p align="justify">The lookbook is a set of photos, where you can mark any part of the image. This module serves for displaying the products of one or of the several brands.</p>
 
 <p>When the module is installed, you can configure it on the module settings page.</p>
-<h4>How to manage TemplateMonster Lookbook<strong> </strong>module</h4>
+<h4>How to manage <strong>TemplateMonster Lookbook</strong> module</h4>
 <p>Navigate to <strong>Extensions</strong> &gt; <strong>Extensions</strong>.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-1.jpg" alt=""/> </figure>
@@ -13,7 +12,7 @@
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-2.jpg" alt=""/> </figure>
 </p>
-<p>Find the<strong> TemplateMonster Lookbook </strong> section. Press <strong>edit</strong> button to configure the existing module.</p>
+<p>Find the<strong> TemplateMonster Lookbook </strong> section. Press the <strong>edit</strong> button to configure the existing module.</p>
 <p align="justify" class="alert alert-info">Use <strong>Ctrl+F</strong> to simplify the search process.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/lookbook-1.jpg" alt=""/> </figure>
@@ -46,15 +45,10 @@
 </p>
 
 <ol class="marked-list">
-    <li><strong>
-       
-Module Name</strong> — the name of the module; </li>
-    <li><strong>
-    Collection name</strong> — the name of the collection; it's used as the title on the collection page; </li>
-    <li><strong>
-    Display Content</strong> — The module display mode in the store position; </li>
-    <li><strong>
-    Status</strong> — Module status (Enable/Disable). </li>
+    <li><strong>Module Name</strong> — the name of the module; </li>
+    <li><strong>Collection name</strong> — the name of the collection; it's used as the title on the collection page; </li>
+    <li><strong>Display Content</strong> — The module display mode in the store position; </li>
+    <li><strong>Status</strong> — Module status (Enable/Disable).</li>
 </ol>
 
 <h5>Banner settings:</h5>
@@ -62,17 +56,11 @@ Module Name</strong> — the name of the module; </li>
   <figure class="img-polaroid"> <img src="img/lookbook-3.jpg" alt=""/> </figure>
 </p>
 <ol class="marked-list">
-    <li><strong>
-    Banner Wrapper Class</strong> — the class of the banner wrapper; </li>
-    <li><strong>
-    Banner Image</strong> — the image of the banner; </li>
-    <li>
-    <strong>Banner Image Width</strong> — the width of the banner image; </li>
-    <li>
-    <strong>Banner Image Height</strong> — the height of the banner image; </li>
-    <li>
-      <div align="justify"><strong>Banner Description</strong> — the description of the banner. The text which will be displayed on the banner. The field supports HTML; </div>
-    </li>
+    <li><strong>Banner Wrapper Class</strong> — the class of the banner wrapper; </li>
+    <li><strong>Banner Image</strong> — the image of the banner; </li>
+    <li><strong>Banner Image Width</strong> — the width of the banner image; </li>
+    <li><strong>Banner Image Height</strong> — the height of the banner image; </li>
+    <li><div align="justify"><strong>Banner Description</strong> — the description of the banner. The text which will be displayed on the banner. The field supports HTML; </div></li>
 </ol>
 
 <h5>Collection settings:</h5>
@@ -80,19 +68,12 @@ Module Name</strong> — the name of the module; </li>
   <figure class="img-polaroid"> <img src="img/lookbook-4.jpg" alt=""/> </figure>
 </p>
 <ol class="marked-list">
-    <li><strong>
-    Collection Image</strong> — the image of the collection; </li>
-    <li><strong>
-                    Collection Image Width 
-    — </strong>the width of the collection image; </li>
-    <li><strong>
-    Collection Image Height</strong> — the height of the collection image; </li>
-    <li><strong>
-    Products</strong> — collection products; </li>
-    <li>
-    <strong>Product Image Width </strong>— the width of the product images; </li>
-    <li>
-    <strong>Product Image Height</strong> — the height of the product images. </li>
+    <li><strong>Collection Image</strong> — the image of the collection; </li>
+    <li><strong>Collection Image Width</strong> — the width of the collection image; </li>
+    <li><strong>Collection Image Height</strong> — the height of the collection image; </li>
+    <li><strong>Products</strong> — collection products; </li>
+    <li><strong>Product Image Width </strong>— the width of the product images; </li>
+    <li><strong>Product Image Height</strong> — the height of the product images. </li>
 </ol>
 
 <h5>Connecting products with the collection image, adding product selection area:</h5>
@@ -109,7 +90,7 @@ Module Name</strong> — the name of the module; </li>
 </figure>
 
 
-<p align="justify">After pressing the "Add Image Map" button, at the bottom, you'll see a window, which allows creating selection areas and adding products to such areas.</p>
+<p align="justify">After pressing the "Add Image Map" button you'll see a window, which allows creating selection areas and adding products to such areas (at the bottom).</p>
 
 <figure class="img-polaroid">
     <img src="img/edit-collection_add_image_map_object.jpg" alt=""/>
@@ -122,7 +103,6 @@ Module Name</strong> — the name of the module; </li>
 </figure>
 
 <p>To create a selection area on the picture, press the button, the name of which corresponds to the necessary form of selection area.</p>
-
 
 <figure class="img-polaroid">
     <img src="img/edit-collection_product_figures_add.jpg" alt=""/>
@@ -138,7 +118,7 @@ Module Name</strong> — the name of the module; </li>
     <img src="img/edit-collection_product_figures_edit.jpg" alt=""/>
 </figure>
 
-<p>Then, double-click the area and, in the drop-down window, select the needed product, press the "Save" button.</p>
+<p>Next, double-click the area and select the needed product in the dropdown, then press the "Save" button.</p>
 
 <figure class="img-polaroid">
     <img src="img/edit-collection_product_figures_save.jpg" alt=""/>

@@ -1,13 +1,13 @@
 <h3>TemplateMonster Single Category Products</h3>
 
-<p>This module allows you to display 4 main modules (Bestsellers, Featured, Specials, Latest) with the products from certain category in tab view.</p>
+<p>This module allows you to display 4 main modules (Bestsellers, Featured, Specials, Latest) with the products from certain category in the tab view.</p>
 
 <figure class="img-polaroid">
     <img src="img/tm-single-category-product-view.jpg" alt="">
 </figure>
 
 <p>After the module is installed you can configure it on the module settings page.</p>
-<h4>How to manage TemplateMonsterSingle Category Products module</h4>
+<h4>How to manage TemplateMonster Single Category Products module</h4>
 <p>Navigate to <strong>Extensions</strong> &gt; <strong>Extensions</strong>.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-1.jpg" alt=""/></figure>
@@ -16,7 +16,7 @@
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-2.jpg" alt=""/></figure>
 </p>
-<p>Find the<strong> TemplateMonster Single Category Products </strong> section. Press <strong>edit</strong> button to configure the existing module.</p>
+<p>Find the<strong> TemplateMonster Single Category Products </strong> section. Press the <strong>edit</strong> button to configure the existing module.</p>
 <p align="justify" class="alert alert-info">Use <strong>Ctrl+F</strong> to simplify the search process.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/tm-single-category-product-view-3.jpg" alt=""/></figure>
@@ -47,7 +47,7 @@
     <li>
         
             <strong>Product Type</strong>
-             — allows you to select module type. Available when the Tabs option is  disabled.
+             — allows you to select module type. Available when the Tabs option is disabled.
         
 
         The following values are available:
@@ -116,5 +116,3 @@
         
   </li>
 </ol>
-
-

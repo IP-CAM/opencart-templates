@@ -1,13 +1,8 @@
-<h3> TemplateMonster Deal Banner
-</h3>
+<h3> TemplateMonster Deal Banner </h3>
 <figure class="img-polaroid">
     <img src="img/deal.jpg" alt=""/>
 </figure>
-
-<p align="justify">When the module is installed, you can configure it on the module configuration page. </p>
-
-<h4 align="justify">How to manage TemplateMonster Deal Banner
-module</h4>
+<h4 align="justify">How to manage TemplateMonster Deal Banner module</h4>
 <p>Navigate to <strong>Extensions</strong> &gt; <strong>Extensions</strong>.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-1.jpg" alt=""/></figure>
@@ -16,7 +11,7 @@ module</h4>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-2.jpg" alt=""/></figure>
 </p>
-<p>Find the <strong>TemplateMonster Deal Banner</strong> section. Press <strong>edit</strong> button to configure the existing module.</p>
+<p>Find the <strong>TemplateMonster Deal Banner</strong> section. Press the <strong>edit</strong> button to configure the existing module.</p>
 <p align="justify" class="alert alert-info">Use <strong>Ctrl+F</strong> to simplify the search process.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/deal-2.jpg" alt=""/></figure>
@@ -29,10 +24,10 @@ module</h4>
 <ul class="marked-list">
   <li> <strong>Module Name</strong> — the name of the module;</li>
   <li><strong>Status</strong> — define the module status (enabled/disabled);</li>
-  <li><strong>Date</strong> — set date in the format of yyyy-mm-dd hh:mm:ss. For Example: 2016-01-01 00:00:00&quot;;</li>
+  <li><strong>Date</strong> — set the date in the format of yyyy-mm-dd hh:mm:ss. For example, 2016-01-01 00:00:00&quot;;</li>
   <li><strong>Image</strong> — choose the image for a banner. In order to choose the image, press the &quot;edit&quot; button; </li>
-  <li><strong>Image Width</strong> —    width of the banner image;</li>
-  <li><strong>Image Height</strong> —     height of the banner image;</li>
+  <li><strong>Image Width</strong> — width of the banner image;</li>
+  <li><strong>Image Height</strong> —  height of the banner image;</li>
   <li>
     <div align="justify"><strong>Description</strong> — add the text to display within the module. You can add a link to any category or product using the editor. In order to do that, press the &quot;edit&quot; button on the editor toolbar;</div>
   </li>
@@ -49,7 +44,7 @@ module</h4>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-2.jpg" alt=""/></figure>
 </p>
-<p align="justify">Find the <strong>TemplateMonster Deal Banner</strong> section. Press<strong> Add New </strong>button to create a new module.</p>
+<p align="justify">Find the <strong>TemplateMonster Deal Banner</strong> section. Press the<strong> Add New </strong>button to create a new module.</p>
 <p align="justify" class="alert alert-info">Use <strong>Ctrl+F</strong> to simplify the search process.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/deal-4.jpg" alt=""/></figure>
@@ -60,16 +55,16 @@ module</h4>
 <ul class="marked-list">
   <li> <strong>Module Name</strong> — the name of the module;</li>
   <li><strong>Status</strong> — define the module status (enabled/disabled);</li>
-  <li><strong>Date</strong> — Set date in the format of yyyy-mm-dd hh:mm:ss. For Example: 2016-01-01 00:00:00&quot;;</li>
+  <li><strong>Date</strong> — set the date in the format of yyyy-mm-dd hh:mm:ss. For example, 2016-01-01 00:00:00&quot;;</li>
   <li><strong>Image</strong> — choose the image for a banner. In order to choose the image, press the &quot;edit button&quot;; </li>
-  <li><strong>Image Width</strong> —    width of the banner image;</li>
-  <li><strong>Image Height</strong> —     height of the banner image;</li>
+  <li><strong>Image Width</strong> — width of the banner image;</li>
+  <li><strong>Image Height</strong> — height of the banner image;</li>
   <li><strong>Description</strong> — add the text to display within the module;</li>
   <li>
     <div align="justify"><strong>Title on Days/Hours/Minutes/Seconds</strong> — enter the title which will be displayed under the <strong>Days/Hours/Minutes/Seconds</strong> section of a countdown.</div>
   </li>
 </ul>
-<h4 align="justify">How to assign the new  TemplateMonster Deal Banner  module to the Home Page (via Layout Builder)</h4>
+<h4 align="justify">How to assign the new TemplateMonster Deal Banner  module to the Home Page (via Layout Builder)</h4>
 <p align="justify">Navigate to <strong>Extensions</strong> &gt; <strong>Extensions</strong>.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-1.jpg" alt=""/></figure>
@@ -87,15 +82,15 @@ module</h4>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-8.jpg" alt=""/></figure>
 </p>
-<p>Chose the position where you want to place the <strong>New TemplateMonster Deal Banner</strong> module. You can add row or column, if you want.</p>
+<p>Choose the position where you want to place the <strong>New TemplateMonster Deal Banner</strong> module. You can add a row or a column.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-9.jpg" alt=""/></figure>
 </p>
-<p>Press <strong>Add Widget</strong> button.</p>
+<p>Press the <strong>Add Widget</strong> button.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-11.jpg" alt=""/></figure>
 </p>
-<p> In the pop-up window choose the <strong>TemplateMonster Deal Banner</strong> module to add. </p>
+<p>In the popup window choose the <strong>TemplateMonster Deal Banner</strong> module to add. </p>
 <p align="justify" class="alert alert-info">Use <strong>Ctrl+F</strong> to simplify the search process.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/olark-view-6.jpg" alt=""/></figure>
@@ -127,7 +122,7 @@ module</h4>
 <p>
   <figure class="img-polaroid"> <img src="img/olark-view-9.jpg" alt=""/></figure>
 </p>
-<p>You will see the module was successfully added.</p>
+<p>The module was added successfully.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/olark-view-10.jpg" alt=""/></figure>
 </p>
@@ -135,4 +130,4 @@ module</h4>
 <p>Scroll the page up and click the <strong>Save</strong> button at the top right of the screen to apply the changes:
   <figure class="img-polaroid"> <img src="img/edit-parallax-21.jpg" alt=""/></figure>
 </p>
-<p align="justify" class="alert alert-info">You can use such method to assign any module type to any layout of your online-store.</p>
+<p align="justify" class="alert alert-info">You can use this method to assign any module type to any layout of your online store.</p>

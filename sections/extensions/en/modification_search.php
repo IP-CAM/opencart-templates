@@ -1,19 +1,19 @@
 <h3>TemplateMonster Search</h3>
 
-<p> <strong>TemplateMonster Live Search</strong> modification allows you to display searched product(s) without re-loading the page. </p>
+<p><strong>TemplateMonster Live Search</strong> modification allows you to display searched product(s) without reloading the page. </p>
 <p>
   <figure class="img-polaroid">
     <img src="img/tm-live-view.jpg" alt=""/>
   </figure>
   </p>
-<p>In order to
-  remove it or disable it, navigate to <strong>Extensions >
-    Modifications</strong>. </p>
-    <p>
+<p>In order to remove or disable it, navigate to the <strong>Extensions > Modifications</strong>. </p>
+    
+	<p>
   <figure class="img-polaroid">
     <img src="img/tm-live-view-1.jpg" alt=""/>
   </figure>
   </p>
+  
 <p>Select the modification from the list, and click <strong>Disable</strong>.</p>
  <p>
   <figure class="img-polaroid">

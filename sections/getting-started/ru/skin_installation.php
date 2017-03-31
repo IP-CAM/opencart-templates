@@ -31,7 +31,7 @@
    <img src="img/skin-1.jpg" alt=""/>   
 </figure>
 
-<p align="justify">Нажмите кнопку &quot;<strong>Обновить</strong>&quot; в правом верхнем углу панели.</p>
+<p align="justify">Нажмике кнопку &quot;<strong>Обновить</strong>&quot; в правом верхнем углу панели.</p>
 <p>
   <figure class="img-polaroid">
     <img src="img/skin-2.jpg" alt=""/>   

@@ -22,8 +22,8 @@
     <li><strong>Limit</strong> — количество постов, отображаемых на странице;</li>
     <li><strong>Description Symbol Limit </strong>— количество символов в описании статьи на странице блога (не статьи!);</li>
     <li><strong>Comment Auto approval</strong> — включает/отключает автоматическое подтверждение комментариев администратором;</li>
-    <li><strong>Author Information</strong> — включает/отключает показ информации об авторе на странице основного текста статьи;</li>
-    <li><strong>Related Article</strong> — включает/отключает показ  статей,  относящихся к данной (смежных статей);</li>
+    <li><strong>Author Information</strong> — включает/отключает показ информации об авторе на стратице основного текста статьи;</li>
+    <li><strong>Related Article</strong> — включает/отключает показ  статей,  относящихся к данной (смежный статей);</li>
     <li><strong>Share with social site</strong> — включает/отключает показ социальных иконок “поделиться”.</li>
 </ul>
 
@@ -45,7 +45,7 @@
 <li><strong>Report</strong> — отчет по просмотрам.</li></ul>
 
  <h4><strong>Author</strong></h4>
-    <p align="justify">В таблице с перечнем всех авторов, вы можете увидеть такую общую информацию о них, как   	<strong>Author Name </strong>(Имя Автора), <strong>Status </strong>(Статус Отображения) и <strong>Date Added</strong> (Дата добавления). Для добавления нового автора, нажмите кнопку <strong> Insert </strong>(Добавить). Вы можете изменить настройки отображения или отредактировать информацию об авторе, нажав кнопку<strong> Edit</strong> (Редактировать).</p>
+    <p align="justify">В таблице с перечнем всех авторов, вы можете увидеть такую общею информацию о них, как   	<strong>Author Name </strong>(Имя Автора), <strong>Status </strong>(Статус Отображения) и <strong>Date Added</strong> (Дата добавления). Для добавления нового автора, нажмите кнопку <strong> Insert </strong>(Добавить). Вы можете изменить настройки отображения или отредактировать информацию об авторе, нажав кнопку<strong> Edit</strong> (Редактировать).</p>
 <p>
       <figure class="img-polaroid">
         <img src="img/blog-global-edit-8.jpg" alt="">
@@ -61,48 +61,48 @@
     <tr>
         <td width="148" class="col-1"><strong>Author Name</strong></td>
         <td width="15">-</td>
-        <td width="348"> <p align="justify">имя автора. Имя должно быть уникальным.</p></td>
+        <td width="348"> <p>имя автора. Имя должно быть уникальным.</p></td>
     </tr>
     <tr>
         <td class="col-1"><strong>SEO Keyword</strong></td>
         <td>-</td>
-        <td><div align="justify">не используйте пробелы там, где они заменены дефисом ( &quot;-&quot; ). Убедитесь, что ключевые слова является уникальными в глобальном масштабе.</div></td>
+        <td>не используйте пробелы там, где они заменены дефизом ( &quot;-&quot; ). Убедитесь, что ключевые слова является уникальными в глобальном масштабе.</td>
     </tr>       
     <tr>
         <td class="col-1"><strong>Avatar</strong></td>
         <td>-</td>
-        <td><div align="justify"><span class="col-1">выберите изображения для аватара автора (эскиза с изображением автора, отображаемого рядом с описанием автора на странице основного текста статьи).</span></div></td>
+        <td><div align="justify"><span class="col-1">выберите изображения для аватара автора (эскиза с изображением автора, отобразаемого рядом с описанием автора на странице основного текста статьи).</span></div></td>
     </tr>
     <tr>
         <td class="col-1"><strong>Status</strong></td>
         <td>-</td>
-        <td> <div align="justify">включите/ отключите отображение автора на странице основного текста статьи.</div></td>
+        <td> включите/ отключите отображение автора на странице основного текста статьи.</td>
     </tr>
      <tr>
         <td class="col-1"><strong>Description:</strong></td>
         <td>-</td>
-        <td><div align="justify"><span class="col-1">дополнительная информация об авторе.</span></div></td>
+        <td><span class="col-1">дополнительная информация об авторе.</span></td>
     </tr>
      <tr>
         <td class="col-1"><strong>Meta Tag Description</strong></td>
         <td>-</td>
-        <td><div align="justify"><span class="col-1">объяснения содержания описания (дополнительной информации).</span></div></td>
+        <td><span class="col-1">объяснения содержания описания (дополнительной информации).</span></td>
     </tr>
      <tr>
         <td class="col-1"><strong>Meta Tag Keywords</strong></td>
         <td>-</td>
-        <td><div align="justify">ключевые слова описания.</div></td>
+        <td>слючевие слова описания.</td>
     </tr>
 </table>
 <h4><strong>Category</strong></h4>
-<p align="justify">В таблице с перечнем всех категорий, вы можете увидеть такую общую информацию о них, как <strong>Category Name </strong>(Название Категорий), <strong>Status </strong>(Статус Отображения) и <strong>Sort Order </strong>(Порядок Отображения). Для добавления новой категории, нажмите кнопку <strong> Insert </strong>(Добавить). Вы можете изменить настройки отображения или отредактировать категорию, нажав кнопку<strong> Edit</strong> (Редактировать).</p>
+<p align="justify">В таблице с перечнем всех категорий, вы можете увидеть такую общею информацию о них, как <strong>Category Name </strong>(Название Категорий), <strong>Status </strong>(Статус Отображения) и <strong>Sort Order </strong>(Порядок Отображения). Для добавления новой категории, нажмите кнопку <strong> Insert </strong>(Добавить). Вы можете изменить настройки отображения или отредактировать категорию, нажав кнопку<strong> Edit</strong> (Редактировать).</p>
  <figure class="img-polaroid">
   <img src="img/blog-global-edit-9.jpg" alt="">
 </figure>
 <p align="justify">В менеджере вы можете <strong>удалить</strong> или<strong> отметить для редактирования</strong> несколько категорий одновременно.<br />
 Для этого, выберите категорию(-ии), отметив их галочкой в боксе слева от названия категории, а затем, нажмите кнопку <strong>удалить</strong> или <strong>редактировать</strong>, в зависимости от необходимого действия. </p>
 <h5>Добавление новой/изменение настроек существующей Категории</h5>
-    <p align="justify">Менеджер категорий поддерживает функцию мульти-язычности. Все данные относительно категорий вносятся с учетом рабочего языка сайта (здесь русский и английский). </p>
+    <p>Менеджер категорий поддерживает функцию мульти-язычности. Все данные относительно категорий вносятса с учетом рабочего языка сайта (здесь русский и английский). </p>
 <div align="justify">Вы увидите 2 вкладки настроек: </div>
 <ul class="marked-list">
   <li>General;</li>
@@ -116,21 +116,21 @@
     <tr>
         <td width="148" class="col-1"><strong>Category Name</strong></td>
         <td width="15">-</td>
-        <td width="348"> <p align="justify"> название категории.</p></td>
+        <td width="348"> <p> название категории.</p></td>
     </tr>
     <tr>
         <td class="col-1"><strong>Meta Tag Description</strong></td>
         <td>-</td>
-        <td><div align="justify">это текст краткого описания содержания категории, который появится на странице результатов поиска.</div></td>
+        <td>это текст краткого описания содержания категории, который появится на странице результатов поиска.</td>
     </tr>       
     <tr>
         <td class="col-1"><strong>Meta Tag Keywords:</strong></td>
         <td>-</td>
-        <td><div align="justify">ключевые слова.</div></td>
+        <td>ключевие слова.</td>
     </tr>
     <tr>
-        <td height="40" class="col-1"><strong>Description</strong></td>
-      <td>-</td>
+        <td class="col-1"><strong>Description</strong></td>
+        <td>-</td>
         <td><div align="justify">это текст, который отображается перед перечнем всех категорий данной статьи. В тексте должно содержаться описания содержания категории. </div></td>
     </tr>
 </table>
@@ -142,55 +142,55 @@
     <tr>
         <td width="148" class="col-1"><strong>Parent Category</strong></td>
         <td width="15">-</td>
-        <td width="348"> <p align="justify">выберите родительскую категорию для категории.</p></td>
+        <td width="348"> <p>выберите родительскую категорию для категории.</p></td>
     </tr>       
     <tr>
         <td class="col-1"><strong>Meta Tag Keywords</strong></td>
         <td>-</td>
-        <td><div align="justify"><span class="col-1">ключевые слова. Убедитесь, что ключевые слова является уникальными в глобальном масштабе.</span></div></td>
+        <td><span class="col-1">ключевие слова. Убедитесь, что ключевые слова является уникальными в глобальном масштабе.</span></td>
     </tr>
     <tr>
         <td class="col-1"><strong>Stores</strong></td>
         <td>-</td>
-        <td><div align="justify">выберите магазин, к которому вы хотите прикрепить категорию.</div></td>
+        <td>выберите магазин, к которому вы хотите прикрепить категорию.</td>
     </tr>
      <tr>
         <td class="col-1"><strong>Image</strong></td>
         <td>-</td>
-        <td><p align="justify">выберите изображение для иконки, которая будет показана рядом с описанием категории.</p></td>
+        <td><p>выберите изображение для иконки, которая будет показана рядом с описание категории.</p></td>
     </tr>
     <tr>
         <td height="23" class="col-1"><strong>Top</strong></td>
         <td>-</td>
-        <td><div align="justify">отображать в главном меню. Отображаются только   родительские категории.</div></td>
+        <td>отображать в главном меню. Отображаются только   родительские категории.</td>
   </tr>
     <tr>
         <td class="col-1"><strong>Columns</strong></td>
         <td>-</td>
-        <td><div align="justify">количество отображаемых подкатегорий (глубина). Только для родительских категорий. Желательно устанавливать значение &quot;0&quot;. </div></td>
+        <td>количество отображаемых подкатегорий (глубина). Только для родительских категорий. Желательно устанавливать значение &quot;0&quot;. </td>
     </tr>
     <tr>
         <td class="col-1"><strong>Article limit per page</strong></td>
         <td>-</td>
-        <td><div align="justify">опция помогает установить количество постов, отображаемых на странице.</div></td>
+        <td>опция помогает установить количество постов, отображаемых на странице.</td>
     </tr>
     <tr>
         <td class="col-1"><strong>Sort Order</strong></td>
         <td>-</td>
-        <td> <div align="justify">порядок отображения категории. 0 — первый в порядке.</div></td>
+        <td> порядок отображения категории. 0 — первый в порядке.</td>
     </tr>
     <tr>
-        <td height="21" class="col-1"><strong>Status</strong></td>
-      <td>-</td>
-        <td><div align="justify">включает/ отключает категорию. (статьи категории будет по-прежнему доступны).</div></td>
+        <td class="col-1"><strong>Status</strong></td>
+        <td>-</td>
+        <td>включает/ отключает категорию. (статьи категории будет по-прежнему доступны)</td>
     </tr>
 </table>
 <h4><strong>Article
 </strong></h4>
-<p align="justify">В таблице с перечнем всех статей, вы можете увидеть такую общую информацию о них, как <strong>Article Title </strong>(Заголовок Статьи), <strong>Author Name</strong> (Имя Автора),<strong> Status </strong>(Статус Отображения) и <strong>Date Added </strong>(Дата Добавления). Для добавления новой статьи, нажмите кнопку <strong> Insert </strong>(Добавить). Вы можете изменить настройки отображение или отредактировать содержание статьи, нажав кнопку<strong> Edit</strong> (Редактировать).</p>
+<p align="justify">В таблице с перечнем всех статей, вы можете увидеть такую общею информацию о них, как <strong>Article Title </strong>(Заголовок Статьи), <strong>Author Name</strong> (Имя Автора),<strong> Status </strong>(Статус Отображения) и <strong>Date Added </strong>(Дата Добавления). Для добавления новой статьи, нажмите кнопку <strong> Insert </strong>(Добавить). Вы можете изменить настройки отображение или отредактировать содержание статьи, нажав кнопку<strong> Edit</strong> (Редактировать).</p>
 <p align="justify">В менеджере вы можете <strong>удалить</strong> или<strong> отметить для редактирования</strong> несколько статей одновременно.<br />
 Для этого, выберите статью(-ии), отметив их галочкой в боксе слева от заголовка статьи, а затем, нажмите кнопку <strong>удалить</strong> или <strong>редактировать</strong>, в зависимости от необходимого действия.</p>
-<h5>Добавление новой/изменение настроек и содержания существующей Статьи</h5>
+<h5>Добавление новой/изменение настроек и содержиния существующей Статьи</h5>
 <div align="justify">Вы увидите 4 вкладки настроек: </div>
 <ul class="marked-list">
   <li>General;</li>
@@ -199,7 +199,7 @@
   <li>Related.</li>
 </ul>
 <h5>Вкладка General</h5>
-<p align="justify">Менеджер статей поддерживает функцию мульти-язычности. Все данные относительно статей вносятся с учетом рабочего языка сайта (здесь русский и английский). </p>
+<p align="justify">Менеджер статей поддерживает функцию мульти-язычности. Все данные относительно статей вносятса с учетом рабочего языка сайта (здесь русский и английский). </p>
 <figure class="img-polaroid">
     <img src="img/blog-global-edit-2.jpg" alt="">
 </figure>
@@ -207,22 +207,22 @@
     <tr>
         <td width="112" class="col-1"><strong>Title</strong></td>
         <td width="15">-</td>
-        <td width="249"> <p align="justify">заголовок статьи.</p></td>
+        <td width="249"> <p>заголовок статьи.</p></td>
     </tr>
     <tr>
         <td class="col-1"><strong>Description</strong></td>
         <td>-</td>
-        <td><div align="justify">содержание статьи. Поддерживает язык HTML.</div></td>
+        <td>садержание статьи. Поддерживает язык HTML.</td>
     </tr>       
     <tr>
         <td class="col-1"><strong>SEO Description</strong></td>
         <td>-</td>
-        <td><div align="justify"><span class="col-1">объясняет содержание статьи.</span></div></td>
+        <td><span class="col-1">объясняет содержание статьи.</span></td>
     </tr>
     <tr>
         <td class="col-1"><strong>SEO Keyword</strong></td>
         <td>-</td>
-        <td><div align="justify">ключевые слова содержания.</div></td>
+        <td>ключевие слова содержания.</td>
     </tr>
 </table>
 
@@ -239,7 +239,7 @@
     <tr>
         <td class="col-1"><strong>Additional Description</strong></td>
         <td>-</td>
-        <td><div align="justify">дополнительная информация о статье (краткое описание).</div></td>
+        <td>дополнительная информация о статье (краткое описание).</td>
     </tr>
 </table>
 <h5>Вкладка Option</h5>
@@ -250,37 +250,37 @@
     <tr>
         <td width="213" class="col-1"><strong>Allow comments for this article?</strong></td>
         <td width="15">-</td>
-        <td width="417"> <p align="justify"> разрешайте или запрещайте комментирование статьи.</p></td>
+        <td width="417"> <p> разрешайте или запрещайте коментирование статьи.</p></td>
     </tr>
     <tr>
         <td class="col-1"><strong>Author Name</strong></td>
         <td>-</td>
-        <td><div align="justify">покажите автора статьи.</div></td>
+        <td>покажите автора статьи.</td>
     </tr>       
     <tr>
         <td class="col-1"><strong>SEO Keyword</strong></td>
         <td>-</td>
-        <td><div align="justify">ключевые слова содержания.</div></td>
+        <td>ключевие слова содержания.</td>
     </tr>
     <tr>
         <td class="col-1"><strong>Category</strong></td>
         <td>-</td>
-        <td> <div align="justify">прикрепите статью к категории.</div></td>
+        <td> прикрепите статью к категории.</td>
     </tr>
      <tr>
         <td class="col-1"><strong>Store:</strong></td>
         <td>-</td>
-        <td> <div align="justify">выберите магазин, где хотите отображать данную статью.</div></td>
+        <td> выберите магазин, где хотите отображать данную статью.</td>
     </tr>
      <tr>
         <td class="col-1"><strong> Sort Order: </strong></td>
         <td>-</td>
-        <td> <div align="justify">порядок отображения статьи. 0 — первая в порядке.</div></td>
+        <td> порядок отображения статьи. 0 — первая в порядке.</td>
     </tr>
      <tr>
-        <td height="21" class="col-1"><strong>Status:</strong></td>
-       <td>-</td>
-        <td><div align="justify">включает/ отключает отображение статьи.</div></td>
+        <td class="col-1"><strong>Status:</strong></td>
+        <td>-</td>
+        <td>включает/ отключает отображение статьи.</td>
     </tr>
 </table>
 <h5>Related Tab</h5>
@@ -296,27 +296,27 @@
     <tr>
         <td class="col-1"><strong>Category</strong></td>
         <td>-</td>
-        <td><div align="justify">выдерите категорию.</div></td>
+        <td>выдерите категорию.</td>
     </tr>       
     <tr>
         <td class="col-1"><strong>Related Articles</strong></td>
         <td>-</td>
-        <td><div align="justify">выберите смежную статьи.</div></td>
+        <td>выберите смежную статьи.</td>
     </tr>
     <tr>
         <td class="col-1"><strong>Article Name</strong></td>
         <td>-</td>
-        <td><div align="justify">введите название искомой статью, доступна функция автозаполнения.</div></td>
+        <td>введите название искомой статью, доступна функция автозаполнения.</td>
     </tr>
      <tr>
         <td class="col-1"><strong>Sort Order:</strong></td>
         <td>-</td>
-        <td> <div align="justify">порядок отображения смежной (сопровождающей) статьи. 0 — первая в порядке.</div></td>
+        <td> порядок отображения смежной (сопровождающей) статьи. 0 — первая в порядке.</td>
     </tr>
      <tr>
         <td class="col-1"><strong>Status:</strong></td>
         <td>-</td>
-        <td><div align="justify">статус отображения смежной статьи.</div></td>
+        <td>статус отображения смежной статьи.</td>
     </tr>
 </table>
 <h4><strong>Article Comment</strong></h4>
@@ -370,7 +370,7 @@
   <figure class="img-polaroid"> <img src="img/article-1.jpg" alt=""/> </figure>
 </p>
 <p>После установки модуля, Вы можете настроить его на странице настроек модуля.</p>
-<h4>Как управлять модулем TemplateMonster  Blog Articles</h4>
+<h4>How to manage TemplateMonster  Blog Articles module</h4>
 <p>Перейдите к разделу <strong>Модули / Расширения</strong> (Extensions) &gt; <strong>Модули / Расширения</strong> (Extensions).</p>
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-1.jpg" alt=""/> </figure>
@@ -380,7 +380,7 @@
   <figure class="img-polaroid"> <img src="img/edit-parallax-2.jpg" alt=""/> </figure>
 </p>
 <p align="justify">В таблице с перечнем всех модулей, найдите раздел <strong> TemplateMonster  Blog Articles</strong>. Нажав кнопку &quot;редактировать&quot; (edit), вы перейдете к окну настроек существующего модуля. </p>
-<p align="justify" class="alert alert-info">Используйте сочетание клавиш <strong>Ctrl+F</strong> для упрощения процесса поиска.</p>
+<p align="justify" class="alert alert-info">Use <strong>&lt;strong&gt;Ctrl+F&lt;/strong&gt;</strong> to simplify the search process.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/tm-blog-articles-edit-17.jpg" alt=""/> </figure>
 </p>
@@ -428,7 +428,7 @@
   <figure class="img-polaroid"> <img src="img/edit-parallax-2.jpg" alt=""/></figure>
 </p>
   <p align="justify">В таблице с перечнем всех модулей, найдите раздел<strong> TemplateMonster  Blog Category</strong>. Нажав кнопку &quot;редактировать&quot; (edit), вы перейдете к окну настроек существующего модуля. </p>
-  <p align="justify" class="alert alert-info">Используйте сочетание клавиш <strong>Ctrl+F</strong> для упрощения процесса поиска.</p>
+  <p align="justify" class="alert alert-info">Use <strong>&lt;strong&gt;Ctrl+F&lt;/strong&gt;</strong> to simplify the search process.</p>
   <p>
     <figure class="img-polaroid"> <img src="img/tm-blog-category-edit-1.jpg" alt=""/></figure>
 </p>

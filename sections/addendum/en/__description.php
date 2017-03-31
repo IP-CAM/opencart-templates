@@ -33,7 +33,7 @@
 <h4>Validation</h4>
 
 <p align="justify" class="alert alert-info">Both HTML markup and CSS styles used in our templates are semantically correct and valid.
-    However, some W3C errors can still take place. Making code 100% W3C valid eliminates the usage of modern website
+    However some W3C errors can still take place. Making code 100% W3C valid eliminates the usage of modern website
     technologies as CSS3 features and HTML5 markup. Our goal is to deliver rich user experience with high quality
     templates and sometimes we have to break some rules.</p>
 

@@ -1,6 +1,6 @@
 <h3>TemplateMonster Module Tabs</h3>
 
-<p>This module allows you to display 4 main modules (Bestsellers, Featured, Specials, Latest) in tabs.</p>
+<p>This module allows to display 4 main modules (Bestsellers, Featured, Specials, Latest) in tabs.</p>
 
 <figure class="img-polaroid">
     <img src="img/tm-moduletabs-view.jpg" alt=""/>
