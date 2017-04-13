@@ -6,6 +6,6 @@
 </figure>
 
 
-<p>This setting allows changing product zoom type on the product page. You can find the options in the store settings <b>(System-> Settings-> Options)</b> in the <b>Products</b> section.</p>
+<p>This setting allows changing product zoom type on the product page. You can find the options in the store settings <b>(System > Settings > Options)</b> in the <b>Products</b> section.</p>
 
 

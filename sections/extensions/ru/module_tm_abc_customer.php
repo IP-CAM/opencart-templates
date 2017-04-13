@@ -1,4 +1,3 @@
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <h3>TM ABC Customers</h3>
 
 <p>Модуль предназначен для назначения скидок клиентам разных групп, при этом клиенту пересчитывается сумма заказа при
@@ -6,7 +5,7 @@
 
 <h4>Настройки для групп клиентов:</h4>
 
-<p>Необходимо создать группы клиентов и настроить их</p>
+<p>Необходимо создать группы для клиентов и настроить их</p>
 
 <figure class="img-polaroid">
 	<img src="img/create-customer-groups.png" alt=""/>
@@ -28,13 +27,13 @@
 	<li>
 		<dl class="inline-term">
 			<dt>Approve New Customers</dt>
-			<dd>Все новые клиенты должны быть подтверждены администратором (Да | Нет);</dd>
+			<dd>Возможность подтверждать вход пользователя администратором (YES | NO);</dd>
 		</dl>
 	</li>
 	<li>
 		<dl class="inline-term">
 			<dt>Sort Order</dt>
-			<dd>Порядок отображения.</dd>
+			<dd>Порядок сортировки.</dd>
 		</dl>
 	</li>
 </ol>
@@ -54,13 +53,13 @@
 	<li>
 		<dl class="inline-term">
 			<dt>Status</dt>
-			<dd>Статус модуля (включен | отключен);</dd>
+			<dd>Статус модуля (enabled | disabled);</dd>
 		</dl>
 	</li>
 	<li>
 		<dl class="inline-term">
 			<dt>Sort Order</dt>
-			<dd>Порядок отображения;</dd>
+			<dd>Порядок сортировки;</dd>
 		</dl>
 	</li>
 </ol>
@@ -68,4 +67,4 @@
 <figure class="img-polaroid"><img
 		src="img/edit-customer-group-discount.png" alt=""></figure>
 
-<p>После внесения процента скидки для каждой из групп (0-100%), необходимо нажать кнопку "Сохранить".</p>
+<p>После внесения процента скидки для каждой из групп (0-100%), необходимо нажать кнопку Save.</p>

@@ -55,6 +55,34 @@
       }
     },
     {
+      "id": "product-builder",
+      "translations": {
+        "en": "Product Builder",
+        "ru": "Product Builder",
+        "de": "Product Builder",
+        "es": "Product Builder",
+        "fr": "Product Builder",
+        "it": "Product Builder",
+        "pl": "Product Builder",
+        "pt": "Product Builder",
+        "tr": "Product Builder"
+      } 
+    },
+     {
+      "id": "comments-plugin",
+      "translations": {
+        "en": "Comments Plugin",
+        "ru": "Comments Plugin",
+        "de": "Comments Plugin",
+        "es": "Comments Plugin",
+        "fr": "Comments Plugin",
+        "it": "Comments Plugin",
+        "pl": "Comments Plugin",
+        "pt": "Comments Plugin",
+        "tr": "Comments Plugin"
+      } 
+    },
+    {
       "id": "module_countdown",
       "translations": {
         "en": "Countdown timer",
