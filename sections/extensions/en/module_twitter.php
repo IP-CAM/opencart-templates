@@ -23,14 +23,14 @@
 </p>
 <p>You will be brought to the settings window:</p>
 <figure class="img-polaroid">
-  <img src="img/tm-twitter-edit.jpg" alt=""/>
+  <img src="img/tm-twitter-edit-4.jpg" alt=""/>
 </figure>
 <h5>Available settings:</h5>
 
 <ul class="marked-list">
   <li> <strong>Module Name</strong> — the name of the module;</li>
   <li><strong>Twitter Page URL</strong> — allows specifying custom Twitter Page URL;</li>
-  <li><strong>Tweet Limit</strong> —  number of tweets;</li>
+  <li><strong>Color Scheme</strong> — select the color scheme (light, dark);</li>
   <li><strong>Width</strong> — the pixel width of the widget;</li>
   <li><strong>Height</strong> — the pixel height of the widget; </li>
   <li><strong>Status</strong> — define the module status (enabled/disabled).</li>
