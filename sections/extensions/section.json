@@ -336,20 +336,6 @@
         "tr": "TM Deal Banner"
       }
     },
-       {
-      "id": "tm_filter",
-      "translations": {
-        "en": "TM Filter",
-        "ru": "TM Filter",
-        "de": "TM Filter",
-        "es": "TM Filter",
-        "fr": "TM Filter",
-        "it": "TM Filter",
-        "pl": "TM Filter",
-        "pt": "TM Filter",
-        "tr": "TM Filter"
-      }
-    },
         {
       "id": "tm_footer_links",
       "translations": {
