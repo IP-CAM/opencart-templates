@@ -460,6 +460,21 @@
         "tr": "Blog"
       }
     },
+
+        {
+      "id": "tm_footer_links",
+      "translations": {
+        "en": "TM Footer Links",
+        "ru": "TM Footer Links",
+        "de": "TM Footer Links",
+        "es": "TM Footer Links",
+        "fr": "TM Footer Links",
+        "it": "TM Footer Links",
+        "pl": "TM Footer Links",
+        "pt": "TM Footer Links",
+        "tr": "TM Footer Links"
+      }
+    },
     {
       "id": "module_single_category",
       "translations": {
