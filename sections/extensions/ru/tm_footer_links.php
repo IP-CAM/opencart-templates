@@ -8,7 +8,7 @@
 <p>
   <figure class="img-polaroid"> <img src="img/edit-parallax-2.jpg" alt=""/></figure>
 </p>
-<p>Find the <strong>TM Footer Link</strong> section. Press the <strong>edit</strong> button to configure the existing module .В таблице с перечнем всех модулей, найдите раздел <strong>TM Footer Link</strong>. Нажав кнопку &quot;редактировать&quot; (edit), вы перейдете к окну настроек существующего модуля.</p>
+<p>В таблице с перечнем всех модулей, найдите раздел <strong>TM Footer Link</strong>. Нажав кнопку &quot;редактировать&quot; (edit), вы перейдете к окну настроек существующего модуля.</p>
 <p align="justify" class="alert alert-info">Используйте сочетание клавиш <strong>Ctrl+F</strong> для упрощения процесса поиска.</p>
 <p>
   <figure class="img-polaroid"> <img src="img/footer-2.jpg" alt=""/></figure>
