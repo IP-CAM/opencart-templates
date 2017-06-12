@@ -1,6 +1,6 @@
 <h2 class="item2">Preparation</h2>
 
-<h6 align="justify">Before setting up your Joomla website, make sure you are fully prepared. Please complete the following preparation steps:</h6>
+<h6 align="justify">Before setting up your website, make sure you are fully prepared. Please complete the following preparation steps:</h6>
 
 <h4>Software required</h4>
 <p align="justify">To feel comfortable working with the OpenCart template, we recommend downloading all the applications required. You can see the list of required software at the template Live Demo page. Requirements can vary significantly depending upon the  template, the common ones will be defined  only:</p>
