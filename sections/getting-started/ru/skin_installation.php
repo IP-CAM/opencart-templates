@@ -37,6 +37,6 @@
     <img src="img/skin-2.jpg" alt=""/>   
   </figure>
 </p>
-<p>В корневой папке вашего магазина удалите все файлы, КРОМЕ ФАЙЛА INDEX.HTML,  в папке <strong>image</strong> &gt; <strong>chache</strong>. </p>
-<p>Удалите все, кроме INDEX.HTML, их папки <strong>system</strong> &gt; <strong>storage</strong> &gt; <strong>chache</strong>.</p>
+<p>В корневой папке вашего магазина удалите все файлы, КРОМЕ ФАЙЛА INDEX.HTML,  в папке <strong>image</strong> &gt; <strong>cache</strong>. </p>
+<p>Удалите все, кроме INDEX.HTML, из папки <strong>system</strong> &gt; <strong>storage</strong> &gt; <strong>cache</strong>.</p>
 <p><strong>Обновите </strong>страницу вашего интернет-магазина.</p>
