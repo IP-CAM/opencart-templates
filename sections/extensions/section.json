@@ -55,6 +55,34 @@
       }
     },
     {
+      "id": "product-builder",
+      "translations": {
+        "en": "Product Builder",
+        "ru": "Product Builder",
+        "de": "Product Builder",
+        "es": "Product Builder",
+        "fr": "Product Builder",
+        "it": "Product Builder",
+        "pl": "Product Builder",
+        "pt": "Product Builder",
+        "tr": "Product Builder"
+      } 
+    },
+     {
+      "id": "comments-plugin",
+      "translations": {
+        "en": "Comments Plugin",
+        "ru": "Comments Plugin",
+        "de": "Comments Plugin",
+        "es": "Comments Plugin",
+        "fr": "Comments Plugin",
+        "it": "Comments Plugin",
+        "pl": "Comments Plugin",
+        "pt": "Comments Plugin",
+        "tr": "Comments Plugin"
+      } 
+    },
+    {
       "id": "module_countdown",
       "translations": {
         "en": "Countdown timer",
@@ -430,6 +458,35 @@
         "pl": "Blog",
         "pt": "Blog",
         "tr": "Blog"
+      }
+    },
+     {
+      "id": "3d",
+      "translations": {
+        "en": "TemplateMonster 360-view",
+        "ru": "TemplateMonster 360-view",
+        "de": "TemplateMonster 360-view",
+        "es": "TemplateMonster 360-view",
+        "fr": "TemplateMonster 360-view",
+        "it": "TemplateMonster 360-view",
+        "pl": "TemplateMonster 360-view",
+        "pt": "TemplateMonster 360-view",
+        "tr": "TemplateMonster 360-view"
+      }
+    },
+
+        {
+      "id": "tm_footer_links",
+      "translations": {
+        "en": "TM Footer Links",
+        "ru": "TM Footer Links",
+        "de": "TM Footer Links",
+        "es": "TM Footer Links",
+        "fr": "TM Footer Links",
+        "it": "TM Footer Links",
+        "pl": "TM Footer Links",
+        "pt": "TM Footer Links",
+        "tr": "TM Footer Links"
       }
     },
     {
