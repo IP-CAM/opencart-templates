@@ -460,6 +460,20 @@
         "tr": "Blog"
       }
     },
+     {
+      "id": "3d",
+      "translations": {
+        "en": "TemplateMonster 360-view",
+        "ru": "TemplateMonster 360-view",
+        "de": "TemplateMonster 360-view",
+        "es": "TemplateMonster 360-view",
+        "fr": "TemplateMonster 360-view",
+        "it": "TemplateMonster 360-view",
+        "pl": "TemplateMonster 360-view",
+        "pt": "TemplateMonster 360-view",
+        "tr": "TemplateMonster 360-view"
+      }
+    },
 
         {
       "id": "tm_footer_links",
