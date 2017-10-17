@@ -1,53 +1,144 @@
-<h3>Parallax</h3>
+<h3>TM Parallax</h3>
 
-<p> Parallax Scrolling ist eine spezielle Scrolling-Technik in der Computergraphik. Dank ihm bewegen sich die Bilder im
-    Hintergrund langsamer als Inhalt, der sich im Vordergrund befindet. Dadurch wird die Illusion von Tiefe und der
-    Effekt des Eintauchens in ein zweidimensionales Videospiel geschaffen. Dank diesem Modul fügen Sie den
-    Parallax-Effekt zur Website ohne zusätzliche Fähigkeiten und Anstrengungen hinzu. </p>
+<p>Dieses Modul ermöglicht es Ihnen, Bereiche mit Parallaxe-Effekt auf den Seiten zu erstellen. Das Modul bietet die Möglichkeit, Bilder, Videos und andere Module anzuzeigen. Das Modul unterstützt eine unbegrenzte Anzahl von Schichten, die sich in unterschiedlichen Richtungen und mit unterschiedlichen Geschwindigkeiten bewegen können.</p>
 
-<p class="alert alert-info">Sowohl die Breite als auch die Höhe des Bildes müssen dem Originalbild, das standardmäßig
-    benutzt wird, entsprechen. Andererseits wird der Effekt Ihren Erwartungen nicht entsprechen. </p>
+<figure class="img-polaroid">
+    <img src="img/tm_parallax.png" alt=""/>
+</figure>
 
-<p>Nachdem Sie dieses Modul installiert haben, können Sie es auf der Seite der Moduleinstellungen einstellen</p>
+<h5>TM Parallax Modulkonfiguration :</h5>
+<h6>Allemeine Enstellungen:</h6>
 
-<ul class="marked-list">
+<ol class="index-list">
     <li>
         <dl class="inline-term">
-            <dt>Module Name</dt>
-            <dd>Modulname;</dd>
+            <dt>Modulname</dt>
+            <dd>Name des Moduls;</dd>
         </dl>
     </li>
-
     <li>
         <dl class="inline-term">
-            <dt>Banner</dt>
-            <dd>wählen Sie aus der Liste von Bannern, die Sie vorher erstellt haben,
-                <a href='#banner_create'>aus;</a>
+            <dt>Status</dt>
+            <dd>Modulstatus (aktiviert/deaktiviert);</dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Bild</dt>
+            <dd>Hintergrund (grundsätzliches) Parallaxbild;</dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Breite</dt>
+            <dd>Hintergrundbild Breite;</dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Höhe</dt>
+            <dd>Hintergrundbild Höhe;</dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Verschwommenheit</dt>
+            <dd>Hintergrund wird unscharf, wenn die Größe (Maße) zu niedrig ist für eine hochwertige Anzeige im Parallaxbereich;
             </dd>
         </dl>
     </li>
     <li>
         <dl class="inline-term">
-            <dt>Width</dt>
-            <dd>die Bildbreite für das Modul;</dd>
+            <dt>Richtung</dt>
+            <dd>Parallaxeffekt Bewegungsrichtung ;</dd>
         </dl>
     </li>
-
     <li>
         <dl class="inline-term">
-            <dt>Height</dt>
-            <dd>die Bildhöhe für das Modul;</dd>
+            <dt>Geschwindigkeit</dt>
+            <dd>Parallaxeffekt Bewegungsgeschwindigkeit ;</dd>
         </dl>
     </li>
+</ol>
 
+<h6>Zusätzliche Moduleinstellungen :</h6>
+<ol class="index-list">
     <li>
-        <dl class="inline-term">
-            <dt>Status</dt>
-            <dd>der Modulstatus (aktiviert/deaktiviert).</dd>
-        </dl>
-    </li>
-</ul>
+        <p>Um eine neue Ebene zu erstellen klicken Sie auf den <strong>"Add Layer"</strong> Knopf.</p>
 
-<figure class="img-polaroid">
-    <img src="img/edit-parallax.jpg" alt=""/>
-</figure>
+        <figure class="img-polaroid">
+            <img src="img/tm_parallax_edit-1.png" alt=""/>
+        </figure>
+
+        <p>Nach dem hinzufügen einer neuen Ebene, geben Sie die folgenden Einstellungen an.</p>
+
+        <h5>Ebenekonfiguration:</h5>
+
+        <ol class="index-list">
+            <li>
+                <dl class="inline-term">
+                    <dt>Typ</dt>
+                    <dd>Schichttyp;</dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt>Beschreibung</dt>
+                    <dd>Schichtbeschreibung;</dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt>Bild</dt>
+                    <dd>Schichtbild;</dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt>Breite</dt>
+                    <dd>Schichtbildbreite ;</dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt>Höhe</dt>
+                    <dd>Schichtbildhöhe;</dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt>Geschwindigkeit</dt>
+                    <dd>Schicht Bewegungsgeschwindigkeit ;</dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt>Verblassen</dt>
+                    <dd>die Schicht wird von der vollen Transparenz auf die volle Deckkraft je nach Schicht Scroll-Position nach und nach sichtbar werden;
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt>Verschwommenheit</dt>
+                    <dd>Hintergrund wird unscharf, wenn die Größe (Maße) zu niedrig ist für eine hochwertige Anzeige im Parallaxbereich. Es ist nur anwendbar für die "Medien" Typ-Schichten;
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt>Richtung</dt>
+                    <dd>Schicht Bewegungsrichtung;</dd>
+                </dl>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>Um das Modul in der Ebene anzuzeigen, müssen Sie auf den <strong>"Add Module"</strong> Knopf in der entsprechenden Ebene klicken.</p>
+        <figure class="img-polaroid">
+            <img src="img/tm_parallax_edit-2.png" alt=""/>
+        </figure>
+        <p>Nachdem Sie den <strong>"Add Module"</strong> Knopf geklickt haben,wird das <strong>"Added Module name"</strong> Feld verfügbar, hier sollten Sie das Modul auswählen,um es in der aktuellen Ebene anzuzeigen.</p>
+    </li>
+</ol>
+

@@ -1,170 +1,144 @@
-<h3>Parallax</h3>
+<h3>TM Parallax</h3>
 
-<p align="justify">Parallax-scroll is a specific scrolling technique used in computer graphics that shows background images appearing slower than the site content itself, thereby creating the illusion of depth and the effect of immersion in a two-dimensional video game. This module allows you to add a parallax effect to your site with no additional skills and efforts. </p>
-<p align="justify">When the module is installed, you can configure it on the module settings page.</p>
-<h4>How to manage Parallax module</h4>
-<p>Navigate to <strong>Extensions</strong> &gt; <strong>Extensions</strong>.</p>
-<p>
-  <figure class="img-polaroid">
-    <img src="img/edit-parallax-1.jpg" alt=""/>
-  </figure>
-</p>
-<p>Choose <strong>Modules</strong> in the <strong>Extension type</strong> dropdown.</p>
-<p>
-  <figure class="img-polaroid">
-    <img src="img/edit-parallax-2.jpg" alt=""/>
-  </figure>
-</p>
-<p>Find the <strong>TemplateMonster Parallax</strong> section. Press the <strong>edit</strong> button to configure the existing module.</p>
-<p align="justify" class="alert alert-info">Use <strong>Ctrl+F</strong> to simplify the search process.</p>
-<p>You will be brought to the settings window:</p>
+<p>This module allows you to create areas with parallax effect on pages. The module provides the ability to display images, video and other modules. The module supports the unlimited number of the layers, any of which can move in different directions and at different speeds.</p>
+
 <figure class="img-polaroid">
-    <img src="img/edit-parallax-3.jpg" alt=""/>
+    <img src="img/tm_parallax.png" alt=""/>
 </figure>
 
+<h5>TM Parallax module configuration:</h5>
+<h6>General settings:</h6>
 
+<ol class="index-list">
+    <li>
+        <dl class="inline-term">
+            <dt>Module Name</dt>
+            <dd>name of the module;</dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Status</dt>
+            <dd>module status (enabled/disabled);</dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Image</dt>
+            <dd>background (main) parallax image;</dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Width</dt>
+            <dd>background image width;</dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Height</dt>
+            <dd>background image height;</dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Blur</dt>
+            <dd>background image blur in case its size (dimensions) is too low for high-quality display in the parallax area;
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Direction</dt>
+            <dd>parallax effect movement direction;</dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Speed</dt>
+            <dd>parallax effect movement speed;</dd>
+        </dl>
+    </li>
+</ol>
 
-<h5>Available settings:</h5>
+<h6>Additional module settings:</h6>
+<ol class="index-list">
+    <li>
+        <p>In order to create a new layer you need to press on <strong>"Add Layer"</strong> button.</p>
 
-<ul class="marked-list">
-    <li>
-  
-    <strong>Module Name</strong> — the name of the module; </li>
-    <li>
-       
-    <strong>Width</strong> — module image width; </li>
-    <li>
-        
-    <strong>Height</strong> — module image height; </li>
-    <li>
-    
-    <strong>Blur</strong> — turn on/off the effect of blurring the image when its size is too small; </li>
-    <li>
-     
-      <div align="justify"><strong>Direction</strong> — sets the direction of parallax motion. Normal — parallax scrolling moves in the opposite direction, Inverse — parallel to it; </div>
-    </li>
-    <li>
-  <strong>Speed</strong> — sets the speed ratio for the parallax, relative to the base rate. Value: from 0 to 2; </li>
-    <li>
-		<strong>Status</strong> — module status (enabled/disabled).
-    </li>
-</ul>
-<p align="justify" class="alert alert-info">Image width and height should be corresponding to the original (used by default), otherwise the effect may not meet your expectations.</p>
-<h4>How to add a new Parallax module</h4>
-<p>Navigate to <strong>Extensions</strong> &gt; <strong>Extensions</strong>.</p>
-<p>
-  <figure class="img-polaroid"> <img src="img/edit-parallax-1.jpg" alt=""/> </figure>
-</p>
-<p>Choose <strong>Modules</strong> in the <strong>Extension type</strong> dropdown.</p>
-<p>
-  <figure class="img-polaroid"> <img src="img/edit-parallax-2.jpg" alt=""/> </figure>
-</p>
-<p>Find the <strong>TemplateMonster Parallax</strong> section. Press the<strong> Add New </strong>button to create a new module.</p>
-<p align="justify" class="alert alert-info">Use <strong>Ctrl+F</strong> to simplify the search process.</p>
-<p>
-  <figure class="img-polaroid"> <img src="img/edit-parallax-4.jpg" alt=""/> </figure>
-</p>
+        <figure class="img-polaroid">
+            <img src="img/tm_parallax_edit-1.png" alt=""/>
+        </figure>
 
-<p>You will be brought to the settings window:</p>
-<figure class="img-polaroid"> <img src="img/edit-parallax-5.jpg" alt=""/> </figure>
-<p>Fill in the required fields:</p>
-<ul class="marked-list">
-    <li>
-       
-            <strong>Module Name</strong> — enter the name of the module;
-            </dt>
-        
+        <p>After adding the layer specify the following settings:</p>
+
+        <h5>Layer configuration:</h5>
+
+        <ol class="index-list">
+            <li>
+                <dl class="inline-term">
+                    <dt>Type</dt>
+                    <dd>layer type;</dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt>Description</dt>
+                    <dd>layer description;</dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt>Image</dt>
+                    <dd>layer image;</dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt>Width</dt>
+                    <dd>layer image width;</dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt>Height</dt>
+                    <dd>layer image height;</dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt>Speed</dt>
+                    <dd>layer movement speed;</dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt>Fade</dt>
+                    <dd>the layer will gradually become visible from the full transparency to the full opacity depending on layer scroll position;
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt>Blur</dt>
+                    <dd>background image blur in case its size (dimensions) is too low for high-quality display in the parallax area. It's applicable only to the "Media" type layers;
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt>Direction</dt>
+                    <dd>layer movement direction;</dd>
+                </dl>
+            </li>
+        </ol>
     </li>
     <li>
-       
-            <strong>Width</strong> — set the module image width;
-            </dt>
-        
+        <p>In order to display module in the layer, you need to press on the <strong>"Add Module"</strong> button in the appropriate layer.</p>
+        <figure class="img-polaroid">
+            <img src="img/tm_parallax_edit-2.png" alt=""/>
+        </figure>
+        <p>After pressing the <strong>"Add Module"</strong> button, <strong>"Added Module name"</strong> field will become available, you need to select module here, to display it in the current layer.</p>
     </li>
-    <li>
-       
-    <strong>Height</strong> — set the module image height; </li>
-    <li>
-       
-    <strong>Blur</strong> — turn on/off the effect of blurring the image when its size is too small; </li>
-    <li>
-     
-      <div align="justify"><strong>Direction</strong> — set the direction of parallax motion. Normal — parallax scrolling moves in the opposite direction, Inverse — parallel to it; </div>
-    </li>
-    <li>
-       
-  <strong>Speed</strong> — set the speed ratio for the parallax, relative to the base rate. Value: from 0 to 2; </li>
-	<li>
-		<strong>Status</strong> — define the module status (enabled/disabled).
-	</li>
-</ul>
-<p>Scroll the page up and click the <strong>Save</strong> button at the top right of the screen to save changes:
-  <figure class="img-polaroid"> <img src="img/edit-parallax-6.jpg" alt=""/> </figure>
-</p>
-<h4>How to assign the new Parallax module to the Home Page (via Layout Builder)</h4>
-<p align="justify">Navigate to <strong>Extensions</strong> &gt; <strong>Extensions</strong>.</p>
-<p>
-  <figure class="img-polaroid"> <img src="img/edit-parallax-1.jpg" alt=""/> </figure>
-</p>
-<p>Choose <strong>Modules</strong> in the <strong>Extension type</strong> dropdown.</p>
-<p>
-  <figure class="img-polaroid"> <img src="img/edit-parallax-2.jpg" alt=""/> </figure>
-</p>
-<p>Find the <strong>Template Monster Layout Builder</strong> section. Navigate to the Home Page module and press the edit button.</p>
-<p>
-  <figure class="img-polaroid"> <img src="img/edit-parallax-7.jpg" alt=""/> </figure>
-</p>
-<p align="justify" class="alert alert-info">Use <strong>Ctrl+F</strong> to simplify the search process.</p>
-<p>You will be brought to the settings window:</p>
-<p>
-  <figure class="img-polaroid"> <img src="img/edit-parallax-8.jpg" alt=""/> </figure>
-</p>
-<p>Choose the position where you want to place the <strong>New Parallax</strong> module. You can add a row or a column.</p>
-<p>
-  <figure class="img-polaroid"> <img src="img/edit-parallax-9.jpg" alt=""/> </figure>
-</p>
-<p>Press the <strong>Add Widget</strong> button.</p>
-<p>
-  <figure class="img-polaroid"> <img src="img/edit-parallax-11.jpg" alt=""/> </figure>
-</p>
-<p> In the popup window choose the <strong>Parallax </strong>module to add. </p>
-<p align="justify" class="alert alert-info">Use <strong>Ctrl+F</strong> to simplify the search process.</p>
-<p>
-  <figure class="img-polaroid"> <img src="img/edit-parallax-12.jpg" alt=""/> </figure>
-</p>
-<p>We have added the <strong>New Parallax</strong> module.</p>
-<p>
-  <figure class="img-polaroid"> <img src="img/edit-parallax-13.jpg" alt=""/> </figure>
-</p>
-<p>Scroll the page up and click the  <strong>Save</strong> button at the top right of the screen to apply the changes:
-  <figure class="img-polaroid"> <img src="img/edit-parallax-14.jpg" alt=""/></figure> 
-</p>
-<p align="justify" class="alert alert-info">You can use such method to assign any module type to the home page.</p>
-<h4>How to assign the new Parallax module to any layout (via Layouts)</h4>
-<p>Navigate to <strong>Design</strong> &gt; <strong>Layouts</strong>.</p>
-<p>
-  <figure class="img-polaroid"> <img src="img/edit-parallax-15.jpg" alt=""/></figure>
-</p>
-<p align="justify">Choose the page (layout) you want the New Parallax module place on and press the edit button in the corresponding field in the action column.</p>
-<p>
-  <figure class="img-polaroid"> <img src="img/edit-parallax-17.jpg" alt=""/></figure>
-</p>
-<p>Move to the <strong>Choose the position of the modules</strong> section.</p>
-<p>Select the module position you want to place the module.</p>
-<p>Find the required module  in the dropdown.</p>
-<p>
-  <figure class="img-polaroid"> <img src="img/edit-parallax-18.jpg" alt=""/></figure>
-</p>
-<p>Press the &quot;Add Module&quot; button.</p>
-<p>
-  <figure class="img-polaroid"> <img src="img/edit-parallax-19.jpg" alt=""/></figure>
-</p>
-<p>The module was added successfully.</p>
-<p>
-  <figure class="img-polaroid"> <img src="img/edit-parallax-20.jpg" alt=""/></figure>
-</p>
-<p>Now you can remove and edit the module from here. Simply press the appropriate button.</p>
-<p>Scroll the page up and click the  <strong>Save</strong> button at the top right of the screen to apply the changes:
-  <figure class="img-polaroid"> <img src="img/edit-parallax-21.jpg" alt=""/></figure>
-</p>
-<p align="justify" class="alert alert-info">You can use such method to assign any module type to any layout of your online store.</p>
+</ol>
+

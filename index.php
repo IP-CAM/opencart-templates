@@ -70,14 +70,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <a href="<?php echo $path; ?>/"><img src="<?php echo $path; ?>/img/logo.png" alt=""></a>
         </div>
         <div class="panel">
-           <!--  <div class="select select-version">
+            <div class="select select-version">
                 <select>
-                    <option data-href="#" selected>Storeflex</option>
-                    <option data-href="/help/quick-start-guide/opencart-templates/v1-2/index_en.html">Version v1-2</option>
-                    <option data-href="/help/quick-start-guide/opencart-templates/v1-1/index_en.html">Version v1-1</option>
+                    <option data-href="/help/quick-start-guide/opencart-templates/v1-2/">Version v1-2</option>
+                    <option data-href="/help/quick-start-guide/opencart-templates/v1-1/index_en.html" selected>Version v1-1</option>
                     <option data-href="/help/quick-start-guide/opencart-templates/v1-0/index_en.html">Version v1-0</option>
                 </select>
-            </div> -->
+            </div>
             <div class="select select-lang">
                 <select>
                     <option
@@ -88,7 +87,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         data-href="<?php echo $path; ?>/index.php?lang=ru&section=<?php echo $section_param; ?>" <?php echo $lang == "ru" ? "selected" : ""; ?>>
                         RU
                     </option>
-                   <!--  <option
+                    <option
                         data-href="<?php echo $path; ?>/index.php?lang=de&section=<?php echo $section_param; ?>" <?php echo $lang == "de" ? "selected" : ""; ?>>
                         DE
                     </option>
@@ -115,7 +114,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <option
                         data-href="<?php echo $path; ?>/index.php?lang=tr&section=<?php echo $section_param; ?>" <?php echo $lang == "tr" ? "selected" : ""; ?>>
                         TR
-                    </option> -->
+                    </option>
                 </select>
             </div>
         </div>

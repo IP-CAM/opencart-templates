@@ -27,7 +27,9 @@
 <h4>Hosting</h4>
 
 <p>Ponieważ silnik OpenCart jest aplikacją opartą na PHP/MySQL, trzeba przygotować środowisko hostingowe. </p>
-<p>Jeśli masz live hosting, prosimy upewnić się, że on spełnia wymagania systemowe OpenCart i jest gotowy do użycia
+<p>Jeśli masz live hosting, prosimy upewnić się, że on spełnia
+ <a href="http://docs.OpenCart.com/requirements" target="_blank">wymagania systemowe OpenCart</a>
+ i jest gotowy do użycia
     przez witryny internetowe OpenCart.</p>
 
 <p>Ewentualnie można uruchomić OpenCart lokalnie na swoim komputerze za pomocą serwera lokalnego. Aby utworzyć lokalny

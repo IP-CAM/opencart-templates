@@ -28,7 +28,7 @@
 <p>Tal como OpenCart es una aplicación basada en PHP/MySQL, es necesario preparar un entorno de alojamiento. </p>
 
 <p>Si usted tiene un hosting en línea, asegúrese de que cumple con los
-    <a href="http://docs.OpenCart.com/system/server-requirements" target="_blank"> Requisitos del sistema de
+    <a href="http://docs.opencart.com/requirements/" target="_blank"> Requisitos del sistema de
         OpenCart</a>
     y está listo para ser utilizado en las páginas web de OpenCart.
 </p>

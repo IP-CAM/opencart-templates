@@ -31,7 +31,7 @@
 <p>OpenCart PHP/MySQL temelli bir uygulama olduğu için, kullandığınız hosting (barındırma) da buna uygun olmalıdır.</p>
 
 <p>Kullanmakta olduğunuz bir hosting varsa,
-    <a href="http://docs.OpenCart.com/system/server-requirements" target="_blank">OpenCart sistem gereksinimleri</a>
+    <a href="http://docs.OpenCart.com/requirements" target="_blank">OpenCart sistem gereksinimleri</a>
     ne uygun olduğuna ve OpenCart sitenizin kullanımı için hazır olduğuna emin olmalısınız.
 </p>
 <p>Alternatif olarak OpenCart'ı kendi bilgisayarınızda da barındırabilirsiniz. Bunun için bir yerel sunucu kurmalısınız

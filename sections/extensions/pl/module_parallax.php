@@ -1,49 +1,144 @@
-<h3>Parallax</h3>
+<h3>TM Parallax</h3>
 
-<p>Parallax-scroll (Paralaksa-scroll) - specyficzna technika przewijania, stosowana w grafice komputerowej: obrazki tła
-    pojawiają się wolniej niż sama treść witryny, tworząc iluzję głębi i efekt zanurzenia w dwuwymiarową grę wideo. Ten
-    moduł pozwala dodać efekt przewijania "paralaksa" na twoją witrynę bez dodatkowych umiejętności i wysiłków. </p>
+<p>Ten moduł umożliwia tworzenie obszarów z efektem paralaksy na stronach. Moduł zapewnia możliwość wyświetlania zdjęć, filmów i innych modułów. Moduł obsługuje dowolną liczbę warstw, z których każda może przemieszczać się w różnych kierunkach i w różnych szybkościach.</p>
 
-<p>Kiedy moduł jest zainstalowany, możesz konfigurować go na stronie ustawień modułu.</p>
+<figure class="img-polaroid">
+    <img src="img/tm_parallax.png" alt=""/>
+</figure>
 
-<p class="alert alert-info">Szerokość i wysokość obrazka powinny być odpowiednie do oryginału (używanego domyślnie), w
-    przeciwnym razie efekt może nie spełnić twoich oczekiwań..</p>
+<h5>Konfiguracja modułu TM Parallax:</h5>
+<h6>Ogólne ustawienia:</h6>
 
-<h5>Ustawienia:</h5>
-
-<ul class="marked-list">
+<ol class="index-list">
     <li>
         <dl class="inline-term">
-            <dt>Module Name</dt>
+            <dt>Nazwa modułu (Module Name)</dt>
             <dd>nazwa modułu;</dd>
         </dl>
     </li>
     <li>
         <dl class="inline-term">
-            <dt>Banner</dt>
-            <dd>wybierz baner z listy wcześniej utworzonych <a href='#banner_create'>banerów</a>;</dd>
-        </dl>
-    </li>
-    <li>
-        <dl class="inline-term">
-            <dt>Width</dt>
-            <dd>szerokość obrazka modułu;</dd>
-        </dl>
-    </li>
-    <li>
-        <dl class="inline-term">
-            <dt>Height</dt>
-            <dd>wysokość obrazka modułu;</dd>
-        </dl>
-    </li>
-    <li>
-        <dl class="inline-term">
             <dt>Status</dt>
-            <dd>status modułu (włączony/wyłączony)</dd>
+            <dd>status modułu (włączony/wyłączony);</dd>
         </dl>
     </li>
-</ul>
+    <li>
+        <dl class="inline-term">
+            <dt>Zdjęcie (Image)</dt>
+            <dd>(główne) zdjęcie paralaksy w tle;</dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Szerokość (Width)</dt>
+            <dd>szerokość zdjęcia w tle;</dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Wysokość (Height)</dt>
+            <dd>wysokość zdjęcia w tle;</dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Niewyrazistość (Blur)</dt>
+            <dd>rozmycie tła zdjęcia w razie, gdy jego wielkość (wymiary) w obszarze paralaksy jest zbyt niska dla wyświetlania o wysokiej jakości;
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Kierunek (Direction)</dt>
+            <dd>kierunek ruchu efektu paralaksy;</dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Szybkość (Speed)</dt>
+            <dd>szybkość ruchu efektu paralaksy;</dd>
+        </dl>
+    </li>
+</ol>
 
-<figure class="img-polaroid">
-    <img src="img/edit-parallax.jpg" alt=""/>
-</figure>
+<h6>Dodatkowe ustawienia modułu:</h6>
+<ol class="index-list">
+    <li>
+        <p>W celu stworzenia nowej warstwy, należy nacisnąć przycisk <strong>"Dodaj warstwę" ("Add Layer")</strong>.</p>
+
+        <figure class="img-polaroid">
+            <img src="img/tm_parallax_edit-1.png" alt=""/>
+        </figure>
+
+        <p>Po dodaniu warstwy należy określić następujące ustawienia:</p>
+
+        <h5>Konfiguracja warstwy:</h5>
+
+        <ol class="index-list">
+            <li>
+                <dl class="inline-term">
+                    <dt>Typ (Type)</dt>
+                    <dd>typ warstwy;</dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt>Opis (Description)</dt>
+                    <dd>opis warstwy;</dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt>Zdjęcie (Image)</dt>
+                    <dd>zdjęcie warstwy;</dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt>Szerokość (Width)</dt>
+                    <dd>szerokość zdjęcia warstwy;</dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt>Wysokość (Height)</dt>
+                    <dd>wysokość zdjęcia warstwy;</dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt>Szybkość (Speed)</dt>
+                    <dd>szybkość ruchu warstwy;</dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt>Zanikanie (Fade)</dt>
+                    <dd>warstwa będzie stopniowo stawała się widoczna od pełnej przezroczystości do pełnej nieprzejrzystości w zależności od pozycji przewijania warstwy;
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt>Niewyrazistość (Blur)</dt>
+                    <dd>rozmycie tła zdjęcia w razie, gdy jego wielkość (wymiary) w obszarze paralaksy jest zbyt niska dla wyświetlania o wysokiej jakości. To dotyczy warstw wyłącznie typu "Media";
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt>Kierunek (Direction)</dt>
+                    <dd>kierunek ruchu warstwy;</dd>
+                </dl>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <p>W celu wyświetlenia modułu w warstwie, w odpowiedniej warstwie należy nacisnąć przycisk <strong>"Dodaj moduł" ("Add Module")</strong>.</p>
+        <figure class="img-polaroid">
+            <img src="img/tm_parallax_edit-2.png" alt=""/>
+        </figure>
+        <p>Po naciśnięciu przycisku <strong>"Dodaj moduł" ("Add Module")</strong>, pole <strong>"Nazwa dodanego modułu" ("Added Module name")</strong> stanie się dostępne, tutaj należy wybrać moduł, żeby wyświetlić go w aktualnej warstwie.</p>
+    </li>
+</ol>
+
