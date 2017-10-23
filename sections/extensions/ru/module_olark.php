@@ -6,35 +6,64 @@
     <img src="img/olark-view.jpg" alt=""/>
 </figure>
 
-<p>После установки модуля Вы можете настроить его на странице настроек модуля.</p>
+<p>После установки модуля вы можете настроить его на странице настроек модуля. </p>
+<p align="justify" class="alert alert-info">Для более детальной информации обращайтесь к <a href="https://www.olark.com/help/guide" target="_blank" rel="nofollow">официальному веб-сайту</a>.</p>
 
-<h5>Настройки:</h5>
-<ol class="index-list">
-    <li>
-        <dl class="inline-term">
-            <dt>Module Name</dt>
-            <dd>название модуля;</dd>
-        </dl>
-    </li>
-    <li>
-        <dl class="inline-term">
-            <dt>Site id</dt>
-            <dd>идентификатор сайта, который после регистрации и заполнения всех необходимых данных будет указан на
-                странице
-                <a href='//www.olark.com/install' rel="nofollow" target="_blank">
-                    https://www.olark.com/install</a>
-                ;
-            </dd>
-        </dl>
-    </li>
-    <li>
-        <dl class="inline-term">
-            <dt>Status</dt>
-            <dd>статус модуля (включен/отключен).</dd>
-        </dl>
-    </li>
-</ol>
-
+<h4 align="justify">Как управлять модулем Olark Live Chat</h4>
+<p>Перейдите к разделу <strong>Модули / Расширения</strong> (Extensions) &gt; <strong> Модули / Расширения </strong>(Extensions).</p>
+<p>
+  <figure class="img-polaroid"> <img src="img/edit-parallax-1.jpg" alt=""/></figure>
+</p>
+<p>Выберите <strong>Модули</strong> (Modules) в выпадающем списке  фильтра поиска <strong>по типу расширения</strong> (еxtension type).</p>
+<p>
+  <figure class="img-polaroid"> <img src="img/edit-parallax-2.jpg" alt=""/></figure>
+</p>
+<p align="justify">В таблице с перечнем всех модулей, найдите раздел <strong>Olark Live Chat</strong>. Нажав кнопку &quot;редактировать&quot; (edit), вы перейдете к окну настроек существующего модуля. </p>
+<p align="justify" class="alert alert-info">Используйте сочетание клавиш <strong>Ctrl+F</strong> для упрощения процесса поиска.</p>
+<p>
+  <figure class="img-polaroid"> <img src="img/olark-view-2.jpg" alt=""/></figure>
+</p>
+<p>Вы перейдете к следующему окну настроек:</p>
 <figure class="img-polaroid">
-    <img src="img/olark-edit.jpg" alt=""/>
+  <img src="img/olark-view-3.jpg" alt=""/>
 </figure>
+<h5>Доступные параметры настроек модуля:</h5>
+<ul class="marked-list">
+  <li> <strong>Module Name</strong> — название модуля;</li>
+  <li>
+    <div align="justify"><strong>Your Site ID</strong> — идентификатор сайта, который после регистрации и заполнения всех необходимых данных будет указан на
+                странице
+      <a href='//www.olark.com/install' rel="nofollow" target="_blank"> https://www.olark.com/install</a>;</div>
+  </li>
+  <li> <strong>Status</strong> — статус модуля (включен/отключен).
+    
+  </li>
+</ul>
+<h4 align="justify">Как добавить новый модуль типа  Olark Live Chat</h4>
+<p>Перейдите к разделу <strong>Модули / Расширения</strong> (Extensions) &gt; <strong> Модули / Расширения </strong>(Extensions).</p>
+<p>
+  <figure class="img-polaroid"> <img src="img/edit-parallax-1.jpg" alt=""/></figure>
+</p>
+<p>Выберите <strong>Модули</strong> (Modules) в выпадающем списке  фильтра поиска <strong>по типу расширения</strong> (еxtension type).</p>
+<p>
+  <figure class="img-polaroid"> <img src="img/edit-parallax-2.jpg" alt=""/></figure>
+</p>
+<p align="justify">В таблице с перечнем всех модулей, найдите раздел <strong>Olark Live Chat</strong>. Нажмите кнопку &quot;<strong>Добавить</strong>&quot; и вы перейдете к процессу создания нового модуля этого типа.</p>
+<p align="justify" class="alert alert-info">Используйте сочетание клавиш <strong>Ctrl+F</strong> для упрощения процесса поиска.</p>
+<p>
+  <figure class="img-polaroid"> <img src="img/olark-view-4.jpg" alt=""/></figure>
+</p>
+<p>Перед собой вы увидите следующие окно настроек:</p>
+<figure class="img-polaroid"> <img src="img/olark-view-3.jpg" alt=""/></figure>
+<p>Заполните все необходимые поля настроек:</p>
+<ul class="marked-list">
+  <li> <strong>Module Name</strong> — укажите название модуля;</li>
+  <li>
+    <div align="justify"><strong>Your Site ID</strong> — укажите идентификатор сайта, который после регистрации и заполнения всех необходимых данных, будет указан на
+                странице
+      <a href='//www.olark.com/install' rel="nofollow" target="_blank"> https://www.olark.com/install</a>;</div>
+  </li>
+  <li> <strong>Status</strong> — определите статус модуля (включен/отключен).
+    
+</li>
+</ul>

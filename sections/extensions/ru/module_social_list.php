@@ -1,64 +1,43 @@
 <h3>TemplateMonster Social List</h3>
 
 <p>Данный модуль выводит список ссылок на страницы популярных социальных сетей и сервисов. </p>
+<figure class="img-polaroid">
+    <img src="img/social.jpg" alt=""/>
+</figure>
 
-<p class="alert alert-danger">В случае установки "update" версии темы, демо данные шаблона (список ссылок на соц. сети)
+<p align="justify" class="alert alert-danger">В случае установки "update" версии темы, демо данные шаблона (список ссылок на соц. сети)
     будут недоступны. Заполните данные (необходимые) поля для корректного отображения модуля.</p>
 
-<p>После установки модуля, Вы можете настроить его на странице настроек модуля. Если оставить поле пустым,
+<p align="justify">После установки модуля, Вы можете настроить его на странице настроек модуля. Если оставить поле пустым,
     элемент списка не будет отображен.</p>
-
-<h5>Настройки:</h5>
-<ol class="index-list">
-    <li>
-        <dl class="inline-term">
-            <dt>Youtube</dt>
-            <dd>ссылка на страницу сервиса YouTube;</dd>
-        </dl>
-    </li>
-    <li>
-        <dl class="inline-term">
-            <dt>Facebook</dt>
-            <dd>ссылка на страницу сети Facebook;</dd>
-        </dl>
-    </li>
-    <li>
-        <dl class="inline-term">
-            <dt>Google Plus</dt>
-            <dd>ссылка на страницу сервиса Google Plus;</dd>
-        </dl>
-    </li>
-    <li>
-        <dl class="inline-term">
-            <dt>Twitter</dt>
-            <dd>ссылка на страницу сети Twitter;</dd>
-        </dl>
-    </li>
-    <li>
-        <dl class="inline-term">
-            <dt>Pinterest</dt>
-            <dd>ссылка на страницу сети Pinterest;</dd>
-        </dl>
-    </li>
-    <li>
-        <dl class="inline-term">
-            <dt>Instagram</dt>
-            <dd>ссылка на страницу сети Instagram;</dd>
-        </dl>
-    </li>
-    <li>
-        <dl class="inline-term">
-            <dt>Vimeo</dt>
-            <dd>ссылка на страницу сервиса Vimeo;</dd>
-        </dl>
-    </li>
-    <li>
-        <dl class="inline-term">
-            <dt>Status</dt>
-            <dd>статус модуля (включен/отключен).</dd>
-        </dl>
-    </li>
+<h4>Как управлять модулем TemplateMonster Social List</h4>
+<p>Перейдите к разделу <strong>Модули / Расширения</strong> (Extensions) &gt; <strong> Модули / Расширения </strong>(Extensions).</p>
+<p>
+  <figure class="img-polaroid"> <img src="img/edit-parallax-1.jpg" alt=""/></figure>
+</p>
+<p>Выберите <strong>Модули</strong> (Modules) в выпадающем списке  фильтра поиска <strong>по типу расширения</strong> (еxtension type).</p>
+<p>
+  <figure class="img-polaroid"> <img src="img/edit-parallax-2.jpg" alt=""/></figure>
+</p>
+<p align="justify">В таблице с перечнем всех модулей, найдите раздел<strong> TemplateMonster Social List</strong>. Нажав кнопку &quot;редактировать&quot; (edit), вы перейдете к окну настроек существующего модуля.</p>
+<p align="justify" class="alert alert-info">Используйте сочетание клавиш <strong>Ctrl+F</strong> для упрощения процесса поиска.</p>
+<p>
+  <figure class="img-polaroid"> <img src="img/instagram-1.jpg" alt=""/></figure>
+</p>
+<p>Вы увидите следующие окно настроек:</p>
+<figure class="img-polaroid"> <img src="img/instagram-14.jpg" alt=""/></figure>
+<h5>Доступные параметры настроек модуля:</h5>
+<ol class="marked-list">
+  <li><strong>Module Name</strong> — название модуля;</li>
+  <li><strong> Title</strong> — введите заголовок модуля, который будет виден на вашем сайте;</li>
+  <li>
+    <div align="justify"><strong>Description </strong>— описание отображающееся в окне модуля. Это текст, который поясняет назначение модуля;</div>
+  </li>
+  <li>
+    <div align="justify"><strong>Name</strong> — введите название социальной сети, отображающееся при наведении курсора на иконку социальной сети;</div>
+  </li>
+  <li> <strong>Link</strong> — ссылка на страницу сервиса;</li>
+  <li><strong>Css</strong> —  	 	наименование CSS класса для иконки сервиса.</li>
+  <li><strong>Status </strong>— статус модуля (включен/отключен). </li>
 </ol>
-<figure class="img-polaroid">
-    <img src="img/tm-social-list-edit.jpg" alt=""/>
-</figure>
+<p align="justify" class="alert alert-info">Найдите больше стилей для иконок   <a target="_blank" href="http://www.opencart.com/">здесь</a>.</p>

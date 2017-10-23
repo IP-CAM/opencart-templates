@@ -5,7 +5,7 @@ $path = 'http://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['SCRIPT_NAME']);
 //$path = 111;
 
 // Variables
-$product_name = "OpenCart 2";
+$product_name = "OpenCart 3";
 $product_desc = "Documentation";
 $doc_title = $product_name . " " . $product_desc;
 

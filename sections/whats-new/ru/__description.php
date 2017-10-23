@@ -1,0 +1,1 @@
+<h2 class="item3">Что нового в Opencart 3</h2>

@@ -1,144 +1,83 @@
-<h3>TM Parallax</h3>
+<h3>Parallax</h3>
 
-<p>Данный модуль предназначен для создания параллакс-эффекта. В модуле предусмотрена возможность вывода изображений, видео и других модулей. Модуль поддерживает неограниченное количество слоев, каждый из которых может двигаться в разных направлениях и с разной скоростью.</p>
+<p align="justify">Параллакс-скроллинг — это специальная техника скроллинга в компьютерной графике, при которой изображения на заднем
+    фоне двигаются медленнее контента, который находится на переднем фоне, создавая, таким образом, иллюзию глубины и
+    эффект погружения в двухмерной видео-игре. Данный модуль добавит параллакс-эффект на сайт, не требуя каких-либо
+    дополнительных навыков и усилий. </p>
 
-<figure class="img-polaroid">
-    <img src="img/tm_parallax.png" alt=""/>
-</figure>
+<p align="justify" class="alert alert-info">Ширина и высота картинки должна соответствовать оригинальной (используемой по умолчанию),
+    иначе эффект может не соответствовать вашим ожиданиям.</p>
 
-<h5>Настройка модуля TM Parallax:</h5>
-<h6>Базовые настройки:</h6>
 
-<ol class="index-list">
-    <li>
-        <dl class="inline-term">
-            <dt>Module Name</dt>
-            <dd>название модуля;</dd>
-        </dl>
-    </li>
-    <li>
-        <dl class="inline-term">
-            <dt>Status</dt>
-            <dd>статус модуля (включен/отключен);</dd>
-        </dl>
-    </li>
-    <li>
-        <dl class="inline-term">
-            <dt>Image</dt>
-            <dd>фоновое (основное) параллакс-изображение;</dd>
-        </dl>
-    </li>
-    <li>
-        <dl class="inline-term">
-            <dt>Width</dt>
-            <dd>ширина фонового изображения;</dd>
-        </dl>
-    </li>
-    <li>
-        <dl class="inline-term">
-            <dt>Height</dt>
-            <dd>высота фонового изображения;</dd>
-        </dl>
-    </li>
-    <li>
-        <dl class="inline-term">
-            <dt>Blur</dt>
-            <dd>размытие фонового изображения в случае, если его размер (разрешение) слишком маленький для качественного отображения в параллакс-секции;
-            </dd>
-        </dl>
-    </li>
-    <li>
-        <dl class="inline-term">
-            <dt>Direction</dt>
-            <dd>направление движения параллакс-эффекта;</dd>
-        </dl>
-    </li>
-    <li>
-        <dl class="inline-term">
-            <dt>Speed</dt>
-            <dd>скорость движения параллакс-эффекта;</dd>
-        </dl>
-    </li>
-</ol>
-
-<h6>Дополнительные настройки модуля:</h6>
-<ol class="index-list">
-    <li>
-        <p>Для добавления дополнительного слоя необходимо нажать кнопку <strong>"Add Layer"</strong>.</p>
-
-        <figure class="img-polaroid">
-            <img src="img/tm_parallax_edit-1.png" alt=""/>
-        </figure>
-
-        <p>После добавления слоя необходимо указать следующие настройки:</p>
-
-        <h5>Настройки слоя:</h5>
-
-        <ol class="index-list">
-            <li>
-                <dl class="inline-term">
-                    <dt>Type</dt>
-                    <dd>тип слоя;</dd>
-                </dl>
-            </li>
-            <li>
-                <dl class="inline-term">
-                    <dt>Description</dt>
-                    <dd>описание слоя;</dd>
-                </dl>
-            </li>
-            <li>
-                <dl class="inline-term">
-                    <dt>Image</dt>
-                    <dd>изображение слоя;</dd>
-                </dl>
-            </li>
-            <li>
-                <dl class="inline-term">
-                    <dt>Width</dt>
-                    <dd>ширина изображения слоя;</dd>
-                </dl>
-            </li>
-            <li>
-                <dl class="inline-term">
-                    <dt>Height</dt>
-                    <dd>высота изображения слоя;</dd>
-                </dl>
-            </li>
-            <li>
-                <dl class="inline-term">
-                    <dt>Speed</dt>
-                    <dd>скорость движения слоя;</dd>
-                </dl>
-            </li>
-            <li>
-                <dl class="inline-term">
-                    <dt>Fade</dt>
-                    <dd>слой будет постепенно проявляться из полной прозрачности в полную непрозрачность в зависимости от позиции прокрутки слоя;
-                    </dd>
-                </dl>
-            </li>
-            <li>
-                <dl class="inline-term">
-                    <dt>Blur</dt>
-                    <dd>размытие изображения слоя в случае, если его размер (разрешение) слишком маленький для качественного отображения в параллакс-секции. Применяется только к слоям с типом "Media";
-                    </dd>
-                </dl>
-            </li>
-            <li>
-                <dl class="inline-term">
-                    <dt>Direction</dt>
-                    <dd>направление движения слоя;</dd>
-                </dl>
-            </li>
-        </ol>
-    </li>
-    <li>
-        <p>Для отображения модуля в слое необходимо нажать кнопку <strong>"Add Module"</strong> в соответствующем слое.</p>
-        <figure class="img-polaroid">
-            <img src="img/tm_parallax_edit-2.png" alt=""/>
-        </figure>
-        <p>После нажатия кнопки <strong>"Add Module"</strong> вы увидите поле <strong>"Added Module name"</strong>, в котором необходимо выбрать модуль, который будет отображаться  в данном слое.</p>
-    </li>
-</ol>
-
+<p>После установки модуля вы можете настроить его на странице настроек модуля.</p>
+<h4>Как управлять модулем Parallax</h4>
+<p>Перейдите к разделу <strong>Модули / Расширения</strong> (Extensions) &gt; <strong> Модули / Расширения </strong>(Extensions).</p>
+<p>
+  <figure class="img-polaroid"> <img src="img/edit-parallax-1.jpg" alt=""/> </figure>
+</p>
+<p>Выберите  <strong>Модули</strong> (Modules) в выпадающем списке  фильтра поиска <strong>по типу расширения</strong> (еxtension type).</p>
+<p>
+  <figure class="img-polaroid"> <img src="img/edit-parallax-2.jpg" alt=""/> </figure>
+</p>
+<p align="justify">В таблице с перечнем всех модулей, найдите раздел <strong>TemplateMonster Parallax</strong>. Нажав кнопку &quot;редактировать&quot; (edit), вы перейдете к окну настроек  существующего модуля. В данном случае это модуль <strong>Lookbook Parallax</strong>.</p>
+<p align="justify" class="alert alert-info">Используйте сочетание клавиш <strong>Ctrl+F</strong> для упрощения процесса поиска.</p>
+<p>Перед собой вы увидите следующие окно настроек:</p>
+<figure class="img-polaroid"> <img src="img/edit-parallax-3.jpg" alt=""/> </figure>
+<h5>Доступные параметры настроек модуля:</h5>
+<ul class="marked-list">
+  <li> <strong>Название модуля</strong> — название модуля; </li>
+  <li> <strong>Ширина</strong> — ширина изображения; </li>
+  <li> <strong>Высота</strong> — высота изображения; </li>
+  <li> 
+    <div align="justify"><strong>Размытие </strong> —  	вы можете активировать эффект размытия слишком маленьких изображений [относительно размера контейнера]; </div>
+  </li>
+  <li> 
+    <div align="justify"><strong>Направление </strong> — укажите направления движения parallax. Normal — в противоположную сторону относительно движения прокрутки, Inverse - по направлению движения прокрутки; </div>
+  </li>
+  <li>
+    <div align="justify"><strong>Скорость</strong> —  	задайте значение скорости эффекта parallax относительно скорости прокрутки. Значение должно быть в пределах от 0 до 2; </div>
+  </li>
+  <li> <strong>Статус</strong> — состояние модуля (включен/отключен).
+    </dt>
+  </li>
+</ul>
+<p align="justify" class="alert alert-info">Ширина и высота картинки должна соответствовать оригинальной (используемой по умолчанию), иначе эффект может не соответствовать вашим ожиданиям. </p>
+<h5 align="justify">Как добавить новый   модуль типа Parallax</h5>
+<p>Перейдите к разделу <strong>Модули / Расширения</strong> (Extensions) &gt; <strong> Модули / Расширения </strong>(Extensions).</p>
+<p>
+  <figure class="img-polaroid"> <img src="img/edit-parallax-1.jpg" alt=""/></figure>
+</p>
+<p>Выберите <strong>Модули</strong> (Modules) в выпадающем списке  фильтра поиска <strong>по типу расширения</strong> (еxtension type).</p>
+<p>
+  <figure class="img-polaroid"> <img src="img/edit-parallax-2.jpg" alt=""/></figure>
+</p>
+<p align="justify">В таблице с перечнем всех модулей, найдите раздел <strong>TemplateMonster Parallax</strong>. Нажмите кнопку &quot;<strong>Добавить</strong>&quot; и вы перейдете к процессу создания нового модуля этого типа.</p>
+<p align="justify" class="alert alert-info">Используйте сочетание клавиш <strong>Ctrl+F</strong> для упрощения процесса поиска.</p>
+<p>
+  <figure class="img-polaroid"> <img src="img/edit-parallax-4.jpg" alt=""/></figure>
+</p>
+<p>Перед собой вы увидите следующие окно настроек:</p>
+<p>
+  <figure class="img-polaroid"> <img src="img/edit-parallax-5.jpg" alt=""/></figure>
+</p>
+<p>Заполните все необходимые поля настроек:</p>
+<ul class="marked-list">
+  <li> <strong>Название модуля</strong> — укажите название модуля; </li>
+  <li> <strong>Ширина</strong> — задайте значение ширины изображения; </li>
+  <li> <strong>Высота</strong> — задайте значение высоты изображения; </li>
+  <li> 
+    <div align="justify"><strong>Размытие </strong> —  	вы можете активировать эффект размытия слишком маленьких изображений [относительно размера контейнера]; </div>
+  </li>
+  <li> 
+    <div align="justify"><strong>Направление </strong> — укажите направления движения parallax. Normal — в противоположную сторону относительно движения прокрутки, Inverse - по направлению движения прокрутки; </div>
+  </li>
+  <li>
+    <div align="justify"><strong>Скорость</strong> —  	задайте значение скорости эффекта parallax относительно скорости прокрутки. Значение должно быть в пределах от 0 до 2; </div>
+  </li>
+  <li> <strong>Статус</strong> — укажите состояние модуля (включен/отключен).
+    </dt>
+  </li>
+</ul>
+<p>Не забудьте сохранить настройки модуля, нажав кнопку &quot;<strong>Сохранить</strong>&quot; в правом верхнем углу:
+  <figure class="img-polaroid"> <img src="img/edit-parallax-6.jpg" alt=""/></figure>
+</p>

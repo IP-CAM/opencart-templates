@@ -1,4 +1,4 @@
-<h2 class="item5">Podsumowanie</h2>
+<h2 class="item5">Przydatna informacja</h2>
 
 <p>OpenCart jest wielofunkcyjnym, szybkim i dostępnym rozwiązaniem dla użytkowników, którzy chcieliby rozpocząć biznes
     online. To cudowny wybór dla online sklepu. Domyślny pakiet silnika zawiera wszystkie moduły, niezbędne do pomyślnej
