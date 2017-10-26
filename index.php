@@ -70,15 +70,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <a href="<?php echo $path; ?>/"><img src="<?php echo $path; ?>/img/logo.png" alt=""></a>
         </div>
         <div class="panel">
-           <!-- <div class="select select-version">
+      <div class="select select-version">
                 <select>
 
-                    <option data-href="/help/quick-start-guide/opencart-templates/v1-4/index_en.html" selected>Version v1-4</option
+                    <option data-href="/help/quick-start-guide/opencart-templates/v1-4/index_en.html" selected>Version v1-4</option>
                     <option data-href="/help/quick-start-guide/opencart-templates/v1-2/index_en.html">Version v1-2</option>
                     <option data-href="/help/quick-start-guide/opencart-templates/v1-1/index_en.html">Version v1-1</option>
                     <option data-href="/help/quick-start-guide/opencart-templates/v1-0/index_en.html">Version v1-0</option>
                 </select>
-            </div> -->
+            </div> 
             <div class="select select-lang">
                 <select>
                     <option
