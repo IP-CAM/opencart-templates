@@ -1,4 +1,4 @@
-<h2 class="item5">Conclusioni</h2>
+<h2 class="item5">Informazioni utili</h2>
 
 <p>OpenCart è una soluzione veloce e multifunzionale per l'utente che desidera avviare un business online. Un'ottima
     soluzione per il tuo negozio online. Il pacchetto motore predefinito contiene tutti i moduli necessari per vendere

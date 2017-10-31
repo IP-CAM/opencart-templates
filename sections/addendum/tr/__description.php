@@ -1,4 +1,4 @@
-<h2 class="item5">Son olarak</h2>
+<h2 class="item5">Yararlı bilgi</h2>
 
 <p>OpenCart; online alışveriş sistemi kullanmak isteyen kurum ve kişiler için çok fonksiyonlu, hızlı ve anlaşabilir bir
     çözümdür. Online mağaza kurmak için tam olarak ihtiyacınız olandır. Başarılı bir satış sistemi için gerekli olan tüm

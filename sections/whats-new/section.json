@@ -1,0 +1,74 @@
+
+
+{
+  "id": "whats-new",
+  "translations": {
+    "en": "What`s new in Opencart 3",
+    "ru": "Что нового в Opencart 3",
+    "es": "Información útil",
+    "de": "Nützliche Information",
+    "fr": "Informations utiles",
+    "it": "Informazioni utili",
+    "pl": "Przydatna informacja",
+    "pt": "Informação útil",
+    "tr": "Yararlı bilgi"
+  },
+  "articles": [
+    {
+      "id": "marketplace",
+      "translations": {
+        "en": "Marketplace",
+        "ru": "Маркетплейс",
+        "de": "Marketplace",
+        "es": "Marketplace",
+        "fr": "Marketplace",
+        "it": "Marketplace",
+        "pl": "Marketplace",
+        "pt": "Marketplace",
+        "tr": "Marketplace"
+      }
+    },
+    {
+      "id": "themeeditor",
+      "translations": {
+        "en": "Theme editor",
+        "ru": "Редактор темы",
+        "de": "Marketplace",
+        "es": "Marketplace",
+        "fr": "Marketplace",
+        "it": "Marketplace",
+        "pl": "Marketplace",
+        "pt": "Marketplace",
+        "tr": "Marketplace"
+      }
+    },
+    {
+      "id": "languageeditor",
+      "translations": {
+        "en": "Language editor",
+        "ru": "Редактор языков",
+        "de": "Marketplace",
+        "es": "Marketplace",
+        "fr": "Marketplace",
+        "it": "Marketplace",
+        "pl": "Marketplace",
+        "pt": "Marketplace",
+        "tr": "Marketplace"
+      }
+    },
+    {
+      "id": "seourls",
+      "translations": {
+        "en": "Multilingual SEO Url`s",
+        "ru": "Многоязычные SEO Url`s",
+        "de": "Marketplace",
+        "es": "Marketplace",
+        "fr": "Marketplace",
+        "it": "Marketplace",
+        "pl": "Marketplace",
+        "pt": "Marketplace",
+        "tr": "Marketplace"
+      }
+    }
+  ]
+}

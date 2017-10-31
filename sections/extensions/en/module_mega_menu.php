@@ -1,16 +1,14 @@
 <h3>TM Megamenu</h3>
 
-<p>This module allows you to create complex menus. The module provides the ability to display a single item (without submenus), an item with a submenu and an item with the multi-row and multi-column submenu block. This module can be displayed in the various positions, but with the same content.
-</p>
+<p align="justify">This module allows you to create complex menus. The module provides the ability to display a single item (without submenus), an item with a submenu and an item with the multi-row and multi-column submenu block. This module can be displayed in the various positions, but with the same content.</p>
 
 <h5>General information</h5>
 
-<ol class="index-list">
+<ol class="marked-list">
     <li>
         <p>Menu activation</p>
 
-        <p>In order to enable megamenu you should navigate to the <strong>Extensions -> Modules -> TM Megamenu</strong> page, press the <strong>Edit</strong> button next to the appropriate item and choose the <strong>Enabled</strong> option in the new window.
-        </p>
+        <p align="justify">In order to enable megamenu you should navigate to the <strong>Extensions > Modules > TM Megamenu</strong> page, press the <strong>Edit</strong> button next to the appropriate item and choose the <strong>Enabled</strong> option in the new window.</p>
     </li>
 </ol>
 
@@ -21,8 +19,8 @@
         <figure class="img-polaroid">
             <img src="img/tm_mega_menu.jpg" alt=""/>
         </figure>
-        <p>Megamenu editing starts here. In order to edit megamenu parameters, open your website admin panel and navigate to the <strong>Extensions -> Modules -> TM Megamenu -> TM Megamenu</strong> page, as on screenshot below.
-        </p>
+        <p align="justify">Megamenu editing starts here. In order to edit megamenu parameters, open your website admin panel and navigate to the <strong>Extensions > Modules > TM Megamenu > TM Megamenu</strong> page, as on screenshot below.
+  </p>
         <figure class="img-polaroid">
             <img src="img/tm_mega_menu_create.jpg" alt=""/>
         </figure>
@@ -31,168 +29,70 @@
     </li>
 
     <li>
-        <p>Clock on one of the menu items to start editing. Fill in the following fields:</p>
+    <p>Click on one of the menu items to start editing. Fill in the following fields:</p>
         <figure class="img-polaroid">
             <img src="img/tm_mega_menu_edit.png" alt=""/>
         </figure>
         <ul class="marked-list">
             <li>
-                <dl class="inline-term">
-                    <dt>Menu Item type</dt>
-                    <dd>type of the menu (regular/megamenu);</dd>
-                </dl>
-            </li>
+                
+                    <strong>Menu Item type</strong> — type of the menu (regular/megamenu);</li>
         </ul>
-        <h5>for 'Custom':</h5>
+        <h5>For 'Custom' option:</h5>
         <ul class="marked-list">
             <li>
-                <dl class="inline-term">
-                    <dt>Menu title</dt>
-                    <dd>menu item label</dd>
-                </dl>
+                
+                    <strong>Menu title</strong> — menu item label;
+                
             </li>
             <li>
-                <dl class="inline-term">
-                    <dt>Menu link</dt>
-                    <dd>menu item link</dd>
-                </dl>
+                
+                    <strong>Menu link</strong> — menu item link;
+                
             </li>
             <li>
-                <dl class="inline-term">
-                    <dt>Show megamenu</dt>
-                    <dd>megamenu display</dd>
-                </dl>
+                
+                    <strong>Show megamenu</strong> — megamenu display;
+                
             </li>
         </ul>
     </li>
 
     <li>
-        <p>If the <strong>"Show megamenu"</strong> option is set to <strong>"Yes"</strong>, the following additional fields appear. Fill in these fields:</p>
+        <p>If the <strong>"Show megamenu"(3)</strong> option is set to <strong>"Yes"</strong>, the following additional fields appear. Fill in these fields:</p>
         <figure class="img-polaroid">
             <img src="img/tm_mega_menu_edit-1.png" alt=""/>
         </figure>
         <ul class="marked-list">
             <li>
-                <dl class="inline-term">
-                    <dt>Columns count</dt>
-                    <dd>number of columns</dd>
-                </dl>
+                
+                    <strong>Columns count</strong>
+                     — number of columns;
+                
             </li>
             <li>
-                <dl class="inline-term">
-                    <dt>Columns per row</dt>
-                    <dd>number of columns per row</dd>
-                </dl>
+                
+                    <strong>Columns per row</strong>
+                     — number of columns per row;
+                
             </li>
             <li>
-                <dl class="inline-term">
-                    <dt>Background image</dt>
-                    <dd>background image</dd>
-                </dl>
+                
+                    <strong>Background image</strong>
+                     — background image;
+                
             </li>
             <li>
-                <dl class="inline-term">
-                    <dt>Background image width</dt>
-                    <dd>width of the background image</dd>
-                </dl>
+                
+                    <strong>Background image width</strong>
+                     — width of the background image;
+                
             </li>
             <li>
-                <dl class="inline-term">
-                    <dt>Background image height</dt>
-                    <dd>height of the background image</dd>
-                </dl>
-            </li>
-        </ul>
-    </li>
-    <li>
-        <p>After filling in the <strong>"Columns count"</strong> field, the following options become available: <strong>"Column N"</strong>. Fill in the tabs:</p>
-        <figure class="img-polaroid">
-            <img src="img/tm_mega_menu_edit-2.png" alt=""/>
-        </figure>
-        <ul class="marked-list">
-            <li>
-                <dl class="inline-term">
-                    <dt>Column width</dt>
-                    <dd>width of the column</dd>
-                </dl>
-            </li>
-
-            <li>
-                <dl class="inline-term">
-                    <dt>Columns content</dt>
-                    <dd>content of the column</dd>
-                </dl>
-            </li>
-            <li>
-                <dl class="inline-term">
-                    <dt>Categories(Products) limit</dt>
-                    <dd>maximum number of categories or products to display in the column</dd>
-                </dl>
-            </li>
-            <li>
-                <dl class="inline-term">
-                    <dt>Module</dt>
-                    <dd>name of the module to display</dd>
-                </dl>
-            </li>
-            <li>
-                <dl class="inline-term">
-                    <dt>Category name</dt>
-                    <dd>name of the category</dd>
-                </dl>
-            </li>
-            <li>
-                <dl class="inline-term">
-                    <dt>Show Category name</dt>
-                    <dd>category name display</dd>
-                </dl>
-            </li>
-        </ul>
-        <h5>for 'Category':</h5>
-        <ul class="marked-list">
-            <li>
-                <dl class="inline-term">
-                    <dt>Menu item submenu type</dt>
-                    <dd>submenu type</dd>
-                </dl>
-            </li>
-        </ul>
-    </li>
-    <li>
-        <p>After selecting the <strong>"Megamenu"</strong> type in the <strong>"Menu Item type"</strong> field, the following additional megamenu settings become available:</p>
-        <figure class="img-polaroid">
-            <img src="img/tm_mega_menu_edit-3.png" alt=""/>
-        </figure>
-        <ul class="marked-list">
-            <li>
-                <dl class="inline-term">
-                    <dt>Columns count</dt>
-                    <dd>number of columns</dd>
-                </dl>
-            </li>
-            <li>
-                <dl class="inline-term">
-                    <dt>Сolumns per row</dt>
-                    <dd>number of columns per row</dd>
-                </dl>
-            </li>
-            <li>
-                <dl class="inline-term">
-                    <dt>Background image</dt>
-                    <dd>background image</dd>
-                </dl>
-            </li>
-            <li>
-                <dl class="inline-term">
-                    <dt>Background image width</dt>
-                    <dd>width of the background image</dd>
-                </dl>
-            </li>
-            <li>
-                <dl class="inline-term">
-                    <dt>Background image height</dt>
-                    <dd>height of the background image</dd>
-                </dl>
+                
+                    <strong>Background image height</strong>
+                     — height of the background image;
+                
             </li>
         </ul>
     </li>
@@ -203,28 +103,119 @@
         </figure>
         <ul class="marked-list">
             <li>
-                <dl class="inline-term">
-                    <dt>Column width</dt>
-                    <dd>width of the column</dd>
-                </dl>
+                
+                    <strong>Column width</strong>
+                     — width of the column;
+                
+            </li>
+
+            <li>
+                
+                    <strong>Columns content</strong>
+                     — content of the column;
+                
             </li>
             <li>
-                <dl class="inline-term">
-                    <dt>Columns content</dt>
-                    <dd>content of the column</dd>
-                </dl>
+                
+                    <strong>Categories(Products) limit</strong>
+                     — maximum number of categories or products to display in the column;
+                
             </li>
             <li>
-                <dl class="inline-term">
-                    <dt>Categories(Products) limit</dt>
-                    <dd>maximum number of categories or products to display in the column</dd>
-                </dl>
+                
+                    <strong>Module</strong>
+                     — name of the module to display;
+                
             </li>
             <li>
-                <dl class="inline-term">
-                    <dt>Module</dt>
-                    <dd>name of the module to display</dd>
-                </dl>
+                
+                    <strong>Category name</strong>
+                     — name of the category;
+                
+            </li>
+            <li>
+                
+                    <strong>Show Category name</strong>
+                     — category name display;
+                
+            </li>
+        </ul>
+        <h5>For 'Category' option:</h5>
+        <ul class="marked-list">
+            <li>
+                
+                    <strong>Menu item submenu type</strong>
+                     — submenu type;
+                
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p>After selecting the <strong>"Megamenu"</strong> type in the <strong>"Menu Item type"</strong> field, the following additional megamenu settings become available:</p>
+        <figure class="img-polaroid">
+            <img src="img/tm_mega_menu_edit-3.png" alt=""/>
+        </figure>
+        <ul class="marked-list">
+            <li>
+                
+                    <strong>Columns count</strong>
+                     — number of columns;
+                
+            </li>
+            <li>
+                
+                    <strong>Columns per row</strong>
+                     — number of columns per row;
+                
+            </li>
+            <li>
+                
+                    <strong>Background image</strong>
+                     — background image;
+                
+            </li>
+            <li>
+                
+                    <strong>Background image width</strong>
+                     — width of the background image;
+                
+            </li>
+            <li>
+                
+                    <strong>Background image height</strong>
+                     — height of the background image;
+                
+            </li>
+        </ul>
+    </li>
+    <li>
+        <p>After filling in the <strong>"Columns count"</strong> field, the following options become available: <strong>"Column N"</strong>. Fill in the tabs:</p>
+        <figure class="img-polaroid">
+            <img src="img/tm_mega_menu_edit-2.png" alt=""/>
+        </figure>
+        <ul class="marked-list">
+            <li>
+                
+                    <strong>Column width</strong>
+                     — width of the column;
+                
+            </li>
+            <li>
+                
+                    <strong>Columns content</strong>
+                     — content of the column;
+                
+            </li>
+            <li>
+                
+                    <strong>Categories(Products) limit</strong>
+                     — maximum number of categories or products to display in the column;
+                
+            </li>
+            <li>
+                
+                    <strong>Module</strong>
+                     — name of the module to display;                
             </li>
         </ul>
     </li>

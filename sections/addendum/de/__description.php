@@ -1,4 +1,4 @@
-<h2 class="item5">Fazit</h2>
+<h2 class="item5">Nützliche Information</h2>
 
 <p>OpenCart ist eine multifunktionale, schnelle und klare Lösung für E-Commerce mit ansprechendem Design. Es ist ideale
     Lösung für einen Online-Shop. Das Standardpaket enthält alle notwendigen Module und Erweiterungen für erfolgreichen
