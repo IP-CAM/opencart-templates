@@ -41,7 +41,7 @@
       </div>
     </li>
     <li>
-      <div align="justify">On the next step navigate to <strong>System > Settings</strong>, go to the Store tab and select
+      <div align="justify">On the next step navigate to <strong>Extensions > Themes</strong>, go to the Store tab and select
         <strong>themeXXX</strong> template in the Template field.
       </div>
     </li>

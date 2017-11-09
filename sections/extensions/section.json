@@ -110,20 +110,7 @@
         "tr": "Product page zoom"
       }
     },
-   {
-      "id": "module_tm_abc_customer",
-      "translations": {
-        "en": "ABC customer",
-        "ru": "ABC клиент",
-        "de": "ABC customer",
-        "es": "ABC customer",
-        "fr": "ABC customer",
-        "it": "ABC customer",
-        "pl": "ABC customer",
-        "pt": "ABC customer",
-        "tr": "ABC customer"
-      }
-    },
+   
   {
       "id": "module_tm_layout_builder",
       "translations": {

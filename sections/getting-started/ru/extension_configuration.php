@@ -49,8 +49,8 @@
             Modifications)</strong> и нажмите
         копку <strong>обновить(refresh)</strong> в правом верхнем углу экрана;
     </li>
-    <li>Далее перейдите в настройки магазина <strong>Система -> Настройки (System ->
-            Settings)</strong>, и во вкладке
+    <li>Далее перейдите в настройки магазина <strong> Расширения -> Темы (Extensions ->
+            Themes)</strong>, и во вкладке
         Магазин (Store) в поле Шаблон (Template) выберите тему -
         <strong>themeXXX</strong>.
     </li>
