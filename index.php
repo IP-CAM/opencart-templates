@@ -15,7 +15,7 @@ if (!isset($sections)) {
     <link rel="icon" href="<?php echo $path; ?>/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo $path; ?>/css/grid.css">
-    <link rel="stylesheet" href="<?php echo $path; ?>/css/style.css">
+    <link rel="stylesheet" href="<?php echo $path; ?>/css/style.css?v=1">
     <link href='//fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="<?php echo $path; ?>/css/prettify.css">
     <link rel="stylesheet" href="<?php echo $path; ?>/css/jquery.fancybox.css">
@@ -191,7 +191,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>
 
 
-<script src="<?php echo $path; ?>/js/script.js"></script>
+<script src="<?php echo $path; ?>/js/script.js?v=1"></script>
 
 </body>
 </html>
