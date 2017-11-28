@@ -1464,15 +1464,17 @@ footer:after {
     animation: bounceInRight 700ms 1 linear alternate
 }
 
-.zemez-chat-wrap>span {
+.zemez-chat-wrap .alert-info span {
 	cursor:pointer;
+	background: #f4511e;
+    padding: 3px 8px;
 }
 
 #zemez-chat .zemez-chat-error {
 	border:1px solid #f4511e;
 }
 
-.zemez-chat-wrap .box-info{
+.zemez-chat-wrap .alert-info{
 	    background: linear-gradient(-45deg, #23A6D5, #23D5AB);
 }
 
