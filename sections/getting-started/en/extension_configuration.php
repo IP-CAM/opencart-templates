@@ -1,5 +1,7 @@
 <h3>Installation over existing store</h3>
 
+<p class="alert alert-info">If you don't want to spend your time installing the template, don't hesitate to <span class="label label-warning opener" onclick="showChat()">order</span> installation service using our live-chat.</p>
+
 <p align="justify">In case, you already have a ready OpenCart store and you just need to change its appearance with the help
     of the theme, use the following installation method.</p>
 

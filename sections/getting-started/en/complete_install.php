@@ -1,5 +1,14 @@
 <h3>Complete installation</h3>
 
+<div class="zemez-chat-wrap">
+	<p class="alert alert-info">If you don't want to spend your time installing the template, don't hesitate to <span class="label label-warning opener" onclick="showChat()">order</span> installation service using our live-chat.</p>
+	<form class="zemez-chat" id="zemez-chat" method="GET">
+		<input type="text" placeholder="Name:" name="uname" id="uname">
+		<input type="email" placeholder="Email Address:" name="umail" id="umail">
+		<span onclick="startChat()">Start chat</span>
+	</form>
+</div>
+
 <p align="justify">This kind of installation can be used in case, you do not have a ready to use OpenCart store. The
     '<strong>themeXXX(full).zip</strong>' archive contains OpenCart <strong>engine files</strong> and <strong>theme files</strong> including<strong> sample data</strong>,
     so you do not need to install an OpenCart engine separately. Template sample data will make your site
