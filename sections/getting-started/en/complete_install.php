@@ -2,11 +2,6 @@
 
 <div class="zemez-chat-wrap">
 	<p class="alert alert-info">If you don't want to spend your time installing the template, don't hesitate to <span class="label label-warning opener" onclick="showChat()">order</span> installation service using our live-chat.</p>
-	<form class="zemez-chat" id="zemez-chat" method="GET">
-		<input type="text" placeholder="Name:" name="uname" id="uname">
-		<input type="email" placeholder="Email Address:" name="umail" id="umail">
-		<span onclick="startChat()">Start chat</span>
-	</form>
 </div>
 
 <p align="justify">This kind of installation can be used in case, you do not have a ready to use OpenCart store. The
