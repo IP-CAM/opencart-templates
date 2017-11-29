@@ -15,7 +15,7 @@ if (!isset($sections)) {
     <link rel="icon" href="<?php echo $path; ?>/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo $path; ?>/css/grid.css">
-    <link rel="stylesheet" href="<?php echo $path; ?>/css/style.css?v=1">
+    <link rel="stylesheet" href="<?php echo $path; ?>/css/style.css?v=2">
     <link href='//fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="<?php echo $path; ?>/css/prettify.css">
     <link rel="stylesheet" href="<?php echo $path; ?>/css/jquery.fancybox.css">
@@ -37,6 +37,13 @@ if (!isset($sections)) {
     <script src='<?php echo $path; ?>/js/device.min.js'></script>
 </head>
 <body data-section="<?php echo $section_param; ?>" onload="prettyPrint()">
+<div class="zemez-chat-wrap">
+	<form class="zemez-chat" id="zemez-chat" method="GET">
+		<input type="text" placeholder="Name:" name="uname" id="uname">
+		<input type="email" placeholder="Email Address:" name="umail" id="umail">
+		<span onclick="startChat()">Start chat</span>
+	</form>
+</div>
 <?php
 $domain = $_SERVER['HTTP_HOST'];
 if(strpos($domain, 'templatemonster.com') !== false): ?>
@@ -191,7 +198,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>
 
 
-<script src="<?php echo $path; ?>/js/script.js?v=1"></script>
+<script src="<?php echo $path; ?>/js/script.js?v=2"></script>
 
 </body>
 </html>
