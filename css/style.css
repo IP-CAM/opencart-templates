@@ -1415,10 +1415,15 @@ footer:after {
     position: fixed;
 	max-width:260px;
     display:none;
-    bottom: 100px;
+    bottom: 110px;
     z-index: 99;
     padding: 12px;
 	background: linear-gradient(-45deg, #23A6D5, #23D5AB);
+}
+
+.zemez-chat-wrap {
+	position: relative;
+    z-index: 9999999;
 }
 
 .label.opener {
