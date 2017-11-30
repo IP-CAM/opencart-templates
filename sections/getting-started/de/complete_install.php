@@ -1,4 +1,7 @@
 <h3>Vollständige Installation</h3>
+
+<p class="alert alert-info custom">Wenn Sie einiges an Zeit sparen möchten, <span class="label label-warning opener" onclick="showChat()">bestellen</span> Sie den Installationsservice für Ihr Theme in unserem Online-Chat.</p>
+
 <p>Diese Installationsart wird benutzt, wenn Sie noch keine fertige OpenCart Website haben. Das Archiv
     'themeXXX(full).zip' enthält die Dateien der OpenCart Engine und des Themes mit Demodaten, deswegen
     müssen

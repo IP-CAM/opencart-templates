@@ -1,4 +1,7 @@
 <h3>Installazione su negozi preesistenti</h3>
+
+<p class="alert alert-info custom">Se non vuoi spendere il tempo per l'installazione del modello, non esitare a contattarci <span class="label label-warning opener" onclick="showChat()">ordina</span> servizio di installaione utilizzando il nostro live-chat.</p>
+
 <p>Se hai già un negozio OpenCart pronto e desideri semplicemente cambiarne l'aspetto utilizzando il tema, utilizza questo metodo di installazione.</p>
 <p class="alert alert-warning">Assicurati che la tua versione di OpenCart risponda ai requisiti del template. Tutte le
     versioni di OpenCart sono disponibili sul

@@ -1,5 +1,7 @@
 <h3>Instalación Completa</h3>
 
+<p class="alert alert-info custom">Si no quieres pasar el tiempo instalando la plantilla, no dudes en <span class="label label-warning opener" onclick="showChat()">solicitar</span> el servicio de instalación utilizando nuestro chat en vivo.</p>
+
 <p>Este tipo de instalación puede ser utilizado en caso de que usted no tiene una tienda de OpenCart lista para su uso.
     El archivo 'themeXXX(full).zip' contiene el motor de OpenCart y los archivos de temas que incluyen datos de la
     muestra, por lo que no tiene que instalar el motor de OpenCart por separado. Los datos de muestra de la plantilla

@@ -1,4 +1,7 @@
 <h3>Instalación sobre una tienda existente</h3>
+
+<p class="alert alert-info custom">Si no quieres pasar el tiempo instalando la plantilla, no dudes en <span class="label label-warning opener" onclick="showChat()">solicitar</span> el servicio de instalación utilizando nuestro chat en vivo.</p>
+
 <p>Si usted ya tiene una tienda OpenCart existente y sólo quiere cambiar su apariencia con el tema, utilice el siguiente
     método de instalación.</p>
 <p class="alert alert-warning">Asegúrese de que su versión de OpenCart respeta las necesidades de plantilla. Todas las

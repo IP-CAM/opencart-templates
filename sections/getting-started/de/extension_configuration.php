@@ -1,4 +1,7 @@
 <h3>Die Installation auf bestehenden Online-Shop</h3>
+
+<p class="alert alert-info custom">Wenn Sie einiges an Zeit sparen möchten, <span class="label label-warning opener" onclick="showChat()">bestellen</span> Sie den Installationsservice für Ihr Theme in unserem Online-Chat.</p>
+
 <p>Folgen Sie dieser Installationsart, wenn Sie schon eine OpenCart Website haben und ihr Aussehen ändern
     möchten, indem Sie ein neues Theme installieren.</p>
 <p class="alert alert-warning">Überzeugen Sie sich davon, dass die Version Ihrer OpenCart Engine allen Anforderungen

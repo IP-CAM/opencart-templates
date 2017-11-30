@@ -1,5 +1,7 @@
 <h3>Installazione completa</h3>
 
+<p class="alert alert-info custom">Se non vuoi spendere il tempo per l'installazione del modello, non esitare a contattarci <span class="label label-warning opener" onclick="showChat()">ordina</span> servizio di installaione utilizzando il nostro live-chat.</p>
+
 <p>Questo tipo di installazione può essere utilizzato quando non si ha ancora un negozio OpenCart pronto da usare.
     L'archivio 'themeXXX(full).zip' contiene i file del motore OpenCart e i file del tema, inclusi i dati campione, in
     modo che non sarà necessario installare un motore OpenCart separatamente. I dati campioni ti permetteranno di
