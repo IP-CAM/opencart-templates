@@ -28,6 +28,14 @@
 
 <h4>Hosting</h4>
 
+<h4>Need a solid hosting provider? We recommend SiteGround!</h4>
+
+<p style="text-align:center;">
+	<a class="leadlink" target="_blank" href="https://goo.gl/VyS3yQ"><img src="https://www.templatemonster.com/help/wp-content/uploads/2018/01/SG_banner.png" alt="SiteGround Hosting">
+	</a>
+</p>
+<h5 style="text-align:center;"><strong> High performance platform suitable for projects of all sizes</strong></h5>
+
 <p>As OpenCart engine is a PHP/MySQL based application, you need to prepare a hosting environment. </p>
 
 <p>If you have live hosting, please make sure it matches
