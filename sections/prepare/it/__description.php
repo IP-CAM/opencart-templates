@@ -1,5 +1,10 @@
 <h2 class="item1">Preparazione</h2>
-
+<h4>Hai bisogno di un solido fornitore di hosting? Raccomandiamo SiteGround!</h4>
+<p style="text-align:center;">
+    <a target="_blank" href="https://goo.gl/VyS3yQ"><img src="https://www.templatemonster.com/help/wp-content/uploads/2018/01/SG_banner.png" alt="SiteGround Hosting">
+    </a>
+</p>
+<h5 style="text-align:center;"><strong>Piattaforma ad alte prestazioni adatta a progetti di tutte le dimensioni</strong></h5>
 <h6>Prima di iniziare la configurazione del tuo sito OpenCart è importante assicurarsi di avere tutto l'occorrente. </h6>
 
 <h4>Software per l'editing</h4>
