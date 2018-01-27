@@ -1,4 +1,10 @@
 <h2 class="item1">Подготовка</h2>
+<h4>Ищете надежного хостинг провайдера? Мы рекомендуем SiteGround!</h4>
+<p style="text-align:center;">
+  <a target="_blank" href="https://goo.gl/VyS3yQ"><img src="https://www.templatemonster.com/help/wp-content/uploads/2018/01/SG_banner.png" alt="SiteGround Хостинг">
+  </a>
+</p>
+<h5 style="text-align:center;"><strong>Платформа с высокой производительностью, подходящая для проектов любой величины</strong></h5>
 
 <h6>Прежде, чем перейти к установке веб-сайта Joomla, нужно полностью подготовиться к данному процессу. Рекомендуется выполнить следующие шаги:</h6>
 
