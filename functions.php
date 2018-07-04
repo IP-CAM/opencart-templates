@@ -122,7 +122,7 @@ function includeSection($sections, $lang, $section_param)
 			}
 		echo "</section>";
 	else:
-		die("Section $section_dirname JSON file not found");
+		die("Section $section_param JSON file not found");
 	endif;	
 }
 
