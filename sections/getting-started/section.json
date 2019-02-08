@@ -12,6 +12,7 @@
     "tr": "Başlangıç"
   },
   "articles": [
+
     {
       "id": "complete_install",
       "translations": {
@@ -26,6 +27,9 @@
         "tr": "Tam kurulum"
       }
     },
+
+
+
     {
       "id": "extension_configuration",
       "translations": {
@@ -39,6 +43,27 @@
         "pt": "Instalação sobre uma loja existente",
         "tr": "Var olan mağazanın üstüne kurulum"
       }
+    },
+
+
+
+
+    {
+      "id": "skin_installation",
+      "translations": {
+        "en": "Skin installation",
+        "ru": "Установка скинов",
+        "de": "Skin installation",
+        "es": "Skin installation",
+        "fr": "Skin installation",
+        "it": "Skin installation",
+        "pl": "Skin installation",
+        "pt": "Skin installation",
+        "tr": "Skin installation"
+      }
     }
+
+
+
   ]
 }
